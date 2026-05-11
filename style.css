@@ -1,3 +1,4 @@
+/* 1. Reset & Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,26 +11,33 @@ body {
     color: #333;
     display: flex;
     height: 100vh;
+    overflow: hidden;
+    /* 데스크톱 바디 스크롤 방지 */
 }
 
 .container {
     display: flex;
     width: 100%;
+    height: 100%;
 }
 
-/* 사이드바 스타일 */
+/* 2. Sidebar (Playlist) */
 .sidebar {
     width: 300px;
     background-color: #ffffff;
     border-right: 1px solid #ddd;
     padding: 20px;
     overflow-y: auto;
+    flex-shrink: 0;
 }
 
 .sidebar h1 {
     font-size: 1.5rem;
     margin-bottom: 20px;
     color: #007aff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 #song-list {
@@ -38,26 +46,24 @@ body {
 
 #song-list li {
     font-family: "Kosugi Maru", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     padding: 15px;
     margin-bottom: 10px;
     background: #f9f9f9;
     border-radius: 8px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: all 0.2s ease;
 }
 
-#song-list li:hover {
+#song-list li:hover,
+#song-list li.active {
     background: #eef6ff;
     color: #007aff;
+    transform: translateY(-2px);
 }
 
-/* 메인 가사 영역 */
+/* 3. Lyrics View Area */
 .lyrics-view {
     font-family: "Kosugi Maru", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     flex: 1;
     padding: 40px;
     display: flex;
@@ -67,33 +73,124 @@ body {
     background-color: #fff;
 }
 
-
 #lyrics-content {
-    max-width: 600px;
+    max-width: 800px;
+    /* 영상 배치를 위해 가로폭을 살짝 늘림 */
     width: 100%;
+}
+
+/* [신규] 영상 플레이어 스타일 */
+#video-container {
+    width: 320px;
+    aspect-ratio: 16 / 9;
+    float: right;
+    /* 가사 우측에 배치 */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#video-frame {
+    width: 100%;
+    height: 100%;
 }
 
 #display-title {
     font-size: 2rem;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 
 #display-artist {
+    font-size: 1.1rem;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #lyrics-text {
-    line-height: 2.5; /* 루비 문자를 위해 줄 간격을 조금 더 넓게 조정 */
+    line-height: 2.8;
     font-size: 1.2rem;
+    word-break: keep-all;
 }
 
-/* 후리가나(rt) 스타일 조정 */
+/* 4. Ruby (Furigana) Style */
 rt {
-    font-size: 0.6em;
+    font-size: 0.55em;
     color: #888;
+    user-select: none;
 }
 
+/* 5. Utility */
 .hidden {
-    display: none;
+    display: none !important;
+}
+
+
+/* 📱 6. Responsive Design (Mobile) */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        overflow: visible;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        padding: 15px;
+    }
+
+    #song-list {
+        display: flex;
+        gap: 12px;
+        overflow-x: auto;
+        padding-bottom: 5px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #song-list li {
+        flex: 0 0 auto;
+        width: 160px;
+        margin-bottom: 0;
+        padding: 12px;
+        font-size: 0.9rem;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .lyrics-view {
+        padding: 20px;
+    }
+
+    #video-container {
+        width: 100%;
+        /* 모바일에서는 꽉 차게 */
+        float: none;
+        /* 플로팅 해제 */
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #display-title {
+        font-size: 1.6rem;
+    }
+
+    #lyrics-text {
+        font-size: 1.1rem;
+        line-height: 3.0;
+    }
 }
