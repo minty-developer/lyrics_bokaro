@@ -93,12 +93,15 @@ searchInput?.addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase().trim();
 
     const filteredSongs = allSongs.filter(song =>
+        // 1. 기존 영문/일문 제목 및 가수 검색
         song.title.toLowerCase().includes(query) ||
-        song.artist.toLowerCase().includes(query)
+        song.artist.toLowerCase().includes(query) ||
+        // 2. 한글 제목 및 한글 가수 검색 조건 추가 (데이터 필드명에 맞게 조정 가능)
+        (song.krTitle && song.krTitle.toLowerCase().includes(query)) ||
+        (song.krArtist && song.krArtist.toLowerCase().includes(query))
     );
 
     renderList(filteredSongs);
 });
-
 // 초기화
 loadSongs();
