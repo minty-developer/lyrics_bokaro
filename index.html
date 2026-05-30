@@ -26,19 +26,26 @@
                 <p>왼쪽 리스트에서 듣고 싶은 노래의 가사를 확인하세요.</p>
             </div>
             <div id="lyrics-content" class="hidden">
-                <h2 id="display-title"></h2>
-                <p id="display-artist"></p>
-                <hr>
+                <div class="lyrics-left-block">
+                    <div class="desktop-sticky-header">
+                        <h2 id="display-title"></h2>
+                        <p id="display-artist"></p>
 
-                <!-- 추가된 토글 버튼 영역 -->
-                <div id="display-controls"
-                    style="margin-bottom: 20px; display: flex; gap: 15px; font-size: 0.9em; user-select: none;">
-                    <label style="cursor: pointer;"><input type="checkbox" id="toggle-furigana" checked> 후리가나 보기</label>
-                    <label style="cursor: pointer;"><input type="checkbox" id="toggle-pron" checked> 발음 보기</label>
-                    <label style="cursor: pointer;"><input type="checkbox" id="toggle-ko" checked> 뜻 보기</label>
+                        <div id="display-controls"
+                            style="display: flex; gap: 15px; font-size: 0.9em; user-select: none;">
+                            <label style="cursor: pointer;"><input type="checkbox" id="toggle-furigana" checked> 후리가나
+                                보기</label>
+                            <label style="cursor: pointer;"><input type="checkbox" id="toggle-pron" checked> 발음
+                                보기</label>
+                            <label style="cursor: pointer;"><input type="checkbox" id="toggle-ko" checked> 한글 해석
+                                보기</label>
+                        </div>
+                    </div>
+
+                    <div class="lyrics-scroll-body">
+                        <div id="lyrics-text"></div>
+                    </div>
                 </div>
-
-                <div id="lyrics-text"></div>
             </div>
         </main>
     </div>

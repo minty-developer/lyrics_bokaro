@@ -22,7 +22,12 @@ videoWrapper.innerHTML = `
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
     </iframe>
+    <a id="video-link" class="mobile-video-link" href="" target="_blank">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: text-bottom; margin-right: 6px;"><path d="M21.582 6.186a2.6 2.6 0 0 0-1.838-1.838C18.125 3.9 12 3.9 12 3.9s-6.125 0-7.744.448a2.6 2.6 0 0 0-1.838 1.838C2 7.805 2 12 2 12s0 4.195.448 5.814a2.6 2.6 0 0 0 1.838 1.838C5.875 20.1 12 20.1 12 20.1s6.125 0 7.744-.448a2.6 2.6 0 0 0 1.838-1.838C22 16.195 22 12 22 12s0-4.195-.418-5.814zM9.99 15.47V8.53L16 12l-6.01 3.47z"/></svg>
+        YouTube 영상 보러가기
+    </a>
 `;
+
 // 가사 영역 상단이나 container 내부에 삽입[cite: 5]
 document.querySelector('.lyrics-view')?.prepend(videoWrapper);
 
@@ -123,13 +128,16 @@ function showLyrics(song) {
 
     // 영상 로딩 로직[cite: 5]
     const videoFrame = document.getElementById('video-frame');
+    const videoLink = document.getElementById('video-link'); // 버튼 링크 추가
 
-    if (videoFrame) {
+    if (videoFrame && videoLink) {
         if (song.videoUrl && song.videoUrl.trim() !== "") {
             videoFrame.src = song.videoUrl;
+            videoLink.href = song.Url; // 버튼에도 링크 주소 삽입
             videoWrapper?.classList.remove('hidden');
         } else {
             videoFrame.src = "";
+            videoLink.href = "";
             videoWrapper?.classList.add('hidden');
         }
     }
