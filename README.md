@@ -8,7 +8,7 @@
 - 보컬로이드 가사 모음 사이트
 
 ### Last Ver
-`v1.8.7-Alpha-3`
+`v1.8.7-Alpha-4`
 
 ## Tech
 - FE: HTML, CSS
