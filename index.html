@@ -29,6 +29,15 @@
                 <h2 id="display-title"></h2>
                 <p id="display-artist"></p>
                 <hr>
+
+                <!-- 추가된 토글 버튼 영역 -->
+                <div id="display-controls"
+                    style="margin-bottom: 20px; display: flex; gap: 15px; font-size: 0.9em; user-select: none;">
+                    <label style="cursor: pointer;"><input type="checkbox" id="toggle-furigana" checked> 후리가나 보기</label>
+                    <label style="cursor: pointer;"><input type="checkbox" id="toggle-pron" checked> 발음 보기</label>
+                    <label style="cursor: pointer;"><input type="checkbox" id="toggle-ko" checked> 뜻 보기</label>
+                </div>
+
                 <div id="lyrics-text"></div>
             </div>
         </main>
