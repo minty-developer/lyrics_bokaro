@@ -195,6 +195,44 @@ body {
     top: 0;
 }
 
+/* 기본 가사 색상 설정 */
+.lyric-ja {
+    color: #222;
+}
+
+.lyric-pron {
+    color: #666;
+}
+
+.lyric-ko {
+    color: #0056b3;
+}
+
+/* ----------------------------------------
+   가수별 색상 지정 템플릿
+   ---------------------------------------- */
+
+/* 하츠네 미쿠 파트 색상 예시 */
+/* .singer-miku .lyric-ja {
+    color: #39C5BB;
+}
+
+.singer-miku .lyric-pron {
+    color: #73D5CE;
+}
+
+.singer-miku .lyric-ko {
+    color: #1E827B;
+} */
+
+.singer-miku .lyric-ja {
+    color: #25cac7;
+}
+
+.singer-teto .lyric-ja {
+    color: #ff0000
+}
+
 /* ==========================================================================
    4. Ruby (Furigana) & Utility Styles
    ========================================================================== */

@@ -1,7 +1,7 @@
 # Version History
 
 ## Last Ver
-`v1.8.7-Alpha-5`
+`v1.8.7-Alpha-6`
 
 ## Version List
 ### 배포 전
@@ -34,6 +34,7 @@
     - [v1.8.7-alpha-3](#v187-alpha-3)
     - [v1.8.7-alpha-4](#v187-alpha-4)
     - [v1.8.7-alpha-5](#v187-alpha-5)
+    - [v1.8.7-alpha-6](#v187-alpha-6)
 
 ## v0.0.0
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/4259f9a1df0b05f14bba663d409fea47a563729e)
@@ -361,7 +362,7 @@
 ```
 
 ## v1.8.7-alpha-5
-[바로가기]
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/c1d1bdbffddd77824f89f0303b39980a1d811363)
 
 이번 패치로 변경된 점:
 - 외부 변경점
@@ -376,4 +377,16 @@
 ```diff
 + 파일 추가
     - History.md
+```
+
+## v1.8.7-alpha-6
+[바로가기]
+
+이번 패치로 변경된 점:
+- 외부 변경점
+```diff
+! 기능 수정
+    - 2인 이상에 곡일 경우 가사 색을 가수에 따라 변경
+! 노래 수정
+    - バースデイズ
 ```

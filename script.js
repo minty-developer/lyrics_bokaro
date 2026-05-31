@@ -99,19 +99,24 @@ function showLyrics(song) {
     if (lyricsText && song.lyrics) {
         if (Array.isArray(song.lyrics) && typeof song.lyrics[0] === 'object') {
 
-            const lyricsHtml = song.lyrics.map(line => `
-                <div class="lyric-line" style="margin-bottom: 20px; line-height: 1.6;">
-                    <div class="lyric-ja" style="font-size: 1.1em; color: #222;">
+            const lyricsHtml = song.lyrics.map(line => {
+                // singer 속성이 있으면 클래스명으로 변환 (예: singer-miku), 없으면 빈 문자열
+                const singerClass = line.singer ? `singer-${line.singer}` : '';
+
+                return `
+                <div class="lyric-line ${singerClass}" style="margin-bottom: 20px; line-height: 1.6;">
+                    <div class="lyric-ja" style="font-size: 1.1em;">
                         ${line.ja || ""}
                     </div>
-                    <div class="lyric-pron" style="font-size: 0.9em; color: #666; margin-top: 4px;">
+                    <div class="lyric-pron" style="font-size: 0.9em; margin-top: 4px;">
                         ${line.pronunciation || ""}
                     </div>
-                    <div class="lyric-ko" style="font-size: 1em; color: #0056b3; margin-top: 2px;">
+                    <div class="lyric-ko" style="font-size: 1em; margin-top: 2px;">
                         ${line.ko || ""}
                     </div>
                 </div>
-            `).join('');
+                `;
+            }).join('');
 
             lyricsText.innerHTML = lyricsHtml;
 
