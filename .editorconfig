@@ -1,0 +1,5 @@
+root = true
+
+[*]
+charset = utf-8               # 인코딩은 무조건 UTF-8로!
+trim_trailing_whitespace = true # 줄 끝에 쓸데없는 공백은 저장할 때 지우기

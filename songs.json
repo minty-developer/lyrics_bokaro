@@ -32,7 +32,7 @@
             {
                 "ja": "<ruby>天才的<rt>てんさいてき</rt></ruby>なアイドル<ruby>様<rt>さま</rt></ruby>",
                 "pronunciation": "텐사이테키나 아이도루사마",
-                "ko": "천제적인 아이돌님"
+                "ko": "천재적인 아이돌님"
             },
             {
                 "ja": "<ruby>今日<rt>きょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>食<rt>た</rt></ruby>べた？<ruby>好<rt>す</rt></ruby>きな<ruby>本<rt>ほん</rt></ruby>は？",
@@ -41,7 +41,7 @@
             },
             {
                 "ja": "<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>くならどこに<ruby>行<rt>い</rt></ruby>くの？",
-                "pronunciation": "아소비니 이쿠나라 도코니 이쿠노",
+                "pronunciation": "아소비니 이쿠나라 도코니 이쿠노?",
                 "ko": "놀러 갈땐 어디로 가?"
             },
             {
@@ -172,7 +172,7 @@
             {
                 "ja": "しゃらくさい",
                 "pronunciation": "샤라쿠사이",
-                "ko": "사건 방조네"
+                "ko": "사건 방자네"
             },
             {
                 "ja": "<ruby>妬<rt>ねた</rt></ruby>み<ruby>嫉妬<rt>しっと</rt></ruby>なんてない<ruby>訳<rt>わけ</rt></ruby>がない",
@@ -191,7 +191,7 @@
             },
             {
                 "ja": "<ruby>完璧<rt>かんぺき</rt></ruby>じゃない<ruby>君<rt>きみ</rt></ruby>じゃ<ruby>許<rt>ゆる</rt></ruby>せない",
-                "pronunciation": "칸페키쟈나이 키미와 유루세나이",
+                "pronunciation": "칸페키쟈나이 키미쟈 유루세나이",
                 "ko": "완벽하지 않은 너는 용서할 수 없어."
             },
             {
@@ -237,7 +237,12 @@
             {
                 "ja": "<ruby>唯一無二<rt>ゆいつむに</rt></ruby>じゃなくちゃいやいや",
                 "pronunciation": "유이츠무니 쟈나쿠챠 이야이야",
-                "ko": "それこそ<ruby>本物<rt>ほんもの</rt></ruby>のアイ"
+                "ko": "유일무이하지 않으면 싫어 싫어"
+            },
+            {
+                "ja": "それこそ<ruby>本物<rt>ほんもの</rt></ruby>のアイ",
+                "pronunciation": "소레 코소 혼모노노아이",
+                "ko": "그것이야 말로 진정한 아이"
             },
             {
                 "ja": "<ruby>得意<rt>とくい</rt></ruby>の<ruby>笑顔<rt>えがお</rt></ruby>で<ruby>沸<rt>わ</rt></ruby>かすメディア",
@@ -262,7 +267,7 @@
             {
                 "ja": "<ruby>流<rt>なが</rt></ruby>れる<ruby>汗<rt>あせ</rt></ruby>も<ruby>綺麗<rt>きれい</rt></ruby>なアクア",
                 "pronunciation": "나가레루 아세모 키레이나 아쿠아",
-                "ko": "흐르는 눈물마저 멋진 아쿠아(アクア)"
+                "ko": "흐르는 땀마저 멋진 아쿠아(アクア)"
             },
             {
                 "ja": "ルビーを<ruby>隠<rt>かく</rt></ruby>したこの<ruby>瞼<rt>まぶた</rt></ruby>",
@@ -286,7 +291,7 @@
             },
             {
                 "ja": "<ruby>誰<rt>だれ</rt></ruby>かのこと<ruby>愛<rt>あい</rt></ruby>したこともない",
-                "pronunciation": "다레카노코토 아이시타코노모 나이",
+                "pronunciation": "다레카노코토 아이시타코토노모 나이",
                 "ko": "누군가의 모든 것을 사랑해본 적도 없어."
             },
             {
@@ -487,7 +492,7 @@
             {
                 "ja": "ダメなところ<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>暴<rt>あば</rt></ruby>いてやる",
                 "pronunciation": "다메나 토코로 젬부 아바이테야루",
-                "ko": "잘못된 부분을 전부 뜯어드러내주마"
+                "ko": "잘못된 부분을 전부 들춰내주마"
             },
             {
                 "ja": "<ruby>開幕<rt>かいまく</rt></ruby>（００１）",
@@ -501,7 +506,7 @@
             },
             {
                 "ja": "<ruby>無理<rt>むり</rt></ruby>してかっこつけ<ruby>笑<rt>わら</rt></ruby>えるね",
-                "pronunciation": "무리시테 콕츠케 와라에루네",
+                "pronunciation": "무리시테 캇코츠케 와라에루네",
                 "ko": "무리해서 멋져보이려는거 개 웃기네"
             },
             {
@@ -562,7 +567,7 @@
             {
                 "ja": "<ruby>松明<rt>たいまつ</rt></ruby>を<ruby>持<rt>も</rt></ruby>って",
                 "pronunciation": "타이마츠오 못테",
-                "ko": "횟불을 들고"
+                "ko": "횃불을 들고"
             },
             {
                 "ja": "<ruby>竹槍<rt>たけやり</rt></ruby>を<ruby>持<rt>も</rt></ruby>って",
@@ -646,7 +651,7 @@
             },
             {
                 "ja": "<ruby>正気<rt>しょうき</rt></ruby>になろうとしても",
-                "pronunciation": "슈-키니 나로-토 시테모",
+                "pronunciation": "쇼-키니 나로-토 시테모",
                 "ko": "제정신이 되려고 해도"
             },
             {
@@ -712,7 +717,7 @@
             {
                 "ja": "<ruby>松明<rt>たいまつ</rt></ruby>を<ruby>持<rt>も</rt></ruby>って",
                 "pronunciation": "타이마츠오 못테",
-                "ko": "횟불을 들고"
+                "ko": "횃불을 들고"
             },
             {
                 "ja": "<ruby>竹槍<rt>たけやり</rt></ruby>を<ruby>持<rt>も</rt></ruby>って",
@@ -824,7 +829,7 @@
         "lyrics": "なにも<ruby>変<rt>か</rt></ruby>わらない<ruby>最底辺<rt>さいていへん</rt></ruby>な<ruby>運命<rt>うんめい</rt></ruby>に\n<ruby>流<rt>なが</rt></ruby>されて<ruby>今日<rt>きょう</rt></ruby>も<ruby>歩<rt>ある</rt></ruby>いてる\nいつも<ruby>足<rt>あし</rt></ruby><ruby>引<rt>ひ</rt></ruby>っ<ruby>張<rt>ぱ</rt></ruby>って\n<ruby>失敗<rt>しっぱい</rt></ruby>ばっかの\nあんぽんたん\nお<ruby>荷物<rt>にもつ</rt></ruby><ruby>増<rt>ふ</rt></ruby>やすごめんなさい\n<ruby>自分<rt>じぶん</rt></ruby>が<ruby>嫌<rt>いや</rt></ruby>になったって\n<ruby>病<rt>や</rt></ruby>んじゃったって無問題\n<ruby>馬鹿<rt>ばか</rt></ruby>な<ruby>僕<rt>ぼく</rt></ruby>にでも<ruby>明日<rt>あす</rt></ruby>はくる\n<ruby>感情<rt>かんじょう</rt></ruby>ノイズ ディストーション\nパッパッパラッパー\n<ruby>劣等感<rt>れっとうかん</rt></ruby>は<ruby>一等賞<rt>いっとうしょう</rt></ruby>\nあいも<ruby>変<rt>か</rt></ruby>わらず<ruby>延々<rt>えんえん</rt></ruby>と<ruby>葛藤<rt>かっとう</rt></ruby>\n<ruby>丸<rt>まる</rt></ruby>めた<ruby>才能<rt>さいのう</rt></ruby>ばっか <ruby>縮<rt>ちじ</rt></ruby>めた<ruby>生命<rt>せいめい</rt></ruby>ばっか\n<ruby>嘆<rt>なげ</rt></ruby>いてても\n<ruby>変<rt>か</rt></ruby>わらないよその<ruby>人生<rt>じんせい</rt></ruby>\n<ruby>惜<rt>お</rt></ruby>しんだ<ruby>代償<rt>だいしょう</rt></ruby>だって\n<ruby>何<rt>なん</rt></ruby>にも<ruby>無駄<rt>むだ</rt></ruby>なことはないよ\nそんな<ruby>綺麗事<rt>きれいごと</rt></ruby>はうんざりなんだ\nいっそ<ruby>今<rt>いま</rt></ruby>すぐ<ruby>楽<rt>らく</rt></ruby>にして\n<ruby>気分<rt>きぶん</rt></ruby>がHighになっちゃって\n<ruby>灰<rt>はい</rt></ruby>になったって<ruby>万々歳<rt>ばんばんざい</rt></ruby>\n<ruby>気<rt>き</rt></ruby>にせず<ruby>燃<rt>も</rt></ruby>やせよその<ruby>命<rt>いのち</rt></ruby>\n<ruby>湧<rt>わ</rt></ruby>き<ruby>上<rt>あ</rt></ruby>がるこの<ruby>衝動<rt>しょうどう</rt></ruby>に<ruby>身<rt>み</rt></ruby>を<ruby>委<rt>ゆだ</rt></ruby>ねる\n<ruby>結末<rt>けつまつ</rt></ruby>どうせバッドエンド\n<ruby>地獄<rt>じごく</rt></ruby>で<ruby>会<rt>あ</rt></ruby>おう\n<ruby>不遇<rt>ふぐう</rt></ruby>な<ruby>環境<rt>かんきょう</rt></ruby>ばっか <ruby>怯<rt>おび</rt></ruby>える<ruby>将来<rt>しょうらい</rt></ruby>ばっか\n<ruby>嘆<rt>なげ</rt></ruby>いてても\nくだらないよその<ruby>人生<rt>じんせい</rt></ruby>\n<ruby>歪<rt>ゆが</rt></ruby>んだ<ruby>愛情<rt>あいじょう</rt></ruby>だって <ruby>報<rt>むく</rt></ruby>われるって？\n<ruby>戯言<rt>ざれごと</rt></ruby>だろ\n<ruby>全部分<rt>ぜんぶわ</rt></ruby>かり<ruby>合<rt>あ</rt></ruby>える<ruby>人間<rt>にんげん</rt></ruby>なんて\n<ruby>本当<rt>ほんとう</rt></ruby>はいない <ruby>寂<rt>さび</rt></ruby>しいね\n<ruby>悲劇<rt>ひげき</rt></ruby>のヒロイン<ruby>演<rt>えん</rt></ruby>じて<ruby>生<rt>せい</rt></ruby>に<ruby>縋<rt>すが</rt></ruby>っている\n<ruby>全部夢<rt>ぜんぶゆめ</rt></ruby>ならいいな\n<ruby>過去<rt>かこ</rt></ruby>の<ruby>罪<rt>つみ</rt></ruby>におやすみ\n<ruby>年中<rt>ねんじゅう</rt></ruby> ディスコミュニケーション\nパッパッパラッパー\n<ruby>軽薄<rt>けいはく</rt></ruby> <ruby>失感情症<rt>しつかんじょうしょう</rt></ruby>\n<ruby>何<rt>な</rt></ruby>にもわからずレイテンシー <ruby>発狂<rt>ハッキョウ</rt></ruby>\n<ruby>信<rt>しん</rt></ruby>じた<ruby>偶像<rt>ぐうぞう</rt></ruby>ばっか <ruby>進<rt>すす</rt></ruby>んだ<ruby>秒針<rt>びょうしん</rt></ruby>ばっか\n<ruby>嘆<rt>なげ</rt></ruby>いてても\n<ruby>取<rt>とり</rt></ruby><ruby>戻<rt>もど</rt></ruby>せない\n<ruby>恐<rt>おそ</rt></ruby>れた<ruby>制裁<rt>せいさい</rt></ruby>ばっか <ruby>擦<rt>す</rt></ruby>り<ruby>寄<rt>よ</rt></ruby>り<ruby>迎合<rt>げいごう</rt></ruby>ばっか\n<ruby>嘆<rt>なげ</rt></ruby>いてても\n<ruby>軌跡覆<rt>きせきくつがえ</rt></ruby>せない\n<ruby>丸<rt>まる</rt></ruby>めた<ruby>才能<rt>さいのう</rt></ruby>ばっか <ruby>縮<rt>ちじ</rt></ruby>めた<ruby>生命<rt>せいめい</rt></ruby>ばっか\n<ruby>嘆<rt>なげ</rt></ruby>いてても\n<ruby>終<rt>お</rt></ruby>わらないよ<ruby>自問自答<rt>じもんじとう</rt></ruby>\n<ruby>惜<rt>お</rt></ruby>しんだ<ruby>代償<rt>だいしょう</rt></ruby>だって\n<ruby>本当<rt>ほんとう</rt></ruby>は<ruby>苦<rt>くる</rt></ruby>しかったんだろ？\nなんて<ruby>素晴<rt>すば</rt></ruby>らしい<ruby>世界<rt>せかい</rt></ruby>なんだ\n<ruby>全部僕<rt>ぜんぶぼく</rt></ruby>のもの\nきっと<ruby>誰<rt>だれ</rt></ruby>にもわからない それでいいんだ\n<ruby>孤独<rt>こどく</rt></ruby>で<ruby>無敵<rt>むてき</rt></ruby>な<ruby>弱者<rt>じゃくしゃ</rt></ruby>のマーチ\n<ruby>最低<rt>さいてい</rt></ruby>な<ruby>僕<rt>ぼく</rt></ruby>のこの<ruby>運命<rt>うんめい</rt></ruby>も\nいつか<ruby>足<rt>あし</rt></ruby>を<ruby>止<rt>と</rt></ruby>めるのなら\nずっと<ruby>足掻<rt>あが</rt></ruby>いて<ruby>朽<rt>く</rt></ruby>ち<ruby>果<rt>は</rt></ruby>てる\nある<ruby>日突然<rt>ひとつぜん</rt></ruby>に<ruby>終<rt>お</rt></ruby>わる<ruby>世界<rt>せかい</rt></ruby>を\n<ruby>贅沢<rt>ぜいたく</rt></ruby>に<ruby>今日<rt>きょう</rt></ruby>も<ruby>歩<rt>ある</rt></ruby>いてる"
     },
     {
-        "id": "ETC_0001",
+        "id": "TT_0006",
         "add_at": "2026-05-30 11:35:41",
         "title": "テトリス",
         "artist": "柊マグネタイト",
@@ -928,7 +933,7 @@
             },
             {
                 "ja": "<ruby>実際実態<rt>じっさいじったい</rt></ruby>はどこにあんの？",
-                "pronunciation": "짓사이지타이와 도코니 안노",
+                "pronunciation": "짓사이 짓타이와 도코니 안노",
                 "ko": "실제실체는 어디있어?",
                 "singer": "teto"
             },
@@ -953,7 +958,7 @@
             {
                 "ja": "<ruby>成<rt>な</rt></ruby>り<ruby>行<rt>ゆ</rt></ruby>き<ruby>任<rt>まか</rt></ruby>せのバーチャルなんだ",
                 "pronunciation": "나리유키마카세노 바-챠루난다",
-                "ko": "될 되로 되는 버츄얼이야",
+                "ko": "될 대로 되는 버츄얼이야",
                 "singer": "teto"
             },
             {
@@ -1061,7 +1066,7 @@
             {
                 "ja": "<ruby>甘<rt>あま</rt></ruby>い<ruby>夢<rt>ゆめ</rt></ruby>に<ruby>居<rt>い</rt></ruby>させてよ",
                 "pronunciation": "아마이 유메 이사세테요",
-                "ko": "달콤한 꿈을 보여 줘",
+                "ko": "달콤한 꿈에 있게 줘",
                 "singer": "teto"
             },
             {
@@ -1091,7 +1096,7 @@
             {
                 "ja": "あなたのことを<ruby>全<rt>すべ</rt></ruby>て<ruby>捧<rt>ささ</rt></ruby>げてね",
                 "pronunciation": "아나타노코토오 스베테사사게테네",
-                "ko": "당신에 대한 것들을 모두 다 받쳐 줘",
+                "ko": "당신에 대한 것들을 모두 다 바쳐 줘",
                 "singer": "miku"
             },
             {
@@ -1351,7 +1356,7 @@
             },
             {
                 "ja": "<ruby>一緒<rt>いっしょ</rt></ruby>なら<ruby>怖<rt>こわ</rt></ruby>くはないから",
-                "pronunciation": "잇쇼나라 코와쿠와 카이카라",
+                "pronunciation": "잇쇼나라 코와쿠와 나이카라",
                 "ko": "함께라면 무섭지 않으니까",
                 "singer": "miku"
             },
@@ -1371,10 +1376,300 @@
         "krArtist": "우이",
         "videoUrl": "https://www.youtube.com/embed/Dz5rALpx06M?si=TDy8vGfb-WXzl0MS",
         "Url": "",
-        "lyrics": "どうして どうして <ruby>私<rt>わたし</rt></ruby>だけ?\nまた<ruby>報<rt>むく</rt></ruby>われないの?\n<ruby>解<rt>かい</rt></ruby>の<ruby>出<rt>だ</rt></ruby>せない<ruby>三<rt>み</rt></ruby>つ<ruby>巴<rt>どもえ</rt></ruby>\nああして こうして <ruby>赤<rt>あか</rt></ruby>い<ruby>糸<rt>いと</rt></ruby>\nまだ<ruby>繋<rt>つな</rt></ruby>いでたいの\nそれでも <ruby>返<rt>かえ</rt></ruby>ってこないんでしょ?\n「どうして どうして」 <ruby>聞<rt>き</rt></ruby>かれても\n<ruby>仕方<rt>しかた</rt></ruby>のない<ruby>鼓動<rt>こどう</rt></ruby>\n<ruby>流<rt>な</rt></ruby>がれてく <ruby>自然<rt>しぜん</rt></ruby>の <ruby>摂理<rt>せつり</rt></ruby>\nああして こうして <ruby>手<rt>て</rt></ruby>に<ruby>入<rt>い</rt></ruby>れて。\n<ruby>確<rt>たし</rt></ruby>かめ<ruby>合<rt>あ</rt></ruby>いたいの\n<ruby>夢見<rt>ゆめみ</rt></ruby>てた <ruby>僕<rt>ぼく</rt></ruby>のビデオテープに\n<ruby>割<rt>わ</rt></ruby>って<ruby>奪<rt>うば</rt></ruby>ってく NTR\n<ruby>光<rt>ひか</rt></ruby>って<ruby>見<rt>み</rt></ruby>えた <ruby>青<rt>あお</rt></ruby>い<ruby>芝生<rt>しばふ</rt></ruby>\n「わざとじゃない」ってマジョリティ\n<ruby>好奇心<rt>こうきしん</rt></ruby>のサンドイッチはつまらないし。\nどうせなら<ruby>独<rt>ひと</rt></ruby>り<ruby>占<rt>じ</rt></ruby>めしたいし。\n<ruby>背徳感<rt>はいとくかん</rt></ruby>に<ruby>溺<rt>おぼ</rt></ruby>れたいし。\n<ruby>不幸<rt>ふこう</rt></ruby>は<ruby>蜜<rt>みつ</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>\n\n<ruby>抗<rt>あらが</rt></ruby>えない <ruby>三大欲求<rt>さんだいよっきゅう</rt></ruby> <ruby>神<rt>かみ</rt></ruby>のまにまに\n<ruby>叶<rt>かな</rt></ruby>えたい <ruby>承認欲求<rt>しょうにんよっきゅう</rt></ruby> <ruby>心<rt>こころ</rt></ruby> たしかに\nどうせ<ruby>後<rt>あと</rt></ruby>の<ruby>祭<rt>まつ</rt></ruby>り <ruby>晒<rt>さら</rt></ruby>して、<ruby>血祭<rt>ちまつ</rt></ruby>り\n<ruby>哀<rt>あわ</rt></ruby>れなバウムクゥヘン\nどうぞお<ruby>幸<rt>しあわ</rt></ruby>せに(笑)\nあんたらに<ruby>贈<rt>おく</rt></ruby>るホコロビの<ruby>唄<rt>うた</rt></ruby>\n<ruby>結局皆<rt>けっきょくみな</rt></ruby> <ruby>自己中心<rt>じこちゅうしん</rt></ruby>\nあったかいお<ruby>節介<rt>せっかい</rt></ruby>だって<ruby>中止<rt>ちゅうし</rt></ruby>\n<ruby>人生<rt>じんせい</rt></ruby>とかいう<ruby>遊戯<rt>ゆうぎ</rt></ruby>に <ruby>有意義<rt>ゆういぎ</rt></ruby>に\n<ruby>浸<rt>ひた</rt></ruby>っていたいだけ\nそんなことない！\n<ruby>見<rt>み</rt></ruby>たことない<ruby>景色<rt>けしき</rt></ruby>がそこにあるの\n<ruby>天<rt>てん</rt></ruby>からの<ruby>導<rt>みちび</rt></ruby>き <ruby>信<rt>しん</rt></ruby>じて<ruby>辿<rt>たど</rt></ruby>るだけ。\n<ruby>返<rt>かえ</rt></ruby>してよ <ruby>返<rt>かえ</rt></ruby>してよ\n<ruby>降<rt>ふ</rt></ruby>りかかる<ruby>雨<rt>あめ</rt></ruby> howling now howling now\nごめんね、もういらないの\n<ruby>幸<rt>しあわ</rt></ruby>せにキラメキ <ruby>満<rt>み</rt></ruby>たされた<ruby>脳細胞<rt>のうさいぼう</rt></ruby>\nそんなんお<ruby>花畑<rt>はなばたけ</rt></ruby>。\n<ruby>夢希望<rt>ゆめきぼう</rt></ruby>だらけ？\n=<ruby>偽<rt>いつわ</rt></ruby>りの<ruby>種<rt>たね</rt></ruby>w\n<ruby>勝手<rt>かって</rt></ruby>に<ruby>舞<rt>ま</rt></ruby>い<ruby>上<rt>あ</rt></ruby>がって、<ruby>平<rt>たい</rt></ruby>らだった<ruby>間柄<rt>あいだがら</rt></ruby> <ruby>咲<rt>さ</rt></ruby>いた<ruby>薔薇<rt>ばら</rt></ruby>\n<ruby>勘違<rt>かんちが</rt></ruby>いしちゃったお<ruby>姫様<rt>ひめさま</rt></ruby>\n<ruby>平穏<rt>へいおん</rt></ruby>をぶち<ruby>壊<rt>こわ</rt></ruby>すハッカー\n<ruby>標的<rt>ひょうてき</rt></ruby>は<ruby>無能無能<rt>むのうむのう</rt></ruby>ばっか\n<ruby>不幸<rt>ふこう</rt></ruby>は <ruby>蜜<rt>みつ</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>\n\n<ruby>抗<rt>あらが</rt></ruby>えない <ruby>三大欲求<rt>さんだいよっきゅう</rt></ruby> <ruby>神<rt>かみ</rt></ruby>のまにまに\n<ruby>叶<rt>かな</rt></ruby>えたい <ruby>承認欲求<rt>しょうにんよっきゅう</rt></ruby> <ruby>心<rt>こころ</rt></ruby> たしかに\nどうせ<ruby>後<rt>あと</rt></ruby>の<ruby>祭<rt>まつ</rt></ruby>り <ruby>晒<rt>さら</rt></ruby>して、<ruby>血祭<rt>ちまつ</rt></ruby>り\n<ruby>哀<rt>あわ</rt></ruby>れなバウムクゥヘン\nどうぞお<ruby>幸<rt>しあわ</rt></ruby>せに(笑)\nあんたらに<ruby>贈<rt>おく</rt></ruby>るホコロビの<ruby>唄<rt>うた</rt></ruby>"
+        "lyrics": [
+            {
+                "ja": "どうして どうして <ruby>私<rt>わたし</rt></ruby>だけ?",
+                "pronunciation": "도-시테 도-시테 와타시다케",
+                "ko": "도대체 도대체 나만?",
+                "singer": "teto"
+            },
+            {
+                "ja": "また<ruby>報<rt>むく</rt></ruby>われないの?",
+                "pronunciation": "마타 무쿠와레나이노?",
+                "ko": "또 보답받지 못 하는 거야?",
+                "singer": "teto"
+            },
+            {
+                "ja": "<ruby>解<rt>かい</rt></ruby>の<ruby>出<rt>だ</rt></ruby>せない<ruby>三<rt>み</rt></ruby>つ<ruby>巴<rt>どもえ</rt></ruby>",
+                "pronunciation": "카이노다세나이 미츠 도모에",
+                "ko": "풀리지 않는 삼파전",
+                "singer": "teto"
+            },
+            {
+                "ja": "ああして こうして <ruby>赤<rt>あか</rt></ruby>い<ruby>糸<rt>いと</rt></ruby>",
+                "pronunciation": "아-시테 코-시테 아카이 이토",
+                "ko": "저렇게 이렇게 된 붉은 실",
+                "singer": "teto"
+            },
+            {
+                "ja": "まだ<ruby>繋<rt>つな</rt></ruby>いでたいの",
+                "pronunciation": "마다 츠나이데타이노",
+                "ko": "아직 이어놓고 싶은데",
+                "singer": "teto"
+            },
+            {
+                "ja": "それでも <ruby>返<rt>かえ</rt></ruby>ってこないんでしょ?",
+                "pronunciation": "소레데모 카엣테 코나이데쇼?",
+                "ko": "돌아오지 않는거지?",
+                "singer": "teto"
+            },
+            {
+                "ja": "「どうして どうして」 <ruby>聞<rt>き</rt></ruby>かれても",
+                "pronunciation": "「도-시테 도-시테」키카레테모",
+                "ko": "「어째서 어째서」물어보아도",
+                "singer": "miku"
+            },
+            {
+                "ja": "<ruby>仕方<rt>しかた</rt></ruby>のない<ruby>鼓動<rt>こどう</rt></ruby>",
+                "pronunciation": "시가타노나이 코도-",
+                "ko": "어쩔 수 없는 고동",
+                "singer": "miku"
+            },
+            {
+                "ja": "<ruby>流<rt>なが</rt></ruby>れてく <ruby>自然<rt>しぜん</rt></ruby>の <ruby>摂理<rt>せつり</rt></ruby>",
+                "pronunciation": "나가레테쿠 시젠노 세츠리",
+                "ko": "흘러가는 자연의 섭리",
+                "singer": "miku"
+            },
+            {
+                "ja": "ああして こうして <ruby>手<rt>て</rt></ruby>に<ruby>入<rt>い</rt></ruby>れて。",
+                "pronunciation": "아-시테 코-시테 테니 이레테.",
+                "ko": "저렇게 이렇게 손에 넣어서.",
+                "singer": "miku"
+            },
+            {
+                "ja": "<ruby>確<rt>たし</rt></ruby>かめ<ruby>合<rt>あ</rt></ruby>いたいの",
+                "pronunciation": "타시카메 아이타이노",
+                "ko": "확인해 보고 싶어",
+                "singer": "miku"
+            },
+            {
+                "ja": "<ruby>夢<rt>ゆめ</rt></ruby><ruby>見<rt>み</rt></ruby>てた <ruby>僕<rt>ぼく</rt></ruby>のビデオテープに",
+                "pronunciation": "유메 미테타 보쿠노 비데오 테-프니",
+                "ko": "꿈에서 봤던 내 비디오 테이프에",
+                "singer": "miku"
+            },
+            {
+                "ja": "<ruby>割<rt>わ</rt></ruby>って<ruby>奪<rt>うば</rt></ruby>ってく NTR",
+                "pronunciation": "왓테 우밧테쿠 NTR",
+                "ko": "부시고 뺏는 NTR",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>光<rt>ひか</rt></ruby>って<ruby>見<rt>み</rt></ruby>えた <ruby>青<rt>あお</rt></ruby>い<ruby>芝生<rt>しばふ</rt></ruby>",
+                "pronunciation": "히캇테 미에타 아오이 시바후",
+                "ko": "빛나 보였던 푸른 잔디",
+                "singer": "neru"
+            },
+            {
+                "ja": "「わざとじゃない」ってマジョリティ",
+                "pronunciation": "와자토쟈나잇테 마죠리티",
+                "ko": "내 의도가 아니야라는 마이저리티",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>好奇心<rt>こうきしん</rt></ruby>のサンドイッチはつまらないし。",
+                "pronunciation": "코키신노 산다위치와 츠마라나이시.",
+                "ko": "호기심의 샌드위치는 재미없고",
+                "singer": "neru"
+            },
+            {
+                "ja": "どうせなら<ruby>独<rt>ひと</rt></ruby>り<ruby>占<rt>じ</rt></ruby>めしたいし。",
+                "pronunciation": "도-세나라 히토리 지메타이시",
+                "ko": "이왕이면 독차지하고 싶고",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>背徳感<rt>はいとくかん</rt></ruby>に<ruby>溺<rt>おぼ</rt></ruby>れたいし。",
+                "pronunciation": "하이토쿠칸니 오보레타이시.",
+                "ko": "배덕감에 빠지고 싶고",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>不幸<rt>ふこう</rt></ruby>は<ruby>蜜<rt>みつ</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>",
+                "pronunciation": "후코-와 미츠노 아지",
+                "ko": "불행은 꿀맛이지",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>抗<rt>あらが</rt></ruby>えない <ruby>三大欲求<rt>さんだいよっきゅう</rt></ruby> <ruby>神<rt>かみ</rt></ruby>のまにまに",
+                "pronunciation": "아라가에나이 산다이욧큐- 카미노 마니마니",
+                "ko": "참을 수 없는 삼대욕구 신의 뜻대로"
+            },
+            {
+                "ja": "<ruby>叶<rt>かな</rt></ruby>えたい <ruby>承認欲求<rt>しょうにんよっきゅう</rt></ruby> <ruby>心<rt>こころ</rt></ruby> たしかに",
+                "pronunciation": "카나에타이 쇼-니욕큐- 코코로 타시카니",
+                "ko": "이루고 싶은 승인 욕구 마음의 확신에"
+            },
+            {
+                "ja": "どうせ<ruby>後<rt>あと</rt></ruby>の<ruby>祭<rt>まつ</rt></ruby>り <ruby>晒<rt>さら</rt></ruby>して、<ruby>血祭<rt>ちまつ</rt></ruby>り",
+                "pronunciation": "도-세 아토노 마츠리 사라시테, 치마츠리",
+                "ko": "어차피 뒤늦은 축제, 공개된 피의 축제"
+            },
+            {
+                "ja": "<ruby>哀<rt>あわ</rt></ruby>れなバウムクゥヘン",
+                "pronunciation": "아와레나 바우무쿠-헨",
+                "ko": "불쌍한 바움쿠헨"
+            },
+            {
+                "ja": "どうぞお<ruby>幸<rt>しあわ</rt></ruby>せに(笑)",
+                "pronunciation": "도-조 오시아와세니",
+                "ko": "행복하기를(ㅋ)"
+            },
+            {
+                "ja": "あんたらに<ruby>贈<rt>おく</rt></ruby>るホコロビの<ruby>唄<rt>うた</rt></ruby>",
+                "pronunciation": "안타라니 오쿠루 호코로비노우타",
+                "ko": "당신들께 바치는 균열의 노래"
+            },
+            {
+                "ja": "<ruby>結局<rt>けっきょく</rt></ruby><ruby>皆<rt>みな</rt></ruby> <ruby>自己中心<rt>じこちゅうしん</rt></ruby>",
+                "pronunciation": "켁쿄쿠미나 지코츄-신",
+                "ko": "결국 모두 자기중심",
+                "singer": "teto"
+            },
+            {
+                "ja": "あったかいお<ruby>節介<rt>せっかい</rt></ruby>だって<ruby>中止<rt>ちゅうし</rt></ruby>",
+                "pronunciation": "앗타카이 오셋카이 닷테 츄-신",
+                "ko": "선의의 참견조차 중지",
+                "singer": "teto"
+            },
+            {
+                "ja": "<ruby>人生<rt>じんせい</rt></ruby>とかいう<ruby>遊戯<rt>ゆうぎ</rt></ruby>に <ruby>有意義<rt>ゆういぎ</rt></ruby>に",
+                "pronunciation": "진세-토카 이우 유-기니 유-이기니",
+                "ko": "인생이라는 유희에 의미에",
+                "singer": "teto"
+            },
+            {
+                "ja": "<ruby>浸<rt>ひた</rt></ruby>っていたいだけ",
+                "pronunciation": "히탓테 이타이다케",
+                "ko": "빠져 있고 싶을 뿐",
+                "singer": "teto"
+            },
+            {
+                "ja": "そんなことない！",
+                "pronunciation": "손나 코토 나이!",
+                "ko": "그런 일이 아니야!",
+                "singer": "miku"
+            },
+            {
+                "ja": "<ruby>見<rt>み</rt></ruby>たことない<ruby>景色<rt>けしき</rt></ruby>がそこにあるの",
+                "pronunciation": "미타 코토 나이 케시키가 소코니 아루노",
+                "ko": "본 적 없는 풍경이 그곳에 있어",
+                "singer": "miku"
+            },
+            {
+                "ja": "<ruby>天<rt>てん</rt></ruby>からの<ruby>導<rt>みちび</rt></ruby>き <ruby>信<rt>しん</rt></ruby>じて<ruby>辿<rt>たど</rt></ruby>るだけ。",
+                "pronunciation": "텐카라노 미치비키 신지테 타도루다케.",
+                "ko": "하늘의 이끎을 믿고 따라가는 것일 뿐",
+                "singer": "miku"
+            },
+            {
+                "ja": "<ruby>返<rt>かえ</rt></ruby>してよ <ruby>返<rt>かえ</rt></ruby>してよ",
+                "pronunciation": "카에시테요 카에시테요",
+                "ko": "돌아와 줘 돌아와 줘",
+                "singer": "teto"
+            },
+            {
+                "ja": "<ruby>降<rt>ふ</rt></ruby>りかかる<ruby>雨<rt>あめ</rt></ruby> howling now howling now",
+                "pronunciation": "후리 카카루 아메 howling now howling now",
+                "ko": "비가 내리고 howling now howling now",
+                "singer": "teto"
+            },
+            {
+                "ja": "ごめんね、もういらないの",
+                "pronunciation": "고멘네, 모-이라나이노",
+                "ko": "미안해, 더는 필요없어",
+                "singer": "miku"
+            },
+            {
+                "ja": "<ruby>幸<rt>しあわ</rt></ruby>せにキラメキ <ruby>満<rt>み</rt></ruby>たされた<ruby>脳細胞<rt>のうさいぼう</rt></ruby>",
+                "pronunciation": "시아와세니 키라메키 미타사레타 노-사이보-",
+                "ko": "행복에 반짝 충족된 뇌세포",
+                "singer": "miku"
+            },
+            {
+                "ja": "そんなんお<ruby>花畑<rt>はなばたけ</rt></ruby>。",
+                "pronunciation": "손나 오하나바타케.",
+                "ko": "그런 꽃밭.",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>夢希望<rt>ゆめきぼう</rt></ruby>だらけ？",
+                "pronunciation": "유메키보-다라케?",
+                "ko": "꿈투성이?",
+                "singer": "neru"
+            },
+            {
+                "ja": "=<ruby>偽<rt>いつわ</rt></ruby>りの<ruby>種<rt>たね</rt></ruby>w",
+                "pronunciation": "=니세와리노 타네",
+                "ko": "=거짓의 씨앗 ㅋ",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>勝手<rt>かって</rt></ruby>に<ruby>舞<rt>ま</rt></ruby>い<ruby>上<rt>あ</rt></ruby>がって、<ruby>平<rt>たい</rt></ruby>らだった<ruby>間柄<rt>あいだがら</rt></ruby> <ruby>咲<rt>さ</rt></ruby>いた<ruby>薔薇<rt>ばら</rt></ruby>",
+                "pronunciation": "캇테니 마이아갓테, 타이라닷타 아이다가라 사이타 바라",
+                "ko": "스스로 일어나 평평한 곳에 폈던 장미",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>勘違<rt>かんちが</rt></ruby>いしちゃったお<ruby>姫様<rt>ひめさま</rt></ruby>",
+                "pronunciation": "칸치가이시챳타 오히메사마",
+                "ko": "착각해버린 공주님",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>平穏<rt>へいおん</rt></ruby>をぶち<ruby>壊<rt>こわ</rt></ruby>すハッカー",
+                "pronunciation": "헤이온오 부치코와스 핫카-",
+                "ko": "평온을 깨부수는 해커",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>標的<rt>ひょうてき</rt></ruby>は<ruby>無能無能<rt>むのうむのう</rt></ruby>ばっか",
+                "pronunciation": "효-테키와 무노-무노- 밧카",
+                "ko": "표적은 무능무능함 뿐",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>不幸<rt>ふこう</rt></ruby>は <ruby>蜜<rt>みつ</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>",
+                "pronunciation": "후코-와 미츠노 아지",
+                "ko": "불행은 꿀맛이지",
+                "singer": "neru"
+            },
+            {
+                "ja": "<ruby>抗<rt>あらが</rt></ruby>えない <ruby>三大欲求<rt>さんだいよっきゅう</rt></ruby> <ruby>神<rt>かみ</rt></ruby>のまにまに",
+                "pronunciation": "아라가에나이 산다이욧큐- 카미노 마니마니",
+                "ko": "참을 수 없는 삼대욕구 신의 뜻대로"
+            },
+            {
+                "ja": "<ruby>叶<rt>かな</rt></ruby>えたい <ruby>承認欲求<rt>しょうにんよっきゅう</rt></ruby> <ruby>心<rt>こころ</rt></ruby> たしかに",
+                "pronunciation": "카나에타이 쇼-니욕큐- 코코로 타시카니",
+                "ko": "이루고 싶은 승인 욕구 마음의 확신에"
+            },
+            {
+                "ja": "どうせ<ruby>後<rt>あと</rt></ruby>の<ruby>祭<rt>まつ</rt></ruby>り <ruby>晒<rt>さら</rt></ruby>して、<ruby>血祭<rt>ちまつ</rt></ruby>り",
+                "pronunciation": "도-세 아토노 마츠리 사라시테, 치마츠리",
+                "ko": "어차피 뒤늦은 축제, 공개된 피의 축제"
+            },
+            {
+                "ja": "<ruby>哀<rt>あわ</rt></ruby>れなバウムクゥヘン",
+                "pronunciation": "아와레나 바우무쿠-헨",
+                "ko": "불쌍한 바움쿠헨"
+            },
+            {
+                "ja": "どうぞお<ruby>幸<rt>しあわ</rt></ruby>せに(笑)",
+                "pronunciation": "도-조 오시아와세니",
+                "ko": "행복하기를(ㅋ)"
+            },
+            {
+                "ja": "あんたらに<ruby>贈<rt>おく</rt></ruby>るホコロビの<ruby>唄<rt>うた</rt></ruby>",
+                "pronunciation": "안타라니 오쿠루 호코로비노우타",
+                "ko": "당신들께 바치는 균열의 노래",
+                "singer": "teto"
+            }
+        ]
     },
     {
-        "id": "TT_0006",
+        "id": "TT_0007",
         "add_at": "2026-05-18 11:11:59",
         "title": "㋰責任集合体",
         "artist": "マサラダ",
@@ -1407,7 +1702,7 @@
         "lyrics": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみがひとり\"XX\"してるの<ruby>知<rt>し</rt></ruby>ってるよ\nビクンビクン<ruby>震<rt>ふる</rt></ruby>えてさ　<ruby>声<rt>こえ</rt></ruby>もダダ<ruby>漏<rt>も</rt></ruby>れなんだわ\n<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>言<rt>い</rt></ruby>っちゃえよ　バレてるんだし<ruby>言<rt>い</rt></ruby>っちゃえよ　<ruby>効<rt>き</rt></ruby>いてんの?\n<ruby>普通<rt>ふつう</rt></ruby><ruby>普通<rt>ふつう</rt></ruby>　<ruby>恥<rt>はず</rt></ruby>かしい？みんな<ruby>隠<rt>かく</rt></ruby>しているだけ\nねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみがひとり\"<ruby>涙<rt>なみだ</rt></ruby>\"してるの<ruby>知<rt>し</rt></ruby>ってるよ\nグスングスン<ruby>凹<rt>へこ</rt></ruby>んでさ　<ruby>弱音<rt>よわね</rt></ruby>ヒトカラ in the night\n<ruby>朝<rt>あさ</rt></ruby>が<ruby>来<rt>く</rt></ruby>るまで<ruby>一緒<rt>いっしょ</rt></ruby>コース　もっと<ruby>泣<rt>な</rt></ruby>いたって\n<ruby>何度<rt>なんど</rt></ruby>だって<ruby>受<rt>う</rt></ruby>け<ruby>止<rt>と</rt></ruby>めてあげる\nもう<ruby>我慢<rt>がまん</rt></ruby>しないでいっぱい<ruby>出<rt>だ</rt></ruby>してね\nMWAH!\nお<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの\n<ruby>慰<rt>なぐさ</rt></ruby>めさせてシェイクシェイク　<ruby>愛<rt>あい</rt></ruby>の<ruby>才能<rt>さいのう</rt></ruby>で\n<ruby>泣<rt>な</rt></ruby>いてくれなきゃ　<ruby>涸<rt>か</rt></ruby>れてしまう　<ruby>濡<rt>ぬ</rt></ruby>れていたい\nねえいいでしょう？　<ruby>舐<rt>な</rt></ruby>め<ruby>取<rt>と</rt></ruby>って　<ruby>飲<rt>の</rt></ruby>み<ruby>干<rt>ほ</rt></ruby>したいんだってば\nMWAH!\nお<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの\n<ruby>頼<rt>たよ</rt></ruby>り<ruby>散<rt>ち</rt></ruby>らしてシックラブ　なんて<ruby>最高<rt>さいこう</rt></ruby>ね\n<ruby>分<rt>わ</rt></ruby>けてくれなきゃ　<ruby>君<rt>きみ</rt></ruby>の\"<ruby>痛<rt>いた</rt></ruby>い\"<ruby>感<rt>かん</rt></ruby>じていたい\nねえいいでしょう？　<ruby>吸<rt>す</rt></ruby>い<ruby>取<rt>と</rt></ruby>って　<ruby>救<rt>すく</rt></ruby>いたいんだってば\n<ruby>見<rt>み</rt></ruby>たい X16\n<ruby>見<rt>み</rt></ruby>たいの　きみの<ruby>中<rt>なか</rt></ruby>\n<ruby>見<rt>み</rt></ruby>たい X19\nねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみがひとり<ruby>悔<rt>くや</rt></ruby>しがってんの<ruby>知<rt>し</rt></ruby>ってるよ\nズキュンズキュン<ruby>高<rt>たか</rt></ruby>まるじゃん　きみを<ruby>推<rt>お</rt></ruby>すことをやめない\nねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみはできる<ruby>子<rt>こ</rt></ruby>　<ruby>知<rt>し</rt></ruby>ってるよ\nつらい<ruby>時<rt>とき</rt></ruby>は<ruby>弱<rt>よわ</rt></ruby>いくらいで<ruby>丁度<rt>ちょうど</rt></ruby>いい　あたしそれでも<ruby>好<rt>す</rt></ruby>きだよ\nMWAH!\nお<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの\n<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んでよ　いつだって<ruby>会<rt>あ</rt></ruby>いに<ruby>参上<rt>さんじょう</rt></ruby>\nきみはひとりだ　だから<ruby>歌<rt>うた</rt></ruby>う「ひとりじゃない」\nもういいでしょう\nソロプレイはお<ruby>仕舞<rt>しま</rt></ruby>いなんだってば\nきみが<ruby>病<rt>や</rt></ruby>めるときも　あたし<ruby>側<rt>そば</rt></ruby>にいるわ\nいつも<ruby>見守<rt>みまも</rt></ruby>っているわ　そうよ　<ruby>怖<rt>こわ</rt></ruby>くないのよ\nMWAH!\nお<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの\n<ruby>慰<rt>なぐさ</rt></ruby>めさせてシェイクシェイク　<ruby>愛<rt>あい</rt></ruby>の<ruby>才能<rt>さいのう</rt></ruby>で\n<ruby>泣<rt>な</rt></ruby>いてくれなきゃ　<ruby>涸<rt>か</rt></ruby>れてしまう　<ruby>濡<rt>ぬ</rt></ruby>れていたい\nねえいいでしょう？　<ruby>舐<rt>な</rt></ruby>め<ruby>取<rt>と</rt></ruby>って　<ruby>飲<rt>の</rt></ruby>み<ruby>干<rt>ほ</rt></ruby>したいんだってば\nMWAH!\nお<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの\n<ruby>頼<rt>たよ</rt></ruby>り<ruby>散<rt>ち</rt></ruby>らしてシックラブ　なんて<ruby>最高<rt>さいこう</rt></ruby>ね\n<ruby>分<rt>わ</rt></ruby>けてくれなきゃ　<ruby>君<rt>きみ</rt></ruby>の\"<ruby>痛<rt>いた</rt></ruby>い\"<ruby>感<rt>かん</rt></ruby>じていたい　<ruby>覗<rt>のぞ</rt></ruby>いていたい\n<ruby>吸<rt>す</rt></ruby>い<ruby>取<rt>と</rt></ruby>って　<ruby>救<rt>すく</rt></ruby>いたいんだってば\nねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみがひとり\"<ruby>涙<rt>なみだ</rt></ruby>\"してるの<ruby>知<rt>し</rt></ruby>ってるよ\nグスングスン<ruby>凹<rt>へこ</rt></ruby>んでさ　<ruby>弱音<rt>よわね</rt></ruby>ヒトカラ in the night\n<ruby>朝<rt>あさ</rt></ruby>が<ruby>来<rt>く</rt></ruby>るまで<ruby>一緒<rt>いっしょ</rt></ruby>コース　もっと<ruby>泣<rt>な</rt></ruby>いたって\n<ruby>何度<rt>なんど</rt></ruby>だって<ruby>受<rt>う</rt></ruby>け<ruby>止<rt>と</rt></ruby>めてあげる\nもう<ruby>我慢<rt>がまん</rt></ruby>しないで<ruby>出<rt>だ</rt></ruby>してってば\nさあ"
     },
     {
-        "id": "TT_0007",
+        "id": "TT_0008",
         "add_at": "2026-05-26 11:40:45",
         "title": "ヤラララ",
         "artist": "AnythingBecomeMoe",
@@ -1418,7 +1713,7 @@
         "lyrics": "「おい」\n「なんでｿﾝﾅことやってんの？」\n「<ruby>無駄<rt>むだ</rt></ruby>なことしてるの？」\n「そんなことしてないで、<ruby>勉強<rt>べんきょう</rt></ruby>でもしておけば？」\n「おい」\n「なんでｿﾝﾅことやってんの？」\n「<ruby>正<rt>ただ</rt></ruby>しいとおもってんの？」\n「だから<ruby>頭<rt>あたま</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いって<ruby>言<rt>い</rt></ruby>われるんだよ」\nなに<ruby>抜<rt>ぬ</rt></ruby>かしてんだか\nつべこべうるせえな\n<ruby>目<rt>め</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものしかわからないんだな\nへー、<ruby>大<rt>たい</rt></ruby>したもんだ\n<ruby>口先<rt>くちさき</rt></ruby>だけだな\n<ruby>吠<rt>ほ</rt></ruby>えることしかできないんだ\nせーの\nヤラララ、<ruby>一歩<rt>いっぽ</rt></ruby>ずつゆっくり\nヤラララ、もっと<ruby>着実<rt>ちゃくじつ</rt></ruby>に\nヤラララ、<ruby>程遠<rt>ほどとお</rt></ruby>くても\nヤラララ、やめられないんだ\nヤラララ、<ruby>息<rt>いき</rt></ruby>が<ruby>切<rt>き</rt></ruby>れても\nヤラララ、<ruby>運<rt>うん</rt></ruby>が<ruby>背<rt>せ</rt></ruby>を<ruby>向<rt>む</rt></ruby>けても\nヤラララ、<ruby>悔<rt>くや</rt></ruby>しくなっても\nヤラララ\n<ruby>千里眼<rt>せんりがん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つという<ruby>友<rt>とも</rt></ruby>よ\n<ruby>足元<rt>あしもと</rt></ruby>の<ruby>石<rt>いし</rt></ruby>も<ruby>見<rt>み</rt></ruby>えぬか？\n<ruby>遥<rt>はる</rt></ruby>かな<ruby>旅<rt>たび</rt></ruby>を<ruby>行<rt>ゆ</rt></ruby>く<ruby>友<rt>とも</rt></ruby>よ\nセイレーンの<ruby>声<rt>こえ</rt></ruby>に<ruby>惑<rt>まど</rt></ruby>わされたか？\n「こっちがあってる、こっちに<ruby>行<rt>い</rt></ruby>こう」\n「そっちはダメよ、あっちに<ruby>行<rt>い</rt></ruby>こう」\n<ruby>心<rt>こころ</rt></ruby>を<ruby>支配<rt>しはい</rt></ruby>して\nゆらゆらと、ゆらゆらと\n「ねえ、これ<ruby>面白<rt>おもしろ</rt></ruby>くない？」\n「ねえ、これ<ruby>馬鹿<rt>ばか</rt></ruby>らしくない？」\n<ruby>今<rt>いま</rt></ruby>、<ruby>声<rt>こえ</rt></ruby>が、<ruby>一斉<rt>いっせい</rt></ruby>に\nざわざわと、ざわざわと\nなに<ruby>抜<rt>ぬ</rt></ruby>かしてんだか\nつべこべうるせえな\n<ruby>目<rt>め</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものしかわからないんだな (<ruby>知<rt>し</rt></ruby>らないんだな)\nへー、<ruby>大<rt>たい</rt></ruby>したもんだ\n<ruby>口先<rt>くちさき</rt></ruby>だけだな\nもう<ruby>口<rt>くち</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じろ\n<ruby>聞<rt>き</rt></ruby>きたくない、<ruby>黙<rt>だま</rt></ruby>れ、うるせ\nうんざりなんだ\nせーの\n<ruby>千里眼<rt>せんりがん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つという<ruby>友<rt>とも</rt></ruby>よ\n<ruby>足元<rt>あしもと</rt></ruby>の<ruby>石<rt>いし</rt></ruby>も<ruby>見<rt>み</rt></ruby>えぬか？\n<ruby>遥<rt>はる</rt></ruby>かな<ruby>旅<rt>たび</rt></ruby>を<ruby>行<rt>ゆ</rt></ruby>く<ruby>友<rt>とも</rt></ruby>よ\nセイレーンの<ruby>声<rt>こえ</rt></ruby>に<ruby>惑<rt>まど</rt></ruby>わされたか？\nヤラララ、<ruby>一歩<rt>いっぽ</rt></ruby>ずつゆっくり\nヤラララ、もっと<ruby>着実<rt>ちゃくじつ</rt></ruby>に\nヤラララ、<ruby>程遠<rt>ほどとお</rt></ruby>くても\nヤラララ、やめられないんだ\nヤラララ、<ruby>息<rt>いき</rt></ruby>が<ruby>切<rt>き</rt></ruby>れても\nヤラララ、<ruby>運<rt>うん</rt></ruby>が<ruby>背<rt>せ</rt></ruby>を<ruby>向<rt>む</rt></ruby>けても\nヤラララ、<ruby>悔<rt>くや</rt></ruby>しくなっても\nヤラララ、もう<ruby>一歩<rt>いっぽ</rt></ruby><ruby>先<rt>さき</rt></ruby>へ"
     },
     {
-        "id": "TT_0008",
+        "id": "TT_0009",
         "add_at": "2026-05-27 08:17:00",
         "title": "寄ってらっしゃい",
         "artist": "THE LUV BUGS, ぴーなた",
@@ -1429,7 +1724,7 @@
         "lyrics": "<ruby>寄<rt>よ</rt></ruby>ってらっしゃい <ruby>見<rt>み</rt></ruby>てらっしゃい\n\nちょっと<ruby>待<rt>ま</rt></ruby>って <ruby>愛情<rt>あいじょう</rt></ruby>を<ruby>滞納<rt>たいのう</rt></ruby> みすぼらしい <ruby>悲<rt>かな</rt></ruby>しい MELLOW\nバグっちゃったLOVE<ruby>返<rt>かえ</rt></ruby>せよ～\nもっとハンデ <ruby>甲斐性<rt>かいしょう</rt></ruby>もないの FILLの<ruby>波垂<rt>なみだ</rt></ruby>らしメロ\nバグっちゃったLOVE<ruby>倍<rt>ばい</rt></ruby>ベット\nだいぶ<ruby>鋭利<rt>えいり</rt></ruby> プレイに デバッグ ハック 突き<ruby>刺<rt>つきさ</rt></ruby>す<ruby>秒<rt>びょう</rt></ruby>\n<ruby>詰<rt>つ</rt></ruby>める<ruby>視界<rt>しかい</rt></ruby>に\nLIVEめくり メルティー <ruby>切<rt>き</rt></ruby>って<ruby>貼<rt>は</rt></ruby>った メロディー\nずらした<ruby>視界<rt>しかい</rt></ruby>で ハメていいの？！\n\nめっちゃ<ruby>良<rt>い</rt></ruby>いの<ruby>食<rt>く</rt></ruby>い<ruby>放題<rt>ほうだい</rt></ruby> <ruby>絶賛絶賛<rt>ぜっさんぜっさん</rt></ruby>で<ruby>寵愛<rt>ちょうあい</rt></ruby>\n<ruby>計算<rt>けいさん</rt></ruby>データで<ruby>頂戴<rt>ちょうだい</rt></ruby> モーション<ruby>甘<rt>あま</rt></ruby>み\n<ruby>止<rt>と</rt></ruby>まる<ruby>心拍包帯<rt>しんぱくほうたい</rt></ruby> <ruby>融解<rt>ゆうかい</rt></ruby>する<ruby>脳内損害<rt>のうないそんがい</rt></ruby>\nbit<ruby>受容<rt>じゅよう</rt></ruby>して<ruby>後悔<rt>こうかい</rt></ruby> <ruby>処刑<rt>しょけい</rt></ruby>ね ダーリン\nイケナイBEATでトびたいの！！\n\nちょっと<ruby>待<rt>ま</rt></ruby>って<ruby>本能<rt>ほんのう</rt></ruby> メチャ<ruby>萌<rt>も</rt></ruby>えホット\nありがたいもんで<ruby>咎<rt>とが</rt></ruby>めないで！\n<ruby>一体全体<rt>いったいぜんたい</rt></ruby> <ruby>炎<rt>ほのお</rt></ruby> <ruby>痛<rt>いた</rt></ruby>いぜ <ruby>大暴走<rt>だいぼうそう</rt></ruby>\nバカ<ruby>試合<rt>じあい</rt></ruby>もうちょっと付き<ruby>合<rt>つきあ</rt></ruby>ってダーリン？\n<ruby>言<rt>い</rt></ruby>っちゃった エモーション<ruby>享受<rt>きょうじ</rt></ruby>\n<ruby>言<rt>い</rt></ruby>っちゃった ハマるそりゃDOPE\n\n<ruby>憎<rt>にく</rt></ruby>たらしいったらありゃしない\n<ruby>型<rt>かた</rt></ruby>にはめちゃダメダメﾀﾞﾒﾀﾞﾒ～\nレプリカだって<ruby>正<rt>ただ</rt></ruby>したい\n<ruby>大人<rt>おとな</rt></ruby>だから飲み<ruby>込<rt>のみこ</rt></ruby>むね\n\n<ruby>言<rt>い</rt></ruby>っちゃった <ruby>予備<rt>よび</rt></ruby>のくせ\n<ruby>言<rt>い</rt></ruby>っちゃった はみ<ruby>出<rt>だ</rt></ruby>して\n\nそりゃ<ruby>無<rt>な</rt></ruby>いね <ruby>思考<rt>しこう</rt></ruby>が<ruby>死<rt>し</rt></ruby>んでる <ruby>格好<rt>かっこう</rt></ruby>がつかんスパイラル\n<ruby>脱法<rt>だっぽう</rt></ruby><ruby>集<rt>あつ</rt></ruby>まって<ruby>脆弱<rt>ぜいじゃく</rt></ruby> テクばっかで <ruby>承認<rt>しょうにん</rt></ruby> <ruby>承認<rt>しょうにん</rt></ruby>\n<ruby>包<rt>くる</rt></ruby>まった<ruby>布団馴染<rt>ふとんなじ</rt></ruby>んでる？ <ruby>説法<rt>せっぽう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かんウザイやつ\n<ruby>楽園<rt>らくえん</rt></ruby>で<ruby>縛<rt>しば</rt></ruby>って<ruby>投獄<rt>とうごく</rt></ruby> したい！ したい！\n\n<ruby>爆<rt>ばく</rt></ruby>イケGOD かっ<ruby>飛<rt>と</rt></ruby>ばせバット\nありえない<ruby>人生<rt>じんせい</rt></ruby>らくしたいじゃん？\n<ruby>白紙<rt>Table</rt></ruby>でどうぞ よってフルボッコ\n<ruby>待<rt>ま</rt></ruby>つ<ruby>未来<rt>みらい</rt></ruby> 迎え<ruby>行<rt>むかえい</rt></ruby>っちゃうよ？WARNING！\n\n<ruby>何<rt>なに</rt></ruby>がしたい <ruby>何<rt>なに</rt></ruby>がしたい <ruby>言葉遊<rt>ことばあそ</rt></ruby>びやめれないポニー\nタダ<ruby>乗<rt>の</rt></ruby>り<ruby>狂<rt>くる</rt></ruby>っちゃって<ruby>可愛<rt>かわ</rt></ruby>いく<ruby>地雷<rt>じらい</rt></ruby> お<ruby>釣<rt>つ</rt></ruby>り<ruby>多<rt>おお</rt></ruby>めでお<ruby>金<rt>かね</rt></ruby><ruby>払<rt>はら</rt></ruby>う<ruby>時代<rt>じだい</rt></ruby>\n<ruby>恥<rt>はじ</rt></ruby>をしたい <ruby>恥<rt>はじ</rt></ruby>をしたい <ruby>味<rt>あじ</rt></ruby>が<ruby>染<rt>し</rt></ruby>みたらコンポストに\n<ruby>息継<rt>いきつ</rt></ruby>ぎしたい なんだか<ruby>苦<rt>くる</rt></ruby>しくない？\nそんなことより<ruby>肺<rt>はい</rt></ruby>がないw\n\n<ruby>焼<rt>や</rt></ruby>いた<ruby>肉<rt>にく</rt></ruby>は<ruby>硬<rt>かた</rt></ruby>い ちゃんと<ruby>食<rt>く</rt></ruby>ってお<ruby>野菜<rt>やさい</rt></ruby>\n<ruby>栄養満点<rt>えいようまんてん</rt></ruby>の<ruby>惣<rt>そう</rt></ruby>ざい <ruby>持<rt>も</rt></ruby>っててハニー\n<ruby>愛<rt>あい</rt></ruby>だけじゃ<ruby>足<rt>た</rt></ruby>りない FAKEも<ruby>凝<rt>こ</rt></ruby>ってちょうだい\n<ruby>実際<rt>じっさい</rt></ruby>どっちでもない <ruby>好<rt>す</rt></ruby>きって<ruby>何<rt>なに</rt></ruby>？\nイケナイBEAT上がる<ruby>体温<rt>たいおん</rt></ruby>\n\nちょっと<ruby>待<rt>ま</rt></ruby>って<ruby>本能<rt>ほんのう</rt></ruby> メチャ<ruby>萌<rt>も</rt></ruby>えホット\nありがたいもんで<ruby>咎<rt>とが</rt></ruby>めないで！\n<ruby>一体全体<rt>いったいぜんたい</rt></ruby> <ruby>炎<rt>ほのお</rt></ruby> <ruby>痛<rt>いた</rt></ruby>いぜ <ruby>大暴走<rt>だいぼうそう</rt></ruby>\n<ruby>化<rt>ば</rt></ruby>かしあいもうちょっと付き<ruby>合<rt>つきあ</rt></ruby>って！！\n\nちょっと<ruby>待<rt>ま</rt></ruby>って<ruby>本能<rt>ほんのう</rt></ruby> メチャ<ruby>萌<rt>も</rt></ruby>えホット\n<ruby>踊<rt>おど</rt></ruby>りたいHALL <ruby>埋<rt>う</rt></ruby>めるミュータント\nアイソレもっと あれこれもっと\n<ruby>舌<rt>した</rt></ruby>2<ruby>枚嘘<rt>まいうそ</rt></ruby>が<ruby>常套句<rt>じょうとうく</rt></ruby> FUNNY\n<ruby>解<rt>と</rt></ruby>けちゃうよ<ruby>最後<rt>さいご</rt></ruby>は <ruby>雑<rt>ざつ</rt></ruby>に<ruby>塗<rt>ぬ</rt></ruby>りたくってパラノイア\n<ruby>刺激<rt>しげき</rt></ruby> <ruby>倍<rt>ばい</rt></ruby>で<ruby>最後<rt>さいご</rt></ruby>は <ruby>君<rt>きみ</rt></ruby>とトびたい トびたい <ruby>搬送中<rt>はんそうちゅう</rt></ruby>\n<ruby>言<rt>い</rt></ruby>っちゃった <ruby>重<rt>かさ</rt></ruby>なるエモーション\n<ruby>言<rt>い</rt></ruby>っちゃった ハマってまた<ruby>養分<rt>ようぶん</rt></ruby>ね"
     },
     {
-        "id": "TT_0009",
+        "id": "TT_0010",
         "add_at": "2026-05-30 11:30:07",
         "title": "ライアーダンサー",
         "artist": "マサラダ",

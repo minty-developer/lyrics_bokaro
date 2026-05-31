@@ -318,6 +318,7 @@
 ```diff
 + 기능 추가
     - 한글 발음 및 뜻 보기 추가
+    - アイドル 발음, 뜻
 ```
 
 ## v1.8.7-alpha-2
@@ -380,7 +381,7 @@
 ```
 
 ## v1.8.7-alpha-6
-[바로가기]
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/5aa53bde62dd8fb5c128f7241c3138e462282bb9)
 
 이번 패치로 변경된 점:
 - 외부 변경점
@@ -389,4 +390,73 @@
     - 2인 이상에 곡일 경우 가사 색을 가수에 따라 변경
 ! 노래 수정
     - バースデイズ
+```
+
+## v1.8.7
+[바로가기]
+
+이번 패치로 변경된 점:
+- 외부 변경점
+```diff
+! 파일 수정
+    - CNT.md -> Song-Data.md
+    - README.md
+! 기능 수정
+    - 가사영역이 제목영역 뒤로 가려지는 버그
+! 노래 수정
+    - バウムクーヘンエンドロル
+    - アイドル
+    - バースデイズ
+```
+
+- 내부 변경점
+```diff
++ 파일 추가
+    - .editorconfig
+    - .gitattributes
+    - .gitignore
+    - /.github
+    - /.github/CODEOWNERS
+    - /.github/ISSUE_TAMPLATE
+```
+
+1.8.7 전체 변경 점:
+- 외부 변경점
+```diff
++ 파일 추가
+    - favicon.ico
++ 기능 추가
+    - 한글 발음 및 뜻 보기 추가
+    - 후리가나, 발음, 뜻 보기 On / Off
+    - 処刑拍手 한글 발음 및 뜻
+! 파일 수정
+    - index.html
+    - README.md
+    - CNT.md -> Song-Data.md
+    - README.md
+! 기능 수정
+    - favicon.ico가 안 보이는 버그
+    - 2인 이상에 곡일 경우 가사 색을 가수에 따라 변경
+    - 가사영역이 제목영역 뒤로 가려지는 버그
+! 노래 수정
+    - バースデイズ
+    - バウムクーヘンエンドロル
+    - アイドル
+    - バースデイズ
+```
+
+- 내부 변경점
+```diff
++ 파일 추가
+    - CNT.md (Song-Data.md)
+    - History.md
+    - .editorconfig
+    - .gitattributes
+    - .gitignore
+    - /.github
+    - /.github/CODEOWNERS
+    - /.github/ISSUE_TAMPLATE
+! 수정
+    - id 형식 생성
+    - 구 id를 add_at으로 변경 및 날짜 포멧으로 변환
 ```

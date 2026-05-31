@@ -1,0 +1,7 @@
+# 모든 텍스트 파일의 줄 바꿈을 자동으로 Git 표준(LF)으로 맞추기
+* text=auto
+
+# .json 파일과 .js 파일, .css 파일은 언어 통계(Language Statistics) 계산에서 제외
+*.json linguist-detectable=false
+*.js linguist-detectable=false
+*.css linguist-detectable=false

@@ -33,9 +33,12 @@
 [Github](https://github.com/minty-developer)
 [Home Page](https://minty-developer.github.io/Developer-Wiki/profile.html?id=minty&lang=ko)
 
-### E.T.C.
+### Info
 [Commit 정보](https://github.com/minty-developer/lyrics_bokaro/deployments)
 [Version 정보](https://github.com/minty-developer/lyrics_bokaro/blob/main/History.md)
+[곡 정보](https://github.com/minty-developer/lyrics_bokaro/blob/main/Song-Data.md)
+
+### E.T.C.
 
 ## Credit
 - 웹사이트 제작에 도움을 준 Gemini 및 보컬로이드 노래 기여에 힘 써준 모든 분들게 감사의 말을 전합니다.
