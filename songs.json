@@ -796,7 +796,164 @@
         "krArtist": "카이리키베어",
         "videoUrl": "https://www.youtube.com/embed/TXfJVNqaHiM?si=_bSzs0xCYXzRqLew",
         "Url": "https://youtu.be/6mCmR2gGgho?si=sIkA6-J_aT9D2xH2",
-        "lyrics": "あぁ ほら また<ruby>間<rt>ま</rt></ruby><ruby>違<rt>ちが</rt></ruby>えた これで<ruby>何<rt>なん</rt></ruby><ruby>度<rt>ど</rt></ruby>？ <ruby>何<rt>なん</rt></ruby><ruby>回<rt>かい</rt></ruby><ruby>目<rt>め</rt></ruby>？\nねえ ほら <ruby>塞<rt>ふさ</rt></ruby>いでたって ぽっかり<ruby>浮<rt>う</rt></ruby>き<ruby>出<rt>で</rt></ruby>る<ruby>傷<rt>きず</rt></ruby><ruby>跡<rt>あと</rt></ruby>\nあぁ ほら また<ruby>誤<rt>ご</rt></ruby><ruby>魔<rt>ま</rt></ruby><ruby>化<rt>か</rt></ruby>した <ruby>見<rt>み</rt></ruby>てみぬ<ruby>振<rt>ふ</rt></ruby>り お<ruby>上<rt>じょう</rt></ruby><ruby>手<rt>ず</rt></ruby>ね\nもう ほら <ruby>何<rt>なに</rt></ruby><ruby>言<rt>い</rt></ruby>われたって <ruby>誰<rt>だれ</rt></ruby>もわたしを<ruby>望<rt>のぞ</rt></ruby>まない\nむき<ruby>出<rt>だ</rt></ruby>して <ruby>痛<rt>いた</rt></ruby>い <ruby>痛<rt>いた</rt></ruby>い\n<ruby>強<rt>つよ</rt></ruby>がって <ruby>痛<rt>いた</rt></ruby>い <ruby>痛<rt>いた</rt></ruby>い\n<ruby>息<rt>いき</rt></ruby><ruby>詰<rt>づ</rt></ruby>まって <ruby>痛<rt>いた</rt></ruby>い <ruby>痛<rt>いた</rt></ruby>いんだよ\nわたしって <ruby>失<rt>しっ</rt></ruby><ruby>敗<rt>ぱい</rt></ruby><ruby>作<rt>さく</rt></ruby>だってさ っていらない<ruby>子<rt>こ</rt></ruby>なんだって…\n<ruby>何<rt>なに</rt></ruby>やったって <ruby>頑<rt>がん</rt></ruby><ruby>張<rt>ば</rt></ruby>ったって ダメらしいや\n<ruby>愛<rt>あい</rt></ruby> <ruby>愛<rt>あい</rt></ruby> <ruby>愛<rt>あい</rt></ruby>されたくて <ruby>偽<rt>いつわ</rt></ruby>って\nもっともっと<ruby>笑<rt>え</rt></ruby><ruby>顔<rt>がお</rt></ruby>で いればいいかな…\n\nあぁ ほら また<ruby>擦<rt>す</rt></ruby>りむいた これで<ruby>何<rt>なん</rt></ruby><ruby>度<rt>ど</rt></ruby>？ <ruby>何<rt>なん</rt></ruby><ruby>回<rt>かい</rt></ruby><ruby>目<rt>め</rt></ruby>？\nねえ ほら <ruby>隠<rt>かく</rt></ruby>してたって じわり<ruby>浮<rt>う</rt></ruby>き<ruby>出<rt>で</rt></ruby>るトラウマ\nあぁ ほら また <ruby>飲<rt>の</rt></ruby>み<ruby>込<rt>こ</rt></ruby>んだ <ruby>澄<rt>す</rt></ruby>まし<ruby>顔<rt>がお</rt></ruby>が お<ruby>上<rt>じょう</rt></ruby><ruby>手<rt>ず</rt></ruby>ね\nもう ほら <ruby>何<rt>なに</rt></ruby><ruby>言<rt>い</rt></ruby>われたって <ruby>嘲<rt>あざ</rt></ruby>けられ <ruby>痣<rt>あざ</rt></ruby>だらけ\n<ruby>閉<rt>へい</rt></ruby><ruby>塞<rt>そく</rt></ruby><ruby>感<rt>かん</rt></ruby>に ユラユラ\n<ruby>劣<rt>れっ</rt></ruby><ruby>等<rt>とう</rt></ruby><ruby>感<rt>かん</rt></ruby>に クラクラ\n<ruby>息<rt>いき</rt></ruby><ruby>詰<rt>づ</rt></ruby>まって カラカラなの\nわたしって <ruby>失<rt>しっ</rt></ruby><ruby>敗<rt>ぱい</rt></ruby><ruby>作<rt>さく</rt></ruby>だって なって いらない<ruby>子<rt>こ</rt></ruby>なんだって…\n<ruby>何<rt>なに</rt></ruby>やったって <ruby>頑<rt>がん</rt></ruby><ruby>張<rt>ば</rt></ruby>ったって <ruby>無駄<rt>むだ</rt></ruby>みたいだ\n<ruby>生<rt>う</rt></ruby>まれてきた<ruby>意味<rt>いみ</rt></ruby>が <ruby>欲<rt>ほ</rt></ruby>しくて\nもっともっと<ruby>自<rt>し</rt></ruby><ruby>然<rt>ぜん</rt></ruby>に <ruby>笑<rt>わら</rt></ruby>えばいいかな…\n\n<ruby>神<rt>かみ</rt></ruby><ruby>様<rt>さま</rt></ruby> もしも<ruby>生<rt>う</rt></ruby>まれ<ruby>変<rt>か</rt></ruby>わることが<ruby>出<rt>で</rt></ruby><ruby>来<rt>き</rt></ruby>たら\n<ruby>愛<rt>あい</rt></ruby>される<ruby>子<rt>こ</rt></ruby>になれますように\n<ruby>泣<rt>な</rt></ruby>き<ruby>止<rt>や</rt></ruby>んだ<ruby>鼓<rt>こ</rt></ruby><ruby>動<rt>どう</rt></ruby>を<ruby>子<rt>こ</rt></ruby><ruby>守<rt>もり</rt></ruby><ruby>歌<rt>うた</rt></ruby>に\nきっときっと<ruby>明日<rt>あした</rt></ruby>は <ruby>笑<rt>わら</rt></ruby>えるよね\n<ruby>間<rt>ま</rt></ruby><ruby>違<rt>ちが</rt></ruby>いだらけに オヤスミナサイ"
+        "singer": "miku",
+        "lyrics": [
+            {
+                "ja": "あぁ ほら また<ruby>間<rt>ま</rt></ruby><ruby>違<rt>ちが</rt></ruby>えた",
+                "pronunciation": "아- 호라 마타 마치가에타",
+                "ko": "아- 봐봐 또 실수했어"
+            },
+            {
+                "ja": "これで<ruby>何<rt>なん</rt></ruby><ruby>度<rt>ど</rt></ruby>？ <ruby>何<rt>なん</rt></ruby><ruby>回<rt>かい</rt></ruby><ruby>目<rt>め</rt></ruby>？",
+                "pronunciation": "코레데 난도? 난카이메?",
+                "ko": "이걸로 몇 번? 몇 번째지?"
+            },
+            {
+                "ja": "ねえ ほら <ruby>塞<rt>ふさ</rt></ruby>いでたって ぽっかり<ruby>浮<rt>う</rt></ruby>き<ruby>出<rt>で</rt></ruby>る<ruby>傷<rt>きず</rt></ruby><ruby>跡<rt>あと</rt></ruby>",
+                "pronunciation": "네-호라 후사이데 탓테 폿카리 우키 데루 키즈아토",
+                "ko": "이걸 봐 틀어막아 봐도 또렷히 드러나는 상처 자국"
+            },
+            {
+                "ja": "あぁ ほら また<ruby>誤<rt>ご</rt></ruby><ruby>魔<rt>ま</rt></ruby><ruby>化<rt>か</rt></ruby>した",
+                "pronunciation": "아- 호라 마타 고마카시타",
+                "ko": "아- 봐봐 또 얼버무렸어"
+            },
+            {
+                "ja": "<ruby>見<rt>み</rt></ruby>てみぬ<ruby>振<rt>ふ</rt></ruby>り お<ruby>上<rt>じょう</rt></ruby><ruby>手<rt>ず</rt></ruby>ね",
+                "pronunciation": "미테 미누 후리 오죠-즈네",
+                "ko": "보고도 못 본 척 참 잘하네"
+            },
+            {
+                "ja": "もう ほら <ruby>何<rt>なに</rt></ruby><ruby>言<rt>い</rt></ruby>われたって <ruby>誰<rt>だれ</rt></ruby>もわたしを<ruby>望<rt>のぞ</rt></ruby>まない",
+                "pronunciation": "모- 호라 나니 이와레탓테 다레모 와타시오노조마나이",
+                "ko": "이젠 봐 뭐라 말한들 아무도 나를 믿어주지 않아"
+            },
+            {
+                "ja": "むき<ruby>出<rt>だ</rt></ruby>して <ruby>痛<rt>いた</rt></ruby>い <ruby>痛<rt>いた</rt></ruby>い",
+                "pronunciation": "무키다시테 이타이 이타이",
+                "ko": "드러내져서 아파 아파"
+            },
+            {
+                "ja": "<ruby>強<rt>つよ</rt></ruby>がって <ruby>痛<rt>いた</rt></ruby>い <ruby>痛<rt>いた</rt></ruby>い",
+                "pronunciation": "츠요갓테 이타이 이타이",
+                "ko": "강한 척해서 아파 아파"
+            },
+            {
+                "ja": "<ruby>息<rt>いき</rt></ruby><ruby>詰<rt>づ</rt></ruby>まって <ruby>痛<rt>いた</rt></ruby>い <ruby>痛<rt>いた</rt></ruby>いんだよ",
+                "pronunciation": "이키 즈맛테 이타이 이타인다요",
+                "ko": "숨이 막혀서 아파 아프다고"
+            },
+            {
+                "ja": "わたしって <ruby>失<rt>しっ</rt></ruby><ruby>敗<rt>ぱい</rt></ruby><ruby>作<rt>さく</rt></ruby>だってさ っていらない<ruby>子<rt>こ</rt></ruby>なんだって…",
+                "pronunciation": "와타싯테 싯파이사쿠닷테삿테 이라나이 코난닷테",
+                "ko": "나는 실패작이래 그냥 필요없는 아이래···"
+            },
+            {
+                "ja": "<ruby>何<rt>なに</rt></ruby>やったって <ruby>頑<rt>がん</rt></ruby><ruby>張<rt>ば</rt></ruby>ったって ダメらしいや",
+                "pronunciation": "나니 얏탓테 간밧탓테 다메라시-야",
+                "ko": "무엇을 하든 노력을 하든 안된다는 듯 해"
+            },
+            {
+                "ja": "<ruby>愛<rt>あい</rt></ruby> <ruby>愛<rt>あい</rt></ruby> <ruby>愛<rt>あい</rt></ruby>されたくて <ruby>偽<rt>いつわ</rt></ruby>って",
+                "pronunciation": "아이 아이 아이 사레타쿠테 이츠왓테",
+                "ko": "사랑 사랑 사랑받고 싶어서 거짓이라도"
+            },
+            {
+                "ja": "もっともっと<ruby>笑<rt>え</rt></ruby><ruby>顔<rt>がお</rt></ruby>で いればいいかな…",
+                "pronunciation": "못토 못토 에가오데 이레바이이카나...",
+                "ko": "좀 더 좀 더 미소 짓고 있으면 될까나···"
+            },
+            {
+                "ja": "あぁ ほら また<ruby>擦<rt>す</rt></ruby>りむいた",
+                "pronunciation": "아-호라 마타 스리무이타",
+                "ko": "아- 봐봐 또 살이 까졌어"
+            },
+            {
+                "ja": "これで<ruby>何<rt>なん</rt></ruby><ruby>度<rt>ど</rt></ruby>？ <ruby>何<rt>なん</rt></ruby><ruby>回<rt>かい</rt></ruby><ruby>目<rt>め</rt></ruby>？",
+                "pronunciation": "코레데 난도? 난카이메?",
+                "ko": "이걸로 몇 번? 몇 번째지?"
+            },
+            {
+                "ja": "ねえ ほら <ruby>隠<rt>かく</rt></ruby>してたって じわり<ruby>浮<rt>う</rt></ruby>き<ruby>出<rt>で</rt></ruby>るトラウマ",
+                "pronunciation": "네- 호라 카쿠시테 탓테 지와리 우키 데루 토라우마",
+                "ko": "이걸 봐 숨겨보려해도 서서히 드러나는 트라우마"
+            },
+            {
+                "ja": "あぁ ほら また <ruby>飲<rt>の</rt></ruby>み<ruby>込<rt>こ</rt></ruby>んだ",
+                "pronunciation": "아- 호라 마타 노미콘다",
+                "ko": "아- 봐봐 또 삼켜버렸어"
+            },
+            {
+                "ja": "<ruby>澄<rt>す</rt></ruby>まし<ruby>顔<rt>がお</rt></ruby>が お<ruby>上<rt>じょう</rt></ruby><ruby>手<rt>ず</rt></ruby>ね",
+                "pronunciation": "스마시 가오가 죠-즈네",
+                "ko": "태연한 얼굴 참 잘하네"
+            },
+            {
+                "ja": "もう ほら <ruby>何<rt>なに</rt></ruby><ruby>言<rt>い</rt></ruby>われたって <ruby>嘲<rt>あざ</rt></ruby>けられ <ruby>痣<rt>あざ</rt></ruby>だらけ",
+                "pronunciation": "모- 호라 나니 이와레탓테 아자케라레 아자다라케",
+                "ko": "이젠 봐 무슨 말을 듣든 비웃음 당해 멍투성이"
+            },
+            {
+                "ja": "<ruby>閉<rt>へい</rt></ruby><ruby>塞<rt>そく</rt></ruby><ruby>感<rt>かん</rt></ruby>に ユラユラ",
+                "pronunciation": "헤이소쿠칸니 유라유라",
+                "ko": "폐색감에 흔들흔들"
+            },
+            {
+                "ja": "<ruby>劣<rt>れっ</rt></ruby><ruby>等<rt>とう</rt></ruby><ruby>感<rt>かん</rt></ruby>に クラクラ",
+                "pronunciation": "렛토-칸니 쿠라쿠라",
+                "ko": "열등감에 어질어질"
+            },
+            {
+                "ja": "<ruby>息<rt>いき</rt></ruby><ruby>詰<rt>づ</rt></ruby>まって カラカラなの",
+                "pronunciation": "이키즈맛테 카라카라나노",
+                "ko": "숨이 막혀서 바짝바짝한데"
+            },
+            {
+                "ja": "わたしって <ruby>失<rt>しっ</rt></ruby><ruby>敗<rt>ぱい</rt></ruby><ruby>作<rt>さく</rt></ruby>だって なって いらない<ruby>子<rt>こ</rt></ruby>なんだって…",
+                "pronunciation": "와타싯테 싯파이사쿠닷테삿테 이라나이 코난닷테",
+                "ko": "나는 실패작이래 그냥 필요없는 아이래···"
+            },
+            {
+                "ja": "<ruby>何<rt>なに</rt></ruby>やったって <ruby>頑<rt>がん</rt></ruby><ruby>張<rt>ば</rt></ruby>ったって <ruby>無駄<rt>むだ</rt></ruby>みたいだ",
+                "pronunciation": "나니얏탓테 간밧탓테 무다미타이다",
+                "ko": "무엇을 하든 노력을 하든 무쓸모 같아"
+            },
+            {
+                "ja": "<ruby>生<rt>う</rt></ruby>まれてきた<ruby>意味<rt>いみ</rt></ruby>が <ruby>欲<rt>ほ</rt></ruby>しくて",
+                "pronunciation": "우마레테 키타 이미가 호시쿠테",
+                "ko": "태어나게 된 의미가 가지고파서"
+            },
+            {
+                "ja": "もっともっと<ruby>自<rt>し</rt></ruby><ruby>然<rt>ぜん</rt></ruby>に <ruby>笑<rt>わら</rt></ruby>えばいいかな…",
+                "pronunciation": "못토 못토 시젠니 와라에바 이이카나",
+                "ko": "좀 더 좀 더 자연스럽게 웃으면 될까나···"
+            },
+            {
+                "ja": "<ruby>神<rt>かみ</rt></ruby><ruby>様<rt>さま</rt></ruby> もしも<ruby>生<rt>う</rt></ruby>まれ<ruby>変<rt>か</rt></ruby>わることが<ruby>出<rt>で</rt></ruby><ruby>来<rt>き</rt></ruby>たら",
+                "pronunciation": "카미사마 모시모 우마레카와루 코토가 데키타라",
+                "ko": "신이시여 만약 다시 태어나는 게 가능하다면"
+            },
+            {
+                "ja": "<ruby>愛<rt>あい</rt></ruby>される<ruby>子<rt>こ</rt></ruby>になれますように",
+                "pronunciation": "아이사레루 코니 나레마스 요-니",
+                "ko": "사랑받는 아이로 태어나게 해주시기를"
+            },
+            {
+                "ja": "<ruby>泣<rt>な</rt></ruby>き<ruby>止<rt>や</rt></ruby>んだ<ruby>鼓<rt>こ</rt></ruby><ruby>動<rt>どう</rt></ruby>を<ruby>子<rt>こ</rt></ruby><ruby>守<rt>もり</rt></ruby><ruby>歌<rt>うた</rt></ruby>に",
+                "pronunciation": "나키얀다 코도-오 코모리우타니",
+                "ko": "울음이 그친 뒤의 고동을 자장가로"
+            },
+            {
+                "ja": "きっときっと<ruby>明日<rt>あした</rt></ruby>は <ruby>笑<rt>わら</rt></ruby>えるよね",
+                "pronunciation": "킷토 킷토 아시타와 와라에루요네",
+                "ko": "분명 분명 내일에는 웃을 수 있겠지"
+            },
+            {
+                "ja": "<ruby>間<rt>ま</rt></ruby><ruby>違<rt>ちが</rt></ruby>いだらけに オヤスミナサイ",
+                "pronunciation": "마치가이다라케니 오야스미나사이",
+                "ko": "실수투성이에게 안녕히 주무세요"
+            }
+        ]
     },
     {
         "id": "TT_0004",
@@ -807,6 +964,7 @@
         "krArtist": "트랩 칙",
         "videoUrl": "https://www.youtube.com/embed/YcxhmHEykPg?si=YdnSjlK2u6E9TMWf",
         "Url": "https://youtu.be/YcxhmHEykPg?si=JEV8xwjgUV5zrtyr",
+        "singer": "teto",
         "lyrics": [
             {
                 "ja": "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>？",

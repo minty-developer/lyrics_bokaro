@@ -1,7 +1,7 @@
 # Version History
 
 ## Last Ver
-`v1.9.7`
+`v1.10.7`
 
 ## Version List
 ### 배포 전
@@ -37,6 +37,7 @@
     - [v1.8.7-alpha-6](#v187-alpha-6)
 - [v1.8.7](#v187)
 - [v1.9.7](#v197)
+- [v1.10.7](#v1107)
 
 ## v0.0.0
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/4259f9a1df0b05f14bba663d409fea47a563729e)
@@ -464,7 +465,7 @@
 ```
 
 ## v1.9.7
-[바로가기]
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/0dc0eae4a966f1b8b3749b93f3f8e62e8eeb9ecf)
 
 이번 패치로 변경된 점:
 - 외부 변경점
@@ -473,4 +474,16 @@
     - 색별 가수 이름 표시
 ! 노래 수정
     - 悪の召使
+```
+
+## v1.10.7
+[바로가기]()
+
+이번 패치로 변경된 점:
+- 외부 변경점
+```diff
++ 기능 추가
+    - 곡 전체 색 표시
+! 노래 수정
+    - 失敗作少女
 ```

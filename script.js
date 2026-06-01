@@ -137,7 +137,10 @@ function showLyrics(song) {
         if (Array.isArray(song.lyrics) && typeof song.lyrics[0] === 'object') {
 
             const lyricsHtml = song.lyrics.map(line => {
-                const singerClass = line.singer ? `singer-${line.singer}` : '';
+                // 1. 각 줄(line)에 singer가 있으면 그것을 사용하고, 
+                // 2. 없으면 song 전체에 지정된 singer가 있는지 확인하여 적용합니다.
+                const currentSinger = line.singer || song.singer;
+                const singerClass = currentSinger ? `singer-${currentSinger}` : '';
 
                 return `
                 <div class="lyric-line ${singerClass}" style="margin-bottom: 20px; line-height: 1.6;">
