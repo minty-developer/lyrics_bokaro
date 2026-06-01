@@ -229,11 +229,19 @@ body {
 }
 
 .singer-teto .lyric-ja {
-    color: #ff0000
+    color: #F00;
 }
 
 .singer-neru .lyric-ja {
-    color: #AAAA00;
+    color: #AA0;
+}
+
+.singer-lin .lyric-ja {
+    color: #FA0;
+}
+
+.singer-len .lyric-ja {
+    color: #DD0;
 }
 
 /* ==========================================================================

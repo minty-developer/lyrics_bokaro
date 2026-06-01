@@ -16,6 +16,36 @@ const videoWrapper = document.createElement('div');
 videoWrapper.id = 'video-container';
 videoWrapper.className = 'hidden';
 videoWrapper.innerHTML = `
+    <style>
+        /* 파트별 색상 안내 영역 스타일 지정 */
+        #singer-legend {
+            position: absolute;
+            top: 195px; /* 데스크탑 화면에서 절대 좌표인 영상 프레임(180px) 아래 배치 */
+            left: 0;
+            width: 100%;
+            font-size: 0.9em;
+            text-align: center;
+            background: #f9f9f9;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+            box-sizing: border-box;
+        }
+        
+        /* 모바일 반응형 화면 설정 */
+        @media (max-width: 768px) {
+            #video-container {
+                flex-direction: column !important; /* 모바일에서 요소들이 세로로 배치되도록 강제 */
+                align-items: center !important;
+            }
+            #singer-legend {
+                position: static !important; /* 모바일에서는 원래 흐름대로 배치 */
+                margin: 5px 20px 15px 20px !important;
+                width: calc(100% - 40px) !important;
+            }
+        }
+    </style>
+
     <iframe id="video-frame" 
             src="" 
             frameborder="0" 
@@ -26,20 +56,29 @@ videoWrapper.innerHTML = `
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: text-bottom; margin-right: 6px;"><path d="M21.582 6.186a2.6 2.6 0 0 0-1.838-1.838C18.125 3.9 12 3.9 12 3.9s-6.125 0-7.744.448a2.6 2.6 0 0 0-1.838 1.838C2 7.805 2 12 2 12s0 4.195.448 5.814a2.6 2.6 0 0 0 1.838 1.838C5.875 20.1 12 20.1 12 20.1s6.125 0 7.744-.448a2.6 2.6 0 0 0 1.838-1.838C22 16.195 22 12 22 12s0-4.195-.418-5.814zM9.99 15.47V8.53L16 12l-6.01 3.47z"/></svg>
         YouTube 영상 보러가기
     </a>
+
+    <div id="singer-legend">
+        <p style="margin-bottom: 8px; font-weight: bold; color: #333;">🎤 파트별 색상 안내</p>
+        <div style="display: flex; flex-direction: column; gap: 5px; font-family: 'Kosugi Maru', sans-serif;">
+            <span style="color: #25cac7; font-weight: bold;">"miku":"하츠네 미쿠"</span>
+            <span style="color: #F00; font-weight: bold;">"teto":"카사네 테토"</span>
+            <span style="color: #AA0; font-weight: bold;">"neru":"아키타 네루"</span>
+            <span style="color: #FA0; font-weight: bold;">"lin":"카가미네 린"</span>
+            <span style="color: #DD0; font-weight: bold;">"len":"카가미네 렌"</span>
+        </div>
+    </div>
 `;
 
-// 가사 영역 상단이나 container 내부에 삽입[cite: 5]
+// 가사 영역 상단이나 container 내부에 삽입
 document.querySelector('.lyrics-view')?.prepend(videoWrapper);
 
 
 // 가사 요소 표시 상태 업데이트 함수
 function updateVisibility() {
-    // 각각의 태그와 클래스를 모두 찾아서 배열 형태로 가져옴
     const rtElements = document.querySelectorAll('rt');
     const pronElements = document.querySelectorAll('.lyric-pron');
     const koElements = document.querySelectorAll('.lyric-ko');
 
-    // 체크박스 상태에 따라 화면 표시 여부(display) 변경
     if (toggleFurigana) rtElements.forEach(el => el.style.display = toggleFurigana.checked ? '' : 'none');
     if (togglePron) pronElements.forEach(el => el.style.display = togglePron.checked ? '' : 'none');
     if (toggleKo) koElements.forEach(el => el.style.display = toggleKo.checked ? '' : 'none');
@@ -51,7 +90,7 @@ togglePron?.addEventListener('change', updateVisibility);
 toggleKo?.addEventListener('change', updateVisibility);
 
 
-// 1. JSON 파일에서 데이터 가져오기[cite: 5]
+// 1. JSON 파일에서 데이터 가져오기
 async function loadSongs() {
     try {
         const response = await fetch('songs.json');
@@ -68,7 +107,7 @@ async function loadSongs() {
     }
 }
 
-// 2. 리스트 렌더링 함수[cite: 5]
+// 2. 리스트 렌더링 함수
 function renderList(songs) {
     if (!songListElement) return;
     songListElement.innerHTML = '';
@@ -86,21 +125,18 @@ function renderList(songs) {
     });
 }
 
-// 3. 가사 및 영상 보여주기 함수[cite: 5]
+// 3. 가사 및 영상 보여주기 함수
 function showLyrics(song) {
     welcomeMessage?.classList.add('hidden');
     lyricsContent?.classList.remove('hidden');
 
-    // 요소가 정상적으로 존재하는지 확인 후 값 할당 (HTML 오타 시 에러 방지)[cite: 5]
     if (displayTitle) displayTitle.innerText = song.title;
     if (displayArtist) displayArtist.innerText = song.artist;
 
-    // 가사 렌더링: 객체 배열 형태 처리
     if (lyricsText && song.lyrics) {
         if (Array.isArray(song.lyrics) && typeof song.lyrics[0] === 'object') {
 
             const lyricsHtml = song.lyrics.map(line => {
-                // singer 속성이 있으면 클래스명으로 변환 (예: singer-miku), 없으면 빈 문자열
                 const singerClass = line.singer ? `singer-${line.singer}` : '';
 
                 return `
@@ -119,8 +155,6 @@ function showLyrics(song) {
             }).join('');
 
             lyricsText.innerHTML = lyricsHtml;
-
-            // 💡 가사가 새로 그려졌으므로, 현재 체크박스 상태에 맞게 가리기/보이기 적용
             updateVisibility();
 
         } else if (typeof song.lyrics === 'string') {
@@ -131,14 +165,14 @@ function showLyrics(song) {
         }
     }
 
-    // 영상 로딩 로직[cite: 5]
+    // 영상 로딩 로직
     const videoFrame = document.getElementById('video-frame');
-    const videoLink = document.getElementById('video-link'); // 버튼 링크 추가
+    const videoLink = document.getElementById('video-link');
 
     if (videoFrame && videoLink) {
         if (song.videoUrl && song.videoUrl.trim() !== "") {
             videoFrame.src = song.videoUrl;
-            videoLink.href = song.Url; // 버튼에도 링크 주소 삽입
+            videoLink.href = song.Url;
             videoWrapper?.classList.remove('hidden');
         } else {
             videoFrame.src = "";
@@ -147,7 +181,6 @@ function showLyrics(song) {
         }
     }
 
-    // 가사 영역 최상단으로 스크롤[cite: 5]
     document.querySelector('.lyrics-view')?.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -155,10 +188,8 @@ searchInput?.addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase().trim();
 
     const filteredSongs = allSongs.filter(song =>
-        // 1. 기존 영문/일문 제목 및 가수 검색[cite: 5]
         song.title.toLowerCase().includes(query) ||
         song.artist.toLowerCase().includes(query) ||
-        // 2. 한글 제목 및 한글 가수 검색 조건 추가[cite: 5]
         (song.krTitle && song.krTitle.toLowerCase().includes(query)) ||
         (song.krArtist && song.krArtist.toLowerCase().includes(query))
     );
@@ -166,5 +197,5 @@ searchInput?.addEventListener('input', (e) => {
     renderList(filteredSongs);
 });
 
-// 초기화[cite: 5]
+// 초기화
 loadSongs();

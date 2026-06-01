@@ -1,7 +1,7 @@
 # Version History
 
 ## Last Ver
-`v1.8.7-Alpha-6`
+`v1.9.7`
 
 ## Version List
 ### 배포 전
@@ -35,6 +35,8 @@
     - [v1.8.7-alpha-4](#v187-alpha-4)
     - [v1.8.7-alpha-5](#v187-alpha-5)
     - [v1.8.7-alpha-6](#v187-alpha-6)
+- [v1.8.7](#v187)
+- [v1.9.7](#v197)
 
 ## v0.0.0
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/4259f9a1df0b05f14bba663d409fea47a563729e)
@@ -393,7 +395,7 @@
 ```
 
 ## v1.8.7
-[바로가기]
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/cc51adf2bc75486d1ce2938f0044236956a6184b)
 
 이번 패치로 변경된 점:
 - 외부 변경점
@@ -459,4 +461,16 @@
 ! 수정
     - id 형식 생성
     - 구 id를 add_at으로 변경 및 날짜 포멧으로 변환
+```
+
+## v1.9.7
+[바로가기]
+
+이번 패치로 변경된 점:
+- 외부 변경점
+```diff
++ 기능 추가
+    - 색별 가수 이름 표시
+! 노래 수정
+    - 悪の召使
 ```
