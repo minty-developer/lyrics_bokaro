@@ -179,7 +179,7 @@ let Singers = document.getElementById("singer-legend");
 Hamburger_Btn.addEventListener('click', () => {
     MSidebar *= -1;
     if (MSidebar > 0) {
-        Sidebar.style.display = "block";
+        Sidebar.style.display = "flex";
         Singers.style.display = "block";
 
     } else {
@@ -192,11 +192,11 @@ const observer = new ResizeObserver(entries => {
     for (let entry of entries) {
         const width = entry.contentRect.width;
         if (width > 1052) {
-            Sidebar.style.display = "block";
+            Sidebar.style.display = "flex";
             Singers.style.display = "block";
         } else {
             if (MSidebar > 0) {
-                Sidebar.style.display = "block";
+                Sidebar.style.display = "flex";
                 Singers.style.display = "block";
 
             } else {

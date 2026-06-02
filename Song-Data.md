@@ -1,5 +1,8 @@
 # 곡 정보
 
+> 마지막 업데이트 버전
+`v1.10.9`
+
 ## 곡 수
 ### 보카로(1인)
 MK 5<br>
@@ -22,5 +25,5 @@ ETC 1
 | MK-0001 | 今すぐ輪廻 | 2025-08-01 | なきそ |   2회   | [바로가기](https://namu.wiki/w/%EC%A7%80%EA%B8%88%20%EB%B0%94%EB%A1%9C%20%EC%9C%A4%ED%9A%8C) |
 | MK-0002 | 歌姫失格 | 2026-05-15 | 피노키오P | 0회 | [바로가기](https://namu.wiki/w/%EA%B0%80%ED%9D%AC%EC%8B%A4%EA%B2%A9) |
 | MK-0003 | 混沌ブギ | 2023-08-30 | jon-YAKITORY | 3회 | [바로가기](https://namu.wiki/w/%ED%98%BC%EB%8F%88%20%EB%B6%80%EA%B8%B0) |
-| MK-0004 | 失敗作少女 | 2015-08-08 | 카이리키 베어 | 4회 | [바로가기](https://namu.wiki/w/%EC%8B%A4%ED%8C%A8%EC%9E%91%20%EC%86%8C%EB%85%80) |
+| MK-0004 | 失敗作少女 | 2015-08-08 | 카이리키 베어 | 5회 | [바로가기](https://namu.wiki/w/%EC%8B%A4%ED%8C%A8%EC%9E%91%20%EC%86%8C%EB%85%80) |
 | MK-0005 | モニタリング | 2024-11-22 | DECO*27 | 1회 | [바로가기](https://namu.wiki/w/%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81(VOCALOID%20%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90%20%EA%B3%A1)) |
