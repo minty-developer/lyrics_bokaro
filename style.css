@@ -70,7 +70,6 @@ body {
 
 #song-list {
     list-style: none;
-    flex: 1;
     overflow-y: auto;
 }
 
@@ -94,6 +93,10 @@ body {
 /* ==========================================================================
    3. Lyrics View Area (Desktop Layout Fix)
    ========================================================================== */
+
+.Hamburger {
+    display: none;
+}
 
 .lyrics-view {
     font-family: "Kosugi Maru", sans-serif;
@@ -175,7 +178,8 @@ body {
 }
 
 #video-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
     float: right;
     width: 320px;
     height: 100%;
@@ -189,9 +193,9 @@ body {
     background: #000;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-
-    position: absolute;
-    top: 0;
+    position: static;
+    width: 100%;
+    aspect-ratio: 16 / 9;
 }
 
 /* 기본 가사 색상 설정 */
@@ -205,6 +209,20 @@ body {
 
 .lyric-ko {
     color: #0056b3;
+}
+
+#singer-legend {
+    top: 195px;
+    /* 데스크탑 화면에서 절대 좌표인 영상 프레임(180px) 아래 배치 */
+    left: 0;
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
 }
 
 /* ----------------------------------------
@@ -260,10 +278,26 @@ rt {
 /* ==========================================================================
    📱 5. Responsive Design (Mobile) - 완벽한 상태 유지
    ========================================================================== */
-@media (max-width: 768px) {
+@media (max-width: 1052px) {
     body {
         height: 100vh;
         overflow: hidden;
+    }
+
+    .Hamburger {
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        z-index: 999999;
+    }
+
+    #singer-legend {
+        position: static !important;
+        margin: 5px 20px 15px 20px;
+        width: calc(100% - 40px);
     }
 
     .container {

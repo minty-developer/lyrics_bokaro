@@ -6,46 +6,18 @@ const displayArtist = document.getElementById('display-artist');
 const lyricsText = document.getElementById('lyrics-text');
 const searchInput = document.getElementById('search-input');
 
-// 새로 추가된 체크박스 요소 가져오기
 const toggleFurigana = document.getElementById('toggle-furigana');
 const togglePron = document.getElementById('toggle-pron');
 const toggleKo = document.getElementById('toggle-ko');
+
+//상태 변수
+let MSidebar = 1;
 
 let allSongs = [];
 const videoWrapper = document.createElement('div');
 videoWrapper.id = 'video-container';
 videoWrapper.className = 'hidden';
 videoWrapper.innerHTML = `
-    <style>
-        /* 파트별 색상 안내 영역 스타일 지정 */
-        #singer-legend {
-            position: absolute;
-            top: 195px; /* 데스크탑 화면에서 절대 좌표인 영상 프레임(180px) 아래 배치 */
-            left: 0;
-            width: 100%;
-            font-size: 0.9em;
-            text-align: center;
-            background: #f9f9f9;
-            padding: 12px;
-            border-radius: 8px;
-            border: 1px solid #eee;
-            box-sizing: border-box;
-        }
-        
-        /* 모바일 반응형 화면 설정 */
-        @media (max-width: 768px) {
-            #video-container {
-                flex-direction: column !important; /* 모바일에서 요소들이 세로로 배치되도록 강제 */
-                align-items: center !important;
-            }
-            #singer-legend {
-                position: static !important; /* 모바일에서는 원래 흐름대로 배치 */
-                margin: 5px 20px 15px 20px !important;
-                width: calc(100% - 40px) !important;
-            }
-        }
-    </style>
-
     <iframe id="video-frame" 
             src="" 
             frameborder="0" 
@@ -199,6 +171,43 @@ searchInput?.addEventListener('input', (e) => {
 
     renderList(filteredSongs);
 });
+
+let Hamburger_Btn = document.getElementById("HamburgerBtn");
+let Sidebar = document.getElementById("Sidebar");
+let Singers = document.getElementById("singer-legend");
+
+Hamburger_Btn.addEventListener('click', () => {
+    MSidebar *= -1;
+    if (MSidebar > 0) {
+        Sidebar.style.display = "block";
+        Singers.style.display = "block";
+
+    } else {
+        Sidebar.style.display = "none";
+        Singers.style.display = "none";
+    }
+});
+
+const observer = new ResizeObserver(entries => {
+    for (let entry of entries) {
+        const width = entry.contentRect.width;
+        if (width > 1052) {
+            Sidebar.style.display = "block";
+            Singers.style.display = "block";
+        } else {
+            if (MSidebar > 0) {
+                Sidebar.style.display = "block";
+                Singers.style.display = "block";
+
+            } else {
+                Sidebar.style.display = "none";
+                Singers.style.display = "none";
+            }
+        }
+    }
+});
+
+observer.observe(document.body);
 
 // 초기화
 loadSongs();
