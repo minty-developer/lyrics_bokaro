@@ -40,6 +40,8 @@
 - [v1.10.7](#v1107)
 - [v1.10.8](#v1108)
 - [v1.10.9](#v1109)
+- [v1.10.10](#v11010)
+- [v1.10.11](#v11011)
 
 ## v0.0.0
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/4259f9a1df0b05f14bba663d409fea47a563729e)
@@ -520,12 +522,21 @@
 ```
 
 ## v1.10.10
-[바로가기]()
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/fd7083c5098b72cfef3b6d62f968490753018f79)
 
 이번 패치로 변경된 점:
 - 외부 변경점
 ```diff
 ! 노래 수정
     - 今すぐ輪廻
+    - 歌姫失格
+```
+
+## v1.10.11
+[바로가기]()
+
+- 외부 변경점
+```diff
+! 노래 수정
     - 歌姫失格
 ```
