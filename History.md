@@ -502,7 +502,7 @@
 ```
 
 ## v1.10.9
-[바로가기]()
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/fbb2c8a49c4b029c731bafc40d9949ce82640bae)
 
 이번 패치로 변경된 점:
 - 외부 변경점
@@ -517,4 +517,15 @@
 ```diff
 ! 파일 수정
     - Song-Data.md
+```
+
+## v1.10.10
+[바로가기]()
+
+이번 패치로 변경된 점:
+- 외부 변경점
+```diff
+! 노래 수정
+    - 今すぐ輪廻
+    - 歌姫失格
 ```
