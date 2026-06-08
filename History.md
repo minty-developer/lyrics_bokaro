@@ -533,10 +533,22 @@
 ```
 
 ## v1.10.11
-[바로가기]()
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/cfb6cf3a557dcf356d2039db0fa19035484a7749)
 
 - 외부 변경점
 ```diff
 ! 노래 수정
     - 歌姫失格
+```
+
+## v1.10.12
+[바로가기]()
+
+- 외부 변경점
+```diff
+! 파일 수정
+    - README.md
+! 노래 수정
+    - バースデイズ
+    - メズマライザー
 ```
