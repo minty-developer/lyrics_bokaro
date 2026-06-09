@@ -233,6 +233,49 @@ body {
     box-sizing: border-box;
 }
 
+/* 주석이 달린 단어 기본 스타일 */
+.footnote {
+    color: inherit;
+    /* 글자 색상은 부모 요소(기본 가사 색상)를 그대로 따라감 */
+    cursor: help;
+    border-bottom: 2px dashed #0275d8;
+    /* 밑줄만 나무위키 파란색으로 설정 (두께도 2px로 살짝 선명하게 조정) */
+    position: relative;
+    display: inline-block;
+}
+
+/* 단어 뒤에 붙는 [*] 표시도 파란색으로 유지하고 싶다면 이대로 두고, 
+   [*] 표시도 글자색이랑 맞추고 싶다면 아래 color를 inherit로 바꾸면 돼! */
+.footnote::after {
+    content: "[*]";
+    font-size: 0.7em;
+    vertical-align: super;
+    margin-left: 2px;
+    color: #0275d8;
+    /* [*] 표시를 파란색으로 포인트 주기 */
+}
+
+/* 마우스를 올렸을 때 나타날 말풍선 디자인 */
+.footnote:hover::before {
+    content: attr(data-note);
+    /* JSON에 적었던 data-note 내용을 그대로 가져옴 */
+    position: absolute;
+    bottom: 130%;
+    /* 단어 위로 띄움 */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    /* 텍스트가 줄바꿈되지 않게 설정 */
+    z-index: 100;
+    pointer-events: none;
+    /* 말풍선 때문에 다른 요소 클릭이 방해받지 않게 설정 */
+}
+
 /* ----------------------------------------
    가수별 색상 지정 템플릿
    ---------------------------------------- */

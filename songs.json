@@ -1731,12 +1731,12 @@
                 "ko": "개막(001)"
             },
             {
-                "ja": "バカだから<ruby>何<rt>なに</rt></ruby>もできないね",
+                "ja": "<span class='footnote' data-note='어디서 많이 본 미쿠가 나온다'>バカだから<ruby>何<rt>なに</rt></ruby>もできないね</span>",
                 "pronunciation": "바카다카라 나니모 데키나이네",
                 "ko": "바보라서 아무것도 못하네"
             },
             {
-                "ja": "<ruby>無理<rt>むり</rt></ruby>してかっこつけ<ruby>笑<rt>わら</rt></ruby>えるね",
+                "ja": "<span class='footnote' data-note='어디서 많이 본 테토가 나온다'><ruby>無理<rt>むり</rt></ruby>してかっこつけ<ruby>笑<rt>わら</rt></ruby>えるね</span>",
                 "pronunciation": "무리시테 캇코츠케 와라에루네",
                 "ko": "무리해서 멋져보이려는거 개 웃기네"
             },
@@ -1996,7 +1996,7 @@
                 "ko": "재밌는 일 정의를 보여 봐"
             },
             {
-                "ja": "リンゴを<ruby>一口<rt>ひとくち</rt></ruby><ruby>食<rt>た</rt></ruby>べてみなよ",
+                "ja": "<span class='footnote' data-note='선악과'>リンゴ</span>を<ruby>一口<rt>ひとくち</rt></ruby><ruby>食<rt>た</rt></ruby>べてみなよ",
                 "pronunciation": "링고오 히토구치 타베테 미나요",
                 "ko": "사과를 한 입 먹어보라고"
             },
@@ -2127,7 +2127,7 @@
                 "singer": "teto"
             },
             {
-                "ja": "<ruby>臓器<rt>こころ</rt></ruby>までも<ruby>虜<rt>とりこ</rt></ruby>にしちゃうわ",
+                "ja": "<span class='footnote' data-note='원래 발음은 [죠-키]이나 다르게 발음'><ruby>臓器<rt>こころ</rt></ruby></span>までも<ruby>虜<rt>とりこ</rt></ruby>にしちゃうわ",
                 "pronunciation": "코코로마데모 토리코니 시챠우와",
                 "ko": "마음속까지도 홀려 버릴거야",
                 "singer": "miku"
@@ -3042,7 +3042,7 @@
             },
             {
                 "ja": "<ruby>見<rt>み</rt></ruby>て<ruby>呉<rt>くれ</rt></ruby>の<ruby>脆弱性<rt>きじゃくせい</rt></ruby>",
-                "pronunciation": "미테 쿠레노 키쟈쿠세-",
+                "pronunciation": "미테 쿠레노 <span class='footnote' data-note='정확한 발음은 [제-쟈쿠세-]이나 다르게 발음'>키쟈쿠세-</span>",
                 "ko": "겉모습의 취약성",
                 "singer": "miku"
             },
@@ -3301,7 +3301,288 @@
         "krArtist": "뭐든지모에화",
         "videoUrl": "https://www.youtube.com/embed/T24rF_x0TmQ?si=1m4PLpvjzjj-EfN_",
         "Url": "https://youtu.be/T24rF_x0TmQ?si=2sSPMu9DdIIjcucE",
-        "lyrics": "「おい」\n「なんでｿﾝﾅことやってんの？」\n「<ruby>無駄<rt>むだ</rt></ruby>なことしてるの？」\n「そんなことしてないで、<ruby>勉強<rt>べんきょう</rt></ruby>でもしておけば？」\n「おい」\n「なんでｿﾝﾅことやってんの？」\n「<ruby>正<rt>ただ</rt></ruby>しいとおもってんの？」\n「だから<ruby>頭<rt>あたま</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いって<ruby>言<rt>い</rt></ruby>われるんだよ」\nなに<ruby>抜<rt>ぬ</rt></ruby>かしてんだか\nつべこべうるせえな\n<ruby>目<rt>め</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものしかわからないんだな\nへー、<ruby>大<rt>たい</rt></ruby>したもんだ\n<ruby>口先<rt>くちさき</rt></ruby>だけだな\n<ruby>吠<rt>ほ</rt></ruby>えることしかできないんだ\nせーの\nヤラララ、<ruby>一歩<rt>いっぽ</rt></ruby>ずつゆっくり\nヤラララ、もっと<ruby>着実<rt>ちゃくじつ</rt></ruby>に\nヤラララ、<ruby>程遠<rt>ほどとお</rt></ruby>くても\nヤラララ、やめられないんだ\nヤラララ、<ruby>息<rt>いき</rt></ruby>が<ruby>切<rt>き</rt></ruby>れても\nヤラララ、<ruby>運<rt>うん</rt></ruby>が<ruby>背<rt>せ</rt></ruby>を<ruby>向<rt>む</rt></ruby>けても\nヤラララ、<ruby>悔<rt>くや</rt></ruby>しくなっても\nヤラララ\n<ruby>千里眼<rt>せんりがん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つという<ruby>友<rt>とも</rt></ruby>よ\n<ruby>足元<rt>あしもと</rt></ruby>の<ruby>石<rt>いし</rt></ruby>も<ruby>見<rt>み</rt></ruby>えぬか？\n<ruby>遥<rt>はる</rt></ruby>かな<ruby>旅<rt>たび</rt></ruby>を<ruby>行<rt>ゆ</rt></ruby>く<ruby>友<rt>とも</rt></ruby>よ\nセイレーンの<ruby>声<rt>こえ</rt></ruby>に<ruby>惑<rt>まど</rt></ruby>わされたか？\n「こっちがあってる、こっちに<ruby>行<rt>い</rt></ruby>こう」\n「そっちはダメよ、あっちに<ruby>行<rt>い</rt></ruby>こう」\n<ruby>心<rt>こころ</rt></ruby>を<ruby>支配<rt>しはい</rt></ruby>して\nゆらゆらと、ゆらゆらと\n「ねえ、これ<ruby>面白<rt>おもしろ</rt></ruby>くない？」\n「ねえ、これ<ruby>馬鹿<rt>ばか</rt></ruby>らしくない？」\n<ruby>今<rt>いま</rt></ruby>、<ruby>声<rt>こえ</rt></ruby>が、<ruby>一斉<rt>いっせい</rt></ruby>に\nざわざわと、ざわざわと\nなに<ruby>抜<rt>ぬ</rt></ruby>かしてんだか\nつべこべうるせえな\n<ruby>目<rt>め</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものしかわからないんだな (<ruby>知<rt>し</rt></ruby>らないんだな)\nへー、<ruby>大<rt>たい</rt></ruby>したもんだ\n<ruby>口先<rt>くちさき</rt></ruby>だけだな\nもう<ruby>口<rt>くち</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じろ\n<ruby>聞<rt>き</rt></ruby>きたくない、<ruby>黙<rt>だま</rt></ruby>れ、うるせ\nうんざりなんだ\nせーの\n<ruby>千里眼<rt>せんりがん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つという<ruby>友<rt>とも</rt></ruby>よ\n<ruby>足元<rt>あしもと</rt></ruby>の<ruby>石<rt>いし</rt></ruby>も<ruby>見<rt>み</rt></ruby>えぬか？\n<ruby>遥<rt>はる</rt></ruby>かな<ruby>旅<rt>たび</rt></ruby>を<ruby>行<rt>ゆ</rt></ruby>く<ruby>友<rt>とも</rt></ruby>よ\nセイレーンの<ruby>声<rt>こえ</rt></ruby>に<ruby>惑<rt>まど</rt></ruby>わされたか？\nヤラララ、<ruby>一歩<rt>いっぽ</rt></ruby>ずつゆっくり\nヤラララ、もっと<ruby>着実<rt>ちゃくじつ</rt></ruby>に\nヤラララ、<ruby>程遠<rt>ほどとお</rt></ruby>くても\nヤラララ、やめられないんだ\nヤラララ、<ruby>息<rt>いき</rt></ruby>が<ruby>切<rt>き</rt></ruby>れても\nヤラララ、<ruby>運<rt>うん</rt></ruby>が<ruby>背<rt>せ</rt></ruby>を<ruby>向<rt>む</rt></ruby>けても\nヤラララ、<ruby>悔<rt>くや</rt></ruby>しくなっても\nヤラララ、もう<ruby>一歩<rt>いっぽ</rt></ruby><ruby>先<rt>さき</rt></ruby>へ"
+        "lyrics": [
+            {
+                "ja": "「おい」",
+                "pronunciation": "「오이」",
+                "ko": "「야」"
+            },
+            {
+                "ja": "「なんでｿﾝﾅことやってんの？」",
+                "pronunciation": "「난데 손나 코토 얏텐노?」",
+                "ko": "「왜 그런 일을 하는건데?」"
+            },
+            {
+                "ja": "「<ruby>無駄<rt>むだ</rt></ruby>なことしてるの？」",
+                "pronunciation": "「무다나 코토 시테루노?」",
+                "ko": "「쓸모 없는 일을 하는거야?」"
+            },
+            {
+                "ja": "「そんなことしてないで、<ruby>勉強<rt>べんきょう</rt></ruby>でもしておけば？」",
+                "pronunciation": "「손나 코토 시테 나이데, 벤쿄-데모 시테 아케바?」",
+                "ko": "「그런 일을 하지 않고 공부라도 해두면?」"
+            },
+            {
+                "ja": "「おい」",
+                "pronunciation": "「오이」",
+                "ko": "「야」"
+            },
+            {
+                "ja": "「なんでｿﾝﾅことやってんの？」",
+                "pronunciation": "「난데 손나 코토 얏텐노?」",
+                "ko": "「왜 그런 일을 하는건데?」"
+            },
+            {
+                "ja": "「<ruby>正<rt>ただ</rt></ruby>しいとおもってんの？」",
+                "pronunciation": "「타다시이토 오못텐노?」",
+                "ko": "「괜찮다고 생각하는 거야?」"
+            },
+            {
+                "ja": "「だから<ruby>頭<rt>あたま</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いって<ruby>言<rt>い</rt></ruby>われるんだよ」",
+                "pronunciation": "「다카라 아타마가 와루잇테 이와레룬다요」",
+                "ko": "「그러니까 머리가 나쁘다고 하는거야」"
+            },
+            {
+                "ja": "なに<ruby>抜<rt>ぬ</rt></ruby>かしてんだか",
+                "pronunciation": "나니 누카시텐다카",
+                "ko": "뭐라는 거야"
+            },
+            {
+                "ja": "つべこべうるせえな",
+                "pronunciation": "츠베코베 우루세-나",
+                "ko": "주절주절 시끄럽네"
+            },
+            {
+                "ja": "<ruby>目<rt>め</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものしかわからないんだな",
+                "pronunciation": "메니 미에루모노 시카와카라나인다나",
+                "ko": "눈에 보이는 것만 이해하는건가"
+            },
+            {
+                "ja": "へー、<ruby>大<rt>たい</rt></ruby>したもんだ",
+                "pronunciation": "헤- 타이시타몬다",
+                "ko": "와 대단하다"
+            },
+            {
+                "ja": "<ruby>口先<rt>くちさき</rt></ruby>だけだな",
+                "pronunciation": "구치사키다케다나",
+                "ko": "입만 살았구나"
+            },
+            {
+                "ja": "<ruby>吠<rt>ほ</rt></ruby>えることしかできないんだ",
+                "pronunciation": "호에루 코토 시카 데키나인다",
+                "ko": "짓는 것 밖에 못하는구나"
+            },
+            {
+                "ja": "せーの",
+                "pronunciation": "세-노",
+                "ko": "하나, 둘"
+            },
+            {
+                "ja": "ヤラララ、<ruby>一歩<rt>いっぽ</rt></ruby>ずつゆっくり",
+                "pronunciation": "야라라라, 입포 즈츠 육쿠리",
+                "ko": "야라라라, 한 발씩 천천히"
+            },
+            {
+                "ja": "ヤラララ、もっと<ruby>着実<rt>ちゃくじつ</rt></ruby>に",
+                "pronunciation": "야라라라, 못토 챠쿠지츠니",
+                "ko": "야라라라, 더 착실하게"
+            },
+            {
+                "ja": "ヤラララ、<ruby>程遠<rt>ほどとお</rt></ruby>くても",
+                "pronunciation": "야라라라, 호도토오쿠테모",
+                "ko": "야라라라, 멀다고 해도"
+            },
+            {
+                "ja": "ヤラララ、やめられないんだ",
+                "pronunciation": "야라라라, 야메라레나인다",
+                "ko": "야라라라, 멈출 수 없어"
+            },
+            {
+                "ja": "ヤラララ、<ruby>息<rt>いき</rt></ruby>が<ruby>切<rt>き</rt></ruby>れても",
+                "pronunciation": "야라라라, 이키가 키레테모",
+                "ko": "야라라라, 숨이 차도"
+            },
+            {
+                "ja": "ヤラララ、<ruby>運<rt>うん</rt></ruby>が<ruby>背<rt>せ</rt></ruby>を<ruby>向<rt>む</rt></ruby>けても",
+                "pronunciation": "야라라라, 운가 세오 무케테모",
+                "ko": "야라라라, 운이 등을 돌려도"
+            },
+            {
+                "ja": "ヤラララ、<ruby>悔<rt>くや</rt></ruby>しくなっても",
+                "pronunciation": "야라라라, 쿠야시쿠 낫테모",
+                "ko": "야라라라, 억울해 져도"
+            },
+            {
+                "ja": "ヤラララ",
+                "pronunciation": "야라라라",
+                "ko": "야라라라"
+            },
+            {
+                "ja": "<ruby>千里眼<rt>せんりがん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つという<ruby>友<rt>とも</rt></ruby>よ",
+                "pronunciation": "센리간오 모츠오 이우 토모요",
+                "ko": "천리안을 가지고 있다는 친구여"
+            },
+            {
+                "ja": "<ruby>足元<rt>あしもと</rt></ruby>の<ruby>石<rt>いし</rt></ruby>も<ruby>見<rt>み</rt></ruby>えぬか？",
+                "pronunciation": "아시모토노 이시모 미에누카?",
+                "ko": "발 앞에 돌은 보이지 않는가?"
+            },
+            {
+                "ja": "<ruby>遥<rt>はる</rt></ruby>かな<ruby>旅<rt>たび</rt></ruby>を<ruby>行<rt>ゆ</rt></ruby>く<ruby>友<rt>とも</rt></ruby>よ",
+                "pronunciation": "하루카나 타비오 유쿠토모요",
+                "ko": "아득한 여행을 하고 있는 친구여"
+            },
+            {
+                "ja": "セイレーンの<ruby>声<rt>こえ</rt></ruby>に<ruby>惑<rt>まど</rt></ruby>わされたか？",
+                "pronunciation": "세이렌노 코에니 마도와사레타카?",
+                "ko": "세이렌의 목소리에 홀려버렸는가?"
+            },
+            {
+                "ja": "「こっちがあってる、こっちに<ruby>行<rt>い</rt></ruby>こう」",
+                "pronunciation": "「콧치가 앗테루, 콧치니 이코-」",
+                "ko": "「여기가 맞아, 여기로 가자」"
+            },
+            {
+                "ja": "「そっちはダメよ、あっちに<ruby>行<rt>い</rt></ruby>こう」",
+                "pronunciation": "「솟치와 다메요, 아치니 이코-」",
+                "ko": "「거긴 안 돼, 저기로 가자」"
+            },
+            {
+                "ja": "<ruby>心<rt>こころ</rt></ruby>を<ruby>支配<rt>しはい</rt></ruby>して",
+                "pronunciation": "코코로오 시하이시테",
+                "ko": "마음을 지배해서"
+            },
+            {
+                "ja": "ゆらゆらと、ゆらゆらと",
+                "pronunciation": "유라유라토, 유라유라토",
+                "ko": "흔들흔들, 흔들흔들"
+            },
+            {
+                "ja": "「ねえ、これ<ruby>面白<rt>おもしろ</rt></ruby>くない？」",
+                "pronunciation": "「네-, 코레 오모시로쿠나이?」",
+                "ko": "「저기, 이거 재밌지 않아?」"
+            },
+            {
+                "ja": "「ねえ、これ<ruby>馬鹿<rt>ばか</rt></ruby>らしくない？」",
+                "pronunciation": "「네-, 코레 바카라시쿠나이?」",
+                "ko": "「저기, 이거 바보같지 않아?」"
+            },
+            {
+                "ja": "<ruby>今<rt>いま</rt></ruby>、<ruby>声<rt>こえ</rt></ruby>が、<ruby>一斉<rt>いっせい</rt></ruby>に",
+                "pronunciation": "이마, 코에가, 잇세-니",
+                "ko": "지금, 목소리가, 일제히"
+            },
+            {
+                "ja": "ざわざわと、ざわざわと",
+                "pronunciation": "자와자와토, 자와자와토",
+                "ko": "시끌시끌, 시끌시끌"
+            },
+            {
+                "ja": "なに<ruby>抜<rt>ぬ</rt></ruby>かしてんだか",
+                "pronunciation": "나니 누카시텐다카",
+                "ko": "뭐라는 거야"
+            },
+            {
+                "ja": "つべこべうるせえな",
+                "pronunciation": "츠베코베 우루세-나",
+                "ko": "주절주절 시끄럽네"
+            },
+            {
+                "ja": "<ruby>目<rt>め</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものしかわからないんだな (<ruby>知<rt>し</rt></ruby>らないんだな)",
+                "pronunciation": "메니 미에루모노 시카 와카라나인다나 (시라나인다나)",
+                "ko": "눈에 보이는 것만 이해하는건가 (모르는구나)"
+            },
+            {
+                "ja": "へー、<ruby>大<rt>たい</rt></ruby>したもんだ",
+                "pronunciation": "헤- 타이시타몬다",
+                "ko": "와 대단하다"
+            },
+            {
+                "ja": "<ruby>口先<rt>くちさき</rt></ruby>だけだな",
+                "pronunciation": "구치사키다케다나",
+                "ko": "입만 살았구나"
+            },
+            {
+                "ja": "もう<ruby>口<rt>くち</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じろ",
+                "pronunciation": "모- 구치오 토지로",
+                "ko": "이제 입 닫아"
+            },
+            {
+                "ja": "<ruby>聞<rt>き</rt></ruby>きたくない、<ruby>黙<rt>だま</rt></ruby>れ、うるせ",
+                "pronunciation": "키키타쿠나이, 다마레, 우루세",
+                "ko": "듣기 싫어, 닥쳐, 시끄러워"
+            },
+            {
+                "ja": "うんざりなんだ",
+                "pronunciation": "운자리난다",
+                "ko": "지긋지긋하다고"
+            },
+            {
+                "ja": "せーの",
+                "pronunciation": "세-노",
+                "ko": "하나, 둘"
+            },
+            {
+                "ja": "<ruby>千里眼<rt>せんりがん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つという<ruby>友<rt>とも</rt></ruby>よ",
+                "pronunciation": "센리간오 모츠오 이우 토모요",
+                "ko": "천리안을 가지고 있다는 친구여"
+            },
+            {
+                "ja": "<ruby>足元<rt>あしもと</rt></ruby>の<ruby>石<rt>いし</rt></ruby>も<ruby>見<rt>み</rt></ruby>えぬか？",
+                "pronunciation": "아시모토노 이시모 미에누카?",
+                "ko": "발 앞에 돌은 보이지 않는가?"
+            },
+            {
+                "ja": "<ruby>遥<rt>はる</rt></ruby>かな<ruby>旅<rt>たび</rt></ruby>を<ruby>行<rt>ゆ</rt></ruby>く<ruby>友<rt>とも</rt></ruby>よ",
+                "pronunciation": "하루카나 타비오 유쿠토모요",
+                "ko": "아득한 여행을 하고 있는 친구여"
+            },
+            {
+                "ja": "セイレーンの<ruby>声<rt>こえ</rt></ruby>に<ruby>惑<rt>まど</rt></ruby>わされたか？",
+                "pronunciation": "세이렌노 코에니 마도와사레타카?",
+                "ko": "세이렌의 목소리에 홀려버렸는가?"
+            },
+            {
+                "ja": "ヤラララ、<ruby>一歩<rt>いっぽ</rt></ruby>ずつゆっくり",
+                "pronunciation": "야라라라, 입포 즈츠 육쿠리",
+                "ko": "야라라라, 한 발씩 천천히"
+            },
+            {
+                "ja": "ヤラララ、もっと<ruby>着実<rt>ちゃくじつ</rt></ruby>に",
+                "pronunciation": "야라라라, 못토 챠쿠지츠니",
+                "ko": "야라라라, 더 착실하게"
+            },
+            {
+                "ja": "ヤラララ、<ruby>程遠<rt>ほどとお</rt></ruby>くても",
+                "pronunciation": "야라라라, 호도토오쿠테모",
+                "ko": "야라라라, 멀다고 해도"
+            },
+            {
+                "ja": "ヤラララ、やめられないんだ",
+                "pronunciation": "야라라라, 야메라레나인다",
+                "ko": "야라라라, 멈출 수 없어"
+            },
+            {
+                "ja": "ヤラララ、<ruby>息<rt>いき</rt></ruby>が<ruby>切<rt>き</rt></ruby>れても",
+                "pronunciation": "야라라라, 이키가 키레테모",
+                "ko": "야라라라, 숨이 차도"
+            },
+            {
+                "ja": "ヤラララ、<ruby>運<rt>うん</rt></ruby>が<ruby>背<rt>せ</rt></ruby>を<ruby>向<rt>む</rt></ruby>けても",
+                "pronunciation": "야라라라, 운가 세오 무케테모",
+                "ko": "야라라라, 운이 등을 돌려도"
+            },
+            {
+                "ja": "ヤラララ、<ruby>悔<rt>くや</rt></ruby>しくなっても",
+                "pronunciation": "야라라라, 쿠야시쿠 낫테모",
+                "ko": "야라라라, 억울해 져도"
+            },
+            {
+                "ja": "ヤラララ、もう<ruby>一歩<rt>いっぽ</rt></ruby><ruby>先<rt>さき</rt></ruby>へ",
+                "pronunciation": "야라라라, 모- 입포 사키에",
+                "ko": "야라라라, 이제 한 발자국 앞에"
+            }
+        ]
     },
     {
         "id": "TT_0009",
