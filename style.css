@@ -258,22 +258,30 @@ body {
 /* 마우스를 올렸을 때 나타날 말풍선 디자인 */
 .footnote:hover::before {
     content: attr(data-note);
-    /* JSON에 적었던 data-note 내용을 그대로 가져옴 */
     position: absolute;
     bottom: 130%;
-    /* 단어 위로 띄움 */
-    left: 50%;
-    transform: translateX(-50%);
+
+    /* 중앙 정렬을 해제하고 왼쪽 기준으로 변경 */
+    left: 0;
+    /* transform: translateX(-50%); 속성은 삭제 또는 주석 처리합니다 */
+
     background-color: rgba(0, 0, 0, 0.85);
     color: #fff;
     padding: 6px 10px;
     border-radius: 4px;
     font-size: 0.85rem;
-    white-space: nowrap;
-    /* 텍스트가 줄바꿈되지 않게 설정 */
     z-index: 100;
     pointer-events: none;
-    /* 말풍선 때문에 다른 요소 클릭이 방해받지 않게 설정 */
+
+    /* 아래 부분 추가 및 수정 (줄바꿈 허용) */
+    white-space: normal;
+    /* nowrap에서 normal로 변경하여 줄바꿈 허용 */
+    word-break: keep-all;
+    /* 단어가 중간에 끊기지 않고 깔끔하게 줄바꿈되도록 설정 */
+    width: max-content;
+    /* 내용물에 맞게 너비를 조절하되 */
+    max-width: 250px;
+    /* 말풍선이 너무 길어지지 않게 최대 너비 제한 (원하는 크기로 조절 가능) */
 }
 
 /* ----------------------------------------
