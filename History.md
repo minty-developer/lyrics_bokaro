@@ -1,7 +1,7 @@
 # Version History
 
 ## Last Ver
-`v1.10.7`
+`v1.12.13-alpha-1`
 
 ## Version List
 ### 배포 전
@@ -45,6 +45,7 @@
 - [v1.10.12](#v11012)
 - [v1.11.12](#11112)
 - [v1.11.13](#11113)
+    - [v1.12.13-alpha-1](#v11213-alpha-1)
 
 ## v0.0.0
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/4259f9a1df0b05f14bba663d409fea47a563729e)
@@ -568,7 +569,7 @@
 ```
 
 ## v1.11.13
-[바로가기]()
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/12cebfac38d18ceda51157555d1314f614cc2dd5)
 
 - 외부 변경점
 ```diff
@@ -577,4 +578,18 @@
 ! 노래 수정
     - ヤラララ
     - 寄ってらっしゃい見てらっしゃい
+```
+
+## v1.12.13-alpha-1
+[바로가기]()
+
+- 외부 변경점
+```diff
+! 노래 수정
+    - オーバーライド
+    - 求＆影
+    - 急性恋愛中毒
+    - 混沌ブギ
+    - 雑魚
+    - 弱者のマーチ
 ```
