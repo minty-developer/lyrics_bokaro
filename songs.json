@@ -765,7 +765,7 @@
             {
                 "ja": "さらば <ruby>生<rt>う</rt></ruby>まれ<ruby>変<rt>か</rt></ruby>わる",
                 "pronunciation": "사라바 우마레카와루",
-                "ko": "안녕, 다시 태어나"
+                "ko": "안녕히, 다시 태어나서"
             },
             {
                 "ja": "あまりに<ruby>人生<rt>じんせい</rt></ruby>が <ruby>憂<rt>う</rt></ruby>い",
@@ -775,7 +775,7 @@
             {
                 "ja": "<ruby>君<rt>きみ</rt></ruby>の<ruby>指輪<rt>ゆびわ</rt></ruby>も<ruby>白紙<rt>はくし</rt></ruby>になって！",
                 "pronunciation": "키미노 유비와모 하쿠시니 낫테!",
-                "ko": "너의 반지도 백지가 돼!"
+                "ko": "너의 반지도 백지가 되버려!"
             },
             {
                 "ja": "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>消<rt>き</rt></ruby>えちゃって、いいよ",
@@ -795,7 +795,7 @@
             {
                 "ja": "<ruby>宇宙<rt>うちゅう</rt></ruby>が<ruby>爆<rt>は</rt></ruby>ぜてしまうまで",
                 "pronunciation": "우츄-가 하제테 시마우마데",
-                "ko": "우주가 터저머릴 때까지"
+                "ko": "우주가 터저버릴 때까지"
             },
             {
                 "ja": "<ruby>何回<rt>なんかい</rt></ruby>も<ruby>大<rt>だい</rt></ruby><ruby>好<rt>す</rt></ruby>きになって",
@@ -900,7 +900,7 @@
             {
                 "ja": "<ruby>今<rt>いま</rt></ruby>すぐしんで！",
                 "pronunciation": "이마 스구 신데!",
-                "ko": "지금 바로 죽어줘!"
+                "ko": "지금 바로 죽어!"
             },
             {
                 "ja": "ファンファーレが<ruby>鳴<rt>な</rt></ruby>って",
@@ -910,7 +910,7 @@
             {
                 "ja": "<ruby>大正解<rt>だいせいかい</rt></ruby>、おめでとう！",
                 "pronunciation": "다이세-카이 오메데토-!",
-                "ko": "대정답 축하해!"
+                "ko": "대정답이야 축하해!"
             },
             {
                 "ja": "ようやく<ruby>君<rt>きみ</rt></ruby>は<ruby>救<rt>すく</rt></ruby>われる",
@@ -2012,7 +2012,7 @@
             {
                 "ja": "<ruby>恨<rt>うら</rt></ruby>めしいの <ruby>歯型<rt>はがた</rt></ruby>つけてイっちゃうぞ？",
                 "pronunciation": "우라메시-노 하가타 츠케테 잇챠우조?",
-                "ko": "원망스러워, 이 자국을 남기고 가 버릴 거야?"
+                "ko": "원망스러워, 잇자국을 남기고 가 버릴 거야?"
             },
             {
                 "ja": "これリップじゃん！<ruby>君<rt>きみ</rt></ruby>の<ruby>物<rt>もの</rt></ruby>なの？",
@@ -3780,295 +3780,296 @@
         "krArtist": "히이라기 마그네타이트",
         "videoUrl": "https://www.youtube.com/embed/Soy4jGPHr3g?si=fj_-S3TkfoaErPo7",
         "Url": "https://youtu.be/Soy4jGPHr3g?si=YmjGsgllsIUtA3z4",
+        "singer": "teto",
         "lyrics": [
             {
                 "ja": "どうしてすぐ<ruby>知<rt>し</rt></ruby>ってしまうの",
-                "pronunciation": "",
+                "pronunciation": "도-시테 스구 싯테 시마우노",
                 "ko": "왜 금세 알아 버리는 걸까"
             },
             {
                 "ja": "<ruby>共振<rt>きょうしん</rt></ruby>で<ruby>苦<rt>くる</rt></ruby>しんでし<ruby>罵倒<rt>ばとう</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "쿄-신데 쿠루신데 시바토-",
                 "ko": "공진으로 괴로워하고 욕먹고"
             },
             {
                 "ja": "Q.<ruby>更新<rt>こうしん</rt></ruby>で<ruby>降<rt>ふ</rt></ruby>る<ruby>隕石<rt>いんせき</rt></ruby><ruby>抹消可<rt>まっしょうか</rt></ruby>？",
-                "pronunciation": "",
+                "pronunciation": "Q. 코-신데 후루 인세키 맛쇼-카?",
                 "ko": "Q. 갱신으로 떨어지는 운석, 말소 가능?"
             },
             {
                 "ja": "<ruby>悪<rt>わる</rt></ruby>くない",
-                "pronunciation": "",
+                "pronunciation": "와루쿠나이",
                 "ko": "나쁘지 않아"
             },
             {
                 "ja": "<ruby>興味<rt>きょうみ</rt></ruby>ねえ<ruby>救<rt>すく</rt></ruby>い<ruby>派手<rt>はで</rt></ruby><ruby>感動<rt>かんどう</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "쿄-미네- 스쿠이 하데 칸도-",
                 "ko": "관심 없는 구원, 화려한 감동"
             },
             {
                 "ja": "<ruby>常備<rt>じょうび</rt></ruby>ねえ<ruby>薬<rt>くすり</rt></ruby><ruby>食<rt>た</rt></ruby>べBAD",
-                "pronunciation": "",
+                "pronunciation": "죠-비네- 쿠스리 타베 BAD",
                 "ko": "상비약도 없이 약을 먹고 BAD"
             },
             {
                 "ja": "Q.<ruby>超酷<rt>ちょうひで</rt></ruby>えフル<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby><ruby>暗号化<rt>あんごうか</rt></ruby>？",
-                "pronunciation": "",
+                "pronunciation": "Q. 쵸-히데에 후루 미타 메 안고-카?",
                 "ko": "Q. 엄청 끔찍한 풀 외형 암호화?"
             },
             {
                 "ja": "<ruby>金<rt>かね</rt></ruby>による",
-                "pronunciation": "",
+                "pronunciation": "카네니 요루",
                 "ko": "돈에 달렸어"
             },
             {
                 "ja": "<ruby>常識<rt>じょうしき</rt></ruby>ねえ<ruby>狂<rt>くる</rt></ruby>いっぱで<ruby>乱闘<rt>らんとう</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "죠-시키 네- 쿠루잇파데 란토-",
                 "ko": "상식 없는 광기 가득한 난투"
             },
             {
                 "ja": "<ruby>放置<rt>ほうち</rt></ruby>ゲーする<ruby>陰<rt>いん</rt></ruby>キャでバンド",
-                "pronunciation": "",
+                "pronunciation": "호-치 게- 스루 인캬데 반도",
                 "ko": "방치 게임 하는 아싸 밴드"
             },
             {
                 "ja": "Q.<ruby>送信<rt>そうしん</rt></ruby>で<ruby>苦<rt>くる</rt></ruby>しいダメCancelは？",
-                "pronunciation": "",
+                "pronunciation": "Q. 소-신데 쿠루시- 다메 Cancel와?",
                 "ko": "Q. 전송 때문에 괴로운 실패, Cancel은?"
             },
             {
                 "ja": "<ruby>草生<rt>くさは</rt></ruby>える",
-                "pronunciation": "",
+                "pronunciation": "쿠사하에루",
                 "ko": "웃기네"
             },
             {
                 "ja": "どうしてすぐ<ruby>見<rt>み</rt></ruby>てしまうの",
-                "pronunciation": "",
+                "pronunciation": "도-시테 스구 미테 시마우노",
                 "ko": "왜 금세 봐 버리는 걸까"
             },
             {
                 "ja": "どうしてすぐ<ruby>言<rt>い</rt></ruby>ってしまうの",
-                "pronunciation": "",
+                "pronunciation": "도-시테 스구 잇테 시마우노",
                 "ko": "왜 금세 말해 버리는 걸까"
             },
             {
                 "ja": "どうしてすぐ<ruby>壊<rt>こわ</rt></ruby>れちゃうかな",
-                "pronunciation": "",
+                "pronunciation": "도-시테 스구 코와레챠우카나",
                 "ko": "왜 금세 망가져 버리는 걸까"
             },
             {
                 "ja": "（パパラパラパラ）",
-                "pronunciation": "",
+                "pronunciation": "(파파라파라파라)",
                 "ko": "파파라파라파라"
             },
             {
                 "ja": "<ruby>近未来<rt>きんみらい</rt></ruby>しか<ruby>勝<rt>か</rt></ruby>たん",
-                "pronunciation": "",
+                "pronunciation": "킨미라이 시카 카탄",
                 "ko": "근미래밖에 답이 없어"
             },
             {
                 "ja": "ショッピンモールの<ruby>現代<rt>げんだい</rt></ruby>コンピュー",
-                "pronunciation": "",
+                "pronunciation": "숍핀모-루노 겐다이 콘퓨-",
                 "ko": "쇼핑몰의 현대 컴퓨터"
             },
             {
                 "ja": "<ruby>小窓<rt>こまど</rt></ruby>ショーウィンドウﾀﾋしか<ruby>加担<rt>かたん</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "코마도 쇼-윈도- 타히 시카 카탄",
                 "ko": "작은 창 쇼윈도, 죽음밖에 가담하지 않아"
             },
             {
                 "ja": "モンティホールの<ruby>経費<rt>けいひ</rt></ruby>でピンボール",
-                "pronunciation": "",
+                "pronunciation": "몬티 호-루노 케이히 데 핀보-루",
                 "ko": "몬티 홀의 경비로 핀볼"
             },
             {
-                "ja": "オイルマッサージ100<ruby>分<rt>ふん</rt></ruby>コース<ruby>足湯付<rt>あしゆつ</rt></ruby>き",
-                "pronunciation": "",
+                "ja": "オイルマッサージ100<ruby>分<rt>ぷん</rt></ruby>コース<ruby>足湯付<rt>あしゆつ</rt></ruby>き",
+                "pronunciation": "오이루 맛사지 햡푼 코-스 아시유츠키",
                 "ko": "오일 마사지 100분 코스 족욕 포함"
             },
             {
                 "ja": "<ruby>柚子<rt>ゆず</rt></ruby>を<ruby>添<rt>そ</rt></ruby>えて",
-                "pronunciation": "",
+                "pronunciation": "유즈오 소에테",
                 "ko": "유자를 곁들여"
             },
             {
                 "ja": "テテテテトテト テテテテトリス",
-                "pronunciation": "",
+                "pronunciation": "테테테테토테토 테테테테토리스",
                 "ko": "테테테테토테토 테테테테트리스"
             },
             {
                 "ja": "どうしてこんな<ruby>目<rt>め</rt></ruby>に に に",
-                "pronunciation": "",
+                "pronunciation": "도-시테 콘나메니 니 니",
                 "ko": "왜 이런 꼴을, 을, 을"
             },
             {
                 "ja": "<ruby>興味<rt>きょうみ</rt></ruby>がないこと<ruby>本気<rt>ほんき</rt></ruby>じゃないもの<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>後回<rt>あとまわ</rt></ruby>しで",
-                "pronunciation": "",
+                "pronunciation": "쿄-미가 나이코토 혼키 쟈나이모노 젠부 아토마와시데",
                 "ko": "관심 없는 것, 진심이 아닌 것 전부 뒤로 미루고"
             },
             {
                 "ja": "<ruby>知<rt>し</rt></ruby>ってることは<ruby>知<rt>し</rt></ruby>らんぷり <ruby>私<rt>わたし</rt></ruby>は<ruby>終<rt>お</rt></ruby>わってる",
-                "pronunciation": "",
+                "pronunciation": "싯테루 코토와 시란후리 와타시와 오왓테루",
                 "ko": "아는 건 모르는 척, 나는 끝났어"
             },
             {
                 "ja": "<ruby>恥<rt>はず</rt></ruby>かしい<ruby>過去<rt>かこ</rt></ruby><ruby>知<rt>し</rt></ruby>ってるやつらの<ruby>記憶<rt>きおく</rt></ruby><ruby>消<rt>け</rt></ruby>させて",
-                "pronunciation": "",
+                "pronunciation": "하즈카시이 카코 싯테루 야츠라노 키오쿠케사세테",
                 "ko": "부끄러운 과거를 아는 녀석들의 기억을 지워 줘"
             },
             {
                 "ja": "<ruby>迷惑<rt>めいわく</rt></ruby>かけてごめんってば",
-                "pronunciation": "",
+                "pronunciation": "메이와쿠 카케테 고멘떼바",
                 "ko": "폐 끼쳐서 미안하다니까"
             },
             {
                 "ja": "ねえ<ruby>誰<rt>だれ</rt></ruby>か<ruby>助<rt>たす</rt></ruby>けて",
-                "pronunciation": "",
+                "pronunciation": "네- 다레카 타스케테",
                 "ko": "저기, 누가 좀 도와줘"
             },
             {
                 "ja": "<ruby>妄信<rt>もうしん</rt></ruby>で すぐ<ruby>惹<rt>ひ</rt></ruby>かれちゃうの",
-                "pronunciation": "",
+                "pronunciation": "모-신데 스구 히카레챠우노",
                 "ko": "맹신해서 금세 끌려 버려"
             },
             {
                 "ja": "<ruby>狂信<rt>きょうしん</rt></ruby>で すぐ<ruby>引<rt>ひ</rt></ruby>かれちゃうの",
-                "pronunciation": "",
+                "pronunciation": "쿄-신데 스구 히카레챠우노",
                 "ko": "광신해서 금세 질려 버려"
             },
             {
                 "ja": "<ruby>知<rt>し</rt></ruby>りたくない <ruby>知<rt>し</rt></ruby>りたくない <ruby>知<rt>し</rt></ruby>りたくない",
-                "pronunciation": "",
+                "pronunciation": "시리타쿠나이 시리타쿠나이 시리타쿠나이",
                 "ko": "알고 싶지 않아, 알고 싶지 않아, 알고 싶지 않아"
             },
             {
                 "ja": "（タタラタラタラ）",
-                "pronunciation": "",
+                "pronunciation": "타타라타라타라",
                 "ko": "타타라타라타라"
             },
             {
                 "ja": "もう<ruby>見<rt>み</rt></ruby>ねえ すぐ<ruby>引<rt>ひ</rt></ruby>かれSAD",
-                "pronunciation": "",
+                "pronunciation": "모- 미네- 스구 히카레 SAD",
                 "ko": "이젠 안 봐, 금세 질려서 SAD"
             },
             {
                 "ja": "<ruby>常勤<rt>じょうきん</rt></ruby>で<ruby>狂<rt>くる</rt></ruby>いたてMAD",
-                "pronunciation": "",
+                "pronunciation": "죠-킨데 쿠루이타테 MAD",
                 "ko": "상근으로 미쳐 갓 MAD"
             },
             {
                 "ja": "<ruby>行<rt>い</rt></ruby>きたくない <ruby>行<rt>い</rt></ruby>きたくない <ruby>生<rt>い</rt></ruby>きたくない",
-                "pronunciation": "",
+                "pronunciation": "이키타쿠나이 이키타쿠나이 이키타쿠나이",
                 "ko": "가고 싶지 않아, 가고 싶지 않아, 살고 싶지 않아"
             },
             {
                 "ja": "ばーいばい",
-                "pronunciation": "",
+                "pronunciation": "바-이바이",
                 "ko": "바이바이"
             },
             {
                 "ja": "<ruby>臨時休業<rt>りんじきゅうぎょう</rt></ruby> <ruby>洗濯<rt>せんたく</rt></ruby>ボール",
-                "pronunciation": "",
+                "pronunciation": "린지큐-규- 센타쿠 보-루",
                 "ko": "임시 휴업 세탁볼"
             },
             {
                 "ja": "ナイチンゲールの<ruby>配信<rt>はいしん</rt></ruby>ゲーム",
-                "pronunciation": "",
+                "pronunciation": "나이친게-루노 하이신 게-무",
                 "ko": "나이팅게일의 방송 게임"
             },
             {
                 "ja": "<ruby>名刺交換<rt>めいしこうかん</rt></ruby>の<ruby>名<rt>めい</rt></ruby>シーン",
-                "pronunciation": "",
+                "pronunciation": "메-시코-칸노 메이 신-",
                 "ko": "명함 교환의 명장면"
             },
             {
                 "ja": "<ruby>借金<rt>しゃっきん</rt></ruby>ボウルでチンチロハイボール",
-                "pronunciation": "",
+                "pronunciation": "샷킨 보우루데 친치로 하이보-루",
                 "ko": "빚쟁이 볼로 친치로 하이볼"
             },
             {
-                "ja": "<ruby>温泉旅行<rt>おんせんりょこう</rt></ruby>3<ruby>泊<rt>はく</rt></ruby>4<ruby>日<rt>か</rt></ruby><ruby>食事付<rt>しょくじつ</rt></ruby>き",
-                "pronunciation": "",
+                "ja": "<ruby>温泉旅行<rt>おんせんりょこう</rt></ruby>3<ruby>泊<rt>ぱく</rt></ruby>4<ruby>日<rt>か</rt></ruby><ruby>食事<rt>しょくじ</rt></ruby><ruby>付<rt>つ</rt></ruby>き",
+                "pronunciation": "온센료코- 산파쿠 욕카 쇼쿠지츠키",
                 "ko": "온천 여행 3박 4일 식사 포함"
             },
             {
                 "ja": "<ruby>早<rt>はや</rt></ruby>く<ruby>行<rt>い</rt></ruby>きてえ",
-                "pronunciation": "",
+                "pronunciation": "하야쿠 이키테-",
                 "ko": "빨리 가고 싶어"
             },
             {
                 "ja": "テテテテトテト",
-                "pronunciation": "",
+                "pronunciation": "테테테테토테토",
                 "ko": "테테테테토테토"
             },
             {
                 "ja": "テテテテトリス",
-                "pronunciation": "",
-                "ko": "테테테테트리스"
+                "pronunciation": "테테테테토리스",
+                "ko": "테테테테토리스"
             },
             {
-                "ja": "<ruby>共感性羞恥<rt>きょうかんせいしゅうち</rt></ruby> <ruby>恥<rt>ち</rt></ruby> <ruby>恥<rt>ち</rt></ruby>",
-                "pronunciation": "",
-                "ko": "공감성 수치, 수치 수치"
+                "ja": "<ruby>共感性<rt>きょうかんせい</rt></ruby><ruby>羞恥<rt>しゅうち</rt></ruby> <ruby>恥<rt>ち</rt></ruby> <ruby>恥<rt>ち</rt></ruby>",
+                "pronunciation": "쿄-칸세- 슈-치 치 치",
+                "ko": "공감성 수치, 치 치"
             },
             {
                 "ja": "<ruby>鬱<rt>うつ</rt></ruby>とか<ruby>躁<rt>そう</rt></ruby>とか<ruby>忙<rt>いそが</rt></ruby>しくて<ruby>眠<rt>ねむ</rt></ruby>れないわ<ruby>今日<rt>きょう</rt></ruby>も",
-                "pronunciation": "",
+                "pronunciation": "우츠토카 소-토카 이소가시쿠테 네무레나이와 쿄-모",
                 "ko": "우울이니 조증이니 바빠서 오늘도 잠들 수 없어"
             },
             {
                 "ja": "<ruby>誰<rt>だれ</rt></ruby>か<ruby>早<rt>はや</rt></ruby>く<ruby>殴<rt>なぐ</rt></ruby>って<ruby>気絶<rt>きぜつ</rt></ruby>させてくれよ",
-                "pronunciation": "",
+                "pronunciation": "다레카 하야쿠 나굿테 키제츠사세테 쿠레요",
                 "ko": "누가 빨리 때려서 기절시켜 줘"
             },
             {
                 "ja": "<ruby>人生<rt>じんせい</rt></ruby>キャンセルキャンセル<ruby>界隈<rt>かいわい</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "진세- 캰세루 캰세루 카이와이",
                 "ko": "인생 캔슬 캔슬 계열"
             },
             {
                 "ja": "ぼんやりとした<ruby>不安<rt>ふあん</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "본야리토시타 후안",
                 "ko": "막연한 불안"
             },
             {
                 "ja": "<ruby>私<rt>わたし</rt></ruby>のせい <ruby>私<rt>わたし</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いよそうだよ",
-                "pronunciation": "",
+                "pronunciation": "와타시노 세- 와타시가 와루이요 소-다요",
                 "ko": "내 탓이야, 내가 나빠, 그래 맞아"
             },
             {
                 "ja": "<ruby>興味<rt>きょうみ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ても<ruby>本気<rt>ほんき</rt></ruby>でやっても<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>空回<rt>からまわ</rt></ruby>りで",
-                "pronunciation": "",
+                "pronunciation": "쿄-미가 데테모 혼키데 얏테모 젠부 카라마와리데",
                 "ko": "관심이 생겨도 진심으로 해도 전부 헛돌기만 하고"
             },
             {
                 "ja": "<ruby>知<rt>し</rt></ruby>らないくせに<ruby>嘘<rt>うそ</rt></ruby>つき <ruby>私<rt>わたし</rt></ruby>は<ruby>終<rt>お</rt></ruby>わってる",
-                "pronunciation": "",
+                "pronunciation": "시라나이 쿠세니 우소츠키 와타시와 오왓테루",
                 "ko": "모르면서 거짓말쟁이, 나는 끝났어"
             },
             {
                 "ja": "<ruby>恥<rt>はず</rt></ruby>かしい<ruby>過去<rt>かこ</rt></ruby><ruby>知<rt>し</rt></ruby>ってるやつらの<ruby>記憶<rt>きおく</rt></ruby><ruby>消<rt>け</rt></ruby>させて",
-                "pronunciation": "",
+                "pronunciation": "하즈카시- 카코 싯테루 야츠라노 키오쿠 케사세테",
                 "ko": "부끄러운 과거를 아는 녀석들의 기억을 지워 줘"
             },
             {
                 "ja": "<ruby>迷惑<rt>めいわく</rt></ruby>かけてごめんってば",
-                "pronunciation": "",
+                "pronunciation": "메-와쿠 카케테 고멘떼바",
                 "ko": "폐 끼쳐서 미안하다니까"
             },
             {
                 "ja": "ねえ<ruby>誰<rt>だれ</rt></ruby>か<ruby>助<rt>たす</rt></ruby>けて",
-                "pronunciation": "",
+                "pronunciation": "네- 다레카 타스케테",
                 "ko": "저기, 누가 좀 도와줘"
             },
             {
                 "ja": "<ruby>迷惑<rt>めいわく</rt></ruby>かけてごめんってば",
-                "pronunciation": "",
+                "pronunciation": "메-와쿠 카케테 고멘떼바",
                 "ko": "폐 끼쳐서 미안하다니까"
             },
             {
                 "ja": "ねえ<ruby>誰<rt>だれ</rt></ruby>か<ruby>許<rt>ゆる</rt></ruby>して",
-                "pronunciation": "",
+                "pronunciation": "네- 다레카 유루시테",
                 "ko": "저기, 누가 좀 용서해 줘"
             }
         ]
@@ -4085,307 +4086,342 @@
         "lyrics": [
             {
                 "ja": "<ruby>全部<rt>ぜんぶ</rt></ruby> <ruby>全部<rt>ぜんぶ</rt></ruby> アンタのせいだ",
-                "pronunciation": "",
-                "ko": "전부 전부 네 탓이야"
+                "pronunciation": "젠부 젠부 안타노 세-다",
+                "ko": "전부 전부 네 탓이야",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>反吐<rt>へど</rt></ruby>が<ruby>走<rt>で</rt></ruby>るくらいにウザったいわ",
-                "pronunciation": "",
-                "ko": "구역질이 날 만큼 짜증나"
+                "pronunciation": "헤도가 데루 쿠라이니 우잣타이와",
+                "ko": "구역질이 날 만큼 짜증나",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>何<rt>なに</rt></ruby>かに<ruby>縋<rt>すが</rt></ruby>って<ruby>諂<rt>へつら</rt></ruby>って",
-                "pronunciation": "",
-                "ko": "무언가에 매달리고 아첨하고"
+                "pronunciation": "나니카니 스갓테 헤츠랏테 ",
+                "ko": "무언가에 매달리고 아첨하고",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>期待<rt>きたい</rt></ruby>したアタシが<ruby>馬鹿<rt>ばか</rt></ruby>だった",
-                "pronunciation": "",
-                "ko": "기대했던 내가 바보였어"
+                "pronunciation": "키타이시타 아타시가 바카닷타 ",
+                "ko": "기대했던 내가 바보였어",
+                "singer": "miku"
             },
             {
                 "ja": "ご<ruby>機嫌伺<rt>きげんうかが</rt></ruby>いの<ruby>八方美人<rt>はっぽうびじん</rt></ruby>",
-                "pronunciation": "",
-                "ko": "기분 살피는 팔방미인"
+                "pronunciation": "고키겐우카가이노 핫포비진",
+                "ko": "기분 살피는 팔방미인",
+                "singer": "miku"
             },
             {
                 "ja": "それ<ruby>故<rt>ゆえ</rt></ruby>にアンチな<ruby>一生<rt>いっしょう</rt></ruby>Gimme",
-                "pronunciation": "",
-                "ko": "그 때문에 안티 같은 일생을 Gimme"
+                "pronunciation": "소레 유에니 안치나 잇쇼- Gimme",
+                "ko": "그 때문에 안티 같은 일생을 Gimme",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>浅<rt>あさ</rt></ruby>いキャパシティ まいどおおきに",
-                "pronunciation": "",
-                "ko": "얕은 수용력, 매번 고맙네"
+                "pronunciation": "아사이 캬파시티 마이도오-키니",
+                "ko": "얕은 수용력, 매번 고맙네",
+                "singer": "miku"
             },
             {
                 "ja": "つまるとこ <ruby>人生<rt>じんせい</rt></ruby>ずっと<ruby>地味<rt>じみ</rt></ruby>",
-                "pronunciation": "",
-                "ko": "결국 인생은 계속 수수해"
+                "pronunciation": "츠마루토코 진세- 즛토 지미",
+                "ko": "결국 인생은 계속 수수해",
+                "singer": "miku"
             },
             {
                 "ja": "｢<ruby>憎<rt>にく</rt></ruby>たらしい！｣｢<ruby>痛<rt>いた</rt></ruby>い<ruby>痛<rt>いた</rt></ruby>しい！｣",
-                "pronunciation": "",
-                "ko": "\"밉살스러워!\" \"아파 보여!\""
+                "pronunciation": "니쿠타라시-! 이타이 이타시-!",
+                "ko": "\"밉살스러워!\" \"아파 보여!\"",
+                "singer": "teto"
             },
             {
-                "ja": "<ruby>無視出来<rt>むしでき</rt></ruby>ないのが<ruby>一層<rt>いっそう</rt></ruby>",
-                "pronunciation": "",
-                "ko": "무시할 수 없는 게 한층 더"
+                "ja": "<ruby>無視<rt>むし</rt></ruby><ruby>出来<rt>でき</rt></ruby>ないのが<ruby>一層<rt>いっそう</rt></ruby>",
+                "pronunciation": "무시 데키나이노가 잇소-",
+                "ko": "무시할 수 없는 게 한층 더",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>腹立<rt>はらだ</rt></ruby>たしい <ruby>苛立<rt>いらだ</rt></ruby>たしい",
-                "pronunciation": "",
-                "ko": "화나고 짜증나"
+                "pronunciation": "하라다타시- 이라다타시-",
+                "ko": "화나고 짜증나",
+                "singer": "teto"
             },
             {
                 "ja": "そろそろ<ruby>飽<rt>あ</rt></ruby>きた <ruby>自画自賛<rt>じがじさん</rt></ruby>に",
-                "pronunciation": "",
-                "ko": "슬슬 질렸어, 자화자찬에는"
+                "pronunciation": "소로소로 아키타 지가지산니",
+                "ko": "슬슬 질렸어, 자화자찬에는",
+                "singer": "teto"
             },
             {
                 "ja": "(Look around!!)",
                 "pronunciation": "",
-                "ko": "Look around!!"
+                "ko": "Look around!!",
+                "singer": "teto"
             },
             {
                 "ja": "ライクの<ruby>反対<rt>はんたい</rt></ruby>はアパシー",
-                "pronunciation": "",
-                "ko": "라이크의 반대는 무관심"
+                "pronunciation": "라이쿠노 한타이와 아파시",
+                "ko": "라이크의 반대는 무관심",
+                "singer": "teto"
             },
             {
                 "ja": "≒ <ruby>繋<rt>つな</rt></ruby>がれた<ruby>証<rt>あかし</rt></ruby>",
-                "pronunciation": "",
-                "ko": "거의 이어졌다는 증거"
+                "pronunciation": "니하 이쿼루 츠나가레타 아카시",
+                "ko": "거의 이어졌다는 증거",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>切<rt>き</rt></ruby>り<ruby>離<rt>はな</rt></ruby>せない<ruby>関係<rt>かんけい</rt></ruby>",
-                "pronunciation": "",
-                "ko": "떼어 낼 수 없는 관계"
+                "pronunciation": "키리하나세나이 칸케-",
+                "ko": "떼어 낼 수 없는 관계",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>逸<rt>そ</rt></ruby>らしてしまいたいわ",
-                "pronunciation": "",
-                "ko": "외면해 버리고 싶어"
+                "pronunciation": "소라시테 시마이타이와",
+                "ko": "외면해 버리고 싶어",
+                "singer": "teto"
             },
             {
                 "ja": "これは<ruby>所謂<rt>いわゆる</rt></ruby> ヘイトスピーチ",
-                "pronunciation": "",
-                "ko": "이건 이른바 헤이트 스피치"
+                "pronunciation": "코레와 이와유루 헤이토 스피-치",
+                "ko": "이건 이른바 헤이트 스피치",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>匿名性<rt>とくめいせい</rt></ruby>の<ruby>声明<rt>せいめい</rt></ruby>を<ruby>生命<rt>せいめい</rt></ruby>に<ruby>載<rt>の</rt></ruby>せてんだ",
-                "pronunciation": "",
-                "ko": "익명성의 성명을 생명에 실어 놓은 거야"
+                "pronunciation": "토쿠메-세-노 세-메-오 세-메-니 노세텐다",
+                "ko": "익명성의 성명을 생명에 실어 놓은 거야",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>鳴<rt>な</rt></ruby>り<ruby>止<rt>や</rt></ruby>まないサイレン <ruby>近<rt>ちか</rt></ruby>づく<ruby>度<rt>たび</rt></ruby>に<ruby>痙攣<rt>けいれん</rt></ruby>",
-                "pronunciation": "",
-                "ko": "그치지 않는 사이렌, 가까워질 때마다 경련"
+                "pronunciation": "나리야마나이 사이렌 치카즈쿠 타비니 케-렌",
+                "ko": "그치지 않는 사이렌, 가까워질 때마다 경련",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>赤信号<rt>あかしんごう</rt></ruby>にずっと<ruby>従順<rt>じゅうじゅん</rt></ruby>です。",
-                "pronunciation": "",
-                "ko": "빨간불에 줄곧 순종합니다."
+                "pronunciation": "아카신고-니 즛토 쥬-쥰데스.",
+                "ko": "빨간불에 줄곧 순종합니다.",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>大体<rt>だいたい</rt></ruby> アナタのコト アタシ",
-                "pronunciation": "",
+                "pronunciation": "다이타이 아나타노 코토 아타시",
                 "ko": "대체로 너에 대해 나는"
             },
             {
                 "ja": "ダイダイダイダイダイキライ",
-                "pronunciation": "",
+                "pronunciation": "다이다이다이다이키라이",
                 "ko": "정말정말정말정말정말 싫어"
             },
             {
                 "ja": "OMG <ruby>情<rt>なさ</rt></ruby>けない <ruby>最早<rt>もはや</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "OMG 나사케나이 모하야",
                 "ko": "OMG 한심해, 이젠"
             },
             {
                 "ja": "バイバイバイバイバイしたい",
-                "pronunciation": "",
+                "pronunciation": "바이바이바이바이바이 시타이",
                 "ko": "바이바이바이바이바이 하고 싶어"
             },
             {
                 "ja": "<ruby>脳内<rt>のうない</rt></ruby>も<ruby>予測不能<rt>よそくふのう</rt></ruby> <ruby>故<rt>ゆえ</rt></ruby>に",
-                "pronunciation": "",
+                "pronunciation": "노-나이모 요소쿠후노- 유에니",
                 "ko": "머릿속도 예측 불능, 그러니"
             },
             {
                 "ja": "<ruby>解解解解解<rt>かいかいかいかいかい</rt></ruby>は<ruby>無<rt>な</rt></ruby>い",
-                "pronunciation": "",
+                "pronunciation": "카이카이카이카이카이와 나이",
                 "ko": "해해해해해답은 없어"
             },
             {
                 "ja": "どうだい？アタシのコト アナタ",
-                "pronunciation": "",
+                "pronunciation": "도-다이? 아타시노 코토 아나타",
                 "ko": "어때? 나에 대해 너는"
             },
             {
                 "ja": "ダイダイダイダイダイキライになった？",
-                "pronunciation": "",
+                "pronunciation": "다이다이다이다이키라이니 낫타?",
                 "ko": "정말정말정말정말정말 싫어하게 됐어?"
             },
             {
                 "ja": "あァ <ruby>百害<rt>ひゃくがい</rt></ruby>あって<ruby>一利<rt>いちり</rt></ruby>ナシ Nothing Not see",
-                "pronunciation": "",
+                "pronunciation": "아- 햐쿠가이앗테 이치리 나시 Nothing Not see",
                 "ko": "아아, 백해무익 Nothing Not see"
             },
             {
                 "ja": "もしタラレバ<ruby>並<rt>なら</rt></ruby>べてもニコチンだし",
-                "pronunciation": "",
+                "pronunciation": "모시 타라레바나라베테모 니코친다시",
                 "ko": "만약을 늘어놓아도 니코틴일 뿐이고"
             },
             {
-                "ja": "I miss youって<ruby>近付<rt>ちかづ</rt></ruby>いた<ruby>結末<rt>けまつ</rt></ruby>は<ruby>凡<rt>ぼん</rt></ruby>ミス <ruby>凡<rt>ぼん</rt></ruby>ミス",
-                "pronunciation": "",
+                "ja": "I miss youって<ruby>近<rt>ちか</rt></ruby><ruby>付<rt>づ</rt></ruby>いた<ruby>結末<rt>けまつ</rt></ruby>は<ruby>凡<rt>ぼん</rt></ruby>ミス <ruby>凡<rt>ぼん</rt></ruby>ミス",
+                "pronunciation": "I miss you떼 치카즈이타 케마츠와 본미스 본미스",
                 "ko": "I miss you라며 다가간 결말은 평범한 실수, 평범한 실수"
             },
             {
                 "ja": "センキュー <ruby>反面教師<rt>はんめんきょうし</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "센큐- 한멘쿄-시",
                 "ko": "Thank you, 반면교사"
             },
             {
                 "ja": "<ruby>後味<rt>あとあじ</rt></ruby> <ruby>一生消<rt>いっしょうき</rt></ruby>えてくんないわ",
-                "pronunciation": "",
+                "pronunciation": "아토 아지 잇쇼-키에데쿤나이와",
                 "ko": "뒷맛은 평생 사라지지 않아"
             },
             {
                 "ja": "よしよし いい<ruby>子<rt>こ</rt></ruby>ね",
-                "pronunciation": "",
-                "ko": "그래 그래, 착한 아이네"
+                "pronunciation": "요시 요시 이-코네",
+                "ko": "그래 그래, 착한 아이네",
+                "singer": "teto"
             },
             {
-                "ja": "<ruby>笑顔振<rt>えがおふ</rt></ruby>り<ruby>撒<rt>ま</rt></ruby>き パラパラ いい<ruby>子<rt>こ</rt></ruby>ね",
-                "pronunciation": "",
-                "ko": "미소를 뿌리며 팔랑팔랑, 착한 아이네"
+                "ja": "<ruby>笑顔<rt>えがお</rt></ruby><ruby>振<rt>ふ</rt></ruby>り<ruby>撒<rt>ま</rt></ruby>き パラパラ いい<ruby>子<rt>こ</rt></ruby>ね",
+                "pronunciation": "에가오 후리 마키 파라파라 이-코네",
+                "ko": "미소를 뿌리며 팔랑팔랑, 착한 아이네",
+                "singer": "teto"
             },
             {
                 "ja": "だけど だけど その<ruby>本性<rt>ほんしょう</rt></ruby>は？",
-                "pronunciation": "",
-                "ko": "하지만 하지만 그 본성은?"
+                "pronunciation": "다케도 다케도 소노 혼쇼-와?",
+                "ko": "하지만 하지만 그 본성은?",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>善悪<rt>ぜんあく</rt></ruby>の<ruby>区別<rt>くべつ</rt></ruby>も<ruby>付<rt>つ</rt></ruby>かないの？はぁ。",
-                "pronunciation": "",
-                "ko": "선악의 구별도 못 하는 거야? 하아."
+                "pronunciation": "젠아쿠노 쿠베츠모 츠카나이노? 하-.",
+                "ko": "선악의 구별도 못 하는 거야? 하아.",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>減点方式<rt>げんてんほうしき</rt></ruby>で<ruby>取<rt>と</rt></ruby>り<ruby>巻<rt>ま</rt></ruby>く<ruby>環境<rt>かんきょう</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>かれて",
-                "pronunciation": "",
-                "ko": "감점 방식으로 둘러싼 환경에 휩쓸려"
+                "pronunciation": "겐텐호-시키데 토리마쿠 칸쿄-니 마카레테",
+                "ko": "감점 방식으로 둘러싼 환경에 휩쓸려",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>生涯<rt>しょうがい</rt></ruby>、<ruby>痛<rt>いた</rt></ruby>い！<ruby>痛<rt>いた</rt></ruby>い！<ruby>痛<rt>いた</rt></ruby>い！も<ruby>聞<rt>き</rt></ruby>かれないわ！って",
-                "pronunciation": "",
-                "ko": "평생 아파! 아파! 아파!도 들어주지 않는다고"
+                "pronunciation": "쇼-가이 이타이! 이타이! 이타이!모 키카레나이왓테",
+                "ko": "평생 아파! 아파! 아파!도 들어주지 않는다고",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>当然<rt>とうぜん</rt></ruby>の<ruby>報<rt>むく</rt></ruby>いにクラっちゃった",
-                "pronunciation": "",
-                "ko": "당연한 응보를 맞아 버렸어"
+                "pronunciation": "토-젠노 무쿠이니 쿠랏챳타",
+                "ko": "당연한 응보를 맞아 버렸어",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>人<rt>ひと</rt></ruby>は<ruby>鏡<rt>かがみ</rt></ruby>なんです",
-                "pronunciation": "",
-                "ko": "사람은 거울입니다"
+                "pronunciation": "히토와 카가미난데스",
+                "ko": "사람은 거울입니다",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>実<rt>じつ</rt></ruby>のところ <ruby>依存<rt>いぞん</rt></ruby>は<ruby>両辺<rt>りょうへん</rt></ruby>です",
-                "pronunciation": "",
-                "ko": "실은 의존은 양쪽에 있습니다"
+                "pronunciation": "지츠노 토코로 이존와 료-헨데스",
+                "ko": "실은 의존은 양쪽에 있습니다",
+                "singer": "miku"
             },
             {
                 "ja": "シャットダウンしても<ruby>付<rt>つ</rt></ruby>き<ruby>纏<rt>まと</rt></ruby>う",
-                "pronunciation": "",
-                "ko": "셧다운해도 따라붙어"
+                "pronunciation": "샷토다운시테모 츠키마토우",
+                "ko": "셧다운해도 따라붙어",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>己<rt>おのれ</rt></ruby>の<ruby>弱<rt>よわ</rt></ruby>さが<ruby>不甲斐<rt>ふがい</rt></ruby>ない",
-                "pronunciation": "",
-                "ko": "자신의 약함이 한심해"
+                "pronunciation": "오노레노 요와사가 후가이 나이",
+                "ko": "자신의 약함이 한심해",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>全部<rt>ぜんぶ</rt></ruby> <ruby>全部<rt>ぜんぶ</rt></ruby> アンタのせいって",
-                "pronunciation": "",
-                "ko": "전부 전부 네 탓이라고"
+                "pronunciation": "젠부 젠부 안타노 세잇테",
+                "ko": "전부 전부 네 탓이라고",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>反吐<rt>へど</rt></ruby>が<ruby>出<rt>で</rt></ruby>るくらいに<ruby>止<rt>と</rt></ruby>まんないわ",
-                "pronunciation": "",
-                "ko": "구역질이 날 만큼 멈추질 않아"
+                "pronunciation": "헤도가 데루 쿠라이니 토만나이와",
+                "ko": "구역질이 날 만큼 멈추질 않아",
+                "singer": "teto"
             },
             {
                 "ja": "いっその<ruby>事<rt>こと</rt></ruby> <ruby>切<rt>き</rt></ruby>り<ruby>離<rt>はな</rt></ruby>せた<ruby>方<rt>ほう</rt></ruby>が<ruby>楽<rt>らく</rt></ruby>なのにな",
-                "pronunciation": "",
-                "ko": "차라리 떼어 낼 수 있다면 편할 텐데"
+                "pronunciation": "잇소노 코토 키리하나세타 호-가 라쿠나노니나",
+                "ko": "차라리 떼어 낼 수 있다면 편할 텐데",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>大体<rt>だいたい</rt></ruby> アナタのコト アタシ",
-                "pronunciation": "",
+                "pronunciation": "다이타이 아나타노 코토 아타시",
                 "ko": "대체로 너에 대해 나는"
             },
             {
                 "ja": "ダイダイダイダイダイキライ",
-                "pronunciation": "",
+                "pronunciation": "다이다이다이다이키라이",
                 "ko": "정말정말정말정말정말 싫어"
             },
             {
                 "ja": "OMG <ruby>情<rt>なさ</rt></ruby>けない <ruby>最早<rt>もはや</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "OMG 나사케나이 모하야",
                 "ko": "OMG 한심해, 이젠"
             },
             {
                 "ja": "バイバイバイバイバイしたい",
-                "pronunciation": "",
+                "pronunciation": "바이바이바이바이바이 시타이",
                 "ko": "바이바이바이바이바이 하고 싶어"
             },
             {
                 "ja": "<ruby>脳内<rt>のうない</rt></ruby>も<ruby>予測不能<rt>よそくふのう</rt></ruby> <ruby>故<rt>ゆえ</rt></ruby>に",
-                "pronunciation": "",
+                "pronunciation": "노-나이모 요소쿠후노- 유에니",
                 "ko": "머릿속도 예측 불능, 그러니"
             },
             {
                 "ja": "<ruby>解解解解解<rt>かいかいかいかいかい</rt></ruby>は<ruby>無<rt>な</rt></ruby>い",
-                "pronunciation": "",
+                "pronunciation": "카이카이카이카이카이와 나이",
                 "ko": "해해해해해답은 없어"
             },
             {
                 "ja": "どうだい？アタシのコト アナタ",
-                "pronunciation": "",
+                "pronunciation": "도-다이? 아타시노 코토 아나타",
                 "ko": "어때? 나에 대해 너는"
             },
             {
                 "ja": "ダイダイダイダイダイキライになった？",
-                "pronunciation": "",
+                "pronunciation": "다이다이다이다이키라이니 낫타",
                 "ko": "정말정말정말정말정말 싫어하게 됐어?"
             },
             {
                 "ja": "あァ <ruby>百害<rt>ひゃくがい</rt></ruby>あって<ruby>一利<rt>いちり</rt></ruby>ナシ Nothing Not see",
-                "pronunciation": "",
+                "pronunciation": "아- 햐쿠가이앗테 이치리 나시 Nothing Not see",
                 "ko": "아아, 백해무익 Nothing Not see"
             },
             {
                 "ja": "もしタラレバ<ruby>並<rt>なら</rt></ruby>べてもニコチンだし",
-                "pronunciation": "",
+                "pronunciation": "모시 타라레바나라베테모니코친다시",
                 "ko": "만약을 늘어놓아도 니코틴일 뿐이고"
             },
             {
                 "ja": "I miss youって<ruby>近付<rt>ちかづ</rt></ruby>いた<ruby>結末<rt>けつまつ</rt></ruby>は<ruby>凡<rt>ぼん</rt></ruby>ミス <ruby>凡<rt>ぼん</rt></ruby>ミス",
-                "pronunciation": "",
+                "pronunciation": "I miss you떼 치카즈이타 케마츠와 본미스 본미스",
                 "ko": "I miss you라며 다가간 결말은 평범한 실수, 평범한 실수"
             },
             {
                 "ja": "センキュー <ruby>反面教師<rt>はんめんきょうし</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "센큐- 한멘쿄-시",
                 "ko": "Thank you, 반면교사"
             },
             {
                 "ja": "<ruby>後味<rt>あとあじ</rt></ruby> <ruby>一生消<rt>いっしょうき</rt></ruby>えてくんないわ",
-                "pronunciation": "",
+                "pronunciation": "아토 아지 잇쇼-키에데쿤나이와",
                 "ko": "뒷맛은 평생 사라지지 않아"
             }
         ]
@@ -4402,192 +4438,208 @@
         "lyrics": [
             {
                 "ja": "はァ〜ダル！",
-                "pronunciation": "",
+                "pronunciation": "하- 다루!",
                 "ko": "하아, 귀찮아!"
             },
             {
                 "ja": "はァ〜ダル。",
-                "pronunciation": "",
+                "pronunciation": "하- 다루.",
                 "ko": "하아, 귀찮아."
             },
             {
                 "ja": "<ruby>表面張力<rt>ひょうめんちょうりょく</rt></ruby>で<ruby>浮<rt>う</rt></ruby>かんだ<ruby>防衛本能<rt>ぼうえいほんのう</rt></ruby>です。",
-                "pronunciation": "",
-                "ko": "표면장력으로 떠오른 방위 본능입니다."
+                "pronunciation": "효-멘쵸-료쿠데 우칸다 포-에-혼노-데스.",
+                "ko": "표면장력으로 떠오른 방위 본능입니다.",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>気取<rt>きど</rt></ruby>った<ruby>優等生<rt>ゆうとうせい</rt></ruby>w",
-                "pronunciation": "",
-                "ko": "잘난 척하는 모범생ㅋ"
+                "pronunciation": "키돗타 유-토-세-ㅋ",
+                "ko": "잘난 척하는 모범생ㅋ",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>上辺<rt>うわべ</rt></ruby>に <ruby>頼<rt>たよ</rt></ruby>りきった お<ruby>口<rt>くち</rt></ruby>がBigger",
-                "pronunciation": "",
-                "ko": "겉치레에만 의지한 입이 Bigger"
+                "pronunciation": "우와베니 타오리킷타 오쿠치가 Bigger",
+                "ko": "겉치레에만 의지한 입이 Bigger",
+                "singer": "miku"
             },
             {
-                "ja": "お<ruby>陰様<rt>おかげさま</rt></ruby>で<ruby>人生<rt>じんせい</rt></ruby><ruby>楽<rt>たの</rt></ruby>しいか？",
-                "pronunciation": "",
-                "ko": "덕분에 인생 즐거우신가?"
+                "ja": "お<ruby>陰様<rt>かげさま</rt></ruby>で<ruby>人生<rt>じんせい</rt></ruby><ruby>楽<rt>たの</rt></ruby>しいか？",
+                "pronunciation": "오카게사마데 진세-타노시-카?",
+                "ko": "덕분에 인생 즐거우신가?",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>脳裏<rt>のうり</rt></ruby>に<ruby>映<rt>うつ</rt></ruby>る<ruby>表裏<rt>ひょうり</rt></ruby>",
-                "pronunciation": "",
-                "ko": "뇌리에 비치는 앞뒤"
+                "pronunciation": "노-리니 우츠루 효-리",
+                "ko": "뇌리에 비치는 앞뒤",
+                "singer": "miku"
             },
             {
                 "ja": "もうどうしようもない<ruby>矜恃<rt>きょうじ</rt></ruby>",
-                "pronunciation": "",
-                "ko": "이젠 어쩔 수 없는 긍지"
+                "pronunciation": "모-도-시요-모 나이 쿄-지",
+                "ko": "이젠 어쩔 수 없는 긍지",
+                "singer": "miku"
             },
             {
                 "ja": "<ruby>安売<rt>やすう</rt></ruby>りバーゲンセール",
-                "pronunciation": "",
-                "ko": "헐값 바겐세일"
+                "pronunciation": "야스-리 바-겐세-루",
+                "ko": "헐값 바겐세일",
+                "singer": "miku"
             },
             {
                 "ja": "プライドのベール",
-                "pronunciation": "",
-                "ko": "프라이드의 베일"
+                "pronunciation": "푸라이도노 베루",
+                "ko": "프라이드의 베일",
+                "singer": "miku"
             },
             {
                 "ja": "ばら<ruby>撒<rt>ま</rt></ruby>く<ruby>出会<rt>であ</rt></ruby>いメール",
-                "pronunciation": "",
-                "ko": "마구 뿌리는 만남 메일"
+                "pronunciation": "바라 마쿠 데아이 메-루",
+                "ko": "마구 뿌리는 만남 메일",
+                "singer": "miku"
             },
             {
                 "ja": "はァ、",
-                "pronunciation": "",
-                "ko": "하아,"
+                "pronunciation": "하-,",
+                "ko": "하아,",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>全部全部<rt>ぜんぶぜんぶ</rt></ruby>こんなんばっかだ",
-                "pronunciation": "",
-                "ko": "전부 전부 이런 것뿐이야"
+                "pronunciation": "젠부 젠부 콘난 밧카다",
+                "ko": "전부 전부 이런 것뿐이야",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>期待<rt>きたい</rt></ruby>はもう<ruby>散々<rt>さんざん</rt></ruby>！バッカだw",
-                "pronunciation": "",
-                "ko": "기대는 이미 지긋지긋해! 바보 같아ㅋ"
+                "pronunciation": "키타이와 모- 산잔! 밧카다ㅋ",
+                "ko": "기대는 이미 지긋지긋해! 바보 같아ㅋ",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>正当化<rt>せいとうか</rt></ruby>される<ruby>政党<rt>せいとう</rt></ruby>",
-                "pronunciation": "",
-                "ko": "정당화되는 정당"
+                "pronunciation": "세-토-카사레루 세-토-",
+                "ko": "정당화되는 정당",
+                "singer": "teto"
             },
             {
                 "ja": "｢<ruby>辞職<rt>じしょく</rt></ruby>を<ruby>要求<rt>ようきゅう</rt></ruby>します｣→は？",
-                "pronunciation": "",
-                "ko": "\"사직을 요구합니다\" → 뭐?"
+                "pronunciation": "지쇼쿠오 요-큐-시마스 -> 하?",
+                "ko": "\"사직을 요구합니다\" → 뭐?",
+                "singer": "teto"
             },
             {
-                "ja": "<ruby>鼻<rt>はな</rt></ruby>についた <ruby>悪魔<rt>あくま</rt></ruby>が<ruby>突<rt>つ</rt></ruby>いた <ruby>君<rt>きみ</rt></ruby>へのTwitter",
-                "pronunciation": "",
-                "ko": "코에 거슬린 악마가 찌른 너를 향한 Twitter"
+                "ja": "<ruby>鼻<rt>はな</rt></ruby>についた <ruby>悪魔<rt>あくま</rt></ruby>が<ruby>突<rt>つ</rt></ruby>いた <ruby>君<rt>きみ</rt></ruby>へのT*itter",
+                "pronunciation": "하나니 츠이타 아쿠마가 츠이타 키미에노 Twitter",
+                "ko": "코에 거슬린 악마가 찌른 너를 향한 Twitter",
+                "singer": "teto"
             },
             {
                 "ja": "いや、これ<ruby>全部<rt>ぜんぶ</rt></ruby>、<ruby>正当防衛<rt>せいとうぼうえい</rt></ruby>です。",
-                "pronunciation": "",
-                "ko": "아니, 이건 전부 정당방위입니다."
+                "pronunciation": "이야, 코레 젠부 ",
+                "ko": "아니, 이건 전부 정당방위입니다.",
+                "singer": "teto"
             },
             {
                 "ja": "はァ〜ダル ダダダダダル",
-                "pronunciation": "",
+                "pronunciation": "하- 다루 다다다다다루",
                 "ko": "하아, 귀찮아 따따따따따분해"
             },
             {
                 "ja": "ダダダダダル ダル ダル",
-                "pronunciation": "",
+                "pronunciation": "다다다다다루 다루 다루",
                 "ko": "따따따따따분해, 따분해 따분해"
             },
             {
                 "ja": "アタマわるわる おツムが<ruby>下<rt>さ</rt></ruby>がる",
-                "pronunciation": "",
+                "pronunciation": "아타마 와루와루 오츠마가 사가루",
                 "ko": "머리가 나빠져, 두뇌가 처져"
             },
             {
                 "ja": "<ruby>故<rt>ゆえ</rt></ruby>に<ruby>軽々<rt>かるがる</rt></ruby> <ruby>変<rt>か</rt></ruby>わる<ruby>変<rt>か</rt></ruby>わる",
-                "pronunciation": "",
+                "pronunciation": "유에니 카루가루 카와루 카와루",
                 "ko": "그러니 가볍게 변하고 또 변해"
             },
             {
                 "ja": "はァ〜ダル ダダダダダル",
-                "pronunciation": "",
+                "pronunciation": "하- 다루 다다다다다루",
                 "ko": "하아, 귀찮아 따따따따따분해"
             },
             {
                 "ja": "ダダダダダル ダル ダル",
-                "pronunciation": "",
+                "pronunciation": "다다다다다루 다루 다루",
                 "ko": "따따따따따분해, 따분해 따분해"
             },
             {
                 "ja": "<ruby>嫌<rt>いや</rt></ruby>でも<ruby>残<rt>のこ</rt></ruby>る グダグダなバグ",
-                "pronunciation": "",
+                "pronunciation": "이야데모 노코루 구다구다나바구",
                 "ko": "싫어도 남는 질척질척한 버그"
             },
             {
                 "ja": "こびり<ruby>付<rt>つ</rt></ruby>く！ ダル ダル ダル‬；；",
-                "pronunciation": "",
+                "pronunciation": "코비리 츠쿠! 다루 다루 다루;;",
                 "ko": "달라붙어! 따분해 따분해 따분해;;"
             },
             {
                 "ja": "クソッタレが！<ruby>消<rt>き</rt></ruby>えちゃいな！",
-                "pronunciation": "",
+                "pronunciation": "쿠솟타레가 키에챠이나",
                 "ko": "빌어먹을! 사라져 버려!"
             },
             {
                 "ja": "<ruby>集<rt>つど</rt></ruby>う<ruby>怠惰<rt>たいだ</rt></ruby> <ruby>会話<rt>かいわ</rt></ruby> ナイナイ<ruby>脳内電波<rt>のうないでんぱ</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "츠도우 타이다 카이와 나이나이 노-나이덴파",
                 "ko": "모여드는 나태, 대화, 없는 없는 뇌내 전파"
             },
             {
                 "ja": "<ruby>成<rt>な</rt></ruby>り<ruby>上<rt>あ</rt></ruby>がるジンテーゼ",
-                "pronunciation": "",
+                "pronunciation": "나리아가루 진테-제",
                 "ko": "벼락출세하는 진테제"
             },
             {
                 "ja": "<ruby>望<rt>のぞ</rt></ruby>んでないよ <ruby>連帯戦<rt>れんたいせん</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "노존데나이요 렌타이센",
                 "ko": "바라지 않았어, 연대전 따위"
             },
             {
                 "ja": "はァ〜ダル！",
-                "pronunciation": "",
+                "pronunciation": "하- 다루!",
                 "ko": "하아, 귀찮아!"
             },
             {
                 "ja": "<ruby>不名誉<rt>ふめいよ</rt></ruby>な<ruby>選挙<rt>せんきょ</rt></ruby> <ruby>蹴<rt>け</rt></ruby>っ<ruby>飛<rt>と</rt></ruby>ばして WANTED=ナシ",
-                "pronunciation": "",
+                "pronunciation": "후메-요나 센쿄 켓토바시테 Wanted=나시",
                 "ko": "불명예스러운 선거를 걷어차고 WANTED=없음"
             },
             {
                 "ja": "まとまって<ruby>包含<rt>ほうがん</rt></ruby>された<ruby>悲愴感<rt>ひそうかん</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "마토맛테 호-간사레타 히소-칸",
                 "ko": "한데 묶여 포함된 비장감"
             },
             {
                 "ja": "<ruby>不完全燃焼<rt>ふかんぜんねんしょう</rt></ruby> つまらないな",
-                "pronunciation": "",
+                "pronunciation": "후칸젠넨쇼- 츠마라나이나",
                 "ko": "불완전 연소, 재미없네"
             },
             {
                 "ja": "はァ〜ダル！",
-                "pronunciation": "",
+                "pronunciation": "하- 다루!",
                 "ko": "하아, 귀찮아!"
             },
             {
                 "ja": "はァ〜ダル！",
-                "pronunciation": "",
+                "pronunciation": "하- 다루!",
                 "ko": "하아, 귀찮아!"
             },
             {
                 "ja": "はァ〜ダル！",
-                "pronunciation": "",
+                "pronunciation": "하- 다루!",
                 "ko": "하아, 귀찮아!"
             },
             {
                 "ja": "はァ〜ダル！",
-                "pronunciation": "",
+                "pronunciation": "하- 다루!",
                 "ko": "하아, 귀찮아!"
             },
             {
@@ -4597,172 +4649,189 @@
             },
             {
                 "ja": "→<ruby>大草原<rt>だいそうげん</rt></ruby>www",
-                "pronunciation": "",
-                "ko": "→ 대초원ㅋㅋㅋ"
+                "pronunciation": "다이소-겐ㅋㅋㅋ",
+                "ko": "→ 대폭소ㅋㅋㅋ",
+                "singer":"miku"
             },
             {
                 "ja": "Likeを<ruby>裏<rt>うら</rt></ruby>っ<ruby>返<rt>かえ</rt></ruby>したら「<ruby>面倒<rt>めんどう</rt></ruby>くせェ。」",
-                "pronunciation": "",
-                "ko": "Like를 뒤집으면 \"귀찮아.\""
+                "pronunciation": "Like오 우랏카에시타라 \"멘도-쿠세-.\"",
+                "ko": "Like를 뒤집으면 \"귀찮아.\"",
+                "singer":"teto"
             },
             {
                 "ja": "<ruby>奇<rt>き</rt></ruby>を<ruby>衒<rt>てら</rt></ruby>っても <ruby>視<rt>み</rt></ruby>える <ruby>第六感<rt>だいろっかん</rt></ruby>",
-                "pronunciation": "",
-                "ko": "튀는 척해도 보이는 육감"
+                "pronunciation": "키오 테랏테모 미에루 다이록칸",
+                "ko": "튀는 척해도 보이는 육감",
+                "singer":"teto"
             },
             {
                 "ja": "どしたん<ruby>話聞<rt>はなしき</rt></ruby>こうか？",
-                "pronunciation": "",
-                "ko": "왜 그래, 이야기 들어줄까?"
+                "pronunciation": "도시탄 하나시키 코-카?",
+                "ko": "왜 그래, 이야기 들어줄까?",
+                "singer":"miku"
             },
             {
                 "ja": "そっかそっか <ruby>災難<rt>さいなん</rt></ruby>ね",
-                "pronunciation": "",
-                "ko": "그렇구나 그렇구나, 재난이네"
+                "pronunciation": "속카 속카 사이난네",
+                "ko": "그렇구나 그렇구나, 재난이네",
+                "singer":"miku"
             },
             {
                 "ja": "<ruby>身内固<rt>みうちがた</rt></ruby>め <ruby>組織票<rt>そしきひょう</rt></ruby>",
-                "pronunciation": "",
-                "ko": "측근으로 굳히기, 조직표"
+                "pronunciation": "미우치가타메 소시키효-",
+                "ko": "측근으로 굳히기, 조직표",
+                "singer":"miku"
             },
             {
                 "ja": "<ruby>傷舐<rt>きずな</rt></ruby>め<ruby>合<rt>あ</rt></ruby>い <ruby>和気<rt>わき</rt></ruby>あいあいなShow",
-                "pronunciation": "",
-                "ko": "상처를 서로 핥으며 화기애애한 Show"
+                "pronunciation": "키즈나메아이 와키아이아이나 Show",
+                "ko": "상처를 서로 핥으며 화기애애한 Show",
+                "singer":"miku"
             },
             {
                 "ja": "しょうもない！おもんない！",
-                "pronunciation": "",
-                "ko": "시시해! 재미없어!"
+                "pronunciation": "쇼-모나이! 오몬나이!",
+                "ko": "시시해! 재미없어!",
+                "singer":"teto"
             },
             {
                 "ja": "あ、<ruby>流<rt>なが</rt></ruby>れ<ruby>星<rt>ぼし</rt></ruby>。<ruby>全員<rt>ぜんいん</rt></ruby><ruby>死<rt>し</rt></ruby>にますように。",
-                "pronunciation": "",
-                "ko": "아, 별똥별. 전부 죽게 해 주세요."
+                "pronunciation": "아, 나가레보시. 젠인 시니마스 요-니.",
+                "ko": "아, 별똥별. 전부 죽게 해 주세요.",
+                "singer":"teto"
             },
             {
                 "ja": "ブレブレ<ruby>下振<rt>したふ</rt></ruby>れたプレデター",
-                "pronunciation": "",
-                "ko": "흔들흔들 하락한 프레데터"
+                "pronunciation": "부레부레 시타후레타 푸레데타-",
+                "ko": "흔들흔들 하락한 프레데터",
+                "singer":"teto"
             },
             {
                 "ja": "<ruby>破<rt>やぶ</rt></ruby>れぶれ ラブレター",
-                "pronunciation": "",
-                "ko": "찢기고 흔들리는 러브레터"
+                "pronunciation": "야부레부레 라부레타-",
+                "ko": "찢기고 흔들리는 러브레터",
+                "singer":"teto"
             },
             {
                 "ja": "<ruby>人生類友<rt>じんせいるいとも</rt></ruby> お<ruby>互<rt>たが</rt></ruby>いさまに<ruby>悪<rt>わる</rt></ruby>いとも",
-                "pronunciation": "",
-                "ko": "인생은 유유상종, 서로가 나쁘다고 해도"
+                "pronunciation": "진세-이루이토모 오타가이사마니 와루이토모",
+                "ko": "인생은 유유상종, 서로가 나쁘다고 해도",
+                "singer":"miku"
             },
             {
                 "ja": "<ruby>欠陥品<rt>けっかんひん</rt></ruby>のため <ruby>返品<rt>へんぴん</rt></ruby>はお<ruby>断<rt>ことわ</rt></ruby>りのようです。",
-                "pronunciation": "",
-                "ko": "결함품이라 반품은 사절인 모양입니다."
+                "pronunciation": "켓칸힌노 타메 헨핀와 오코토와리노 요-데스",
+                "ko": "결함품이라 반품은 사절인 모양입니다.",
+                "singer":"miku"
             },
             {
                 "ja": "<ruby>脳裏<rt>のうり</rt></ruby>に<ruby>映<rt>うつ</rt></ruby>る<ruby>表裏<rt>ひょうり</rt></ruby>",
-                "pronunciation": "",
-                "ko": "뇌리에 비치는 앞뒤"
+                "pronunciation": "노-리니 우츠루 효-리",
+                "ko": "뇌리에 비치는 앞뒤",
+                "singer":"teto"
             },
             {
                 "ja": "もうどうしようもない<ruby>矜恃<rt>きょうじ</rt></ruby>",
-                "pronunciation": "",
-                "ko": "이젠 어쩔 수 없는 긍지"
+                "pronunciation": "모-도-시요-모 나이 쿄-지",
+                "ko": "이젠 어쩔 수 없는 긍지",
+                "singer":"teto"
             },
             {
                 "ja": "ハニー&ダーリン とかない",
-                "pronunciation": "",
-                "ko": "허니&달링 같은 건 없어"
+                "pronunciation": "하니-&다-린 토카 나이",
+                "ko": "허니&달링 같은 건 없어",
+                "singer":"teto"
             },
             {
                 "ja": "アレゴリー <ruby>頭<rt>あたま</rt></ruby>の<ruby>片隅<rt>かたすみ</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでんだ",
-                "pronunciation": "",
-                "ko": "알레고리, 머릿속 한구석에 살고 있어"
+                "pronunciation": "아레고리- 아타마노 카타스미니 슨덴다",
+                "ko": "알레고리, 머릿속 한구석에 살고 있어",
+                "singer":"teto"
             },
             {
                 "ja": "はァ〜ダル ダダダダダル",
-                "pronunciation": "",
+                "pronunciation": "하-다루 다다다다다루",
                 "ko": "하아, 귀찮아 따따따따따분해"
             },
             {
                 "ja": "ダダダダダル ダル ダル",
-                "pronunciation": "",
+                "pronunciation": "다다다다다루 다루 다루",
                 "ko": "따따따따따분해, 따분해 따분해"
             },
             {
                 "ja": "アタマわるわる おツムが<ruby>下<rt>さ</rt></ruby>がる",
-                "pronunciation": "",
+                "pronunciation": "아타마 와루와루 오츠마가 사가루",
                 "ko": "머리가 나빠져, 두뇌가 처져"
             },
             {
                 "ja": "<ruby>故<rt>ゆえ</rt></ruby>に<ruby>軽々<rt>かるがる</rt></ruby> <ruby>変<rt>か</rt></ruby>わる<ruby>変<rt>か</rt></ruby>わる",
-                "pronunciation": "",
+                "pronunciation": "유에니 카루가루 카와루 카와루",
                 "ko": "그러니 가볍게 변하고 또 변해"
             },
             {
                 "ja": "はァ〜ダル ダダダダダル",
-                "pronunciation": "",
+                "pronunciation": "하-다루 다다다다다루",
                 "ko": "하아, 귀찮아 따따따따따분해"
             },
             {
                 "ja": "ダダダダダル ダル ダル",
-                "pronunciation": "",
+                "pronunciation": "다다다다다루 다루 다루",
                 "ko": "따따따따따분해, 따분해 따분해"
             },
             {
                 "ja": "<ruby>嫌<rt>いや</rt></ruby>でも<ruby>残<rt>のこ</rt></ruby>る グダグダなバグ",
-                "pronunciation": "",
+                "pronunciation": "이야데모 노코루 구다구다나바구",
                 "ko": "싫어도 남는 질척질척한 버그"
             },
             {
                 "ja": "こびり<ruby>付<rt>つ</rt></ruby>く！ ダル ダル ダル‬；；",
-                "pronunciation": "",
+                "pronunciation": "코비리 츠쿠! 다루 다루 다루;;",
                 "ko": "달라붙어! 따분해 따분해 따분해;;"
             },
             {
                 "ja": "クソッタレが！<ruby>消<rt>き</rt></ruby>えちゃいな！",
-                "pronunciation": "",
+                "pronunciation": "쿠솟타레가 키에챠이나",
                 "ko": "빌어먹을! 사라져 버려!"
             },
             {
                 "ja": "<ruby>集<rt>つど</rt></ruby>う<ruby>怠惰<rt>たいだ</rt></ruby> <ruby>会話<rt>かいわ</rt></ruby> ナイナイ<ruby>脳内電波<rt>のうないでんぱ</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "츠도우 타이다 카이와 나이나이 노-나이덴파",
                 "ko": "모여드는 나태, 대화, 없는 없는 뇌내 전파"
             },
             {
                 "ja": "<ruby>成<rt>な</rt></ruby>り<ruby>上<rt>あ</rt></ruby>がるジンテーゼ",
-                "pronunciation": "",
+                "pronunciation": "나리아가루 진테-제",
                 "ko": "벼락출세하는 진테제"
             },
             {
                 "ja": "<ruby>望<rt>のぞ</rt></ruby>んでないよ <ruby>連帯戦<rt>れんたいせん</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "노존데나이요 렌타이센",
                 "ko": "바라지 않았어, 연대전 따위"
             },
             {
                 "ja": "はァ〜ダル！",
-                "pronunciation": "",
+                "pronunciation": "하- 다루!",
                 "ko": "하아, 귀찮아!"
             },
             {
                 "ja": "<ruby>不名誉<rt>ふめいよ</rt></ruby>な<ruby>選挙<rt>せんきょ</rt></ruby> <ruby>蹴<rt>け</rt></ruby>っ<ruby>飛<rt>と</rt></ruby>ばして WANTED=ナシ",
-                "pronunciation": "",
+                "pronunciation": "후메-요나 센쿄 켓토바시테 Wanted=나시",
                 "ko": "불명예스러운 선거를 걷어차고 WANTED=없음"
             },
             {
                 "ja": "まとまって<ruby>包含<rt>ほうがん</rt></ruby>された<ruby>悲愴感<rt>ひそうかん</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "마토맛테 호-간사레타 히소-칸",
                 "ko": "한데 묶여 포함된 비장감"
             },
             {
                 "ja": "<ruby>不完全燃焼<rt>ふかんぜんねんしょう</rt></ruby> つまらないな",
-                "pronunciation": "",
+                "pronunciation": "후칸젠넨쇼- 츠마라나이나",
                 "ko": "불완전 연소, 재미없네"
             },
             {
                 "ja": "はァ〜ダル！",
-                "pronunciation": "",
+                "pronunciation": "하- 다루!",
                 "ko": "하아, 귀찮아!"
             }
         ]
@@ -5575,6 +5644,174 @@
         ]
     },
     {
+        "id": "ETC_0002",
+        "title": "抜錨",
+        "artist": "ナナホシ管弦楽団",
+        "krTitle": "발묘",
+        "krArtist": "나나호시 관현악단",
+        "videoUrl": "https://www.youtube.com/embed/C7h6-jU1DCA?si=F0HkgHFz-pSbFVYJ",
+        "Url": "https://youtu.be/C7h6-jU1DCA?si=F0HkgHFz-pSbFVYJ",
+        "singer": "ruka",
+        "lyrics": [
+            {
+                "ja": "忘れられぬものだけが　美しくはないのでしょう",
+                "pronunciation": "와스레라레누 모노 다케가 우츠쿠시쿠와 나이노데쇼-",
+                "ko": "잊지 못하는 것만이 아름다운 건 아니겠죠"
+            },
+            {
+                "ja": "忘れることばかりが　美しくはないでしょう",
+                "pronunciation": "와스레루 코토 바카리가 우츠쿠시쿠와 나이데쇼-",
+                "ko": "잊을 수 있는 것들만이 아름다운 건 아니겠죠"
+            },
+            {
+                "ja": "悲しいことばかりが　人生ではないのでしょう",
+                "pronunciation": "카나시이 코토 바카리가 진세이데와 나이노데쇼-",
+                "ko": "슬픈 것들만이 인생은 아니겠죠"
+            },
+            {
+                "ja": "さりとて喜びとは　比べ往くでしょう",
+                "pronunciation": "사리토테 요로코비토와 쿠라베 유쿠데쇼-",
+                "ko": "그렇다 해도 기쁨과는 비교할 수 있겠죠"
+            },
+            {
+                "ja": "船よ　船よ　荒波の中で　流されずいられたでしょう",
+                "pronunciation": "후네요 후네요 아라나미노 나카데 나가사레즈 이라레타데쇼-",
+                "ko": "배야, 배야, 거친 파도 속에서도 떠내려가지 않고 있었잖아요"
+            },
+            {
+                "ja": "水底に根差す　あなたと穿った少女時代",
+                "pronunciation": "미나소코니 네자스 아나타토 우갓타 쇼-죠지다이",
+                "ko": "물 밑으로 뿌리를 내린 당신과 꿰뚫은 소녀시대"
+            },
+            {
+                "ja": "さよならする頃　強いられるのは抜錨",
+                "pronunciation": "사요나라 스루 코로 시이라레루노와 바츠뵤-",
+                "ko": "이별할 때 강제되는 건 발묘"
+            },
+            {
+                "ja": "傷の数を数えて　痛みの数　指を折る",
+                "pronunciation": "키즈노 카즈오 카조에테 이타미노 카즈 유비오 오루",
+                "ko": "상처의 수를 세며 아픔의 수도 헤아려"
+            },
+            {
+                "ja": "一つあまり　小指は　愛しさのぶんね",
+                "pronunciation": "히토츠 아마리 코유비와 이토시사노 분네",
+                "ko": "하나 남은 새끼손가락은 사랑스러움의 몫이네"
+            },
+            {
+                "ja": "辛いこともありましょう　あなたの所為もありましょう",
+                "pronunciation": "츠라이 코토모 아리마쇼- 아나타노 세이모 아리마쇼-",
+                "ko": "괴로운 일도 있겠죠, 당신 탓도 있겠죠"
+            },
+            {
+                "ja": "それでも赤い糸　結わえているのでしょう",
+                "pronunciation": "소레데모 아카이 이토 유와에테 이루노데쇼-",
+                "ko": "그럼에도 붉은 실은 묶여있겠죠"
+            },
+            {
+                "ja": "底知れぬものだけに　怯えるのではないでしょう",
+                "pronunciation": "소코 시레누 모노다케니 오비에루노데와 나이데쇼-",
+                "ko": "단지 끝을 모른다는 것에 겁먹은 건 아니겠죠"
+            },
+            {
+                "ja": "届かぬものばかりが　妬ましくはないでしょう",
+                "pronunciation": "토도카누 모노 바카리가 네타마시쿠와 나이데쇼-",
+                "ko": "전할 수 없는 것들이 질투가 나는 건 아니겠죠"
+            },
+            {
+                "ja": "優しいことばかりが　優しさではないのでしょう",
+                "pronunciation": "야사시이 코토 바카리가 야사시사데와 나이노데쇼-",
+                "ko": "상냥한 것들만이 따스함은 아니겠죠"
+            },
+            {
+                "ja": "さりとて赤裸々では　こそばゆいでしょう",
+                "pronunciation": "사리토테 세키라라데와 코소바유이데쇼-",
+                "ko": "그렇다 해도 적나라하면 낯간지럽겠죠"
+            },
+            {
+                "ja": "羽よ　羽よ　人並みを望み　人波に拒まれては",
+                "pronunciation": "하네요 하네요 히토나미오 노조미 히토나미니 코바마레테와",
+                "ko": "날개여, 날개여, 평범함을 바라며 많은 사람에게 거부당해서는"
+            },
+            {
+                "ja": "皆そこを目指す　まだ葛藤があった少女時代",
+                "pronunciation": "미나 소코오 메자스 마다 캇토-가 앗타 쇼-죠-지다이",
+                "ko": "모두가 그곳을 향해 또 다시 갈등이 있었던 소녀시대"
+            },
+            {
+                "ja": "無辜でいた頃を　遠ざけるのは熱病",
+                "pronunciation": "무코-데 이타 코로오 토오자케루노와 네츠뵤-",
+                "ko": "무고했을 때를 멀리하는 건 열병"
+            },
+            {
+                "ja": "髪の長さ揃えて　爪の先を塗り直す",
+                "pronunciation": "카미노 나가사 소로에테 츠메노 사키오 누리나오스",
+                "ko": "머리 길이를 정돈하며 손톱 끝을 다시 물들여"
+            },
+            {
+                "ja": "あどけない唇も　色めき立つのね",
+                "pronunciation": "아도케나이 쿠치비루모 이로메키 타츠노네",
+                "ko": "앳된 입술도 긴장한 기색이 역력하네"
+            },
+            {
+                "ja": "叶うこともありましょう　叶わぬ人もおりましょう",
+                "pronunciation": "카나우 코토모 아리마쇼- 카나와누 히토모 오리마쇼-",
+                "ko": "이룰 수 있는 것도 있겠죠, 이루지 못한 사람도 있겠죠"
+            },
+            {
+                "ja": "それゆえ慰めずにはいられないのでしょう",
+                "pronunciation": "소레유에 나구사메즈니와 이라레나이노데쇼-",
+                "ko": "그러니까 위로해야만 하잖아요"
+            },
+            {
+                "ja": "羽よ　花よ　水面に散って",
+                "pronunciation": "하네요 하나요 미나모니 칫테",
+                "ko": "날개여, 꽃이여, 수면에 흩어져라"
+            },
+            {
+                "ja": "傷の数を数えて　痛みの数　指を折る",
+                "pronunciation": "키즈노 카즈오 카조에테 이타미노 카즈 유비오 오루",
+                "ko": "상처의 수를 세며 아픔의 수도 헤아려"
+            },
+            {
+                "ja": "一つあまり　小指は　愛しさのぶんね",
+                "pronunciation": "히토츠 아마리 코유비와 이토시사노 분네",
+                "ko": "하나 남은 새끼손가락은 사랑스러움의 몫이네"
+            },
+            {
+                "ja": "悔やむこともありましょう　わたしの所為もありましょう",
+                "pronunciation": "쿠야무 코토모 아리마쇼- 와타시노 세이모 아리마쇼-",
+                "ko": "후회하는 일도 있겠죠, 제 탓도 있겠죠"
+            },
+            {
+                "ja": "いつかは赤い糸　断ち切るのでしょう",
+                "pronunciation": "이츠카와 아카이 이토 타치키루노데쇼-",
+                "ko": "언젠가는 붉은 실도 끊어지겠죠"
+            },
+            {
+                "ja": "花びらにささやきを　哀れみから口づけを",
+                "pronunciation": "하나비라니 사사야키오 아와레미카라 쿠치즈케오",
+                "ko": "꽃잎에 속삭임을, 동정에서 오는 입맞춤을"
+            },
+            {
+                "ja": "懐かしんではじめて　過ぎ行くのでしょう",
+                "pronunciation": "나츠카신데 하지메테 스기유쿠노데쇼-",
+                "ko": "그리워하고 나서야 비로소 지나가겠죠"
+            },
+            {
+                "ja": "惑うこともありましょう　誰かの所為じゃないでしょう",
+                "pronunciation": "마도우 코토모 아리마쇼- 다레카노 세이쟈 나이데쇼-",
+                "ko": "망설이는 순간도 있겠죠, 다른 누군가의 탓은 아니잖아요"
+            },
+            {
+                "ja": "難しいものですね　愛するということは",
+                "pronunciation": "무즈카시이 모노데스네 아이스루토 유우 코토와",
+                "ko": "어려운 일이네요, 사랑한다고 하는 것은"
+            }
+        ],
+        "add_at": "2026-07-14 08:13:48"
+    },
+    {
         "id": "TT_0007",
         "add_at": "2026-05-18 11:11:59",
         "title": "㋰責任集合体",
@@ -5583,365 +5820,366 @@
         "krArtist": "마사라다",
         "videoUrl": "https://www.youtube.com/embed/c5_0NPftdlY?si=Hb1e3_yscfetfRxI",
         "Url": "https://www.youtube.com/watch?v=c5_0NPftdlY",
+        "singer": "teto",
         "lyrics": [
             {
                 "ja": "おれは しらない なにも しらない",
-                "pronunciation": "",
+                "pronunciation": "오레와 시라나이 나니모 시라나이",
                 "ko": "나는 몰라, 아무것도 몰라"
             },
             {
                 "ja": "なにも みてない だれも みてない",
-                "pronunciation": "",
+                "pronunciation": "나니모 미테나이 다레모 미테나이",
                 "ko": "아무것도 못 봤어, 누구도 못 봤어"
             },
             {
                 "ja": "そらを みても みえない よるの",
-                "pronunciation": "",
+                "pronunciation": "소라오 미테모 미에나이 요루노",
                 "ko": "하늘을 봐도 보이지 않는 밤의"
             },
             {
                 "ja": "かけた つきに うさぎ",
-                "pronunciation": "",
+                "pronunciation": "캇케타 츠키니 우사기",
                 "ko": "이지러진 달에 토끼"
             },
             {
                 "ja": "これは なんだ それが なにか？",
-                "pronunciation": "",
+                "pronunciation": "코레와 난다 소레가 나니카?",
                 "ko": "이건 뭐야, 그게 뭔데?"
             },
             {
                 "ja": "ここは たのし それで よろし",
-                "pronunciation": "",
+                "pronunciation": "코코와 타노시 소레데 요로시",
                 "ko": "여기는 즐거워, 그러면 됐어"
             },
             {
                 "ja": "はしる にげる にがす そらす",
-                "pronunciation": "",
+                "pronunciation": "하시루 니게루 니게스 소라스",
                 "ko": "달리고 도망치고 놓치고 피하고"
             },
             {
                 "ja": "<ruby>月<rt>つき</rt></ruby>の <ruby>欠<rt>か</rt></ruby>けた <ruby>場所<rt>ばしょ</rt></ruby>へ",
-                "pronunciation": "",
+                "pronunciation": "츠키노 카케타 바쇼에",
                 "ko": "달이 이지러진 곳으로"
             },
             {
                 "ja": "あらら あらら あらら あらら あらら",
-                "pronunciation": "",
+                "pronunciation": "아라라 아라라 아라라 아라라 아라라",
                 "ko": "어라라 어라라 어라라 어라라 어라라"
             },
             {
                 "ja": "あらら あらら あらら あらら あらら",
-                "pronunciation": "",
+                "pronunciation": "아라라 아라라 아라라 아라라 아라라",
                 "ko": "어라라 어라라 어라라 어라라 어라라"
             },
             {
                 "ja": "<ruby>妄想<rt>もうそう</rt></ruby> 止め<ruby>処<rt>とめど</rt></ruby>なく",
-                "pronunciation": "",
+                "pronunciation": "모-소- 토메토메도나쿠",
                 "ko": "망상은 끝도 없이"
             },
             {
                 "ja": "<ruby>創造<rt>そうぞう</rt></ruby> <ruby>咎<rt>とが</rt></ruby>めなく",
-                "pronunciation": "",
+                "pronunciation": "소-조- 토가메나쿠",
                 "ko": "창조는 꾸짖음 없이"
             },
             {
                 "ja": "<ruby>衝動<rt>しょうどう</rt></ruby> <ruby>収<rt>おさ</rt></ruby>まらず",
-                "pronunciation": "",
+                "pronunciation": "쇼-도- 오사마라즈",
                 "ko": "충동은 가라앉지 않고"
             },
             {
                 "ja": "なぜか なぜか なぜか なぜかしら？",
-                "pronunciation": "",
+                "pronunciation": "나제카 나제카 나제카 나제카시라?",
                 "ko": "왜일까 왜일까 왜일까 왜일까 몰라?"
             },
             {
                 "ja": "<ruby>最悪<rt>さいあく</rt></ruby>だ！",
-                "pronunciation": "",
+                "pronunciation": "사이아쿠다!",
                 "ko": "최악이다!"
             },
             {
                 "ja": "<ruby>公序良俗<rt>こうじょりょうぞく</rt></ruby>を<ruby>剥<rt>はい</rt></ruby>いで<ruby>脱<rt>ぬ</rt></ruby>いで<ruby>踊<rt>おど</rt></ruby>れ！",
-                "pronunciation": "",
+                "pronunciation": "코-죠료-조쿠오 하이-데 누이데 오도레!",
                 "ko": "공서양속을 벗겨 내고 벗어 던지고 춤춰라!"
             },
             {
                 "ja": "いや<ruby>最低<rt>さいてい</rt></ruby>か！",
-                "pronunciation": "",
+                "pronunciation": "이야 사이테-카!",
                 "ko": "아니, 최저인가!"
             },
             {
                 "ja": "なんでなんでつって",
-                "pronunciation": "",
+                "pronunciation": "난데 난데 츳테",
                 "ko": "왜 왜 그러냐며"
             },
             {
                 "ja": "なんかなんか<ruby>高鳴<rt>たかな</rt></ruby>って",
-                "pronunciation": "",
+                "pronunciation": "난카 난카 타카낫테",
                 "ko": "왠지 왠지 두근거려서"
             },
             {
                 "ja": "<ruby>最悪<rt>さいあく</rt></ruby>だ！",
-                "pronunciation": "",
+                "pronunciation": "사이아쿠다!",
                 "ko": "최악이다!"
             },
             {
                 "ja": "どうもこうもしねぇよ<ruby>勝手<rt>かって</rt></ruby>にしやがれ！",
-                "pronunciation": "",
+                "pronunciation": "도-모 코-모 시네-요 캇테니 시야가레!",
                 "ko": "이러지도 저러지도 않아, 마음대로 해 버려!"
             },
             {
                 "ja": "いや<ruby>最低<rt>さいてい</rt></ruby>か！",
-                "pronunciation": "",
+                "pronunciation": "이야 사이테-카!",
                 "ko": "아니, 최저인가!"
             },
             {
                 "ja": "いやーもうほんと",
-                "pronunciation": "",
+                "pronunciation": "이야- 모- 혼토",
                 "ko": "아니, 정말 이제"
             },
             {
                 "ja": "<ruby>最悪<rt>さいあく</rt></ruby>だ！だ！だ！だ！だ！",
-                "pronunciation": "",
+                "pronunciation": "사이아쿠다! 다! 다! 다! 다!",
                 "ko": "최악이다! 다! 다! 다! 다!"
             },
             {
                 "ja": "お、おう…",
-                "pronunciation": "",
+                "pronunciation": "오, 오-...",
                 "ko": "어, 응..."
             },
             {
                 "ja": "ねてもさめてもつきまとう",
-                "pronunciation": "",
+                "pronunciation": "네테모 사메테모 츠키마토-",
                 "ko": "자도 깨도 따라붙어"
             },
             {
                 "ja": "みえぬいしきのうらがわに",
-                "pronunciation": "",
+                "pronunciation": "미에누이 시키노-라가와니",
                 "ko": "보이지 않는 의식의 뒤편에"
             },
             {
                 "ja": "おおきくあいたくろいあな",
-                "pronunciation": "",
+                "pronunciation": "오-키쿠 아이타 쿠로이아나",
                 "ko": "크게 뚫린 검은 구멍"
             },
             {
                 "ja": "わかる",
-                "pronunciation": "",
+                "pronunciation": "와카루",
                 "ko": "알아"
             },
             {
                 "ja": "わかる",
-                "pronunciation": "",
+                "pronunciation": "와카루",
                 "ko": "알아"
             },
             {
                 "ja": "わかる",
-                "pronunciation": "",
+                "pronunciation": "와카루",
                 "ko": "알아"
             },
             {
                 "ja": "<ruby>許<rt>ゆる</rt></ruby>す <ruby>許<rt>ゆる</rt></ruby>せん <ruby>許<rt>ゆる</rt></ruby>す <ruby>許<rt>ゆる</rt></ruby>せ",
-                "pronunciation": "",
+                "pronunciation": "유루스 유루센 유루스 유루세",
                 "ko": "용서해, 용서 못 해, 용서해, 용서해"
             },
             {
                 "ja": "かわいい えへへ むふふ こわい",
-                "pronunciation": "",
+                "pronunciation": "카와이- 에헤헤 무후후 코와이",
                 "ko": "귀여워, 에헤헤, 무후후, 무서워"
             },
             {
                 "ja": "りんご ごりら らくご ごじら",
-                "pronunciation": "",
+                "pronunciation": "린고 고리라 라쿠고 고지라",
                 "ko": "사과 고릴라 만담 고질라"
             },
             {
                 "ja": "らくだ だぼら らまだん",
-                "pronunciation": "",
+                "pronunciation": "라쿠다 다보라 라마단",
                 "ko": "낙타 헛소리 라마단"
             },
             {
                 "ja": "わたしたち、ぜったいにみてません！！",
-                "pronunciation": "",
+                "pronunciation": "와타시타치, 젯타이니 미테마센!!",
                 "ko": "저희는 절대로 보지 않았습니다!!"
             },
             {
                 "ja": "いってません！！きいてません！！しったこっちゃありません！！",
-                "pronunciation": "",
+                "pronunciation": "잇테마센!! 키이테마센!! 싯타콧챠아리마센!!",
                 "ko": "말하지 않았습니다!! 듣지 않았습니다!! 알 바 아닙니다!!"
             },
             {
                 "ja": "ひかりをいっし！！かげにひとつき！！",
-                "pronunciation": "",
+                "pronunciation": "히카리오 잇시!! 카게니 히토츠키!!",
                 "ko": "빛을 일시 정지!! 그림자에 한 방!!"
             },
             {
                 "ja": "ゆるされざるしこうを！！あてはまらないいじょうを！！",
-                "pronunciation": "",
+                "pronunciation": "유루사레자루 시코-오!! 아테 하마라나이- 죠-오!!",
                 "ko": "용서받지 못할 사고를!! 들어맞지 않는 이상을!!"
             },
             {
                 "ja": "つつんでいきていこうじゃありませんか！！",
-                "pronunciation": "",
+                "pronunciation": "츠츤데 이키테이코-쟈 아리마센카!!",
                 "ko": "감싸 안고 살아가면 되지 않겠습니까!!"
             },
             {
                 "ja": "<ruby>行動<rt>こうどう</rt></ruby> <ruby>名<rt>な</rt></ruby>も<ruby>持<rt>も</rt></ruby>たず",
-                "pronunciation": "",
+                "pronunciation": "코-도- 나모 모다즈",
                 "ko": "행동은 이름도 가지지 않고"
             },
             {
                 "ja": "<ruby>狂騒<rt>きょうそう</rt></ruby> <ruby>意味<rt>いみ</rt></ruby>もなく",
-                "pronunciation": "",
+                "pronunciation": "쿄-소- 이미모나무",
                 "ko": "광소는 의미도 없이"
             },
             {
                 "ja": "<ruby>永劫<rt>えいごう</rt></ruby> <ruby>自己満足<rt>じこまんぞく</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "에-고- 지코만조쿠",
                 "ko": "영겁의 자기만족"
             },
             {
                 "ja": "だから だから だから だからかな？",
-                "pronunciation": "",
+                "pronunciation": "다카라 다카라 다카라 다카라카나?",
                 "ko": "그러니까 그러니까 그러니까 그러니까일까?"
             },
             {
                 "ja": "<ruby>最高<rt>さいこう</rt></ruby>だ！",
-                "pronunciation": "",
+                "pronunciation": "사이코-다!",
                 "ko": "최고다!"
             },
             {
                 "ja": "<ruby>脳<rt>のう</rt></ruby>が<ruby>硬化<rt>こうか</rt></ruby>してんだ",
-                "pronunciation": "",
+                "pronunciation": "노-가 코-카시텐다",
                 "ko": "뇌가 굳어 있어"
             },
             {
                 "ja": "ぶっ<ruby>壊<rt>こわ</rt></ruby>して<ruby>叫<rt>さけ</rt></ruby>べ！",
-                "pronunciation": "",
+                "pronunciation": "붓코와시테 사케베",
                 "ko": "부숴 버리고 외쳐라!"
             },
             {
                 "ja": "いや<ruby>最高<rt>さいこう</rt></ruby>か！？",
-                "pronunciation": "",
+                "pronunciation": "이야 사이코-카!?",
                 "ko": "아니, 최고인가!?"
             },
             {
                 "ja": "なんでなんでつって",
-                "pronunciation": "",
+                "pronunciation": "난데 난데 츳테",
                 "ko": "왜 왜 그러냐며"
             },
             {
                 "ja": "<ruby>跋扈跋扈<rt>ばっこばっこ</rt></ruby><ruby>跳<rt>は</rt></ruby>ねちゃって",
-                "pronunciation": "",
+                "pronunciation": "밧코밧코 하네챳테",
                 "ko": "마구마구 날뛰어 버려서"
             },
             {
                 "ja": "<ruby>最高<rt>さいこう</rt></ruby>だ！",
-                "pronunciation": "",
+                "pronunciation": "사이코-다!",
                 "ko": "최고다!"
             },
             {
                 "ja": "<ruby>愚行奇行<rt>ぐこうきこう</rt></ruby>で<ruby>結構<rt>けっこう</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "구코-키코-데 켓코-",
                 "ko": "어리석은 짓도 기행도 좋아"
             },
             {
                 "ja": "<ruby>勝手<rt>かって</rt></ruby>に<ruby>生<rt>い</rt></ruby>きたれ！",
-                "pronunciation": "",
+                "pronunciation": "캇테니 이키타레!",
                 "ko": "마음대로 살아 버려!"
             },
             {
                 "ja": "いや<ruby>最高<rt>さいこう</rt></ruby>か！",
-                "pronunciation": "",
+                "pronunciation": "이야 사이코-카!",
                 "ko": "아니, 최고인가!"
             },
             {
                 "ja": "いやーもうほんと",
-                "pronunciation": "",
+                "pronunciation": "이야- 모- 혼토",
                 "ko": "아니, 정말 이제"
             },
             {
                 "ja": "<ruby>最高<rt>さいこう</rt></ruby>だ！だ！だ！だ！だ！",
-                "pronunciation": "",
+                "pronunciation": "사이코-다! 다! 다! 다! 다!",
                 "ko": "최고다! 다! 다! 다! 다!"
             },
             {
                 "ja": "イエッサー！",
-                "pronunciation": "",
+                "pronunciation": "이엣사-!",
                 "ko": "예스 서!"
             },
             {
                 "ja": "むかしむかしのおもいつき",
-                "pronunciation": "",
+                "pronunciation": "무카시 무카시노 오모이 츠키",
                 "ko": "옛날 옛적 떠오른 생각"
             },
             {
                 "ja": "むいぎむいみのひとだかり",
-                "pronunciation": "",
+                "pronunciation": "무이기 무이미노 히토다카리",
                 "ko": "무의미하고 뜻없는 사람 무리"
             },
             {
                 "ja": "むじゃきむてきのうまれつき",
-                "pronunciation": "",
+                "pronunciation": "무쟈키 무테키노 우마레츠키",
                 "ko": "천진하고 무적인 타고남"
             },
             {
                 "ja": "それが",
-                "pronunciation": "",
+                "pronunciation": "소레가",
                 "ko": "그것이"
             },
             {
                 "ja": "それが",
-                "pronunciation": "",
+                "pronunciation": "소레가",
                 "ko": "그것이"
             },
             {
                 "ja": "それが",
-                "pronunciation": "",
+                "pronunciation": "소레가",
                 "ko": "그것이"
             },
             {
                 "ja": "㋰<ruby>責任集合体<rt>せきにんしゅうごうたい</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "무세키닌슈-고-타이",
                 "ko": "무책임 집합체"
             },
             {
                 "ja": "アンタもワタシも<ruby>関係<rt>かんけい</rt></ruby>ない",
-                "pronunciation": "",
+                "pronunciation": "안타모 와타시모 칸케-나이",
                 "ko": "너도 나도 관계없어"
             },
             {
                 "ja": "㋰<ruby>責任集合体<rt>せきにんしゅうごうたい</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "무세키닌슈-고-타이",
                 "ko": "무책임 집합체"
             },
             {
-                "ja": "楽しくやってりゃ無問題",
-                "pronunciation": "",
+                "ja": "<ruby>楽<rt>たの</rt></ruby>しくやってりゃ<ruby>無問題<rt>もうまんたい</rt></ruby>",
+                "pronunciation": "타노시쿠  얏테랴 모-만타이",
                 "ko": "즐겁게 지내면 문제없어"
             },
             {
-                "ja": "勝手にやってりゃ問題ナシ",
-                "pronunciation": "",
+                "ja": "<ruby>勝手<rt>かって</rt></ruby>にやってりゃ<ruby>問題<rt>もんだい</rt></ruby>ナシ",
+                "pronunciation": "캇테니 얏테랴 몬다이 나시",
                 "ko": "마음대로 하면 문제없어"
             },
             {
                 "ja": "<ruby>俺<rt>おれ</rt></ruby>は <ruby>知<rt>し</rt></ruby>らない <ruby>何<rt>な</rt></ruby>にも <ruby>知<rt>し</rt></ruby>らない",
-                "pronunciation": "",
+                "pronunciation": "오레와 시라나이 나니모 시라나이",
                 "ko": "나는 몰라, 아무것도 몰라"
             },
             {
                 "ja": "<ruby>何<rt>な</rt></ruby>にも <ruby>見<rt>み</rt></ruby>てない <ruby>誰<rt>だれ</rt></ruby>も <ruby>見<rt>み</rt></ruby>てない",
-                "pronunciation": "",
+                "pronunciation": "나니모 미테나이 다레모 미테나이",
                 "ko": "아무것도 못 봤어, 누구도 못 봤어"
             },
             {
                 "ja": "<ruby>記憶<rt>きおく</rt></ruby> <ruby>違<rt>ちが</rt></ruby>い <ruby>夢<rt>ゆめ</rt></ruby>の <ruby>話<rt>はなし</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "키오쿠 치가이 유메노 하나시",
                 "ko": "기억 착오, 꿈 이야기"
             },
             {
                 "ja": "そういう ことで それじゃ",
-                "pronunciation": "",
+                "pronunciation": "소-이우 코토데 소레쟈",
                 "ko": "그런 걸로, 그럼 이만"
             }
         ]
@@ -6323,259 +6561,558 @@
         "title": "モニタリング",
         "artist": "DECO*27",
         "krtitle": "모니터링",
-        "krArtist": "DECO*27",
+        "krArtist": "데코니나",
         "videoUrl": "https://www.youtube.com/embed/kbNdx0yqbZE?si=SqwmF0nCPi8tf1JM",
         "Url": "https://www.youtube.com/watch?v=kbNdx0yqbZE",
+        "singer": "miku",
         "lyrics": [
             {
                 "ja": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみがひとり\"XX\"してるの<ruby>知<rt>し</rt></ruby>ってるよ",
-                "pronunciation": "",
+                "pronunciation": "네- 아타시 싯테루요 키미가 히토리 \"xx\"시테루노 싯테루요",
                 "ko": "있잖아, 나 알고 있어, 네가 혼자 \"XX\"하고 있는 거 알고 있어"
             },
             {
                 "ja": "ビクンビクン<ruby>震<rt>ふる</rt></ruby>えてさ　<ruby>声<rt>こえ</rt></ruby>もダダ<ruby>漏<rt>も</rt></ruby>れなんだわ",
-                "pronunciation": "",
+                "pronunciation": "비쿤비쿤 후루에테사 코에모 다다 모레난다와",
                 "ko": "부들부들 떨면서 말이야, 목소리도 다 새고 있잖아"
             },
             {
                 "ja": "<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>言<rt>い</rt></ruby>っちゃえよ　バレてるんだし<ruby>言<rt>い</rt></ruby>っちゃえよ　<ruby>効<rt>き</rt></ruby>いてんの?",
-                "pronunciation": "",
+                "pronunciation": "쇼-지키니 잇챠에요 바레테룬다시 잇챠에요 키이텐노?",
                 "ko": "솔직하게 말해 버려, 들켰으니까 말해 버려, 듣고 있어?"
             },
             {
                 "ja": "<ruby>普通<rt>ふつう</rt></ruby><ruby>普通<rt>ふつう</rt></ruby>　<ruby>恥<rt>はず</rt></ruby>かしい？みんな<ruby>隠<rt>かく</rt></ruby>しているだけ",
-                "pronunciation": "",
+                "pronunciation": "후츠- 후츠- 하즈카시-? 카쿠시테이루다케",
                 "ko": "보통이야 보통, 부끄러워? 다들 숨기고 있을 뿐이야"
             },
             {
                 "ja": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみがひとり\"<ruby>涙<rt>なみだ</rt></ruby>\"してるの<ruby>知<rt>し</rt></ruby>ってるよ",
-                "pronunciation": "",
+                "pronunciation": "네- 아타시 싯테루요 키미가 히토리 \"나미다\"시테루노 싯테루요",
                 "ko": "있잖아, 나 알고 있어, 네가 혼자 \"눈물\" 흘리는 거 알고 있어"
             },
             {
                 "ja": "グスングスン<ruby>凹<rt>へこ</rt></ruby>んでさ　<ruby>弱音<rt>よわね</rt></ruby>ヒトカラ in the night",
-                "pronunciation": "",
+                "pronunciation": "구슨구슨 헤콘데사 요와네 히토카라 in the night",
                 "ko": "훌쩍훌쩍 풀이 죽어서, 약한 소리 혼자 노래방 in the night"
             },
             {
                 "ja": "<ruby>朝<rt>あさ</rt></ruby>が<ruby>来<rt>く</rt></ruby>るまで<ruby>一緒<rt>いっしょ</rt></ruby>コース　もっと<ruby>泣<rt>な</rt></ruby>いたって",
-                "pronunciation": "",
+                "pronunciation": "아사가 쿠루마데 잇쇼 코-스 못토 나이탓테",
                 "ko": "아침이 올 때까지 함께 코스, 더 울어도"
             },
             {
                 "ja": "<ruby>何度<rt>なんど</rt></ruby>だって<ruby>受<rt>う</rt></ruby>け<ruby>止<rt>と</rt></ruby>めてあげる",
-                "pronunciation": "",
+                "pronunciation": "난도닷테 우케토메테 아게루",
                 "ko": "몇 번이든 받아 줄게"
             },
             {
                 "ja": "もう<ruby>我慢<rt>がまん</rt></ruby>しないでいっぱい<ruby>出<rt>だ</rt></ruby>してね",
-                "pronunciation": "",
+                "pronunciation": "모- 가만시나이데 입파이 다시테네",
                 "ko": "이제 참지 말고 잔뜩 쏟아 내 줘"
             },
             {
                 "ja": "MWAH!",
-                "pronunciation": "",
+                "pronunciation": "Mwah!",
                 "ko": "MWAH!"
             },
             {
                 "ja": "お<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
-                "pronunciation": "",
+                "pronunciation": "오네가이 키미가 호시-노",
                 "ko": "부탁이야, 네가 갖고 싶어"
             },
             {
                 "ja": "<ruby>慰<rt>なぐさ</rt></ruby>めさせてシェイクシェイク　<ruby>愛<rt>あい</rt></ruby>の<ruby>才能<rt>さいのう</rt></ruby>で",
-                "pronunciation": "",
+                "pronunciation": "나구사메 사세테 쉐이쿠 쉐이쿠 아이노 사이노-데",
                 "ko": "위로하게 해 줘, shake shake, 사랑의 재능으로"
             },
             {
                 "ja": "<ruby>泣<rt>な</rt></ruby>いてくれなきゃ　<ruby>涸<rt>か</rt></ruby>れてしまう　<ruby>濡<rt>ぬ</rt></ruby>れていたい",
-                "pronunciation": "",
+                "pronunciation": "나이테 쿠레 나캬 카레테 시마우 누레테 이타이",
                 "ko": "울어 주지 않으면 말라 버려, 젖어 있고 싶어"
             },
             {
-                "ja": "ねえいいでしょう？　<ruby>舐<rt>な</rt></ruby>め<ruby>取<rt>と</rt></ruby>って　<ruby>飲<rt>の</rt></ruby>み<ruby>干<rt>ほ</rt></ruby>したいんだってば",
-                "pronunciation": "",
+                "ja": "ねえいいでしょう？　<ruby>舐<rt>な</rt></ruby>め<ruby>取<rt>と</rt></ruby>って　<ruby>飲<rt>の</rt></ruby>み<ruby>干<rt>ほ</rt></ruby>したいんだっ、だっ、だってば",
+                "pronunciation": "네- 이-데쇼- 나메톳테 노미호시타인닷테바",
                 "ko": "있잖아 괜찮지? 핥아내고 전부 마셔 버리고 싶다니까"
             },
             {
                 "ja": "MWAH!",
-                "pronunciation": "",
+                "pronunciation": "Mwah!",
                 "ko": "MWAH!"
             },
             {
                 "ja": "お<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
-                "pronunciation": "",
+                "pronunciation": "오네가이 키미가 호시-노",
                 "ko": "부탁이야, 네가 갖고 싶어"
             },
             {
                 "ja": "<ruby>頼<rt>たよ</rt></ruby>り<ruby>散<rt>ち</rt></ruby>らしてシックラブ　なんて<ruby>最高<rt>さいこう</rt></ruby>ね",
-                "pronunciation": "",
+                "pronunciation": "타요리 치라시테 식쿠 라부 난테 사이코-네",
                 "ko": "마구 의지해 줘, sick love, 정말 최고네"
             },
             {
                 "ja": "<ruby>分<rt>わ</rt></ruby>けてくれなきゃ　<ruby>君<rt>きみ</rt></ruby>の\"<ruby>痛<rt>いた</rt></ruby>い\"<ruby>感<rt>かん</rt></ruby>じていたい",
-                "pronunciation": "",
-                "ko": "나눠 주지 않으면 네 \"아픔\"을 느끼고 싶어"
+                "pronunciation": "와케테 쿠레나캬 키미노 이타이 칸지테 이타이",
+                "ko": "나눠 줘야 돼! 네 \"아픔\"을 느끼고 싶어"
             },
             {
-                "ja": "ねえいいでしょう？　<ruby>吸<rt>す</rt></ruby>い<ruby>取<rt>と</rt></ruby>って　<ruby>救<rt>すく</rt></ruby>いたいんだってば",
-                "pronunciation": "",
+                "ja": "ねえいいでしょう？　<ruby>吸<rt>す</rt></ruby>い<ruby>取<rt>と</rt></ruby>って　<ruby>救<rt>すく</rt></ruby>いたいんだっ、だっ、だってば",
+                "pronunciation": "네- 이-데쇼- 스이톳테 스쿠이타인닷테바",
                 "ko": "있잖아 괜찮지? 빨아들여서 구하고 싶다니까"
             },
             {
                 "ja": "<ruby>見<rt>み</rt></ruby>たい X16",
-                "pronunciation": "",
+                "pronunciation": "미타이  X16",
                 "ko": "보고 싶어 X16"
             },
             {
                 "ja": "<ruby>見<rt>み</rt></ruby>たいの　きみの<ruby>中<rt>なか</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "미타이노 키미노 나카",
                 "ko": "보고 싶어, 네 안을"
             },
             {
                 "ja": "<ruby>見<rt>み</rt></ruby>たい X19",
-                "pronunciation": "",
+                "pronunciation": "미타이 X19",
                 "ko": "보고 싶어 X19"
             },
             {
                 "ja": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみがひとり<ruby>悔<rt>くや</rt></ruby>しがってんの<ruby>知<rt>し</rt></ruby>ってるよ",
-                "pronunciation": "",
+                "pronunciation": "네- 아타시 싯테루요 키미가 쿠야시갓텐노 싯테루요",
                 "ko": "있잖아, 나 알고 있어, 네가 혼자 분해하고 있는 거 알고 있어"
             },
             {
                 "ja": "ズキュンズキュン<ruby>高<rt>たか</rt></ruby>まるじゃん　きみを<ruby>推<rt>お</rt></ruby>すことをやめない",
-                "pronunciation": "",
-                "ko": "즈큥즈큥 고조되잖아, 너를 응원하는 걸 멈추지 않아"
+                "pronunciation": "즈큔즈큔 타카마루쟌 키미오 오스코토오 야메나이",
+                "ko": "두근두근 고조되잖아, 너를 응원하는 걸 멈추지 않아"
             },
             {
                 "ja": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみはできる<ruby>子<rt>こ</rt></ruby>　<ruby>知<rt>し</rt></ruby>ってるよ",
-                "pronunciation": "",
+                "pronunciation": "네- 아타시 싯테루요 키미와 데키루 코 싯테루요",
                 "ko": "있잖아, 나 알고 있어, 너는 할 수 있는 아이야, 알고 있어"
             },
             {
                 "ja": "つらい<ruby>時<rt>とき</rt></ruby>は<ruby>弱<rt>よわ</rt></ruby>いくらいで<ruby>丁度<rt>ちょうど</rt></ruby>いい　あたしそれでも<ruby>好<rt>す</rt></ruby>きだよ",
-                "pronunciation": "",
-                "ko": "힘들 때는 약한 정도가 딱 좋아, 그래도 난 좋아해"
+                "pronunciation": "츠라이 토키와 요와이 쿠라이데 쵸-도 이- 아타시 소레데모 스키다요",
+                "ko": "힘들 때는 약해져도 좋아, 그래도 난 좋아해"
             },
             {
                 "ja": "MWAH!",
-                "pronunciation": "",
+                "pronunciation": "Mwah!",
                 "ko": "MWAH!"
             },
             {
                 "ja": "お<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
-                "pronunciation": "",
+                "pronunciation": "오네가이 키미가 호시-노",
                 "ko": "부탁이야, 네가 갖고 싶어"
             },
             {
                 "ja": "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んでよ　いつだって<ruby>会<rt>あ</rt></ruby>いに<ruby>参上<rt>さんじょう</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "나마에오 욘데요 이츠닷테 아이니 산죠-",
                 "ko": "이름을 불러 줘, 언제든 만나러 등장할게"
             },
             {
                 "ja": "きみはひとりだ　だから<ruby>歌<rt>うた</rt></ruby>う「ひとりじゃない」",
-                "pronunciation": "",
+                "pronunciation": "키미와 히토리다 다카라 우타우 \"히토리 쟈나이\"",
                 "ko": "너는 혼자야, 그래서 노래해 \"혼자가 아니야\""
             },
             {
                 "ja": "もういいでしょう",
-                "pronunciation": "",
+                "pronunciation": "모-이-데쇼-",
                 "ko": "이제 됐잖아"
             },
             {
-                "ja": "ソロプレイはお<ruby>仕舞<rt>しま</rt></ruby>いなんだってば",
-                "pronunciation": "",
+                "ja": "ソロプレイはお<ruby>仕舞<rt>しま</rt></ruby>いなんだっ、だっ、だってば",
+                "pronunciation": "소로프레이와 오시마이난 닷닷닷테바",
                 "ko": "솔로 플레이는 끝이라니까"
             },
             {
                 "ja": "きみが<ruby>病<rt>や</rt></ruby>めるときも　あたし<ruby>側<rt>そば</rt></ruby>にいるわ",
-                "pronunciation": "",
+                "pronunciation": "키미가 야메루 토키모 아타시 소바니 이루와",
                 "ko": "네가 병들 때도 나는 곁에 있을게"
             },
             {
-                "ja": "いつも<ruby>見守<rt>みまも</rt></ruby>っているわ　そうよ　<ruby>怖<rt>こわ</rt></ruby>くないのよ",
-                "pronunciation": "",
+                "ja": "いつも<ruby>見<rt>み</rt></ruby><ruby>守<rt>まも</rt></ruby>っているわ　そうよ　<ruby>怖<rt>こわ</rt></ruby>くないのよ",
+                "pronunciation": "이츠모 미마못테 이루와 소-요 코와쿠 나이노요",
                 "ko": "언제나 지켜보고 있을게, 그래, 무섭지 않아"
             },
             {
                 "ja": "MWAH!",
-                "pronunciation": "",
+                "pronunciation": "Mwah!",
                 "ko": "MWAH!"
             },
             {
                 "ja": "お<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
-                "pronunciation": "",
+                "pronunciation": "오네가이 키미가 호시-노",
                 "ko": "부탁이야, 네가 갖고 싶어"
             },
             {
                 "ja": "<ruby>慰<rt>なぐさ</rt></ruby>めさせてシェイクシェイク　<ruby>愛<rt>あい</rt></ruby>の<ruby>才能<rt>さいのう</rt></ruby>で",
-                "pronunciation": "",
+                "pronunciation": "나구사메 사세테 쉐이쿠 쉐이쿠 아이노 사이노-데",
                 "ko": "위로하게 해 줘, shake shake, 사랑의 재능으로"
             },
             {
                 "ja": "<ruby>泣<rt>な</rt></ruby>いてくれなきゃ　<ruby>涸<rt>か</rt></ruby>れてしまう　<ruby>濡<rt>ぬ</rt></ruby>れていたい",
-                "pronunciation": "",
+                "pronunciation": "나이테 쿠레 나캬 카레테 시마우 누레테 이타이",
                 "ko": "울어 주지 않으면 말라 버려, 젖어 있고 싶어"
             },
             {
-                "ja": "ねえいいでしょう？　<ruby>舐<rt>な</rt></ruby>め<ruby>取<rt>と</rt></ruby>って　<ruby>飲<rt>の</rt></ruby>み<ruby>干<rt>ほ</rt></ruby>したいんだってば",
-                "pronunciation": "",
+                "ja": "ねえいいでしょう？　<ruby>舐<rt>な</rt></ruby>め<ruby>取<rt>と</rt></ruby>って　<ruby>飲<rt>の</rt></ruby>み<ruby>干<rt>ほ</rt></ruby>したいんだっ、だっ、だってば",
+                "pronunciation": "네- 이-데쇼- 나메톳테 노미호시타인닷테바",
                 "ko": "있잖아 괜찮지? 핥아내고 전부 마셔 버리고 싶다니까"
             },
             {
                 "ja": "MWAH!",
-                "pronunciation": "",
+                "pronunciation": "Mwah!",
                 "ko": "MWAH!"
             },
             {
                 "ja": "お<ruby>願<rt>ねが</rt></ruby>い　きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
-                "pronunciation": "",
+                "pronunciation": "오네가이 키미가 호시-노",
                 "ko": "부탁이야, 네가 갖고 싶어"
             },
             {
                 "ja": "<ruby>頼<rt>たよ</rt></ruby>り<ruby>散<rt>ち</rt></ruby>らしてシックラブ　なんて<ruby>最高<rt>さいこう</rt></ruby>ね",
-                "pronunciation": "",
+                "pronunciation": "타요리 치라시테 식쿠 라부 난테 사이코-네",
                 "ko": "마구 의지해 줘, sick love, 정말 최고네"
             },
             {
                 "ja": "<ruby>分<rt>わ</rt></ruby>けてくれなきゃ　<ruby>君<rt>きみ</rt></ruby>の\"<ruby>痛<rt>いた</rt></ruby>い\"<ruby>感<rt>かん</rt></ruby>じていたい　<ruby>覗<rt>のぞ</rt></ruby>いていたい",
-                "pronunciation": "",
+                "pronunciation": "와케테 쿠레나캬 키미노 이타이 칸지테 이타이 노조이테 이타이",
                 "ko": "나눠 주지 않으면 네 \"아픔\"을 느끼고 싶어, 들여다보고 싶어"
             },
             {
-                "ja": "<ruby>吸<rt>す</rt></ruby>い<ruby>取<rt>と</rt></ruby>って　<ruby>救<rt>すく</rt></ruby>いたいんだってば",
-                "pronunciation": "",
+                "ja": "<ruby>吸<rt>す</rt></ruby>い<ruby>取<rt>と</rt></ruby>って　<ruby>救<rt>すく</rt></ruby>いたいんだっ、だっ、だってば",
+                "pronunciation": "스이톳테 스쿠이타인 닷닷닷테바",
                 "ko": "빨아들여서 구하고 싶다니까"
             },
             {
                 "ja": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ　きみがひとり\"<ruby>涙<rt>なみだ</rt></ruby>\"してるの<ruby>知<rt>し</rt></ruby>ってるよ",
-                "pronunciation": "",
+                "pronunciation": "네- 아타시 싯테루요 키미가 히토리 \"나미다\"시테루노 싯테루요",
                 "ko": "있잖아, 나 알고 있어, 네가 혼자 \"눈물\" 흘리는 거 알고 있어"
             },
             {
                 "ja": "グスングスン<ruby>凹<rt>へこ</rt></ruby>んでさ　<ruby>弱音<rt>よわね</rt></ruby>ヒトカラ in the night",
-                "pronunciation": "",
+                "pronunciation": "구슨구슨 헤콘데사 요와네 히토카라 in the night",
                 "ko": "훌쩍훌쩍 풀이 죽어서, 약한 소리 혼자 노래방 in the night"
             },
             {
                 "ja": "<ruby>朝<rt>あさ</rt></ruby>が<ruby>来<rt>く</rt></ruby>るまで<ruby>一緒<rt>いっしょ</rt></ruby>コース　もっと<ruby>泣<rt>な</rt></ruby>いたって",
-                "pronunciation": "",
+                "pronunciation": "아사가 쿠루마데 잇쇼 코-스 못토 나이탓테",
                 "ko": "아침이 올 때까지 함께 코스, 더 울어도"
             },
             {
                 "ja": "<ruby>何度<rt>なんど</rt></ruby>だって<ruby>受<rt>う</rt></ruby>け<ruby>止<rt>と</rt></ruby>めてあげる",
-                "pronunciation": "",
+                "pronunciation": "난도닷테 우케토메테 아게루",
                 "ko": "몇 번이든 받아 줄게"
             },
             {
                 "ja": "もう<ruby>我慢<rt>がまん</rt></ruby>しないで<ruby>出<rt>だ</rt></ruby>してってば",
-                "pronunciation": "",
+                "pronunciation": "모- 가만시나이데 입파이 다시테네",
                 "ko": "이제 참지 말고 내놓으라니까"
             },
             {
                 "ja": "さあ",
-                "pronunciation": "",
+                "pronunciation": "사-",
                 "ko": "자"
+            }
+        ]
+    },
+    {
+        "id": "MK-0006",
+        "add_at": "2026-07-14 17:29:27",
+        "title": "モニタリング（ベストフレンド Remix）",
+        "artist": "Deco*27",
+        "krTitle": "모니터링",
+        "krArtist": "데코니나",
+        "videoUrl": "https://www.youtube.com/embed/C-CYwNz3z8w?si=4yWgDLqDLXyNtfv5",
+        "Url": "https://youtu.be/C-CYwNz3z8w?si=a_SHv7SjEhw11MMU",
+        "singer": "miku",
+        "lyrics": [
+            {
+                "ja": "ねえあたし知ってるよ きみがひとり「涙」してるの知ってるよ",
+                "pronunciation": "네에 아타시 싯테루요 키미가 히토리 \"나미다\" 시테루노 싯테루요",
+                "ko": "있지 알고 있어, 네가 혼자서 '눈물' 흘리고 있다는 걸 알고 있어"
+            },
+            {
+                "ja": "ビクンビクン震えてさ 声もダダ漏れなんだわ",
+                "pronunciation": "비쿤비쿤 후루에테사 코에모 다다모레난다와",
+                "ko": "움찔움찔 떨면서 말야, 목소리도 다 새어 나오고 있잖아"
+            },
+            {
+                "ja": "正直に言っちゃえば バレてるんだし言っちゃえば 聞いてんの？",
+                "pronunciation": "쇼오지키니 잇챠에바 바레테룬다시 잇챠에바 키이텐노?",
+                "ko": "솔직하게 말해버려, 다 들켰으니까 말해버려, 듣고 있어?"
+            },
+            {
+                "ja": "普通普通 平気だよ？ みんなわかってないだけ",
+                "pronunciation": "후츠우 후츠우 헤이키다요? 민나 와캇테나이다케",
+                "ko": "보통이야 보통, 괜찮아? 다들 모르고 있을 뿐이야"
+            },
+            {
+                "ja": "「もしもーし、ねえ、大丈夫？んー、心配だから今からそっち行くね」",
+                "pronunciation": "\"모시모-시, 네에, 다이조오부? 응-, 신파이다카라 이마카라 솟치 이쿠네\"",
+                "ko": "\"여보세-요, 있지, 괜찮아? 응-, 걱정되니까 지금 그쪽으로 갈게\""
+            },
+            {
+                "ja": "(DECO)",
+                "pronunciation": "(데코)",
+                "ko": "(DECO)"
+            },
+            {
+                "ja": "ねえあたし知ってるよ きみがひとり\"涙\"してるの知ってるよ",
+                "pronunciation": "네에 아타시 싯테루요 키미가 히토리 \"나미다\" 시테루노 싯테루요",
+                "ko": "있지 나는 알고 있어, 네가 혼자서 \"눈물\" 흘리고 있다는 걸 알고 있어"
+            },
+            {
+                "ja": "グスングスン凹んでさ 弱音ヒトカラ？いいんじゃない？",
+                "pronunciation": "구슨구슨 헤콘데사 요와네 히토카라? 이인쟈나이?",
+                "ko": "훌쩍훌쩍 우울해져서, 약한 소리 내며 혼코노? 괜찮지 않아?"
+            },
+            {
+                "ja": "朝が来るまで一緒トーク もっと泣いたって",
+                "pronunciation": "아사가 쿠루마데 잇쇼 토오쿠 못토 나이탓테",
+                "ko": "아침이 올 때까지 함께 토크, 더 운다 해도"
+            },
+            {
+                "ja": "何度だって受け止めてあげる",
+                "pronunciation": "난도닷테 우케토메테아게루",
+                "ko": "몇 번이든 다 받아내 줄게"
+            },
+            {
+                "ja": "もう我慢しないでいっぱい吐いてね",
+                "pronunciation": "모오 가만시나이데 잇파이 하이테네",
+                "ko": "이제 참지 말고 잔뜩 털어놔 줘"
+            },
+            {
+                "ja": "Mwah! お願い きみが欲しいの",
+                "pronunciation": "Mwah! 오네가이 키미가 호시이노",
+                "ko": "Mwah! 부탁이야 네가 원해 (네가 갖고 싶어)"
+            },
+            {
+                "ja": "慰めさせてベストフレンド 愛の才能で",
+                "pronunciation": "나구사메사세테 베스토후렌도 아이노 사이노오데",
+                "ko": "위로하게 해줘 베스트 프렌드, 사랑의 재능으로"
+            },
+            {
+                "ja": "泣いてくれるかい きみのツライ 抱き締めたい",
+                "pronunciation": "나이테쿠레루카이 키미노 츠라이 다키시메타이",
+                "ko": "울어 줄래? 너의 괴로움 안아주고 싶어"
+            },
+            {
+                "ja": "ねえいいでしょう？ 分け合って 乗り越えたいんだってば",
+                "pronunciation": "네에 이이데쇼오? 와케앗테 노리코에타인닷테바",
+                "ko": "저기 괜찮지? 서로 나누며 극복하고 싶단 말이야"
+            },
+            {
+                "ja": "Mwah! お願い きみが欲しいの",
+                "pronunciation": "Mwah! 오네가이 키미가 호시이노",
+                "ko": "Mwah! 부탁이야 네가 원해"
+            },
+            {
+                "ja": "笑い飛ばしてホップステップジャンプ さあいこうぜ",
+                "pronunciation": "와라이토바시테 홋푸스텟푸쟘푸 사아 이코오제",
+                "ko": "웃어 넘겨버리고 홉 스텝 점프 자, 가자구"
+            },
+            {
+                "ja": "分けてくれるかい きみに重い 暗い思い",
+                "pronunciation": "와케테쿠레루카이 키미니 오모이 쿠라이 오모이",
+                "ko": "나누어 줄래? 너에게 있는 무겁고 어두운 마음"
+            },
+            {
+                "ja": "ねえいいでしょう？ 寄り添って 救いたいんだってば",
+                "pronunciation": "네에 이이데쇼오? 요리솟테 스쿠이타인닷테바",
+                "ko": "저기 괜찮지? 바짝 다가가 기대서 구해주고 싶단 말이야"
+            },
+            {
+                "ja": "見たい、見たい、見たい、見たい",
+                "pronunciation": "미타이, 미타이, 미타이, 미타이",
+                "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
+            },
+            {
+                "ja": "見たい、見たい、見たい、見たい",
+                "pronunciation": "미타이, 미타이, 미타이, 미타이",
+                "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
+            },
+            {
+                "ja": "見たい、見たい、見たい、見たい",
+                "pronunciation": "미타이, 미타이, 미타이, 미타이",
+                "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
+            },
+            {
+                "ja": "見たい、見たい、見たい、見たい",
+                "pronunciation": "미타이, 미타이, 미타이, 미타이",
+                "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
+            },
+            {
+                "ja": "見たいの きみの中",
+                "pronunciation": "미타이노 키미노 나카",
+                "ko": "보고 싶어 너의 속을"
+            },
+            {
+                "ja": "見たい、見たい、見たい、見たい",
+                "pronunciation": "미타이, 미타이, 미타이, 미타이",
+                "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
+            },
+            {
+                "ja": "見たい、見たい、見たい、見たい",
+                "pronunciation": "미타이, 미타이, 미타이, 미타이",
+                "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
+            },
+            {
+                "ja": "見たい、見たい、見たい、見たい",
+                "pronunciation": "미타이, 미타이, 미타이, 미타이",
+                "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
+            },
+            {
+                "ja": "見たい、見たい、見たい、見たい",
+                "pronunciation": "미타이, 미타이, 미타이, 미타이",
+                "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
+            },
+            {
+                "ja": "見たい、見たい",
+                "pronunciation": "미타이, 미타이",
+                "ko": "보고 싶어, 보고 싶어"
+            },
+            {
+                "ja": "ねえあたし知ってるよ きみがひとり悔しがってんの知ってるよ",
+                "pronunciation": "네에 아타시 싯테루요 키미가 히토리 쿠야시갓텐노 싯테루요",
+                "ko": "있지 나는 알고 있어, 네가 혼자 분해하고 있다는 걸 알고 있어"
+            },
+            {
+                "ja": "グスングスン終わるまで きみを決して諦めない",
+                "pronunciation": "구슨구슨 오와루마데 키미오 켓시테 아키라메나이",
+                "ko": "훌쩍훌쩍 우는 게 끝날 때까지 널 결코 포기하지 않아"
+            },
+            {
+                "ja": "ねえあたし知ってるよ きみはできる子 知ってるよ",
+                "pronunciation": "네에 아타시 싯테루요 키미와 데키루코 싯테루요",
+                "ko": "있지 나는 알고 있어, 너는 할 수 있는 아이라는 걸 알고 있어"
+            },
+            {
+                "ja": "つらい時は弱いくらいで丁度いい あたし、きみの味方だよ",
+                "pronunciation": "츠라이 토키와 요와이쿠라이데 쵸오도 이이 아타시, 키미노 미카타다요",
+                "ko": "괴로울 때는 약해지는 정도로 딱 좋아 나는, 네 편이야"
+            },
+            {
+                "ja": "Mwah! お願い きみが欲しいの",
+                "pronunciation": "Mwah! 오네가이 키미가 호시이노",
+                "ko": "Mwah! 부탁이야 네가 원해"
+            },
+            {
+                "ja": "名前を呼んでよ いつだって会いに参上",
+                "pronunciation": "나마에오 욘데요 이츠닷테 아이니 산죠오",
+                "ko": "이름을 불러줘 언제라도 만나러 등장할 테니"
+            },
+            {
+                "ja": "きみはひとりか それは違う ひとりじゃない",
+                "pronunciation": "키미와 히토리카 소레와 치가우 히토리쟈나이",
+                "ko": "너는 혼자인가, 그건 아니야 혼자가 아니야"
+            },
+            {
+                "ja": "もういいでしょう",
+                "pronunciation": "모오 이이데쇼오",
+                "ko": "이제 됐잖아"
+            },
+            {
+                "ja": "ソロプレイはお仕舞いなんだってば",
+                "pronunciation": "소로푸레이와 오시마이난닷테바",
+                "ko": "솔로 플레이는 끝이란 말이야"
+            },
+            {
+                "ja": "きみがどんなときも あたし側にいるわ (いる)",
+                "pronunciation": "키미가 돈나 토키모 아타시 소바니 이루와 (이루)",
+                "ko": "네가 어떤 때라도 내가 곁에 있을게 (있어)"
+            },
+            {
+                "ja": "いつも見守っているわ そうよ 怖くないのよ",
+                "pronunciation": "이츠모 미마못테이루와 소오요 코와쿠나이노요",
+                "ko": "항상 지켜보고 있을게 그래, 무섭지 않아"
+            },
+            {
+                "ja": "Mwah! お願い きみが欲しいの",
+                "pronunciation": "Mwah! 오네가이 키미가 호시이노",
+                "ko": "Mwah! 부탁이야 네가 원해"
+            },
+            {
+                "ja": "慰めさせてベストフレンド 愛の才能で",
+                "pronunciation": "나구사메사세테 베스토후렌도 아이노 사이노오데",
+                "ko": "위로하게 해줘 베스트 프렌드, 사랑의 재능으로"
+            },
+            {
+                "ja": "泣いてくれるかい きみのツライ 抱き締めたい",
+                "pronunciation": "나이테쿠레루카이 키미노 츠라이 다키시메타이",
+                "ko": "울어 줄래? 너의 괴로움 안아주고 싶어"
+            },
+            {
+                "ja": "ねえいいでしょう？ 分け合って 乗り越えたいんだってば",
+                "pronunciation": "네에 이이데쇼오? 와케앗테 노리코에타인닷테바",
+                "ko": "저기 괜찮지? 서로 나누며 극복하고 싶단 말이야"
+            },
+            {
+                "ja": "Mwah! お願い きみが欲しいの",
+                "pronunciation": "Mwah! 오네가이 키미가 호시이노",
+                "ko": "Mwah! 부탁이야 네가 원해"
+            },
+            {
+                "ja": "笑い飛ばしてホップステップジャンプ さあいこうぜ",
+                "pronunciation": "와라이토바시테 홋푸스텟푸쟘푸 사아 이코오제",
+                "ko": "웃어 넘겨버리고 홉 스텝 점프 자, 가자구"
+            },
+            {
+                "ja": "分けてくれるかい きみに重い 暗い思い 除きたい",
+                "pronunciation": "와케테쿠레루카이 키미니 오모이 쿠라이 오모이 노조키타이",
+                "ko": "나누어 줄래? 너에게 있는 무겁고 어두운 마음을 없애고 싶어"
+            },
+            {
+                "ja": "吸い取って 救いたいんだってば",
+                "pronunciation": "스이톳테 스쿠이타인닷테바",
+                "ko": "전부 빨아들여서 구해주고 싶단 말이야"
+            },
+            {
+                "ja": "ねえあたし知ってるよ きみがひとり\"涙\"してるの知ってるよ",
+                "pronunciation": "네에 아타시 싯테루요 키미가 히토리 \"나미다\" 시테루노 싯테루요",
+                "ko": "있지 나는 알고 있어, 네가 혼자서 \"눈물\" 흘리고 있다는 걸 알고 있어"
+            },
+            {
+                "ja": "(見たい、見たい、見たい、見たい、 見たい、見たい、見たい、見たい、見たい、見たい)",
+                "pronunciation": "(미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이)",
+                "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어)"
+            },
+            {
+                "ja": "グスングスン凹んでさ 弱音ヒトカラ？いいんじゃない？",
+                "pronunciation": "구슨구슨 헤콘데사 요와네 히토카라? 이인쟈나이?",
+                "ko": "훌쩍훌쩍 우울해져서, 약한 소리 내며 혼코노? 괜찮지 않아?"
+            },
+            {
+                "ja": "(見たい、見たい、見たい、見たい、 見たい、見たい、見たい、見たい、きみの中)",
+                "pronunciation": "(미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 키미노 나카)",
+                "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 너의 속을)"
+            },
+            {
+                "ja": "ずっと一緒 もっと泣いたって",
+                "pronunciation": "즛토 잇쇼 못토 나이탓테",
+                "ko": "계속 함께야 더 운다 해도"
+            },
+            {
+                "ja": "(見たい、見たい、見たい、見たい、見たい)何度だって受け止めてあげる",
+                "pronunciation": "(미타이, 미타이, 미타이, 미타이, 미타이) 난도닷테 우케토메테아게루",
+                "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어) 몇 번이든 다 받아내 줄게"
+            },
+            {
+                "ja": "(見たい、見たい、見たい、見たい)",
+                "pronunciation": "(미타이, 미타이, 미타이, 미타이)",
+                "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어)"
+            },
+            {
+                "ja": "もう我慢しないで出してってば",
+                "pronunciation": "모오 가만시나이데 다시텟테바",
+                "ko": "이제 참지 말고 다 꺼내달란 말이야"
+            },
+            {
+                "ja": "(見たい、見たい、見たい、見たい)",
+                "pronunciation": "(미타이, 미타이, 미타이, 미타이)",
+                "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어)"
             }
         ]
     },
@@ -7276,7 +7813,7 @@
             {
                 "ja": "イケナイBEAT上がる<ruby>体温<rt>たいおん</rt></ruby>",
                 "pronunciation": "이케나이 BEAT(빗토) 아가루 타이온",
-                "ko": "부당한 BEAT에 올라탄 체온"
+                "ko": "부당한 BEAT에 올라간 체온"
             },
             {
                 "ja": "ちょっと<ruby>待<rt>ま</rt></ruby>って<ruby>本能<rt>ほんのう</rt></ruby>",
@@ -7404,255 +7941,256 @@
         "krArtist": "마사라다",
         "videoUrl": "https://www.youtube.com/embed/UHbmkxv-874?si=_mibLOOIaLD0a9-K",
         "Url": "https://youtu.be/UHbmkxv-874?si=Wlfw4SwNIrJrVSWS",
+        "singer": "teto",
         "lyrics": [
             {
                 "ja": "<ruby>近頃<rt>ちかごろ</rt></ruby><ruby>噂<rt>うわさ</rt></ruby>のあの<ruby>漫画<rt>まんが</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "치카고로 우와사노 아노 만가",
                 "ko": "요즘 소문난 그 만화"
             },
             {
                 "ja": "みんなはずっと<ruby>話<rt>はな</rt></ruby>してる",
-                "pronunciation": "",
+                "pronunciation": "민나와 즛토 하나시테루",
                 "ko": "다들 계속 이야기하고 있어"
             },
             {
                 "ja": "それそれめっちゃ<ruby>良<rt>よ</rt></ruby>かったよネ",
-                "pronunciation": "",
+                "pronunciation": "소레소레 멧챠 요캇타요네",
                 "ko": "그거 그거 엄청 좋았지"
             },
             {
                 "ja": "<ruby>見<rt>み</rt></ruby>たことないけど",
-                "pronunciation": "",
+                "pronunciation": "미타코토 나이케도",
                 "ko": "본 적은 없지만"
             },
             {
                 "ja": "<ruby>譲<rt>ゆず</rt></ruby>るのが<ruby>面倒<rt>めんどう</rt></ruby>で<ruby>道<rt>みち</rt></ruby><ruby>変<rt>か</rt></ruby>えた",
-                "pronunciation": "",
+                "pronunciation": "유즈루노가 멘도오데 미치 카에타",
                 "ko": "양보하기가 귀찮아서 길을 바꿨어"
             },
             {
-                "ja": "<ruby>最初<rt>さいしょ</rt></ruby>から<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby><ruby>違<rt>ちが</rt></ruby>うフリをして",
-                "pronunciation": "",
+                "ja": "<ruby>最初<rt>さいしょ</rt></ruby>から<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby><ruby>違<rt>ち가</rt></ruby>うフリをして",
+                "pronunciation": "사이쇼카라 이키사키 치가우 후리오 시테",
                 "ko": "처음부터 목적지가 다른 척을 하며"
             },
             {
                 "ja": "それでもゴールは<ruby>変<rt>か</rt></ruby>わらないのなら",
-                "pronunciation": "",
+                "pronunciation": "소레데모 고-루와 카와라나이노 나라",
                 "ko": "그래도 골이 변하지 않는다면"
             },
             {
                 "ja": "きっとそうやって<ruby>生<rt>い</rt></ruby>きてもいいの",
-                "pronunciation": "",
+                "pronunciation": "킷토 소오얏테 이키테모 이이노",
                 "ko": "분명 그렇게 살아도 괜찮아"
             },
             {
-                "ja": "<ruby>嘘<rt>うそ</rt></ruby>が<ruby>先<rt>さき</rt></ruby>か <ruby>真<rt>まこと</rt></ruby>が<ruby>先<rt>さき</rt></ruby>かなんてさ",
-                "pronunciation": "",
+                "ja": "<ruby>嘘<rt>うそ</rt></ruby>가<ruby>先<rt>さき</rt></ruby>か <ruby>真<rt>まこと</rt></ruby>가<ruby>先<rt>さき</rt></ruby>かなんてさ",
+                "pronunciation": "우소가 사키카 마코토가 사키카 난테사",
                 "ko": "거짓이 먼저인지, 진실이 먼저인지 같은 건"
             },
             {
-                "ja": "いつか<ruby>来<rt>く</rt></ruby>るその<ruby>日<rt>ひ</rt></ruby>を<ruby>前<rt>まえ</rt></ruby>にはどちらも",
-                "pronunciation": "",
+                "ja": "いつか<ruby>来<rt>く</rt></ruby>るその<ruby>日<rt>ひ</rt></ruby>を<ruby>前<rt>まえ</rt></ruby>にはどちら도",
+                "pronunciation": "이츠카 쿠루 소노 히오 마에니와 도치라모",
                 "ko": "언젠가 올 그날 앞에서는 둘 다"
             },
             {
                 "ja": "<ruby>変<rt>か</rt></ruby>わらない",
-                "pronunciation": "",
+                "pronunciation": "카와라나이",
                 "ko": "다르지 않아"
             },
             {
                 "ja": "<ruby>踊<rt>おど</rt></ruby>れ <ruby>踊<rt>おど</rt></ruby>れ <ruby>嘘<rt>うそ</rt></ruby>に<ruby>踊<rt>おど</rt></ruby>れ",
-                "pronunciation": "",
+                "pronunciation": "오도레 오도레 우소니 오도레",
                 "ko": "춤춰라, 춤춰라, 거짓에 춤춰라"
             },
             {
                 "ja": "<ruby>今<rt>いま</rt></ruby>までを<ruby>捨<rt>す</rt></ruby>てて <ruby>腕<rt>うで</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>れよ",
-                "pronunciation": "",
+                "pronunciation": "이마마데오 스테테 우데오 후레요",
                 "ko": "지금까지를 버리고 팔을 흔들어"
             },
             {
-                "ja": "<ruby>中身<rt>なかみ</rt></ruby>がなんもなくても",
-                "pronunciation": "",
+                "ja": "<ruby>中身<rt>なかみ</rt></ruby>가なんもなくても",
+                "pronunciation": "나카미가 남모 나쿠테모",
                 "ko": "속에 아무것도 없어도"
             },
             {
                 "ja": "<ruby>未来<rt>みらい</rt></ruby>はあるのさ",
-                "pronunciation": "",
+                "pronunciation": "미라이와 아루노사",
                 "ko": "미래는 있는 거야"
             },
             {
                 "ja": "ライアー ライアー ダンサー",
-                "pronunciation": "",
+                "pronunciation": "라이아- 라이아- 단사-",
                 "ko": "라이어 라이어 댄서"
             },
             {
-                "ja": "<ruby>素直<rt>すなお</rt></ruby>で<ruby>傷<rt>きず</rt></ruby>ついたあの<ruby>日<rt>ひ</rt></ruby>を",
-                "pronunciation": "",
+                "ja": "<ruby>素直<rt>すなお</rt></ruby>で<ruby>傷<rt>きず</rt></ruby>ついたあの<ruby>日<rt>ひ</rt></ruby>을",
+                "pronunciation": "스나오데 키즈츠이타 아노 히오",
                 "ko": "솔직해서 상처받았던 그날을"
             },
             {
                 "ja": "ライアー ライアー ダンサー",
-                "pronunciation": "",
+                "pronunciation": "라이아- 라이아- 단사-",
                 "ko": "라이어 라이어 댄서"
             },
             {
                 "ja": "<ruby>嘘<rt>うそ</rt></ruby>で<ruby>踊<rt>おど</rt></ruby>るのさ",
-                "pronunciation": "",
+                "pronunciation": "우소데 오도루노사",
                 "ko": "거짓으로 춤추는 거야"
             },
             {
                 "ja": "<ruby>例<rt>たと</rt></ruby>えばどしゃぶりの<ruby>雨<rt>あめ</rt></ruby>だって",
-                "pronunciation": "",
+                "pronunciation": "타토에바 도샤부리노 아메닷테",
                 "ko": "예를 들어 억수 같은 비라도"
             },
             {
                 "ja": "ずぶぬれでどうしようもなくても",
-                "pronunciation": "",
+                "pronunciation": "즈부누레데 도오시요오모 나쿠테모",
                 "ko": "흠뻑 젖어 어쩔 수 없더라도"
             },
             {
-                "ja": "<ruby>青空<rt>あおぞら</rt></ruby>に<ruby>見<rt>み</rt></ruby>える<ruby>眼鏡<rt>めがね</rt></ruby>あれば",
-                "pronunciation": "",
+                "ja": "<ruby>青空<rt>あおぞら</rt></ruby>に<ruby>見<rt>み</rt></ruby>える<ruby>眼鏡<rt>め가네</rt></ruby>あれば",
+                "pronunciation": "아오조라니 미에루 메가네 아레바",
                 "ko": "푸른 하늘로 보이는 안경이 있다면"
             },
             {
                 "ja": "<ruby>晴<rt>は</rt></ruby>れのような<ruby>気持<rt>きも</rt></ruby>ちでしょ",
-                "pronunciation": "",
+                "pronunciation": "하레노요오나 키모치데쇼",
                 "ko": "맑은 날 같은 기분이겠지"
             },
             {
-                "ja": "<ruby>過去<rt>かこ</rt></ruby>が<ruby>変<rt>か</rt></ruby>えられないものならば",
-                "pronunciation": "",
+                "ja": "<ruby>過去<rt>かこ</rt></ruby>가<ruby>変<rt>か</rt></ruby>えられないものならば",
+                "pronunciation": "카코가 카에라레나이 모노나라바",
                 "ko": "과거를 바꿀 수 없는 거라면"
             },
             {
                 "ja": "<ruby>良<rt>よ</rt></ruby>さげなとこだけツギハギで<ruby>繋<rt>つな</rt></ruby>げて",
-                "pronunciation": "",
+                "pronunciation": "요사게나 토코다케 츠기하기데 츠나게테",
                 "ko": "좋아 보이는 부분만 이어 붙여서"
             },
             {
-                "ja": "<ruby>偏向報道<rt>へんこうほうどう</rt></ruby>まがいの<ruby>歩<rt>あゆ</rt></ruby>みでも",
-                "pronunciation": "",
+                "ja": "<ruby>偏向報道<rt>へんこうほうどう</rt></ruby>ま가이の<ruby>歩<rt>あゆ</rt></ruby>みでも",
+                "pronunciation": "헨코오호오도오 마가이노 아유미데모",
                 "ko": "편향 보도 같은 걸음이어도"
             },
             {
                 "ja": "きっとそうやって<ruby>生<rt>い</rt></ruby>きてもいいよ",
-                "pronunciation": "",
+                "pronunciation": "킷토 소오얏테 이키테모 이이요",
                 "ko": "분명 그렇게 살아도 괜찮아"
             },
             {
                 "ja": "<ruby>踊<rt>おど</rt></ruby>れ <ruby>嘘<rt>うそ</rt></ruby>と<ruby>踊<rt>おど</rt></ruby>れ",
-                "pronunciation": "",
+                "pronunciation": "오도레 우소토 오도레",
                 "ko": "춤춰라, 거짓과 춤춰라"
             },
             {
                 "ja": "<ruby>足取<rt>あしど</rt></ruby>りで<ruby>揺<rt>ゆ</rt></ruby>らせ この<ruby>世界<rt>せかい</rt></ruby>を",
-                "pronunciation": "",
+                "pronunciation": "아시도리데 유라세 코노 세카이오",
                 "ko": "발걸음으로 흔들어, 이 세계를"
             },
             {
                 "ja": "<ruby>見<rt>み</rt></ruby>かけだけの<ruby>造花<rt>ぞうか</rt></ruby>も",
-                "pronunciation": "",
+                "pronunciation": "미카케다케노 조오카모",
                 "ko": "겉모습뿐인 조화도"
             },
             {
-                "ja": "<ruby>心<rt>こころ</rt></ruby><ruby>動<rt>うご</rt></ruby>かすのさ",
-                "pronunciation": "",
+                "ja": "<ruby>心<rt>こころ</rt></ruby><ruby>動<rt>うご</rt></ruby>かすの사",
+                "pronunciation": "코코로 우고카스노사",
                 "ko": "마음을 움직이는 거야"
             },
             {
                 "ja": "ライアー ライアー ダンサー",
-                "pronunciation": "",
+                "pronunciation": "라이아- 라이아- 단사-",
                 "ko": "라이어 라이어 댄서"
             },
             {
-                "ja": "<ruby>不安<rt>ふあん</rt></ruby>で<ruby>背<rt>せ</rt></ruby>を<ruby>向<rt>む</rt></ruby>けた<ruby>明日<rt>あした</rt></ruby>と",
-                "pronunciation": "",
+                "ja": "<ruby>不安<rt>ふ안</rt></ruby>で<ruby>背<rt>せ</rt></ruby>を<ruby>向<rt>む</rt></ruby>けた<ruby>明日<rt>あした</rt></ruby>と",
+                "pronunciation": "후안데 세오 무케타 아시타토",
                 "ko": "불안해서 등을 돌렸던 내일과"
             },
             {
                 "ja": "ライアー ライアー ダンサー",
-                "pronunciation": "",
+                "pronunciation": "라이아- 라이아- 단사-",
                 "ko": "라이어 라이어 댄서"
             },
             {
-                "ja": "<ruby>嘘<rt>うそ</rt></ruby>で<ruby>踊<rt>おど</rt></ruby>るのさ",
-                "pronunciation": "",
+                "ja": "<ruby>嘘<rt>うそ</rt></ruby>で<ruby>踊<rt>おど</rt></ruby>るの사",
+                "pronunciation": "우소데 오도루노사",
                 "ko": "거짓으로 춤추는 거야"
             },
             {
-                "ja": "<ruby>今<rt>いま</rt></ruby><ruby>幸<rt>しあわ</rt></ruby>せか <ruby>幸<rt>しあわ</rt></ruby>せじゃないかなんてさ",
-                "pronunciation": "",
+                "ja": "<ruby>今<rt>いま</rt></ruby><ruby>幸<rt>しあわ</rt></ruby>せか <ruby>幸<rt>しあわ</rt></ruby>せじゃないかなんて사",
+                "pronunciation": "이마 시아와세카 시아와세쟈나이카 난테사",
                 "ko": "지금 행복한지, 행복하지 않은지 같은 건"
             },
             {
                 "ja": "いつの<ruby>日<rt>ひ</rt></ruby>にか<ruby>自分<rt>じぶん</rt></ruby>が<ruby>勝手<rt>かって</rt></ruby>に<ruby>決<rt>き</rt></ruby>めるから",
-                "pronunciation": "",
+                "pronunciation": "이츠노 히니카 지분가 캇테니 키메루카라",
                 "ko": "언젠가 스스로 마음대로 정할 테니까"
             },
             {
-                "ja": "<ruby>踊<rt>おど</rt></ruby>ったもん<ruby>勝<rt>が</rt></ruby>ち",
-                "pronunciation": "",
+                "ja": "<ruby>踊<rt>おど</rt></ruby>ったもん<ruby>勝<rt>가</rt></ruby>ち",
+                "pronunciation": "오돗타몬가치",
                 "ko": "춤춘 사람이 이기는 거야"
             },
             {
-                "ja": "<ruby>踊<rt>おど</rt></ruby>れ <ruby>踊<rt>おど</rt></ruby>れ <ruby>理想<rt>りそう</rt></ruby>と<ruby>違<rt>ちが</rt></ruby>くて",
-                "pronunciation": "",
+                "ja": "<ruby>踊<rt>おど</rt></ruby>れ <ruby>踊<rt>おど</rt></ruby>れ <ruby>理想<rt>りそう</rt></ruby>と<ruby>違<rt>ち가</rt></ruby>くて",
+                "pronunciation": "오도레 오도레 리소오토 치가쿠테",
                 "ko": "춤춰라, 춤춰라, 이상과 달라서"
             },
             {
                 "ja": "<ruby>全<rt>すべ</rt></ruby>てから<ruby>消<rt>き</rt></ruby>えて <ruby>一人<rt>ひとり</rt></ruby>きりの",
-                "pronunciation": "",
+                "pronunciation": "스베테카라 키에테 히토리키리노",
                 "ko": "모든 것에서 사라져 혼자뿐인"
             },
             {
-                "ja": "<ruby>夜<rt>よる</rt></ruby>にもフェイクを<ruby>照<rt>て</rt></ruby>らせ",
-                "pronunciation": "",
+                "ja": "<ruby>夜<rt>よる</rt></ruby>에도フェイクを<ruby>照<rt>て</rt></ruby>らせ",
+                "pronunciation": "요루니모 페이쿠오 테라세",
                 "ko": "밤에도 페이크를 비춰라"
             },
             {
                 "ja": "ああ<ruby>嘘<rt>うそ</rt></ruby>でよかった！",
-                "pronunciation": "",
+                "pronunciation": "아아 우소데 요캇타!",
                 "ko": "아아, 거짓이라 다행이야!"
             },
             {
                 "ja": "<ruby>踊<rt>おど</rt></ruby>れ <ruby>踊<rt>おど</rt></ruby>れ <ruby>嘘<rt>うそ</rt></ruby>に<ruby>踊<rt>おど</rt></ruby>れ",
-                "pronunciation": "",
+                "pronunciation": "오도레 오도레 우소니 오도레",
                 "ko": "춤춰라, 춤춰라, 거짓에 춤춰라"
             },
             {
-                "ja": "<ruby>今<rt>いま</rt></ruby>までを<ruby>捨<rt>す</rt></ruby>てて <ruby>腕<rt>うで</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>れよ",
-                "pronunciation": "",
+                "ja": "<ruby>今<rt>いま</rt></ruby>まで를<ruby>捨<rt>す</rt></ruby>てて <ruby>腕<rt>うで</rt></ruby>를<ruby>振<rt>ふ</rt></ruby>れよ",
+                "pronunciation": "이마마데오 스테테 우데오 후레요",
                 "ko": "지금까지를 버리고 팔을 흔들어"
             },
             {
-                "ja": "そこから<ruby>始<rt>はじ</rt></ruby>まるのさ",
-                "pronunciation": "",
+                "ja": "そこから<ruby>始<rt>はじ</rt></ruby>まるの사",
+                "pronunciation": "소코카라 하지마루노사",
                 "ko": "거기서부터 시작되는 거야"
             },
             {
                 "ja": "<ruby>偽<rt>いつわ</rt></ruby>りのパーティーナイト",
-                "pronunciation": "",
+                "pronunciation": "이츠와리노 파-티-나이트",
                 "ko": "거짓된 파티 나이트"
             },
             {
                 "ja": "ライアー ライアー ダンサー",
-                "pronunciation": "",
+                "pronunciation": "라이아- 라이아- 단사-",
                 "ko": "라이어 라이어 댄서"
             },
             {
-                "ja": "<ruby>素直<rt>すなお</rt></ruby>で<ruby>傷<rt>きず</rt></ruby>ついたあの<ruby>日<rt>ひ</rt></ruby>を",
-                "pronunciation": "",
+                "ja": "<ruby>素真<rt>すなお</rt></ruby>で<ruby>傷<rt>きず</rt></ruby>ついたあの<ruby>日<rt>ひ</rt></ruby>을",
+                "pronunciation": "스나오데 키즈츠이타 아노 히오",
                 "ko": "솔직해서 상처받았던 그날을"
             },
             {
                 "ja": "ライアー ライアー ダンサー",
-                "pronunciation": "",
+                "pronunciation": "라이아- 라이아- 단사-",
                 "ko": "라이어 라이어 댄서"
             },
             {
-                "ja": "<ruby>嘘<rt>うそ</rt></ruby>で<ruby>踊<rt>おど</rt></ruby>るのさ",
-                "pronunciation": "",
+                "ja": "<ruby>嘘<rt>うそ</rt></ruby>で<ruby>踊<rt>おど</rt></ruby>るの사",
+                "pronunciation": "우소데 오도루노사",
                 "ko": "거짓으로 춤추는 거야"
             }
         ]
@@ -7669,333 +8207,381 @@
         "lyrics": [
             {
                 "ja": "<ruby>我<rt>われ</rt></ruby>らはゴミの<ruby>分別団<rt>ふんべつだん</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "와레라와 고미노 훈베츠단",
                 "ko": "우리는 쓰레기 분류단"
             },
             {
                 "ja": "<ruby>趣味<rt>しゅみ</rt></ruby>で<ruby>他人<rt>たにん</rt></ruby>の<ruby>敷地<rt>しきち</rt></ruby>に<ruby>入<rt>はい</rt></ruby>り",
-                "pronunciation": "",
+                "pronunciation": "슈미데 타닌노 시키치니 하이리",
                 "ko": "취미로 남의 부지에 들어가"
             },
             {
                 "ja": "ゴミを<ruby>分別<rt>ふんべつ</rt></ruby>して<ruby>去<rt>さ</rt></ruby>ってゆく",
-                "pronunciation": "",
+                "pronunciation": "고미오 훈베츠시테 삿테 유쿠",
                 "ko": "쓰레기를 분류하고 떠나간다"
             },
             {
                 "ja": "<ruby>完全<rt>かんぜん</rt></ruby>なる<ruby>善<rt>ぜん</rt></ruby>の<ruby>者<rt>もの</rt></ruby>",
-                "pronunciation": "",
-                "ko": "완전한 선의 사람들"
+                "pronunciation": "칸젠나루 젠노 모노",
+                "ko": "완전한 선의 사도"
             },
             {
                 "ja": "(ジャスティス)",
-                "pronunciation": "",
+                "pronunciation": "쟈스티스",
                 "ko": "저스티스"
             },
             {
                 "ja": "おい<ruby>新人<rt>しんじん</rt></ruby>",
-                "pronunciation": "",
-                "ko": "어이 신입"
+                "pronunciation": "오이 신진",
+                "ko": "어이 신입",
+                "singer": "teto"
             },
             {
                 "ja": "このマンションは　<ruby>民度<rt>みんど</rt></ruby>が<ruby>底<rt>そこ</rt></ruby>だから",
-                "pronunciation": "",
-                "ko": "이 맨션은 주민 수준이 바닥이라"
+                "pronunciation": "코노 만숀와 민도가 소코다카라",
+                "ko": "이 맨션은 민도가 바닥 수준이라",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>私<rt>わたし</rt></ruby>たちで<ruby>分別<rt>ふんべつ</rt></ruby>するぞ",
-                "pronunciation": "",
-                "ko": "우리가 분류한다"
+                "pronunciation": "와타시타치데 훈베츠 스루조",
+                "ko": "우리가 분류한다",
+                "singer": "teto"
             },
             {
                 "ja": "はい<ruby>師匠<rt>ししょう</rt></ruby>！",
-                "pronunciation": "",
-                "ko": "네, 스승님!"
+                "pronunciation": "하이 시쇼-!",
+                "ko": "네, 스승!",
+                "singer": "zundamon"
             },
             {
                 "ja": "でもやり<ruby>方<rt>かた</rt></ruby>がわからないから",
-                "pronunciation": "",
-                "ko": "하지만 방법을 모르니까"
+                "pronunciation": "데모 야리카타가 와카라나이카라",
+                "ko": "하지만 하는 방법을 모르니까",
+                "singer": "zundamon"
             },
             {
                 "ja": "<ruby>教<rt>おし</rt></ruby>えて<ruby>欲<rt>ほ</rt></ruby>しいのだ",
-                "pronunciation": "",
-                "ko": "가르쳐 줬으면 하는 것이다"
+                "pronunciation": "오시에테 호시-노다",
+                "ko": "가르쳐 줬으면 하는 것이다",
+                "singer": "zundamon"
             },
             {
                 "ja": "よし<ruby>見<rt>み</rt></ruby>てろ",
-                "pronunciation": "",
-                "ko": "좋아, 보고 있어라"
+                "pronunciation": "요시, 미테로",
+                "ko": "좋아, 보고 있어라",
+                "singer": "teto"
             },
             {
                 "ja": "カン カン ビン カン ビン",
-                "pronunciation": "",
-                "ko": "캔 캔 병 캔 병"
+                "pronunciation": "칸  칸  빈  칸  빈",
+                "ko": "캔 캔 병 캔 병",
+                "singer": "teto"
             },
             {
                 "ja": "カン ビン ビン カン カン",
-                "pronunciation": "",
-                "ko": "캔 병 병 캔 캔"
+                "pronunciation": "칸  빈  빈  칸  칸",
+                "ko": "캔 병 병 캔 캔",
+                "singer": "teto"
             },
             {
                 "ja": "カン ビン",
-                "pronunciation": "",
-                "ko": "캔 병"
+                "pronunciation": "칸  빈",
+                "ko": "캔 병",
+                "singer": "zundamon"
             },
             {
                 "ja": "ビン カン ビン カン カン",
-                "pronunciation": "",
-                "ko": "병 캔 병 캔 캔"
+                "pronunciation": "빈  칸  빈  칸  칸",
+                "ko": "병 캔 병 캔 캔",
+                "singer": "teto"
             },
             {
                 "ja": "カン カン カン カン ビン",
-                "pronunciation": "",
-                "ko": "캔 캔 캔 캔 병"
+                "pronunciation": "칸  칸  칸  칸  빈",
+                "ko": "캔 캔 캔 캔 병",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>粗大<rt>そだい</rt></ruby>？",
-                "pronunciation": "",
-                "ko": "대형 쓰레기?"
+                "pronunciation": "소다이?",
+                "ko": "대형?",
+                "singer": "zundamon"
             },
             {
                 "ja": "ちゃんとルールを<ruby>守<rt>まも</rt></ruby>らないと",
-                "pronunciation": "",
+                "pronunciation": "챤토 루-루오 마모라나이토",
                 "ko": "제대로 규칙을 지키지 않으면"
             },
             {
                 "ja": "ゴミ<ruby>収集<rt>しゅうしゅう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>悲<rt>かな</rt></ruby>しむぞ",
-                "pronunciation": "",
+                "pronunciation": "고미 슈-슈-노 히토가 카나시무조",
                 "ko": "쓰레기 수거하는 사람이 슬퍼한다고"
             },
             {
                 "ja": "ゴミ<ruby>収集<rt>しゅうしゅう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby><ruby>泣<rt>な</rt></ruby>かせる<ruby>気<rt>き</rt></ruby>か",
-                "pronunciation": "",
+                "pronunciation": "고미 슈-슈-노 히토 나카세루키카",
                 "ko": "쓰레기 수거하는 사람을 울릴 셈이냐"
             },
             {
                 "ja": "<ruby>親<rt>おや</rt></ruby>だけに<ruby>飽<rt>あ</rt></ruby>き<ruby>足<rt>た</rt></ruby>らず",
-                "pronunciation": "",
+                "pronunciation": "오야다케니 아키타라즈",
                 "ko": "부모만으로도 모자라서"
             },
             {
                 "ja": "ステージ2",
-                "pronunciation": "",
-                "ko": "스테이지 2"
+                "pronunciation": "스테-지2",
+                "ko": "스테이지 2",
+                "singer": "zundamon"
             },
             {
                 "ja": "おい<ruby>新人<rt>しんじん</rt></ruby>",
-                "pronunciation": "",
-                "ko": "어이 신입"
+                "pronunciation": "오이 신진",
+                "ko": "어이 신입",
+                "singer": "teto"
             },
             {
                 "ja": "この<ruby>地域<rt>ちいき</rt></ruby>はマジでキモいから",
-                "pronunciation": "",
-                "ko": "이 지역은 진짜 기분 나쁘니까"
+                "pronunciation": "코노 치이키와 마지데 키모이카라",
+                "ko": "이 지역은 진짜 기분 나쁘니까",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>分別<rt>ふんべつ</rt></ruby>も<ruby>一苦労<rt>ひとくろう</rt></ruby>だぞ",
-                "pronunciation": "",
-                "ko": "분류도 한고생이다"
+                "pronunciation": "훈베츠모 히토쿠로-다조",
+                "ko": "분류도 한고생이다",
+                "singer": "teto"
             },
             {
                 "ja": "はい<ruby>師匠<rt>ししょう</rt></ruby>！",
-                "pronunciation": "",
-                "ko": "네, 스승님!"
+                "pronunciation": "하이 시쇼-!",
+                "ko": "네, 스승!",
+                "singer": "zundamon"
             },
             {
                 "ja": "でもさっきも<ruby>順調<rt>じゅんちょう</rt></ruby>だったし",
-                "pronunciation": "",
-                "ko": "하지만 아까도 순조로웠으니"
+                "pronunciation": "데모 삿키모 쥰쵸-닷타시",
+                "ko": "하지만 아까도 순조로웠으니",
+                "singer": "zundamon"
             },
             {
                 "ja": "<ruby>任<rt>まか</rt></ruby>せて<ruby>欲<rt>ほ</rt></ruby>しいのだ",
-                "pronunciation": "",
-                "ko": "맡겨 줬으면 하는 것이다"
+                "pronunciation": "마카세테 호시-노다",
+                "ko": "맡겨 줬으면 하는 것이다",
+                "singer": "zundamon"
             },
             {
                 "ja": "その<ruby>意気<rt>いき</rt></ruby>だ",
-                "pronunciation": "",
-                "ko": "그 기세다"
+                "pronunciation": "소노 이키다",
+                "ko": "그 기세다",
+                "singer": "teto"
             },
             {
                 "ja": "ビン カン <ruby>乾<rt>かん</rt></ruby>パンカン",
-                "pronunciation": "",
-                "ko": "병 캔 건빵 캔"
+                "pronunciation": "빈  칸 칸판칸",
+                "ko": "병 캔 건빵 캔",
+                "singer": "teto"
             },
             {
                 "ja": "カン ビン ビャンビャンカン",
-                "pronunciation": "",
-                "ko": "캔 병 뱡뱡 캔"
+                "pronunciation": "칸  칸 뱐뱐칸",
+                "ko": "캔 병 뱡뱡 캔",
+                "singer": "teto"
             },
             {
                 "ja": "ビン は？",
-                "pronunciation": "",
-                "ko": "병, 뭐?"
+                "pronunciation": "빈  하?",
+                "ko": "병, 뭐?",
+                "singer": "zundamon"
             },
             {
                 "ja": "ビン カン ワンちゃんカン",
-                "pronunciation": "",
-                "ko": "병 캔 멍멍이 캔"
+                "pronunciation": "빈  칸 완챤칸",
+                "ko": "병 캔 멍멍이 캔",
+                "singer": "teto"
             },
             {
                 "ja": "タータン<ruby>辣醤<rt>らーじゃん</rt></ruby>カン",
-                "pronunciation": "",
-                "ko": "타탄 라장 캔"
+                "pronunciation": "타-탄라쟌 칸",
+                "ko": "타탄 라장 캔",
+                "singer": "teto"
             },
             {
                 "ja": "ｷﾓﾁﾜﾘ",
-                "pronunciation": "",
-                "ko": "기분 나빠"
+                "pronunciation": "키모치와루이",
+                "ko": "기분 나빠",
+                "singer": "zundamon"
             },
             {
                 "ja": "ちゃんとルールを<ruby>守<rt>まも</rt></ruby>らないと",
-                "pronunciation": "",
+                "pronunciation": "챤토 루-루오 마모라나이토",
                 "ko": "제대로 규칙을 지키지 않으면"
             },
             {
                 "ja": "<ruby>地球<rt>ちきゅう</rt></ruby>に<ruby>優<rt>やさ</rt></ruby>しくなれないぞ",
-                "pronunciation": "",
+                "pronunciation": "치큐-니 야사시쿠 나레나이조",
                 "ko": "지구에 다정해질 수 없다고"
             },
             {
                 "ja": "<ruby>地球<rt>ちきゅう</rt></ruby>と<ruby>親<rt>おや</rt></ruby>には<ruby>厳<rt>きび</rt></ruby>しいな",
-                "pronunciation": "",
+                "pronunciation": "치큐-토 오야니와 키비시-나",
                 "ko": "지구와 부모에게는 엄격하네"
             },
             {
                 "ja": "<ruby>自分<rt>じぶん</rt></ruby>に<ruby>甘<rt>あま</rt></ruby>いくせに",
-                "pronunciation": "",
+                "pronunciation": "지분니 아마이 쿠세니",
                 "ko": "자기 자신에게는 관대하면서"
             },
             {
                 "ja": "ファイナルステージ",
-                "pronunciation": "",
-                "ko": "파이널 스테이지"
+                "pronunciation": "화이나루 스테-지",
+                "ko": "파이널 스테이지",
+                "singer":"zundamon"
             },
             {
                 "ja": "おい<ruby>新人<rt>しんじん</rt></ruby>",
-                "pronunciation": "",
-                "ko": "어이 신입"
+                "pronunciation": "오이 신진",
+                "ko": "어이 신입",
+                "singer": "teto"
             },
             {
                 "ja": "この<ruby>豪邸<rt>ごうてい</rt></ruby>は<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>がイカれてるから",
-                "pronunciation": "",
-                "ko": "이 호화 저택은 주인이 미쳐 있으니까"
+                "pronunciation": "코노 고-테-와 모치누시가 이카레테루카라",
+                "ko": "이 호화 저택은 주인이 미쳐 있으니까",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>気<rt>き</rt></ruby>が<ruby>乗<rt>の</rt></ruby>らんが<ruby>分別<rt>ふんべつ</rt></ruby>するぞ",
-                "pronunciation": "",
-                "ko": "내키진 않지만 분류한다"
+                "pronunciation": "키가노란가 훈베츠 스루조",
+                "ko": "내키진 않지만 분류한다",
+                "singer": "teto"
             },
             {
                 "ja": "はい<ruby>師匠<rt>ししょう</rt></ruby>！",
-                "pronunciation": "",
-                "ko": "네, 스승님!"
+                "pronunciation": "하이 시쇼-!",
+                "ko": "네, 스승!",
+                "singer": "zundamon"
             },
             {
                 "ja": "もう<ruby>完璧<rt>かんぺき</rt></ruby>に<ruby>理解<rt>りかい</rt></ruby>したから",
-                "pronunciation": "",
-                "ko": "이제 완벽하게 이해했으니까"
+                "pronunciation": "모- 칸페키니 리카이시타카라",
+                "ko": "이제 완벽하게 이해했으니까",
+                "singer": "zundamon"
             },
             {
                 "ja": "<ruby>黙<rt>だま</rt></ruby>ってろなのだ",
-                "pronunciation": "",
-                "ko": "입 다물고 있어인 것이다"
+                "pronunciation": "다맛테로 나노다",
+                "ko": "입 다물고 있어!인 것이다",
+                "singer": "zundamon"
             },
             {
                 "ja": "すいません",
-                "pronunciation": "",
-                "ko": "죄송합니다"
+                "pronunciation": "스미마센",
+                "ko": "실례하겠습니다.",
+                "singer": "teto"
             },
             {
                 "ja": "カン カン ビン カン ビン",
-                "pronunciation": "",
-                "ko": "캔 캔 병 캔 병"
+                "pronunciation": "칸  칸  빈  칸  빈",
+                "ko": "캔 캔 병 캔 병",
+                "singer": "teto"
             },
             {
                 "ja": "カン ビン ビン <ruby>金品<rt>きんぴん</rt></ruby>",
-                "pronunciation": "",
-                "ko": "캔 병 병 귀중품"
+                "pronunciation": "칸  빈  빈 킨핀",
+                "ko": "캔 병 병 귀중품",
+                "singer": "teto"
             },
             {
                 "ja": "ビン　エッ？",
-                "pronunciation": "",
-                "ko": "병, 엣?"
+                "pronunciation": "빈  엣?",
+                "ko": "병, 엣?",
+                "singer": "zundamon"
             },
             {
                 "ja": "<ruby>金品<rt>きんぴん</rt></ruby> <ruby>金品<rt>きんぴん</rt></ruby> <ruby>金品<rt>きんぴん</rt></ruby> &エン <ruby>金品<rt>きんぴん</rt></ruby>",
-                "pronunciation": "",
-                "ko": "귀중품 귀중품 귀중품 &엔 귀중품"
+                "pronunciation": "킨핀 킨핀 킨핀&킨핀",
+                "ko": "귀중품 귀중품 귀중품 & 귀중품",
+                "singer": "teto"
             },
             {
                 "ja": "ちゃんとルールを<ruby>守<rt>まも</rt></ruby>らないと",
-                "pronunciation": "",
-                "ko": "제대로 규칙을 지키지 않으면"
+                "pronunciation": "챤토 루-루오 마모라나이토",
+                "ko": "제대로 규칙을 지키지 않으면",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>何<rt>なに</rt></ruby>をされても<ruby>仕方<rt>しかた</rt></ruby>がない",
-                "pronunciation": "",
-                "ko": "무슨 일을 당해도 어쩔 수 없어"
+                "pronunciation": "나니오 사레테모 시카타가 나이",
+                "ko": "무슨 일을 당해도 어쩔 수 없어",
+                "singer": "teto"
             },
             {
                 "ja": "これはマジでそうだから",
-                "pronunciation": "",
-                "ko": "이건 진짜 그렇기 때문에"
+                "pronunciation": "코레와 마지데 소-다카라",
+                "ko": "이건 진짜 그러니까",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>親<rt>おや</rt></ruby>とかもそう<ruby>言<rt>い</rt></ruby>うはず",
-                "pronunciation": "",
-                "ko": "부모 같은 사람도 그렇게 말할 거야"
+                "pronunciation": "오야토카모 소-이우하즈",
+                "ko": "부모 같은 사람도 그렇게 말할 거야",
+                "singer": "teto"
             },
             {
                 "ja": "(ジャスティス)",
-                "pronunciation": "",
+                "pronunciation": "쟈스티스",
                 "ko": "저스티스"
             },
             {
                 "ja": "それゆけゴミの<ruby>分別団<rt>ふんべつだん</rt></ruby>",
-                "pronunciation": "",
+                "pronunciation": "소레 유케 고미노 훈베츠단",
                 "ko": "나아가라, 쓰레기 분류단"
             },
             {
                 "ja": "どんなピンチも<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>えて",
-                "pronunciation": "",
+                "pronunciation": "돈나 핀치모 노리코에테",
                 "ko": "어떤 위기도 뛰어넘어"
             },
             {
                 "ja": "きっと<ruby>明日<rt>あした</rt></ruby>は<ruby>君<rt>きみ</rt></ruby>の<ruby>街<rt>まち</rt></ruby>へ!",
-                "pronunciation": "",
+                "pronunciation": "킷토 아시타와 키미노 마치에!",
                 "ko": "분명 내일은 너의 거리로!"
             },
             {
                 "ja": "It's the right thing for a shining smiling world",
                 "pronunciation": "",
-                "ko": "빛나고 웃는 세상을 위한 옳은 일이야"
+                "ko": "빛나고 웃는 세상을 위한 옳은 일"
             },
             {
                 "ja": "でもね<ruby>刑事<rt>けいじ</rt></ruby>さん",
-                "pronunciation": "",
-                "ko": "하지만 형사님"
+                "pronunciation": "데모네 케이지산",
+                "ko": "저기 형사님",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>私<rt>わたし</rt></ruby><ruby>思<rt>おも</rt></ruby>うんです",
-                "pronunciation": "",
-                "ko": "저는 생각합니다"
+                "pronunciation": "와타시 오모운데스",
+                "ko": "저는 생각합니다",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>分別<rt>ふんべつ</rt></ruby>しない<ruby>人<rt>ひと</rt></ruby>と<ruby>私<rt>わたし</rt></ruby>",
-                "pronunciation": "",
-                "ko": "분류하지 않는 사람과 저"
+                "pronunciation": "훈베츠 시나이 히토토 와타시",
+                "ko": "분류하지 않는 사람과 저",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>本当<rt>ほんとう</rt></ruby>の\"<ruby>悪<rt>あく</rt></ruby>\"って",
-                "pronunciation": "",
-                "ko": "진짜 \"악\"은"
+                "pronunciation": "혼토-노 아쿳테",
+                "ko": "진짜 \"악\"은",
+                "singer": "teto"
             },
             {
                 "ja": "どっちなんだろうって⋯",
-                "pronunciation": "",
-                "ko": "어느 쪽일까 하고..."
+                "pronunciation": "돗치난 다롯-테",
+                "ko": "어느 쪽일까요...",
+                "singer": "teto"
             }
         ]
     },
@@ -8011,506 +8597,369 @@
         "lyrics": [
             {
                 "ja": "ほら<ruby>見<rt>み</rt></ruby>て<ruby>見<rt>み</rt></ruby>て<ruby>見<rt>み</rt></ruby>てこのオーラ",
-                "pronunciation": "",
-                "ko": "자 봐 봐 봐 봐 이 오라"
+                "pronunciation": "호라 미테 미테 미테 코노 오-라",
+                "ko": "이봐 보라 보라 보라고 이 오오라",
+                "singer": "miku"
             },
             {
                 "ja": "きっとヒットだよ",
-                "pronunciation": "",
-                "ko": "분명 히트할 거야"
+                "pronunciation": "킷토 힛토다요",
+                "ko": "무조건 히트야"
             },
             {
                 "ja": "みっちゃみっちゃダメみっちゃダメ",
-                "pronunciation": "",
-                "ko": "엄청엄청 안 돼 엄청 안 돼"
+                "pronunciation": "밋챠 밋챠 다메 밋챠 다메",
+                "ko": "보면 보면 안 돼 보면 안 돼",
+                "singer": "teto"
             },
             {
                 "ja": "まぶしいよ",
-                "pronunciation": "",
-                "ko": "눈부셔"
+                "pronunciation": "마부시이요",
+                "ko": "눈부시는걸",
+                "singer": "teto"
             },
             {
                 "ja": "きっとヒットだよ",
-                "pronunciation": "",
-                "ko": "분명 히트할 거야"
+                "pronunciation": "킷토 힛토다요",
+                "ko": "무조건 히트야"
             },
             {
                 "ja": "예뻐예뻐 언니",
-                "pronunciation": "",
-                "ko": "예뻐예뻐 언니"
+                "pronunciation": "예뻐예뻐 언니",
+                "ko": "예뻐예뻐 언니",
+                "singer": "miku"
             },
             {
                 "ja": "(Hey)",
-                "pronunciation": "",
-                "ko": "Hey"
+                "pronunciation": "(Hey)",
+                "ko": "(Hey)"
             },
             {
                 "ja": "진짜진짜 귀여워",
-                "pronunciation": "",
-                "ko": "진짜진짜 귀여워"
+                "pronunciation": "진짜진짜 귀여워",
+                "ko": "진짜 진짜 귀여워",
+                "singer": "miku"
             },
             {
                 "ja": "뭐해뭐해 언니",
-                "pronunciation": "",
-                "ko": "뭐해뭐해 언니"
+                "pronunciation": "뭐해뭐해 언니",
+                "ko": "모해모해 언니",
+                "singer": "teto"
             },
             {
                 "ja": "(Hey)",
-                "pronunciation": "",
-                "ko": "Hey"
+                "pronunciation": "(Hey)",
+                "ko": "(Hey)"
             },
             {
                 "ja": "めっちゃくっちゃ 배고파",
-                "pronunciation": "",
-                "ko": "엄청나게 배고파"
+                "pronunciation": "멧챠쿳챠 배고파",
+                "ko": "완전 정말 배고파",
+                "singer": "teto"
             },
             {
                 "ja": "ステージ<ruby>果<rt>は</rt></ruby>てまで なぜだコイツ<ruby>信<rt>しん</rt></ruby>じらんねw",
-                "pronunciation": "",
-                "ko": "스테이지 끝까지, 왜인지 이 녀석 믿을 수가 없네ㅋ"
+                "pronunciation": "스테-지 하테마데 나제다 코이츠 신지란네",
+                "ko": "스테이지 저 끝까지 뭐랄까 이 자식 믿을 수 없네"
             },
             {
                 "ja": "ヒメムーブ<ruby>展開<rt>てんかい</rt></ruby> (チュ)",
-                "pronunciation": "",
-                "ko": "공주 무브 전개, 츄"
+                "pronunciation": "히메무-부 텐카이 (츄)",
+                "ko": "공주 행동 전개야 (츄)",
+                "singer": "miku"
             },
             {
                 "ja": "ボクノボクノオーラビーム",
-                "pronunciation": "",
-                "ko": "나의 나의 오라 빔"
+                "pronunciation": "보쿠노 보쿠노 오-라 비-무",
+                "ko": "나만의 나만의 오오라 비-무"
             },
             {
                 "ja": "(ぴょんぴょんぴょんぴょん)",
-                "pronunciation": "",
-                "ko": "뿅뿅뿅뿅"
+                "pronunciation": "(푱푱푱푱)",
+                "ko": "PPPP"
             },
             {
                 "ja": "やられた？",
-                "pronunciation": "",
-                "ko": "당했어?"
+                "pronunciation": "야라레타?",
+                "ko": "당해버림?",
+                "singer": "miku"
             },
             {
                 "ja": "アイタイアイタイアイシテ",
-                "pronunciation": "",
-                "ko": "보고 싶어 보고 싶어 사랑해 줘"
+                "pronunciation": "아이타이 아이타이 아이시테",
+                "ko": "만나고 싶어 만나고 싶어 사랑해줘"
             },
             {
                 "ja": "ガチで",
-                "pronunciation": "",
-                "ko": "진심으로"
+                "pronunciation": "가치데",
+                "ko": "진심"
             },
             {
                 "ja": "ラブリー スーパ キューティー ベイビー",
-                "pronunciation": "",
+                "pronunciation": "라부리- 스-파 큐-티- 베이비-",
                 "ko": "러블리 슈퍼 큐티 베이비"
             },
             {
                 "ja": "エグいよ",
-                "pronunciation": "",
-                "ko": "장난 아니야"
+                "pronunciation": "에구이요",
+                "ko": "장난 아냐",
+                "singer": "teto"
             },
             {
                 "ja": "ウチノウチノオーラビーム",
-                "pronunciation": "",
-                "ko": "우리의 우리의 오라 빔"
+                "pronunciation": "우치노 우치노 오-라 비-무",
+                "ko": "우리의 우리의 오오라 비-무"
             },
             {
                 "ja": "(ぴょんぴょんぴょんぴょん)",
-                "pronunciation": "",
-                "ko": "뿅뿅뿅뿅"
+                "pronunciation": "(푱푱푱푱)",
+                "ko": "PPPP"
             },
             {
                 "ja": "びびった？",
-                "pronunciation": "",
-                "ko": "쫄았어?"
+                "pronunciation": "비빗타?",
+                "ko": "쫄?",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>限界突破<rt>げんかいとっぱ</rt></ruby>リミッター<ruby>解除<rt>かいじょ</rt></ruby><ruby>無敵<rt>むてき</rt></ruby>の",
-                "pronunciation": "",
-                "ko": "한계 돌파, 리미터 해제, 무적의"
+                "pronunciation": "겐카이톳파 리밋타- 카이죠 무테키노",
+                "ko": "한계돌파 리미터 해제 무적인"
             },
             {
                 "ja": "ラブリー スーパ キューティー ベイビー",
-                "pronunciation": "",
+                "pronunciation": "라부리- 스-파 큐-티- 베이비-",
                 "ko": "러블리 슈퍼 큐티 베이비"
             },
             {
                 "ja": "エモいよ",
-                "pronunciation": "",
-                "ko": "감성 터져"
+                "pronunciation": "에모이요",
+                "ko": "감성미침",
+                "singer": "miku"
             },
             {
                 "ja": "ラブリー スーパ キューティー ベイビー",
-                "pronunciation": "",
+                "pronunciation": "라부리- 스-파 큐-티- 베이비-",
                 "ko": "러블리 슈퍼 큐티 베이비"
             },
             {
                 "ja": "だ！よ！ね！チュ！",
-                "pronunciation": "",
-                "ko": "그!렇!지! 츄!"
+                "pronunciation": "다! 요! 네! 츄!",
+                "ko": "맞잖아 쪽!",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>余計<rt>よけい</rt></ruby>なオマジナイ",
-                "pronunciation": "",
-                "ko": "쓸데없는 주문"
+                "pronunciation": "요케이나 오마지나이",
+                "ko": "쓸모없는 주문은",
+                "singer": "miku"
             },
             {
                 "ja": "きっとヒットだよ",
-                "pronunciation": "",
-                "ko": "분명 히트할 거야"
+                "pronunciation": "킷토 힛토다요",
+                "ko": "무조건 히트야"
             },
             {
                 "ja": "<ruby>確<rt>たし</rt></ruby>かな<ruby>慰<rt>なぐさ</rt></ruby>めは",
-                "pronunciation": "",
-                "ko": "확실한 위로는"
+                "pronunciation": "타시카나 나구사메와",
+                "ko": "확실한 위로는",
+                "singer": "teto"
             },
             {
                 "ja": "きっとヒットだよ",
-                "pronunciation": "",
-                "ko": "분명 히트할 거야"
+                "pronunciation": "킷토 힛토다요",
+                "ko": "무조건 히트야"
             },
             {
                 "ja": "예뻐예뻐 언니",
-                "pronunciation": "",
-                "ko": "예뻐예뻐 언니"
+                "pronunciation": "예뻐예뻐 언니",
+                "ko": "예뻐예뻐 언니",
+                "singer": "miku"
             },
             {
                 "ja": "(Hey)",
-                "pronunciation": "",
-                "ko": "Hey"
+                "pronunciation": "(Hey)",
+                "ko": "(Hey)"
             },
             {
                 "ja": "진짜진짜 귀여워",
-                "pronunciation": "",
-                "ko": "진짜진짜 귀여워"
+                "pronunciation": "진짜진짜 귀여워",
+                "ko": "진짜진짜 귀여워",
+                "singer": "miku"
             },
             {
                 "ja": "뭐해뭐해 언니",
-                "pronunciation": "",
-                "ko": "뭐해뭐해 언니"
+                "pronunciation": "뭐해뭐해 언니",
+                "ko": "모해모해 언니",
+                "singer": "teto"
             },
             {
                 "ja": "(Hey)",
-                "pronunciation": "",
-                "ko": "Hey"
+                "pronunciation": "(Hey)",
+                "ko": "(Hey)"
             },
             {
                 "ja": "めっちゃくっちゃ 배고파",
-                "pronunciation": "",
-                "ko": "엄청나게 배고파"
+                "pronunciation": "멧챠쿳챠 배고파",
+                "ko": "완전 정말 배고파",
+                "singer": "teto"
             },
             {
                 "ja": "ステージ<ruby>果<rt>は</rt></ruby>てまで なぜだコイツ<ruby>信<rt>しん</rt></ruby>じらんねw",
-                "pronunciation": "",
-                "ko": "스테이지 끝까지, 왜인지 이 녀석 믿을 수가 없네ㅋ"
+                "pronunciation": "스테-지 하테마데 나제다 코이츠 신지란네",
+                "ko": "스테이지 저 끝까지 뭐랄까 이 자식 믿을 수 없네",
+                "singer": "miku"
             },
             {
                 "ja": "トントントントントントントントン",
-                "pronunciation": "",
-                "ko": "통통통통통통통통"
+                "pronunciation": "톤톤톤톤톤톤톤톤",
+                "ko": "땡 땡 땡 땡 땡 땡 땡 땡",
+                "singer": "teto"
             },
             {
                 "ja": "サボる",
-                "pronunciation": "",
-                "ko": "사후르"
+                "pronunciation": "사보루",
+                "ko": "농땡이"
             },
             {
                 "ja": "ナー",
-                "pronunciation": "",
-                "ko": "나-"
+                "pronunciation": "나-",
+                "ko": "나~ㄴ"
             },
             {
                 "ja": "(ぴょんぴょんぴょんぴょん)",
-                "pronunciation": "",
-                "ko": "뿅뿅뿅뿅"
+                "pronunciation": "(푱푱푱푱)",
+                "ko": "PPPP"
             },
             {
                 "ja": "ナー",
-                "pronunciation": "",
-                "ko": "나-"
+                "pronunciation": "나-",
+                "ko": "나~ㄴ"
             },
             {
                 "ja": "ヒメムーブ<ruby>展開<rt>てんかい</rt></ruby> (チュ)",
-                "pronunciation": "",
-                "ko": "공주 무브 전개, 츄"
+                "pronunciation": "히메무-부 텐카이 (츄)",
+                "ko": "공주 행동 전개야(쪽)",
+                "singer": "teto"
             },
             {
                 "ja": "<ruby>届<rt>とど</rt></ruby>け<ruby>届<rt>とど</rt></ruby>け<ruby>飛<rt>と</rt></ruby>びたい",
-                "pronunciation": "",
-                "ko": "닿아라 닿아라 날고 싶어"
+                "pronunciation": "토도케 토도케 토비타이",
+                "ko": "닿아라 닿아라 날고싶어",
+                "singer": "miku"
             },
             {
                 "ja": "アタシアタシ<ruby>溶<rt>と</rt></ruby>けた",
-                "pronunciation": "",
-                "ko": "나, 나 녹아 버렸어"
+                "pronunciation": "아타시 아타시 토케타",
+                "ko": "나말야 나말야 녹아버렸어",
+                "singer": "teto"
             },
             {
                 "ja": "ガチで",
-                "pronunciation": "",
-                "ko": "진심으로"
+                "pronunciation": "가치데",
+                "ko": "진심",
+                "singer": "miku"
             },
             {
                 "ja": "ラブリー スーパ キューティー ベイビー",
-                "pronunciation": "",
-                "ko": "러블리 슈퍼 큐티 베이비"
+                "pronunciation": "라부리- 스-파 큐-티- 베이비-",
+                "ko": "러블리 슈퍼 큐티 베이비",
+                "singer": "miku"
             },
             {
                 "ja": "エグいよ",
-                "pronunciation": "",
-                "ko": "장난 아니야"
+                "pronunciation": "에구이요",
+                "ko": "장난 아냐",
+                "singer": "miku"
             },
             {
                 "ja": "（オーラビーム）",
-                "pronunciation": "",
-                "ko": "오라 빔"
+                "pronunciation": "(오-라 비-무)",
+                "ko": "(오라 비-무)",
+                "singer": "teto"
             },
             {
                 "ja": "ボクノボクノオーラビーム",
-                "pronunciation": "",
-                "ko": "나의 나의 오라 빔"
+                "pronunciation": "보쿠노 보쿠노 오-라 비-무",
+                "ko": "나만의 나만의 오오라 비-무"
             },
             {
                 "ja": "(ぴょんぴょんぴょんぴょん)",
-                "pronunciation": "",
-                "ko": "뿅뿅뿅뿅"
+                "pronunciation": "(푱푱푱푱)",
+                "ko": "PPPP"
             },
             {
                 "ja": "<ruby>最低<rt>さいてい</rt></ruby>だ",
-                "pronunciation": "",
-                "ko": "최악이야"
+                "pronunciation": "사이테이다",
+                "ko": "최악이네"
             },
             {
                 "ja": "<ruby>限界突破<rt>げんかいとっぱ</rt></ruby>リミッター<ruby>解除<rt>かいじょ</rt></ruby><ruby>無敵<rt>むてき</rt></ruby>の",
-                "pronunciation": "",
-                "ko": "한계 돌파, 리미터 해제, 무적의"
+                "pronunciation": "겐카이톳파 리밋타- 카이죠 무테키노",
+                "ko": "한계돌파 리미터 해제의 무적인"
             },
             {
                 "ja": "ラブリー スーパ キューティー ベイビー",
-                "pronunciation": "",
+                "pronunciation": "라부리- 스-파 큐-티- 베이비-",
                 "ko": "러블리 슈퍼 큐티 베이비"
             },
             {
                 "ja": "エグいよ",
-                "pronunciation": "",
-                "ko": "장난 아니야"
+                "pronunciation": "에구이요",
+                "ko": "장난 아냐",
+                "singer": "teto"
             },
             {
                 "ja": "ラララララ (ぴょん)",
-                "pronunciation": "",
-                "ko": "라라라라라, 뿅"
+                "pronunciation": "라라라라라 (푱)",
+                "ko": "라라라라라 (P)"
             },
             {
                 "ja": "ラララララ (ぴょん)",
-                "pronunciation": "",
-                "ko": "라라라라라, 뿅"
+                "pronunciation": "라라라라라 (푱)",
+                "ko": "라라라라라 (P)"
             },
             {
                 "ja": "<ruby>最低<rt>さいてい</rt></ruby>なんて<ruby>言<rt>い</rt></ruby>わないで<ruby>大好<rt>だいす</rt></ruby>きです",
-                "pronunciation": "",
-                "ko": "최악이라고 말하지 말아 줘, 정말 좋아해"
+                "pronunciation": "사이테이난테 이와나이데 다이스키데스",
+                "ko": "최악이라 말하지 말아줄래 좋아한다구요"
             },
             {
                 "ja": "<ruby>限界突破<rt>げんかいとっぱ</rt></ruby>リミッター<ruby>解除<rt>かいじょ</rt></ruby><ruby>無敵<rt>むてき</rt></ruby>の",
-                "pronunciation": "",
-                "ko": "한계 돌파, 리미터 해제, 무적의"
+                "pronunciation": "겐카이톳파 리밋타- 카이죠 무테키노",
+                "ko": "한계돌파 리미터 해제 무적의"
             },
             {
                 "ja": "ラブリー スーパ キューティー ベイビー",
-                "pronunciation": "",
+                "pronunciation": "라부리- 스-파 큐-티- 베이비-",
                 "ko": "러블리 슈퍼 큐티 베이비"
             },
             {
                 "ja": "エモいよ",
-                "pronunciation": "",
-                "ko": "감성 터져"
+                "pronunciation": "에모이요",
+                "ko": "감성 미침",
+                "singer": "miku"
             },
             {
                 "ja": "ラブリー スーパ キューティー べイビー",
-                "pronunciation": "",
+                "pronunciation": "라부리- 스-파 큐-티- 베이비-",
                 "ko": "러블리 슈퍼 큐티 베이비"
             },
             {
                 "ja": "だ！よ！ね！チュ！",
-                "pronunciation": "",
-                "ko": "그!렇!지! 츄!"
+                "pronunciation": "다! 요! 네! 츄!",
+                "ko": "맞잖아 쪽!"
             },
             {
                 "ja": "ラー",
-                "pronunciation": "",
+                "pronunciation": "라-",
                 "ko": "라-"
             },
             {
                 "ja": "<ruby>終<rt>お</rt></ruby>わった",
-                "pronunciation": "",
+                "pronunciation": "오왓타",
                 "ko": "끝났어"
             }
         ]
-    },
-    {
-        "id": "ETC_0002",
-        "title": "抜錨",
-        "artist": "ナナホシ管弦楽団",
-        "krTitle": "발묘",
-        "krArtist": "나나호시 관현악단",
-        "videoUrl": "https://www.youtube.com/embed/C7h6-jU1DCA?si=F0HkgHFz-pSbFVYJ",
-        "Url": "https://youtu.be/C7h6-jU1DCA?si=F0HkgHFz-pSbFVYJ",
-        "lyrics": [
-            {
-                "ja": "忘れられぬものだけが　美しくはないのでしょう",
-                "pronunciation": "와스레라레누 모노 다케가 우츠쿠시쿠와 나이노데쇼-",
-                "ko": "잊지 못하는 것만이 아름다운 건 아니겠죠"
-            },
-            {
-                "ja": "忘れることばかりが　美しくはないでしょう",
-                "pronunciation": "와스레루 코토 바카리가 우츠쿠시쿠와 나이데쇼-",
-                "ko": "잊을 수 있는 것들만이 아름다운 건 아니겠죠"
-            },
-            {
-                "ja": "悲しいことばかりが　人生ではないのでしょう",
-                "pronunciation": "카나시이 코토 바카리가 진세이데와 나이노데쇼-",
-                "ko": "슬픈 것들만이 인생은 아니겠죠"
-            },
-            {
-                "ja": "さりとて喜びとは　比べ往くでしょう",
-                "pronunciation": "사리토테 요로코비토와 쿠라베 유쿠데쇼-",
-                "ko": "그렇다 해도 기쁨과는 비교할 수 있겠죠"
-            },
-            {
-                "ja": "船よ　船よ　荒波の中で　流されずいられたでしょう",
-                "pronunciation": "후네요 후네요 아라나미노 나카데 나가사레즈 이라레타데쇼-",
-                "ko": "배야, 배야, 거친 파도 속에서도 떠내려가지 않고 있었잖아요"
-            },
-            {
-                "ja": "水底に根差す　あなたと穿った少女時代",
-                "pronunciation": "미나소코니 네자스 아나타토 우갓타 쇼-죠지다이",
-                "ko": "물 밑으로 뿌리를 내린 당신과 꿰뚫은 소녀시대"
-            },
-            {
-                "ja": "さよならする頃　強いられるのは抜錨",
-                "pronunciation": "사요나라 스루 코로 시이라레루노와 바츠뵤-",
-                "ko": "이별할 때 강제되는 건 발묘"
-            },
-            {
-                "ja": "傷の数を数えて　痛みの数　指を折る",
-                "pronunciation": "키즈노 카즈오 카조에테 이타미노 카즈 유비오 오루",
-                "ko": "상처의 수를 세며 아픔의 수도 헤아려"
-            },
-            {
-                "ja": "一つあまり　小指は　愛しさのぶんね",
-                "pronunciation": "히토츠 아마리 코유비와 이토시사노 분네",
-                "ko": "하나 남은 새끼손가락은 사랑스러움의 몫이네"
-            },
-            {
-                "ja": "辛いこともありましょう　あなたの所為もありましょう",
-                "pronunciation": "츠라이 코토모 아리마쇼- 아나타노 세이모 아리마쇼-",
-                "ko": "괴로운 일도 있겠죠, 당신 탓도 있겠죠"
-            },
-            {
-                "ja": "それでも赤い糸　結わえているのでしょう",
-                "pronunciation": "소레데모 아카이 이토 유와에테 이루노데쇼-",
-                "ko": "그럼에도 붉은 실은 묶여있겠죠"
-            },
-            {
-                "ja": "底知れぬものだけに　怯えるのではないでしょう",
-                "pronunciation": "소코 시레누 모노다케니 오비에루노데와 나이데쇼-",
-                "ko": "단지 끝을 모른다는 것에 겁먹은 건 아니겠죠"
-            },
-            {
-                "ja": "届かぬものばかりが　妬ましくはないでしょう",
-                "pronunciation": "토도카누 모노 바카리가 네타마시쿠와 나이데쇼-",
-                "ko": "전할 수 없는 것들이 질투가 나는 건 아니겠죠"
-            },
-            {
-                "ja": "優しいことばかりが　優しさではないのでしょう",
-                "pronunciation": "야사시이 코토 바카리가 야사시사데와 나이노데쇼-",
-                "ko": "상냥한 것들만이 따스함은 아니겠죠"
-            },
-            {
-                "ja": "さりとて赤裸々では　こそばゆいでしょう",
-                "pronunciation": "사리토테 세키라라데와 코소바유이데쇼-",
-                "ko": "그렇다 해도 적나라하면 낯간지럽겠죠"
-            },
-            {
-                "ja": "羽よ　羽よ　人並みを望み　人波に拒まれては",
-                "pronunciation": "하네요 하네요 히토나미오 노조미 히토나미니 코바마레테와",
-                "ko": "날개여, 날개여, 평범함을 바라며 많은 사람에게 거부당해서는"
-            },
-            {
-                "ja": "皆そこを目指す　まだ葛藤があった少女時代",
-                "pronunciation": "미나 소코오 메자스 마다 캇토-가 앗타 쇼-죠-지다이",
-                "ko": "모두가 그곳을 향해 또 다시 갈등이 있었던 소녀시대"
-            },
-            {
-                "ja": "無辜でいた頃を　遠ざけるのは熱病",
-                "pronunciation": "무코-데 이타 코로오 토오자케루노와 네츠뵤-",
-                "ko": "무고했을 때를 멀리하는 건 열병"
-            },
-            {
-                "ja": "髪の長さ揃えて　爪の先を塗り直す",
-                "pronunciation": "카미노 나가사 소로에테 츠메노 사키오 누리나오스",
-                "ko": "머리 길이를 정돈하며 손톱 끝을 다시 물들여"
-            },
-            {
-                "ja": "あどけない唇も　色めき立つのね",
-                "pronunciation": "아도케나이 쿠치비루모 이로메키 타츠노네",
-                "ko": "앳된 입술도 긴장한 기색이 역력하네"
-            },
-            {
-                "ja": "叶うこともありましょう　叶わぬ人もおりましょう",
-                "pronunciation": "카나우 코토모 아리마쇼- 카나와누 히토모 오리마쇼-",
-                "ko": "이룰 수 있는 것도 있겠죠, 이루지 못한 사람도 있겠죠"
-            },
-            {
-                "ja": "それゆえ慰めずにはいられないのでしょう",
-                "pronunciation": "소레유에 나구사메즈니와 이라레나이노데쇼-",
-                "ko": "그러니까 위로해야만 하잖아요"
-            },
-            {
-                "ja": "羽よ　花よ　水面に散って",
-                "pronunciation": "하네요 하나요 미나모니 칫테",
-                "ko": "날개여, 꽃이여, 수면에 흩어져라"
-            },
-            {
-                "ja": "傷の数を数えて　痛みの数　指を折る",
-                "pronunciation": "키즈노 카즈오 카조에테 이타미노 카즈 유비오 오루",
-                "ko": "상처의 수를 세며 아픔의 수도 헤아려"
-            },
-            {
-                "ja": "一つあまり　小指は　愛しさのぶんね",
-                "pronunciation": "히토츠 아마리 코유비와 이토시사노 분네",
-                "ko": "하나 남은 새끼손가락은 사랑스러움의 몫이네"
-            },
-            {
-                "ja": "悔やむこともありましょう　わたしの所為もありましょう",
-                "pronunciation": "쿠야무 코토모 아리마쇼- 와타시노 세이모 아리마쇼-",
-                "ko": "후회하는 일도 있겠죠, 제 탓도 있겠죠"
-            },
-            {
-                "ja": "いつかは赤い糸　断ち切るのでしょう",
-                "pronunciation": "이츠카와 아카이 이토 타치키루노데쇼-",
-                "ko": "언젠가는 붉은 실도 끊어지겠죠"
-            },
-            {
-                "ja": "花びらにささやきを　哀れみから口づけを",
-                "pronunciation": "하나비라니 사사야키오 아와레미카라 쿠치즈케오",
-                "ko": "꽃잎에 속삭임을, 동정에서 오는 입맞춤을"
-            },
-            {
-                "ja": "懐かしんではじめて　過ぎ行くのでしょう",
-                "pronunciation": "나츠카신데 하지메테 스기유쿠노데쇼-",
-                "ko": "그리워하고 나서야 비로소 지나가겠죠"
-            },
-            {
-                "ja": "惑うこともありましょう　誰かの所為じゃないでしょう",
-                "pronunciation": "마도우 코토모 아리마쇼- 다레카노 세이쟈 나이데쇼-",
-                "ko": "망설이는 순간도 있겠죠, 다른 누군가의 탓은 아니잖아요"
-            },
-            {
-                "ja": "難しいものですね　愛するということは",
-                "pronunciation": "무즈카시이 모노데스네 아이스루토 유우 코토와",
-                "ko": "어려운 일이네요, 사랑한다고 하는 것은"
-            }
-        ],
-        "add_at": "2026-07-14 08:13:48"
     }
 ]

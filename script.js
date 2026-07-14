@@ -10,7 +10,7 @@ const toggleFurigana = document.getElementById('toggle-furigana');
 const togglePron = document.getElementById('toggle-pron');
 const toggleKo = document.getElementById('toggle-ko');
 
-//상태 변수
+// 상태 변수
 let MSidebar = 1;
 
 let allSongs = [];
@@ -29,14 +29,16 @@ videoWrapper.innerHTML = `
         YouTube 영상 보러가기
     </a>
 
-    <div id="singer-legend">
+    <div id="singer-legend" style="user-select: none;">
         <p style="margin-bottom: 8px; font-weight: bold; color: #333;">🎤 파트별 색상 안내</p>
         <div style="display: flex; flex-direction: column; gap: 5px; font-family: 'Kosugi Maru', sans-serif;">
-            <span style="color: #25cac7; font-weight: bold;">"miku":"하츠네 미쿠"</span>
-            <span style="color: #F00; font-weight: bold;">"teto":"카사네 테토"</span>
-            <span style="color: #AA0; font-weight: bold;">"neru":"아키타 네루"</span>
-            <span style="color: #FA0; font-weight: bold;">"lin":"카가미네 린"</span>
-            <span style="color: #DD0; font-weight: bold;">"len":"카가미네 렌"</span>
+            <span style="color: #F00; font-weight: bold;">■ 카사네 테토</span>
+            <span style="color: #FA0; font-weight: bold;">■ 카가미네 린</span>
+            <span style="color: #DD0; font-weight: bold;">■ 카가미네 렌</span>
+            <span style="color: #AA0; font-weight: bold;">■ 아키타 네루</span>
+            <span style="color: #899b35; font-weight: bold;">■ 즌다몬</span>
+            <span style="color: #25cac7; font-weight: bold;">■ 하츠네 미쿠</span>
+            <span style="color: #FFC0CB; font-weight: bold;">■ 메구리네 루카</span>
         </div>
     </div>
 `;
@@ -62,7 +64,7 @@ togglePron?.addEventListener('change', updateVisibility);
 toggleKo?.addEventListener('change', updateVisibility);
 
 
-// 1. JSON 파일에서 데이터 가져오기
+// 1. JSON 파일에서 데이터 가져오기 및 URL 파라미터 체크
 async function loadSongs() {
     try {
         const response = await fetch('songs.json');
@@ -71,6 +73,19 @@ async function loadSongs() {
         }
         allSongs = await response.json();
         renderList(allSongs);
+
+        // [추가] URL에서 id 파라미터를 분석하여 자동으로 곡을 띄워주는 로직
+        const urlParams = new URLSearchParams(window.location.search);
+        const songId = urlParams.get('id');
+
+        if (songId) {
+            // JSON 데이터 중 id가 일치하는 곡을 검색 (예: song.id 혹은 song.key 값 매칭)
+            const matchedSong = allSongs.find(song => song.id === songId);
+            if (matchedSong) {
+                showLyrics(matchedSong);
+            }
+        }
+
     } catch (error) {
         console.error('Error:', error);
         if (songListElement) {
@@ -92,7 +107,14 @@ function renderList(songs) {
     songs.forEach(song => {
         const li = document.createElement('li');
         li.innerHTML = `<strong>${song.title}</strong><br><small>${song.artist}</small>`;
-        li.addEventListener('click', () => showLyrics(song));
+        li.addEventListener('click', () => {
+            // [추가] 리스트에서 곡을 직접 클릭했을 때도 URL의 쿼리 스트링을 업데이트 (새로고침 없이 유지 가능)
+            if (song.id) {
+                const newUrl = `${window.location.pathname}?id=${song.id}`;
+                window.history.pushState({ path: newUrl }, '', newUrl);
+            }
+            showLyrics(song);
+        });
         songListElement.appendChild(li);
     });
 }
@@ -109,8 +131,6 @@ function showLyrics(song) {
         if (Array.isArray(song.lyrics) && typeof song.lyrics[0] === 'object') {
 
             const lyricsHtml = song.lyrics.map(line => {
-                // 1. 각 줄(line)에 singer가 있으면 그것을 사용하고, 
-                // 2. 없으면 song 전체에 지정된 singer가 있는지 확인하여 적용합니다.
                 const currentSinger = line.singer || song.singer;
                 const singerClass = currentSinger ? `singer-${currentSinger}` : '';
 

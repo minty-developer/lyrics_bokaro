@@ -306,7 +306,7 @@ body {
 }
 
 .singer-teto .lyric-ja {
-    color: #F00;
+    color: #F33;
 }
 
 .singer-neru .lyric-ja {
@@ -319,6 +319,14 @@ body {
 
 .singer-len .lyric-ja {
     color: #DD0;
+}
+
+.singer-zundamon .lyric-ja {
+    color: #899b35;
+}
+
+.singer-ruka .lyric-ja {
+    color: #FFC0CB;
 }
 
 /* ==========================================================================
