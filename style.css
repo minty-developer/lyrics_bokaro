@@ -1,25 +1,52 @@
-/* ==========================================================================
-   1. Reset & Global Styles
-   ========================================================================== */
+/* 전역 설정 및 초기화 */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* 화면 높이 유지 */
 html,
 body {
     height: 100%;
 }
 
+/* 기본 글꼴 및 배경 설정 */
 body {
-    font-family: 'Pretendard', sans-serif;
+    font-family: 'Pretendard', 'Kosugi Maru', sans-serif;
     background-color: #f5f5f7;
     color: #333;
     display: flex;
     overflow: hidden;
 }
 
+/* 버튼 전역 스타일 규칙 (배경 투명, 테두리만 지정) */
+button {
+    background-color: transparent;
+    border: 1px solid #d1d1d6;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.2s ease;
+}
+
+/* 버튼 hover 상태 (배경 활성화) */
+button:hover {
+    background-color: #e5e5ea;
+}
+
+/* 유틸리티: 화면 숨김 처리 */
+.hidden {
+    display: none !important;
+}
+
+
+/* ==========================================================================
+   메인 레이아웃 및 좌측 요소 배치
+   ========================================================================== */
+
+/* 전체 레이아웃 래퍼 */
 .container {
     flex: 1;
     display: flex;
@@ -27,11 +54,14 @@ body {
     height: 100%;
 }
 
-/* ==========================================================================
-   2. Sidebar (Playlist) - Desktop Only Scroll
-   ========================================================================== */
+/* 좌측 상단 모바일 전용 햄버거 메뉴 */
+.Hamburger {
+    display: none;
+}
+
+/* 좌측 사이드바 컨테이너 */
 .sidebar {
-    width: 300px;
+    width: 320px;
     height: 100%;
     background-color: #ffffff;
     border-right: 1px solid #ddd;
@@ -41,16 +71,28 @@ body {
     flex-direction: column;
 }
 
-.sidebar h1 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    color: #007aff;
+/* 사이드바 상단 헤더 영역 */
+.sidebar-header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 8px;
+    margin-bottom: 20px;
+}
+
+/* 사이드바 웹사이트 제목 */
+.web-title {
+    font-size: 1.4rem;
+    color: #ff0033;
+    user-select: none;
     flex-shrink: 0;
 }
 
+/* 모바일 전용 사이드바 닫기 버튼 */
+.MobileCloseBtn {
+    display: none;
+}
+
+/* 노래 검색창 */
 #search-input {
     width: 100%;
     padding: 10px 15px;
@@ -64,16 +106,13 @@ body {
     flex-shrink: 0;
 }
 
+/* 노래 검색창 포커스 상태 */
 #search-input:focus {
     background-color: #ffffff;
     border-color: #007aff;
-    box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.15);
 }
 
-#search-input::placeholder {
-    color: #99999f;
-}
-
+/* 플레이리스트 컨테이너 */
 #song-list {
     flex: 1;
     min-height: 0;
@@ -82,41 +121,115 @@ body {
     scrollbar-gutter: stable;
 }
 
+/* 플레이리스트 개별 항목 */
 #song-list li {
-    font-family: "Kosugi Maru", sans-serif;
     padding: 15px;
     margin-bottom: 10px;
     background: #f9f9f9;
+    border: 1px solid #eee;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
+/* 플레이리스트 개별 항목 hover 상태 */
 #song-list li:hover,
 #song-list li.active {
     background: #eef6ff;
     color: #007aff;
+    border-color: #007aff;
     transform: translateY(-2px);
 }
 
+
 /* ==========================================================================
-   3. Lyrics View Area (Desktop Layout Fix)
+   중앙 정렬 설정 모달창
    ========================================================================== */
 
-.Hamburger {
-    display: none;
+/* 모달 전체 배경 오버레이 */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10001;
 }
 
-.lyrics-view {
-    font-family: "Kosugi Maru", sans-serif;
-    flex: 1;
-    padding: 40px;
-    background-color: #fff;
+/* 모달 내부 컨텐츠 박스 */
+.modal-content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
 
+/* 모달 헤더 (제목 및 닫기 버튼) */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* 모달 내부 섹션 공통 스타일 */
+.modal-section {
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+/* 모달 내부 섹션 제목 */
+.section-title {
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+}
+
+/* 가사 표시 옵션 라벨 */
+#display-controls label {
     display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* 옵션과 안내 사이 구분선 */
+.modal-divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+/* 파트별 색상 안내 그리드 정렬 */
+.legend-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.95rem;
+}
+
+
+/* ==========================================================================
+   우측 메인 가사 및 영상 영역
+   ========================================================================== */
+
+/* 메인 뷰어 컨테이너 (위치 기준점 적용) */
+.lyrics-view {
+    flex: 1;
+    padding: 40px 0 40px 40px;
+    background-color: #fff;
+    position: relative;
     overflow: hidden;
 }
 
+/* 초기 환영 메세지 */
 #welcome-message {
     height: 100%;
     display: flex;
@@ -126,37 +239,61 @@ body {
     color: #666;
 }
 
+/* 가사 및 영상 표시 전체 컨테이너 */
 #lyrics-content {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-.lyrics-left-block {
-    float: none;
+/* 우측 상단 고정 영상 컨테이너 */
+#video-container {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 340px;
     display: flex;
     flex-direction: column;
-    width: calc(100% - 345px);
-    height: 100%;
+    z-index: 100;
 }
 
+/* 영상 아이프레임 */
+#video-frame {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* 모바일 전용 영상 링크 (데스크톱 숨김) */
+.mobile-video-link {
+    display: none;
+}
+
+/* 가사 출력 좌측/중앙 블록*/
+.lyrics-left-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding-right: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+/* 가사 상단 제목 영역 */
 .desktop-sticky-header {
     width: 100%;
     background-color: #ffffff;
-    z-index: 10;
     padding-bottom: 15px;
+    padding-right: 40px;
     border-bottom: 1px solid #eee;
     flex-shrink: 0;
 }
 
-.lyrics-scroll-body {
-    width: 100%;
-    flex: 1;
-    overflow-y: auto;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
+/* 곡 제목 텍스트 */
 #display-title {
     font-size: 2rem;
     font-weight: 700;
@@ -164,107 +301,80 @@ body {
     color: #111;
 }
 
+/* 아티스트 이름 텍스트 */
 #display-artist {
     font-size: 1.1rem;
     color: #666;
-    margin-bottom: 15px;
 }
 
-#display-controls {
-    background-color: #ffffff;
-    padding: 5px 0;
+/* 가사 스크롤 본문 영역 */
+.lyrics-scroll-body {
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 40px;
 }
 
-.mobile-video-link {
-    display: none;
-}
-
+/* 가사 텍스트 속성 */
 #lyrics-text {
     line-height: 2.8;
     font-size: 1.2rem;
     word-break: keep-all;
 }
 
-#video-container {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    width: 320px;
-    height: 100%;
-    margin-left: 25px;
-    position: relative;
-}
-
-#video-frame {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    background: #000;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    position: static;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-}
-
-/* 기본 가사 색상 설정 */
+/* 일본어 가사 기본 색상 */
 .lyric-ja {
     color: #222;
 }
 
+/* 발음(로마자) 기본 색상 */
 .lyric-pron {
     color: #666;
 }
 
+/* 한국어 해석 기본 색상 */
 .lyric-ko {
     color: #0056b3;
 }
 
-#singer-legend {
-    top: 195px;
-    /* 데스크탑 화면에서 절대 좌표인 영상 프레임(180px) 아래 배치 */
-    left: 0;
-    width: 100%;
-    font-size: 0.9em;
-    text-align: center;
-    background: #f9f9f9;
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #eee;
-    box-sizing: border-box;
+/* 후리가나(루비) 크기 및 색상 */
+rt {
+    font-size: 0.55em;
+    color: #888;
+    user-select: none;
 }
 
-/* 주석이 달린 단어 기본 스타일 */
+
+/* ==========================================================================
+   주석(Footnote) 및 가수별 테마 색상
+   ========================================================================== */
+
+/* 주석이 달린 단어 스타일 */
 .footnote {
     color: inherit;
-    /* 글자 색상은 부모 요소(기본 가사 색상)를 그대로 따라감 */
     cursor: help;
     border-bottom: 2px dashed #0275d8;
-    /* 밑줄만 나무위키 파란색으로 설정 (두께도 2px로 살짝 선명하게 조정) */
     position: relative;
     display: inline-block;
 }
 
-/* 단어 뒤에 붙는 [*] 표시도 파란색으로 유지하고 싶다면 이대로 두고, 
-   [*] 표시도 글자색이랑 맞추고 싶다면 아래 color를 inherit로 바꾸면 돼! */
+/* 주석 꼬리표 기호 */
 .footnote::after {
     content: "[*]";
     font-size: 0.7em;
     vertical-align: super;
     margin-left: 2px;
     color: #0275d8;
-    /* [*] 표시를 파란색으로 포인트 주기 */
 }
 
-/* 마우스를 올렸을 때 나타날 말풍선 디자인 */
+/* 주석 호버 시 나타나는 말풍선 */
 .footnote:hover::before {
     content: attr(data-note);
     position: absolute;
     bottom: 130%;
-
-    /* 중앙 정렬을 해제하고 왼쪽 기준으로 변경 */
     left: 0;
-    /* transform: translateX(-50%); 속성은 삭제 또는 주석 처리합니다 */
-
     background-color: rgba(0, 0, 0, 0.85);
     color: #fff;
     padding: 6px 10px;
@@ -272,244 +382,163 @@ body {
     font-size: 0.85rem;
     z-index: 100;
     pointer-events: none;
-
-    /* 아래 부분 추가 및 수정 (줄바꿈 허용) */
     white-space: normal;
-    /* nowrap에서 normal로 변경하여 줄바꿈 허용 */
     word-break: keep-all;
-    /* 단어가 중간에 끊기지 않고 깔끔하게 줄바꿈되도록 설정 */
     width: max-content;
-    /* 내용물에 맞게 너비를 조절하되 */
     max-width: 250px;
-    /* 말풍선이 너무 길어지지 않게 최대 너비 제한 (원하는 크기로 조절 가능) */
 }
 
-/* ----------------------------------------
-   가수별 색상 지정 템플릿
-   ---------------------------------------- */
+/* 파트별 색상 템플릿 */
+.singer-miku .lyric-ja, .singer-miku-legend { color: #25cac7; font-weight: bold; }
+.singer-teto .lyric-ja, .singer-teto-legend { color: #F33; font-weight: bold; }
+.singer-neru .lyric-ja, .singer-neru-legend { color: #AA0; font-weight: bold; }
+.singer-lin .lyric-ja, .singer-lin-legend { color: #FA0; font-weight: bold; }
+.singer-len .lyric-ja, .singer-len-legend { color: #DD0; font-weight: bold; }
+.singer-zundamon .lyric-ja, .singer-zundamon-legend { color: #899b35; font-weight: bold; }
+.singer-ruka .lyric-ja, .singer-ruka-legend { color: #FFC0CB; font-weight: bold; }
 
-/* 하츠네 미쿠 파트 색상 예시 */
-/* .singer-miku .lyric-ja {
-    color: #39C5BB;
-}
-
-.singer-miku .lyric-pron {
-    color: #73D5CE;
-}
-
-.singer-miku .lyric-ko {
-    color: #1E827B;
-} */
-
-.singer-miku .lyric-ja {
-    color: #25cac7;
-}
-
-.singer-teto .lyric-ja {
-    color: #F33;
-}
-
-.singer-neru .lyric-ja {
-    color: #AA0;
-}
-
-.singer-lin .lyric-ja {
-    color: #FA0;
-}
-
-.singer-len .lyric-ja {
-    color: #DD0;
-}
-
-.singer-zundamon .lyric-ja {
-    color: #899b35;
-}
-
-.singer-ruka .lyric-ja {
-    color: #FFC0CB;
-}
 
 /* ==========================================================================
-   4. Ruby (Furigana) & Utility Styles
-   ========================================================================== */
-rt {
-    font-size: 0.55em;
-    color: #888;
-    user-select: none;
-}
-
-.hidden {
-    display: none !important;
-}
-
-/* ==========================================================================
-   📱 5. Responsive Design (Mobile) - 완벽한 상태 유지
+   모바일 반응형 디자인 (가로 1052px 이하)
    ========================================================================== */
 @media (max-width: 1052px) {
+    /* 모바일 전체 화면 고정 */
     body {
         height: 100vh;
         overflow: hidden;
     }
 
-    .Hamburger {
-        display: block;
-        width: 20px;
-        height: 20px;
-        position: fixed;
-        left: 10px;
-        top: 10px;
-        z-index: 999999;
-    }
-
-    #singer-legend {
-        position: static !important;
-        margin: 5px 20px 15px 20px;
-        width: calc(100% - 40px);
-    }
-
+    /* 레이아웃 구조 세로 배치 */
     .container {
         flex-direction: column;
     }
 
-    .sidebar {
-        width: 100%;
-        height: auto;
-        background-color: #ffffff;
-        border-right: none;
-        border-bottom: 1px solid #ddd;
-        padding: 15px 15px 10px 15px;
-        display: flex;
-        flex-direction: column;
-        flex-shrink: 0;
-        overflow: hidden;
-    }
-
-    .sidebar h1 {
-        font-size: 1.3rem;
-        margin-bottom: 10px;
-    }
-
-    #search-input {
-        margin-bottom: 12px;
-        padding: 8px 12px;
-    }
-
-    #song-list {
-        display: flex;
-        gap: 10px;
-        overflow-x: auto;
-        overflow-y: hidden;
-        padding-bottom: 8px;
-        flex-shrink: 0;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    #song-list li {
-        flex: 0 0 auto;
-        width: 140px;
-        margin-bottom: 0;
-        padding: 10px;
-        font-size: 0.85rem;
-        text-align: center;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .lyrics-view {
-        padding: 0;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
+    /* 좌측 상단 햄버거 버튼 활성화 */
+    .Hamburger {
+        display: block;
+        position: fixed;
+        left: 15px;
+        top: 15px;
+        z-index: 9999;
         background-color: #fff;
     }
 
+    /* 모바일 사이드바 (화면 좌측에서 슬라이드 인) */
+    .sidebar {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 85%;
+        max-width: 320px;
+        height: 100vh;
+        z-index: 10000;
+        transition: left 0.3s ease;
+        padding-top: 60px;
+    }
+
+    /* 사이드바 열림 상태 클래스 */
+    .sidebar.open {
+        left: 0;
+    }
+
+    /* 모바일 사이드바 닫기 버튼 활성화 */
+    .MobileCloseBtn {
+        display: block;
+    }
+
+    /* 모바일 백그라운드 오버레이 (사이드바 열림 시) */
+    .sidebar-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 9995;
+    }
+
+    /* 메인 뷰어 여백 제거 */
+    .lyrics-view {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* 메인 뷰어 내부 구조 정렬 */
     #lyrics-content {
         display: flex;
         flex-direction: column;
-        height: 100%;
     }
 
+    /* 가사 영역 너비 제한 해제 (전체 화면 사용) */
     .lyrics-left-block {
-        float: none;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
+        max-width: 100%;
+        padding: 60px 0 0 20px;
     }
 
-    .desktop-sticky-header {
-        position: static;
-        padding: 20px 20px 0 20px;
-        border-bottom: none;
-    }
-
-    #display-title {
-        font-size: 1.5rem;
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
-
-    #display-artist {
-        margin-bottom: 15px;
-    }
-
-    #display-controls {
-        background-color: transparent;
-        padding: 0;
-    }
-
+    /* 모바일 영상 프레임 배치 변경 */
     #video-container {
-        float: none;
+        position: static;
         width: 100%;
-        height: auto;
-        margin-left: 0;
-        order: -1;
-        position: relative;
-        flex-shrink: 0;
-        box-shadow: none;
         display: flex;
         justify-content: center;
-        background-color: #fff;
+        right: 50px;
     }
 
+    /* 모바일에서는 아이프레임 비활성화 */
     #video-frame {
         display: none !important;
     }
 
+    /* 유튜브 이동 아이콘 버튼 활성화 */
     .mobile-video-link {
-        display: inline-flex;
-        align-items: center;
+        display: flex;
         justify-content: center;
-        background-color: #ff0000;
-        color: #ffffff;
-        text-decoration: none;
-        padding: 12px 24px;
-        border-radius: 10px;
-        font-size: 1.05rem;
-        font-weight: 600;
-        margin: 10px 20px 5px 20px;
-        /* 좌우 여백 */
-        width: calc(100% - 40px);
-        box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2);
-        transition: background-color 0.2s;
+        align-items: center;
+        width: 60px;
+        height: 40px;
+        border-radius: 8px;
+        color: #ff0000;
+        margin-top: 8px;
+        margin-left: 60px;
     }
+}
 
-    .mobile-video-link:active {
-        background-color: #cc0000;
-        transform: scale(0.98);
+/* ==========================================================================
+   다크모드 지원
+   ========================================================================== */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
     }
-
-    .lyrics-scroll-body {
-        padding-top: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 40px;
+    .sidebar, .modal-content, .lyrics-view, .desktop-sticky-header, .Hamburger {
+        background-color: #1e1e1e;
+        border-color: #333;
     }
-
-    #lyrics-text {
-        font-size: 1.1rem;
-        line-height: 2.8;
+    #song-list li {
+        background-color: #2c2c2c;
+        border-color: #444;
+        color: #e0e0e0;
     }
+    #song-list li:hover {
+        background-color: #3a3a3c;
+    }
+    #search-input {
+        background-color: #2c2c2c;
+        color: #e0e0e0;
+        border-color: #444;
+    }
+    button, .mobile-video-link {
+        border-color: #555;
+        color: #e0e0e0;
+    }
+    button:hover, .mobile-video-link:hover {
+        background-color: #2c2c2c;
+    }
+    .lyric-ja { color: #e0e0e0; }
+    .lyric-pron { color: #aaa; }
+    .lyric-ko { color: #66b2ff; }
+    #display-title { color: #fff; }
+    #display-artist { color: #bbb; }
 }

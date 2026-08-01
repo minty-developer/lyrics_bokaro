@@ -14,34 +14,82 @@
 
 <body>
     <div class="container">
+        <!-- 모바일 햄버거 및 데스크톱 설정 버튼 -->
         <button class="Hamburger" id="HamburgerBtn">≡</button>
+
+        <!-- 좌측 사이드바 (재생목록 및 검색) -->
         <nav class="sidebar" id="Sidebar">
-            <h1>🎵 Playlist</h1>
-            <input type="text" id="search-input" placeholder="곡 제목 또는 아티스트 검색...">
+            <div class="sidebar-header">
+                <h1 class="web-title">Lyrics-ボカロ</h1>
+                <button class="SettingsBtn" id="SettingsBtn">⚙️ 설정</button>
+                <button class="MobileCloseBtn" id="MobileCloseBtn">X</button>
+            </div>
+            <input type="text" id="search-input" placeholder="곡 제목 또는 아티스트 검색..." autocomplete="off">
             <ul id="song-list">
             </ul>
         </nav>
 
+        <!-- 정중앙 설정 모달창 -->
+        <div class="modal hidden" id="SettingsModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>화면 설정</h2>
+                    <button id="CloseSettingsBtn">X</button>
+                </div>
+                
+                <div class="modal-section" id="display-controls">
+                    <p class="section-title">가사 표시 옵션</p>
+                    <label><input type="checkbox" id="toggle-furigana" checked> 후리가나 보기</label>
+                    <label><input type="checkbox" id="toggle-pron" checked> 발음 보기</label>
+                    <label><input type="checkbox" id="toggle-ko" checked> 한글 해석 보기</label>
+                </div>
+
+                <hr class="modal-divider">
+
+                <div class="modal-section" id="singer-legend">
+                    <p class="section-title">🎤 파트별 색상 안내</p>
+                    <div class="legend-grid">
+                        <span class="singer-teto-legend">■ 카사네 테토</span>
+                        <span class="singer-lin-legend">■ 카가미네 린</span>
+                        <span class="singer-len-legend">■ 카가미네 렌</span>
+                        <span class="singer-neru-legend">■ 아키타 네루</span>
+                        <span class="singer-zundamon-legend">■ 즌다몬</span>
+                        <span class="singer-miku-legend">■ 하츠네 미쿠</span>
+                        <span class="singer-ruka-legend">■ 메구리네 루카</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 우측 메인 가사 및 영상 영역 -->
         <main class="lyrics-view">
             <div id="welcome-message">
                 <h2>노래를 선택해 주세요</h2>
                 <p>왼쪽 리스트에서 듣고 싶은 노래의 가사를 확인하세요.</p>
             </div>
+
             <div id="lyrics-content" class="hidden">
+                <!-- 우측 상단 고정 영상 프레임 -->
+                <div id="video-container" class="hidden">
+                    <iframe id="video-frame" 
+                            src="" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                    <!-- 모바일 유튜브 버튼 (로고만 표시) -->
+                    <a id="video-link" class="mobile-video-link" href="" target="_blank" aria-label="YouTube에서 보기">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21.582 6.186a2.6 2.6 0 0 0-1.838-1.838C18.125 3.9 12 3.9 12 3.9s-6.125 0-7.744.448a2.6 2.6 0 0 0-1.838 1.838C2 7.805 2 12 2 12s0 4.195.448 5.814a2.6 2.6 0 0 0 1.838 1.838C5.875 20.1 12 20.1 12 20.1s6.125 0 7.744-.448a2.6 2.6 0 0 0 1.838-1.838C22 16.195 22 12 22 12s0-4.195-.418-5.814zM9.99 15.47V8.53L16 12l-6.01 3.47z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- 가사 본문 영역 (중앙 배치) -->
                 <div class="lyrics-left-block">
                     <div class="desktop-sticky-header">
                         <h2 id="display-title"></h2>
                         <p id="display-artist"></p>
-
-                        <div id="display-controls"
-                            style="display: flex; gap: 15px; font-size: 0.9em; user-select: none;">
-                            <label style="cursor: pointer;"><input type="checkbox" id="toggle-furigana" checked> 후리가나
-                                보기</label>
-                            <label style="cursor: pointer;"><input type="checkbox" id="toggle-pron" checked> 발음
-                                보기</label>
-                            <label style="cursor: pointer;"><input type="checkbox" id="toggle-ko" checked> 한글 해석
-                                보기</label>
-                        </div>
                     </div>
 
                     <div class="lyrics-scroll-body">
@@ -50,6 +98,9 @@
                 </div>
             </div>
         </main>
+        
+        <!-- 모바일 백그라운드 오버레이 -->
+        <div class="sidebar-overlay hidden" id="SidebarOverlay"></div>
     </div>
     <script src="script.js"></script>
 </body>
