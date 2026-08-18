@@ -64,7 +64,7 @@ function compareVersion(a, b) {
 
 // 최신 버전 공지를 보여주는 함수
 async function showNotice() {
-    const notice = await fetch("/notice.json")
+    const notice = await fetch("notice.json")
             .then(res => res.json());
 
     const lastest = notice.reduce((latest, current) => {
