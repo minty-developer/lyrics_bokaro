@@ -13,18 +13,26 @@ const toggleKo = document.getElementById('toggle-ko');
 const settingsModal = document.getElementById('SettingsModal');
 const settingsBtn = document.getElementById('SettingsBtn');
 const closeSettingsBtn = document.getElementById('CloseSettingsBtn');
+const closeSortMenuBtn = document.getElementById('CloseSortMenuBtn');
+const sortBtn = document.getElementById("sortBtn");
+const sortMenu = document.getElementById("SortMenu");
 
 // 사이드바 관련 DOM
 const hamburgerBtn = document.getElementById('HamburgerBtn');
 const sidebar = document.getElementById('Sidebar');
 const sidebarOverlay = document.getElementById('SidebarOverlay');
+const noticeModal = document.getElementById('NoticeModal');
 const mobileCloseBtn = document.getElementById('MobileCloseBtn');
 
 let allSongs = [];
+let nowSongs = [];
+
+let sortType = localStorage.getItem("lyrics_bokaro_sort_type") ?? "title"; // ( title | artist | latest | oldest )
 
 // 모달창 열기/닫기 이벤트
 settingsBtn?.addEventListener('click', () => settingsModal.classList.remove('hidden'));
 closeSettingsBtn?.addEventListener('click', () => settingsModal.classList.add('hidden'));
+closeSortMenuBtn?.addEventListener('click', () => sortMenu.classList.add("hidden"));
 
 // 모바일 사이드바 열기/닫기 이벤트
 function toggleSidebar(show) {
@@ -40,6 +48,50 @@ hamburgerBtn?.addEventListener('click', () => toggleSidebar(true));
 mobileCloseBtn?.addEventListener('click', () => toggleSidebar(false));
 sidebarOverlay?.addEventListener('click', () => toggleSidebar(false));
 
+// 버전을 비교하는 함수
+function compareVersion(a, b) {
+    const va = a.split(".").map(Number);
+    const vb = b.split(".").map(Number);
+
+    for (let i = 0; i < 3; i++) {
+        if (va[i] !== vb[i]) {
+            return va[i] - vb[i];
+        }
+    }
+
+    return 0;
+}
+
+// 최신 버전 공지를 보여주는 함수
+async function showNotice() {
+    const notice = await fetch("/notice.json")
+            .then(res => res.json());
+
+    const lastest = notice.reduce((latest, current) => {
+        return compareVersion(current.version, latest.version) > 0
+            ? current
+            : latest;
+    });
+
+    const lastVersion = localStorage.getItem("lyrics_bokaro_last_version");
+    if (!lastVersion ||
+    compareVersion(lastest.version, lastVersion) > 0) {
+        console.log(lastest);
+        noticeModal.innerHTML = `<div class="modal-content"><div class="modal-header" style="display: flex; flex-dircetion: column;"><h1>${lastest.title}</h1><small>Update at ${lastest.date}</small></div><div class="modal-section">${lastest.changes.replaceAll(" ", "&nbsp;")}</div><button id="noticeCloseButton" style="width: 100px; height: 30px; margin-top: 10px; background-color: #d00; color: #fff; border: none; border-radius: 5px;">확인</button></div>`;
+        document.getElementById("noticeCloseButton")?.addEventListener('click', closeNotice);
+        noticeModal.style.flexDirection = "column";
+        noticeModal.classList.remove('hidden');
+
+        localStorage.setItem(
+            "lyrics_bokaro_last_version",
+            lastest.version
+        );
+    }
+}
+
+function closeNotice() {
+    noticeModal.classList.add('hidden');
+}
 
 // 가사 표시 옵션 업데이트 함수
 function updateVisibility() {
@@ -65,7 +117,8 @@ async function loadSongs() {
         if (!response.ok) throw new Error('데이터 로드 실패');
         
         allSongs = await response.json();
-        renderList(allSongs);
+        nowSongs = allSongs;
+        renderListWithSorts();
 
         const urlParams = new URLSearchParams(window.location.search);
         const songId = urlParams.get('id');
@@ -89,6 +142,8 @@ function renderList(songs) {
         songListElement.innerHTML = '<li style="text-align:center; color:#999; pointer-events:none;">검색 결과 없음</li>';
         return;
     }
+
+    songs = sortSongs(songs);
 
     songs.forEach(song => {
         const li = document.createElement('li');
@@ -160,6 +215,49 @@ function showLyrics(song) {
     document.querySelector('.lyrics-scroll-body')?.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// 곡을 정렬하는 함수
+function sortSongs(songs, Type = sortType) {
+    const sorted = [...songs];
+
+    switch (Type) {
+        case "title":
+            sorted.sort((a, b) =>
+                a.title.localeCompare(b.title, "ja")
+            );
+            break;
+
+        case "artist":
+            sorted.sort((a, b) =>
+                a.artist.localeCompare(b.artist, "en")
+            );
+            break;
+
+        case "latest":
+            sorted.sort((a, b) =>
+                new Date(b.add_at) - new Date(a.add_at)
+            );
+            break;
+
+        case "oldest":
+            sorted.sort((a, b) =>
+                new Date(a.add_at) - new Date(b.add_at)
+            );
+            break;
+    }
+
+    return sorted;
+}
+
+// 정렬한 후 로딩하는 함수
+function renderListWithSorts(Type = sortType) {
+    sortType = Type;
+    localStorage.setItem("lyrics_bokaro_sort_type", Type);
+    renderList(sortSongs(nowSongs, Type));
+    sortMenu?.classList.add('hidden');
+}
+
+sortBtn.addEventListener("click", () => sortMenu.classList.remove('hidden'));
+
 // 검색 기능
 searchInput?.addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase().trim();
@@ -169,8 +267,10 @@ searchInput?.addEventListener('input', (e) => {
         (song.krTitle && song.krTitle.toLowerCase().includes(query)) ||
         (song.krArtist && song.krArtist.toLowerCase().includes(query))
     );
-    renderList(filteredSongs);
+    nowSongs = filteredSongs;
+    renderListWithSorts();
 });
 
 // 초기화
+showNotice();
 loadSongs();

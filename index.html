@@ -21,13 +21,36 @@
         <nav class="sidebar" id="Sidebar">
             <div class="sidebar-header">
                 <h1 class="web-title">Lyrics-ボカロ</h1>
-                <button class="SettingsBtn" id="SettingsBtn">⚙️ 설정</button>
+                <button class="SortBtn" id="sortBtn">⇅</button>
+                <button class="SettingsBtn" id="SettingsBtn">⚙️</button>
                 <button class="MobileCloseBtn" id="MobileCloseBtn">X</button>
             </div>
             <input type="text" id="search-input" placeholder="곡 제목 또는 아티스트 검색..." autocomplete="off">
             <ul id="song-list">
             </ul>
         </nav>
+
+        <!-- 정중앙 공지 모달 창 -->
+        <div class="modal hidden" id="NoticeModal" style="user-select: none;"></div>
+
+        <!-- 정렬 모달 창 -->
+        <div id="SortMenu" class="modal hidden" style="z-index: 11000;">
+            <div class="modal-content" style="display: flex; flex-direction: column;">
+                <div class="modal-header">
+                    <h1>정렬 방법</h1>
+                    <button id="CloseSortMenuBtn">X</button>
+                </div>
+                <div class="modal-section">
+                    <div style="margin-bottom: 5px;">글자</div>
+                    <button onclick="renderListWithSorts('title')">제목</button>
+                    <button onclick="renderListWithSorts('artist')">아티스트</button>
+                    <div class="modal-divider"></div>
+                    <div style="margin-bottom: 5px;">날짜</div>
+                    <button onclick="renderListWithSorts('latest');">최신 추가</button>
+                    <button onclick="renderListWithSorts('oldest')">과거 추가</button>
+                </div>
+            </div>
+        </div>
 
         <!-- 정중앙 설정 모달창 -->
         <div class="modal hidden" id="SettingsModal">
