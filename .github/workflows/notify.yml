@@ -44,7 +44,7 @@ jobs:
                 : latest;
             });
 
-            console.log(JSON.stringify(latest));
+            console.log(JSON.stringify(latest.replaceAll("<br>", "\n")));
           ')
 
           echo "notice=$NOTICE" >> "$GITHUB_OUTPUT"
