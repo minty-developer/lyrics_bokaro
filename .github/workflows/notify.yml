@@ -43,8 +43,10 @@ jobs:
                 ? current
                 : latest;
             });
+            
+            latest.changes = latest.changes.replaceAll("<br>", "\n");
 
-            console.log(JSON.stringify(latest.replaceAll("<br>", "\n")));
+            console.log(JSON.stringify(latest));
           ')
 
           echo "notice=$NOTICE" >> "$GITHUB_OUTPUT"
