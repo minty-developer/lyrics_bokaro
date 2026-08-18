@@ -1,0 +1,57 @@
+name: Notify Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'notice.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read latest notice
+        id: notice
+        run: |
+          NOTICE=$(node -e '
+            const fs = require("fs");
+
+            const data = JSON.parse(
+              fs.readFileSync("notice.json", "utf8")
+            );
+
+            function compareVersion(a, b) {
+              const va = a.split(".").map(Number);
+              const vb = b.split(".").map(Number);
+
+              for (let i = 0; i < 3; i++) {
+                if (va[i] !== vb[i]) {
+                  return va[i] - vb[i];
+                }
+              }
+
+              return 0;
+            }
+
+            const latest = data.reduce((latest, current) => {
+              return compareVersion(current.version, latest.version) > 0
+                ? current
+                : latest;
+            });
+
+            console.log(JSON.stringify(latest));
+          ')
+
+          echo "notice=$NOTICE" >> "$GITHUB_OUTPUT"
+
+      - name: Send notice to API
+        run: |
+            curl -X POST "${{ secrets.BOT_API_URL }}/api/announcement" \
+            -H "Content-Type: application/json" \
+            -H "x-api-key: ${{ secrets.TORI_API_KEY }}" \
+            -d '${{ steps.notice.outputs.notice }}'
