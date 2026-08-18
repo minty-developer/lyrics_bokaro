@@ -51,7 +51,7 @@ jobs:
 
       - name: Send notice to API
         run: |
-            curl -X POST "${{ secrets.BOT_API_URL }}/api/announcement" \
+          curl -X POST "${{ secrets.BOT_API_URL }}/api/announcement" \
             -H "Content-Type: application/json" \
             -H "x-api-key: ${{ secrets.TORI_API_KEY }}" \
             -d '${{ steps.notice.outputs.notice }}'
