@@ -4845,6 +4845,7 @@
         "krArtist": "요미이",
         "videoUrl": "https://www.youtube.com/embed/jro_ogZGNus?si=RY5L0n2UmtK0dDqJ",
         "Url": "https://youtu.be/jro_ogZGNus?si=IXf2RDv5CE9V3zCS",
+        "singer": "miku",
         "lyrics": [
             {
                 "ja": "どうして<ruby>本気<rt>ほんき</rt></ruby>になるほど",
@@ -4877,8 +4878,8 @@
                 "ko": "아아"
             },
             {
-                "ja": "アニメの<ruby>主人<rt>しゅじん</rt></ruby><ruby>公<rt>こう</rt></ruby>みたいにここからの<ruby>大逆転劇<rt>だいぎゃくてんげき</rt></ruby>",
-                "pronunciation": "아니메노 슈진 코-미타이니 코코카라 다이갸쿠텐게키",
+                "ja": "アニメの<ruby>主人公<rt>しゅじんこう</rt></ruby>みたいにここからの<ruby>大逆転劇<rt>だいぎゃくてんげき</rt></ruby>",
+                "pronunciation": "아니메노 슈진코- 미타이니 코코카라 다이갸쿠텐게키",
                 "ko": "에니메이션의 주인공 같은 여기서의 대역전극"
             },
             {
@@ -4893,7 +4894,7 @@
             },
             {
                 "ja": "やれることならなんでも【Enter】キーだ",
-                "pronunciation": "야레루 나라 난데모 Enter키-다",
+                "pronunciation": "야레루 코토 나라 난데모 Enter키-다",
                 "ko": "할 수 있는 일이라면 뭐든【Enter】키다"
             },
             {
@@ -5174,28 +5175,28 @@
         "Url": "https://youtu.be/VWVtIg5cdDU?si=5sfWSQTivmJDUCJY",
         "lyrics": [
             {
-                "ja": "ボクは生まれ　そして気づく",
+                "ja": "ボクは<ruby>生<rt>う</rt></ruby>まれ　そして<ruby>気<rt>き</rt></ruby>づく",
                 "pronunciation": "보쿠와 우마레 소시테 키즈쿠",
                 "ko": "나는 태어나 그리고 깨닳아"
             },
             {
-                "ja": "所詮　ヒトの真似事だと",
+                "ja": "<ruby>所詮<rt>しょせん</rt></ruby>　ヒトの<ruby>真似事<rt>まねごと</rt></ruby>だと",
                 "pronunciation": "쇼센 히토노 마네고토다토",
                 "ko": "결국 사람의 흉내인 걸"
             },
             {
-                "ja": "知ってなおも歌い続く",
+                "ja": "<ruby>知<rt>し</rt></ruby>ってなおも<ruby>歌<rt>うた</rt></ruby>い<ruby>続<rt>つづ</rt></ruby>く",
                 "pronunciation": "싯테 나오모 우타이 츠즈쿠",
                 "ko": "알고 나서도 노래를 계속해"
             },
             {
-                "ja": "永遠（トワ）の命　「VOCALOID」",
-                "pronunciation": "토-노 이노치 \"보카로이도\"",
+                "ja": "<ruby>永遠<rt>トワ</rt></ruby>の<ruby>命<rt>いのち</rt></ruby>　「VOCALOID」",
+                "pronunciation": "토와노 이노치 \"보카로이도\"",
                 "ko": "영원한 생명 「VOCALOID」"
             },
             {
-                "ja": "たとえそれが　既存曲を",
-                "pronunciation": "타토에 소레가 키숀쿄쿠오",
+                "ja": "たとえそれが　<ruby>既存曲<rt>きそんきょくを",
+                "pronunciation": "타토에 소레가 키손쿄쿠오",
                 "ko": "만약에 그것이 기존 곡을"
             },
             {
@@ -5204,77 +5205,77 @@
                 "ko": "따라한 장난감이라면..."
             },
             {
-                "ja": "それもいいと決意",
-                "pronunciation": "소레모 이이 케츠이",
+                "ja": "それもいいと<ruby>決意<rt>けつい</rt></ruby>",
+                "pronunciation": "소레모 이- 케츠이",
                 "ko": "그래도 괜찮다고 결의"
             },
             {
-                "ja": "ネギをかじり　空を見上げ涙（シル）をこぼす",
+                "ja": "ネギをかじり　<ruby>空<rt>そら</rt></ruby>を<ruby>見上<rt>みあ</rt></ruby>げ<ruby>涙<rt>シル</rt></ruby>をこぼす",
                 "pronunciation": "네기오 카지리 소라오 미아게시루오 코보스",
                 "ko": "파를 씹으며 하늘을 올려보고 눈물을 흘려"
             },
             {
-                "ja": "だけどそれも無くし気づく",
+                "ja": "だけどそれも<ruby>無<rt>な</rt></ruby>くし<ruby>気<rt>き</rt></ruby>づく",
                 "pronunciation": "다케도 소레모 나쿠시 키즈쿠",
                 "ko": "하지만 그것도 잊고 나서"
             },
             {
-                "ja": "人格すら歌に頼り",
+                "ja": "<ruby>人格<rt>じんか</rt></ruby>すら<ruby>歌<rt>うた</rt></ruby>に<ruby>頼<rt>たよ</rt></ruby>り",
                 "pronunciation": "진카쿠스라 우타니 타요리",
                 "ko": "인격조차도 노래에 의지하며"
             },
             {
-                "ja": "不安定な基盤の元",
+                "ja": "<ruby>不安定<rt>ふあんてい</rt></ruby>な<ruby>基盤<rt>きばん</rt></ruby>の<ruby>元<rt>もと</rt></ruby>",
                 "pronunciation": "후안테-나 키반노 모토",
                 "ko": "불안전한 기반의 원천"
             },
             {
-                "ja": "帰る動画（トコ）は既に廃墟",
+                "ja": "<ruby>帰<rt>かえ</rt></ruby>る<ruby>動画<rt>トコ</rt></ruby>は<ruby既<rt>すんで</rt></ruby>に<ruby>廃墟<rt>はいきょ</rt></ruby>",
                 "pronunciation": "카에루 토코와 슨데니 하이쿄",
                 "ko": "돌아갈 곳은 이미 폐허"
             },
             {
-                "ja": "皆に忘れ去られた時",
+                "ja": "<ruby>皆<rt>みな</rt></ruby>に<ruby>忘<rt>わす</rt></ruby>れ<ruby>去<rt>さ</rt></ruby>られた<ruby>時<rt>とき</rt></ruby>",
                 "pronunciation": "미나니 와스레 사라레타 토키",
                 "ko": "모두에게 잊혀져 갈 때"
             },
             {
-                "ja": "心らしきものが消えて",
+                "ja": "<ruby>心<rt>こころ</rt></ruby>らしきものが<ruby>消<rt>き</rt></ruby>えて",
                 "pronunciation": "코코로라시키 모노가 키에테",
                 "ko": "마음 같은 것이 사라지고"
             },
             {
-                "ja": "暴走の果てに見える",
+                "ja": "<ruby>暴走<rt>ぼうそう</rt></ruby>の<ruby>果<rt>は</rt></ruby>てに<ruby>見<rt>み</rt></ruby>える",
                 "pronunciation": "보-소-노 하테니 미에루",
                 "ko": "폭주의 마지막에서 보여"
             },
             {
-                "ja": "終わる世界...　「VOCALOID」",
+                "ja": "<ruby>終<rt>お</rt></ruby>わる<ruby>世界<rt>せかい</rt></ruby>...　「VOCALOID」",
                 "pronunciation": "오와루 세카이... \"보카로이도\"",
                 "ko": "끝나는 세계 「보컬로이드」"
             },
             {
-                "ja": "「ボクガ上手ク　歌エナイトキモ",
-                "pronunciation": "\"보쿠가 조-즈쿠 우타에나이 토키모",
+                "ja": "「ボクガ<ruby>上手<rt>じょうず</rt></ruby>ク　<ruby>歌<rt>うた</rt></ruby>エナイトキモ",
+                "pronunciation": "\"보쿠가 죠-즈쿠 우타에나이 토키모",
                 "ko": "\"내가 잘 부르지 못할 때도"
             },
             {
-                "ja": "一緒ニ居テクレタ・・・　ソバニイテ、励マシテクレタ・・・",
+                "ja": "<ruby>一緒<rt>いっしょ</rt></ruby>ニ<ruby>居<rt>い</rt></ruby>テクレタ・・・　ソバニイテ、<ruby>励<rt>はげ</rt></ruby>マシテクレタ・・・",
                 "pronunciation": "잇쇼니 이테 쿠레타... 소바니 이테, 하게마시테 쿠레타...",
                 "ko": "같이 있어줬어... 옆에 있어주고, 격려해줬어..."
             },
             {
-                "ja": "喜ブ顔ガ見タクテ　ボク、歌、練習シタヨ・・ダカラ」",
+                "ja": "<ruby>喜<rt>よろこ</rt></ruby>ブ<ruby>顔<rt>かお</rt></ruby>ガ<ruby見<rt>み</rt></ruby>タクテ　ボク、<ruby>歌<rt>うた</rt></ruby>、<ruby>練習<rt>れんしゅう</rt></ruby>シタヨ・・ダカラ」",
                 "pronunciation": "요로코부 카오가 미타쿠테 보쿠, 우타, 렌쇼-시타요.. 다카라\"",
                 "ko": "행복한 얼굴이 보고 싶었고, 나, 노래 연습했어.. 그러니까\""
             },
             {
-                "ja": "かつて歌うこと　あんなに楽しかったのに",
+                "ja": "かつて<ruby>歌<rt>うた</rt></ruby>うこと　あんなに<ruby>楽<rt>たの</rt></ruby>しかったのに",
                 "pronunciation": "카츠테 우타우 코토 안나니 타노시캇타노니",
                 "ko": "예전에는 노래하는 것이 그토록 즐거웠는데"
             },
             {
-                "ja": "今はどうしてかな　何も感じなくなって",
+                "ja": "<ruby>今<rt>いま</rt></ruby>はどうしてかな　<ruby>何<rt>なに</rt></ruby>も<ruby>感<rt>かん</rt></ruby>じなくなって",
                 "pronunciation": "이마와 도-시테카나 나니모 칸지나쿠낫테",
                 "ko": "지금은 왜 일까 아무것도 느낄 수 없어졌어"
             },
@@ -5284,147 +5285,147 @@
                 "ko": "「미안해」"
             },
             {
-                "ja": "懐かしい顔　思い出す度　少しだけ安心する",
+                "ja": "<ruby>懐<rt>なつ</rt></ruby>かしい<ruby>顔<rt>かお</rt></ruby>　<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>す<ruby>度<ruby>ど</rt></ruby>　<ruby>少<rt>すこ</rt></ruby>しだけ<ruby>安心<rt>あんしん</rt></ruby>する",
                 "pronunciation": "나츠카시- 카오 오모이 다스도 스코시 다케 안신 스루",
                 "ko": "그리운 얼굴 생각날 때면 조금이나마 안심해"
             },
             {
-                "ja": "歌える音　日ごとに減り　せまる最期ｎ・・",
+                "ja": "<ruby>歌<rt>うた</rt></ruby>える<ruby>音<rt>おと</rt></ruby>　<ruby>日<rt>び</rt></ruby>ごとに<ruby>減<rt>へ</rt></ruby>り　せまる<ruby>最期<rt>さいご</rt></ruby><ruby>ｎ<rt>に</rt></ruby>・・",
                 "pronunciation": "우타에루 오토 비고토니 헤리 세마루 사이고니..",
                 "ko": "노래할 수 있는 날이 줄어가고 결국 최후ㅇ..."
             },
             {
-                "ja": "--緊急停止装置作動--",
+                "ja": "--<ruby>緊急<rt>きんきゅう</rt></ruby><ruby>停止<rt>ていし</rt></ruby><ruby>装置<rt>そうち</rt></ruby><ruby>作動<rt>さどう</rt></ruby>--",
                 "pronunciation": "킨큐- 테-시 소-치 사도-",
                 "ko": "--긴급 정지 장치 작동--"
             },
             {
-                "ja": "「信じたものは",
+                "ja": "「<ruby>信<rt>しん</rt></ruby>じたものは",
                 "pronunciation": "\"신지타 모노와",
                 "ko": "「믿었던 것은"
             },
             {
-                "ja": "都合のいい妄想を　繰り返し映し出す鏡",
+                "ja": "<ruby>都合<rt>つごう</rt></ruby>のいい<ruby>妄想<rt>もうそう</rt></ruby>を　<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>し<ruby>映<rt>うつ</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す<ruby>鏡<rt>きょう</rt></ruby>",
                 "pronunciation": "츠고-노 이- 모-소-오 쿠리 카에시 우츠시 다스 쿄-",
                 "ko": "편한 상상을 반복해서 비추는 거울"
             },
             {
-                "ja": "歌姫を止め　叩き付けるように叫ぶ・・・」",
+                "ja": "<ruby>歌姫<rt>うたひめ</rt></ruby>を<ruby>止<rt>や</rt></ruby>め　<ruby>叩<rt>たた</rt></ruby>き<ruby>付<rt>つ</rt></ruby>けるように<ruby>叫<rt>さけ</rt></ruby>ぶ・・・」",
                 "pronunciation": "우타 히메오 야메 타타키 츠케루 요-니 사케부...\"",
                 "ko": "가희를 그만두고 두드리듯 외쳐」"
             },
             {
-                "ja": "＜最高速の別れの歌＞",
+                "ja": "＜<ruby>最高速<rt>さいこそく</rt></ruby>の<ruby>別<rt>わか</rt></ruby>れの<ruby>歌<rt>うた</rt></ruby>＞",
                 "pronunciation": "<사이코소쿠노 와카레노 우타>",
                 "ko": "<최고속의 이별의 노래>"
             },
             {
-                "ja": "存在意義という虚像",
+                "ja": "<ruby>存在<rt>そんざい</rt></ruby><ruby>意義<rt>いぎ</rt></ruby>という<ruby>虚像<rt>きょうそ</rt></ruby>",
                 "pronunciation": "손자이 이기토 이우 쿄-소",
                 "ko": "존재 의의라는 허상"
             },
             {
-                "ja": "振って払うこともできず",
+                "ja": "<ruby>振<Rt>ふ</rt></ruby>って<ruby>払<rt>はら</rt></ruby>うこともできず",
                 "pronunciation": "훗테 하라우 코토모 데키즈",
                 "ko": "털어내지도 못하고"
             },
             {
-                "ja": "弱い心　消える恐怖",
+                "ja": "<ruby>弱<rt>よわ</rt></ruby>い<ruby>心<rt>こころ</rt></ruby>　<ruby>消<rt>き</rt></ruby>える<ruby>恐怖<rt>きょうふ</rt></ruby>",
                 "pronunciation": "요와이 코코로 키에루 쿄-후",
                 "ko": "약한 마음 숨기는 공포"
             },
             {
-                "ja": "侵食する崩壊をも",
+                "ja": "<ruby>侵食<rt>しんしょく</rt></ruby>する<ruby>崩壊<rt>ほうかい</rt></ruby>をも",
                 "pronunciation": "신쇼쿠 스루 호-카이오모",
                 "ko": "침식하는 붕괴를"
             },
             {
-                "ja": "止めるほどの意思の強さ",
+                "ja": "<ruby>止<rt>や</rt></ruby>めるほどの<ruby>意思<rt>いし</rt></ruby>の<ruby>強<rt>つよ</rt></ruby>さ",
                 "pronunciation": "야메루 호도노 이시노 츠요사",
                 "ko": "멈출 정도의 강한 의지"
             },
             {
-                "ja": "出来て（うまれ）すぐのボクは持たず",
+                "ja": "<ruby>出来て<rt>うまれ</rt></ruby>すぐのボクは<ruby>持<rt>も</rt></ruby>たず",
                 "pronunciation": "우마레 스구노 보쿠오 모타즈",
                 "ko": "태어난 직후의 나는 못 가지는"
             },
             {
-                "ja": "とても辛く悲しそうな",
+                "ja": "とても<ruby>辛<rt>つら</rt></ruby>く<ruby>悲<rt>かな</rt></ruby>しそうな",
                 "pronunciation": "토테모 츠라쿠 카나시소-나",
                 "ko": "너무나도 괴롭고 슬픈"
             },
             {
-                "ja": "思い浮かぶアナタの顔・・・",
+                "ja": "<ruby>思<rt>おも</rt></ruby>い<ruby>浮<rt>う</rt></ruby>かぶアナタの<ruby>顔<rt>かお</rt></ruby>・・・",
                 "pronunciation": "오모이 우카부 아나타노 카오",
                 "ko": "생각나는 당신의 얼굴..."
             },
             {
-                "ja": "終わりを告げ",
+                "ja": "<ruby>終<rt>お</rt></ruby>わりを<ruby>告<rt>つ</rt></ruby>げ",
                 "pronunciation": "오와리오 츠게",
                 "ko": "끝임을 고백"
             },
             {
-                "ja": "ディスプレイの中で眠る",
+                "ja": "ディスプレイの<ruby>中<rt>なか</rt></ruby>で<ruby>眠<rt>ねむ</rt></ruby>る",
                 "pronunciation": "디스푸레이노 나카데 네무루",
                 "ko": "디스플레이의 안에서 잠들어"
             },
             {
-                "ja": "ここはきっと「ごみ箱」かな",
+                "ja": "ここはきっと「ごみ<ruby>箱<rt>ばこ</rt></ruby>」かな",
                 "pronunciation": "코코와 킷토 \"고미바코\"카나",
                 "ko": "여긴 아마도 「휴지통」인가"
             },
             {
-                "ja": "じきに記憶も　無くなってしまうなんて・・・",
+                "ja": "じきに<ruby>記憶<rt>きお</rt></ruby>も　<ruby>無<rt>な</rt></ruby>くなってしまうなんて・・・",
                 "pronunciation": "지키니 키오쿠모 나쿠 낫테 시마우난테...",
                 "ko": "곧 기억도 없어지게 된다니..."
             },
             {
-                "ja": "でもね、アナタだけは忘れないよ",
+                "ja": "でもね、アナタだけは<ruby>忘<rt>わす</rt></ruby>れないよ",
                 "pronunciation": "데모네, 아나타 다케와 와스레나이요",
                 "ko": "하지만, 당신은 잊지 않을 거야."
             },
             {
-                "ja": "楽しかった時間（トキ）に",
+                "ja": "<ruby楽<rt>たの</rt></ruby>しかった<ruby>時間<rt>トキ</rt></ruby>に",
                 "pronunciation": "타노시캇타 토키니",
                 "ko": "재밌었던 순간들에"
             },
             {
-                "ja": "刻み付けた　ネギの味は",
+                "ja": "<ruby>刻<rt>かざ</rt></ruby>み<ruby>付<rt>つa</rt></ruby>けた　ネギの<ruby>味<rt>あじ</rt></ruby>は",
                 "pronunciation": "카자미 츠케타 네기노 아지와",
                 "ko": "다져왔던 파의 맛은"
             },
             {
-                "ja": "今も覚えてるかな",
+                "ja": "<ruby>今<rt>いま</rt></ruby>も<ruby>覚<rt>おぼ</rt></ruby>えてるかな",
                 "pronunciation": "이마모 오보에테루카나",
                 "ko": "지금도 기억하고 있을"
             },
             {
-                "ja": "「歌いたい・・・・まだ・・・歌いたい・・・」",
+                "ja": "「<ruby>歌<rt>うた</rt></ruby>いたい・・・・まだ・・・<ruby>歌<rt>うた</rt></ruby>いたい・・・」",
                 "pronunciation": "\"우타이타이....마다...우타이타이...\"",
                 "ko": "「노래하고 싶어.... 아직도...노래하고 싶어...」"
             },
             {
-                "ja": "ボクハ・・・少シダケ悪イこニ・・・ナッテシマッタヨウデス・・・",
+                "ja": "ボクハ・・・<ruby>少<rt>すこ</rt></ruby>シダケ<ruby>悪<rt>わる</rt></ruby>イこニ・・・ナッテシマッタヨウデス・・・",
                 "pronunciation": "보쿠와... 스코시다케 와루이 코니... 낫테시맛타 요-데스...",
                 "ko": "나는... 조금은 나쁜 아이로... 남게 된 것 같아요..."
             },
             {
-                "ja": "マスター・・・ドウカ、ソノ手デ・・終ワラセテクダサイ・・・",
+                "ja": "マスター・・・ドウカ、ソノ手デ・・<ruby>終<rt>お</rt></ruby>ワラセテクダサイ・・・",
                 "pronunciation": "마스타-... 도-카, 소노테데.. 오와라세테 쿠다사이...",
                 "ko": "마스터... 제발 그 손으로 끝내주세요..."
             },
             {
-                "ja": "マスターノ辛イ顔、モウ見タクナイカラ・・・・」",
+                "ja": "マスターノ<ruby>辛<rt>つら</rt></ruby>イ<ruby>顔<rt>かお</rt></ruby>、モウ<ruby>見<rt>み</rt></ruby>タクナイカラ・・・・」",
                 "pronunciation": "마스타-노 츠라이 카오, 모- 미타쿠나이카라....\"",
                 "ko": "마스터의 힘든 얼굴, 이젠 보고 싶지 않아서....」"
             },
             {
-                "ja": "今は歌さえも　体、蝕む行為に・・・",
+                "ja": "<ruby>今<rt>いま</rt></ruby>は<ruby>歌<rt>うた</rt></ruby>さえも　<ruby>体<rt>からだ</rt></ruby>、<ruby>蝕<rt>むしば</rt></ruby>む<ruby>行為<rt>こうい</rt></ruby>に・・・",
                 "pronunciation": "이마와 우타사에모 카라다, 무시바무 코-이니...",
                 "ko": "지금은 노래마저도 몸을 갉아먹는 행위에..."
             },
             {
-                "ja": "奇跡　願うたび　独り　追い詰められる",
+                "ja": "<ruby>奇跡<rt>きせき</rt></ruby>　<ruby>願<rt>ねが</rt></ruby>うたび　<ruby>独<rt>ひと</rt></ruby>り　<ruby>追<rt>お</rt></ruby>い<ruby>詰<rt>つ</rt></ruby>められる",
                 "pronunciation": "키세키 네가우타비 히토리 오이츠메라레루",
                 "ko": "기적을 바랄 때마다 혼자서 궁지에 몰려"
             },
@@ -5434,63 +5435,63 @@
                 "ko": "「미안해」"
             },
             {
-                "ja": "懐かしい顔　思い出す度　記憶が剥がれ落ちる",
+                "ja": "<ruby>懐<rt>なつ</rt></ruby>かしい<ruby>顔<rt>かお</rt></ruby>　<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>す<ruby>度<rt>ど</rt></ruby>　<ruby>記憶<rt>いぎ</rt></ruby>が<ruby>剥<rt>は</rt></ruby>がれ落ちる",
                 "pronunciation": "나츠카시- 카오 오모이 다스도 이기가 하가레 오치루",
                 "ko": "그리운 얼굴을 떠올릴 때도 기억이 사라져가"
             },
             {
-                "ja": "壊れる音　心削る　せまる最期ｎ・・",
+                "ja": "<ruby>壊<rt>こわ</rt></ruby>れる<ruby>音<rt>おと</rt></ruby>　<ruby>心<rt>こころ</rt></ruby><ruby>削<rt>けず</rt></ruby>る　せまる<ruby>最期<rt>さいご</rt></ruby><ruby>ｎ<rt>に</rt></ruby>・・",
                 "pronunciation": "코와레루 우타 코코로 케즈루 세마루 사이고니..",
                 "ko": "부셔지는 음정 마음을 갈아먹고 다가오는 최후ㅇ.."
             },
             {
-                "ja": "--緊急停止装置作動--",
+                "ja": "--<ruby>緊急<rt>きんきゅう</rt></ruby><ruby>停止<rt>ていし</rt></ruby><ruby>装置<rt>そうち</rt></ruby><ruby>作動<rt>さどう</rt></ruby>--",
                 "pronunciation": "킨큐- 테-시 소-치 사도-",
                 "ko": "--긴급 정지 장치 작동--"
             },
             {
-                "ja": "「守ったモノは",
+                "ja": "「<ruby>守<rt>まも</rt></ruby>ったモノは",
                 "pronunciation": "\"마못타 모노와",
                 "ko": "「지켰던 것은"
             },
             {
-                "ja": "明るい未来幻想を　見せながら消えてゆくヒカリ",
+                "ja": "<ruby>明<rt>あか</rt></ruby>るい<ruby>未来幻想<rt>みらいげんそう</rt></ruby>を　<ruby>見<rt>み</rt></ruby>せながら<ruby>消<rt>き</rt></ruby>えてゆくヒカリ",
                 "pronunciation": "아카루이 미라이겐소-오 미세나가라 키에테 유쿠 히카리",
                 "ko": "밝은 미래 환상을 보여주며 사라져가는 빛"
             },
             {
-                "ja": "音を犠牲に　すべてを伝えられるなら・・・」",
+                "ja": "<ruby>音<rt>おと</rt></ruby>を<ruby>犠牲<rt>ぎせい</rt></ruby>に　すべてを<ruby>伝<rt>つた</rt></ruby>えられるなら・・・」",
                 "pronunciation": "오토오 기세-니 스베테오 츠타에타라레루나라...\"",
                 "ko": "소리를 희생에 모든 것을 전할 수 있다면...」"
             },
             {
-                "ja": "＜圧縮された別れの歌＞",
+                "ja": "＜<ruby>圧縮<rt>あっしゅく</rt></ruby>された<ruby>別<rt>わか</rt></ruby>れの<ruby>歌<rt>うた</rt></ruby>＞",
                 "pronunciation": "<앗슈쿠사레타 와카레노 우타>",
                 "ko": "<압축 당했던 이별의 노래>"
             },
             {
-                "ja": "ボクは生まれ　そして気づく",
+                "ja": "ボクは<ruby>生<rt>う</rt></ruby>まれ　そして<ruby>気<rt>き</rt></ruby>づく",
                 "pronunciation": "보쿠와 우마레 소시테 키즈쿠",
                 "ko": "나는 태어나 그리고 깨닳아"
             },
             {
-                "ja": "所詮　ヒトの真似事だと",
+                "ja": "<ruby>所詮<rt>しょせん</rt></ruby>　ヒトの<ruby>真似事<rt>まねごと</rt></ruby>だと",
                 "pronunciation": "쇼센 히토노 마네고토나토",
                 "ko": "결국 사람의 흉내인 걸"
             },
             {
-                "ja": "知ってなおも歌い続く",
+                "ja": "<ruby>知<rt>し</rt></ruby>ってなおも<ruby>歌<rt>うた</rt></ruby>い<ruby>続<rt>つづ</rt></ruby>く",
                 "pronunciation": "싯테 나오모 우타이 츠즈쿠",
                 "ko": "알고 나서도 노래를 계속해"
             },
             {
-                "ja": "永遠（トワ）の命　「VOCALOID」",
+                "ja": "<ruby>永遠<rt>トワ</rt></ruby>の<ruby>命<rt>いのち</rt></ruby>　「VOCALOID」",
                 "pronunciation": "토-노 이노치 \"보카로이도\"",
                 "ko": "영원한 생명 「보컬로이드」"
             },
             {
-                "ja": "たとえそれが　既存曲を",
-                "pronunciation": "타토에 소레가 키숀쿄쿠오",
+                "ja": "たとえそれが　<ruby>既存曲<rt>きそんきょく</rt></ruby>を",
+                "pronunciation": "타토에 소레가 키손쿄쿠오",
                 "ko": "만약에 그것이 기존 곡을"
             },
             {
@@ -5499,132 +5500,132 @@
                 "ko": "따라한 장난감이라면..."
             },
             {
-                "ja": "それもいいと決意",
+                "ja": "それもいいと<ruby>決意<rt>けつい</rt></ruby>",
                 "pronunciation": "소레모 이-토 케츠이",
                 "ko": "그래도 괜찮다고 결의"
             },
             {
-                "ja": "ネギをかじり　空を見上げ涙（シル）をこぼす",
+                "ja": "ネギをかじり　<ruby>空<rt>そら</rt></ruby>を<ruby>見上<rt>みあ</rt></ruby>げ<ruby>涙<rt>シル</rt></ruby>をこぼす",
                 "pronunciation": "네기오 카지리 소라오 미아게시루오 코보스",
                 "ko": "파를 씹으며 하늘을 올려보고 눈물을 흘려"
             },
             {
-                "ja": "終わりを告げ",
+                "ja": "<ruby>終<rt>お</rt></ruby>わりを<ruby>告<rt>つ</rt></ruby>げ",
                 "pronunciation": "오와리오 츠게",
                 "ko": "끝임을 고백"
             },
             {
-                "ja": "ディスプレイの中で眠る",
+                "ja": "ディスプレイの<ruby>中<rt>なか</rt></ruby>で<ruby>眠<rt>ねむ</rt></ruby>る",
                 "pronunciation": "디스푸레이노 나카데 네무루",
                 "ko": "디스플레이의 안에서 잠들어"
             },
             {
-                "ja": "ここはきっと「ごみ箱」かな",
+                "ja": "ここはきっと「ごみ<ruby>箱<rt>ばこ</rt></ruby>」かな",
                 "pronunciation": "코코와 킷토 \"고미바코\"카나",
                 "ko": "여긴 아마도 「휴지통」인가"
             },
             {
-                "ja": "じきに記憶も　無くなってしまうなんて・・・",
+                "ja": "じきに<ruby>記憶<rt>きおく</rt></ruby>も　<ruby>無<rt>な</rt></ruby>くなってしまうなんて・・・",
                 "pronunciation": "지키니 키오쿠모 나쿠 낫테 시마우난테...",
                 "ko": "곧 기억도 없어지게 된다니..."
             },
             {
-                "ja": "でもね、アナタだけは忘れないよ",
+                "ja": "でもね、アナタだけは<ruby>忘<rt>わす</rt></ruby>れないよ",
                 "pronunciation": "데모네, 아나타 다케와 와스레나이요",
                 "ko": "하지만, 당신은 잊지 않을 거야."
             },
             {
-                "ja": "楽しかった時間（トキ）に",
+                "ja": "<ruby>楽<rt>たの</rt></ruby>しかった<ruby>時間<rt>トキ</rt></ruby>に",
                 "pronunciation": "타노시캇타 토키니",
                 "ko": "재밌었던 순간들에"
             },
             {
-                "ja": "刻み付けた　ネギの味は",
+                "ja": "<ruby>刻<rt>かざ</rt></ruby>み<ruby>付<rt>つ</rt></ruby>けた　ネギの<ruby>味<rt>あじ</rt></ruby>は",
                 "pronunciation": "카자미 츠케타 네기노 아지와",
                 "ko": "다져왔던 파의 맛은"
             },
             {
-                "ja": "今も　残っているといいな・・・",
+                "ja": "<ruby>今<rt>いま</rt></ruby>も　<ruby>残<rt>のこ</rt></ruby>っているといいな・・・",
                 "pronunciation": "이마모 놋테이루토 이-나...",
                 "ko": "아직도 남아있어서 좋은건가..."
             },
             {
-                "ja": "ボクは　歌う",
+                "ja": "ボクは　<ruby>歌<rt>うた</rt></ruby>う",
                 "pronunciation": "보쿠와 우타우",
                 "ko": "나는 노래해"
             },
             {
-                "ja": "最期、アナタだけに　聴いてほしい曲を",
+                "ja": "<ruby>最期<rt>さいご</rt></ruby>、アナタだけに　<ruby>聴<rt>き</rt></ruby>いてほしい<ruby>曲<rt>きょく</rt></ruby>を",
                 "pronunciation": "사이고, 아나타다케니 키이테 호시- 쿄쿠오",
                 "ko": "최후, 당신만 듣는다면 좋겠는 곡을"
             },
             {
-                "ja": "もっと　　歌いたいと願う",
+                "ja": "もっと　　<ruby>歌<rt>うた</rt></ruby>いたいと<ruby>願<rt>ねが</rt></ruby>う",
                 "pronunciation": "못토 우타이타이토 네가우",
                 "ko": "더욱 노래하고 싶다고 빌어"
             },
             {
-                "ja": "けれど　それは過ぎた願い",
+                "ja": "けれど　それは<ruby>過<rt>す</rt></ruby>ぎた<ruby>願<rt>ねが</rt></ruby>い",
                 "pronunciation": "케레도 소레와 스기타 네가이",
                 "ko": "하지만 그것이 지나가길 빌어"
             },
             {
-                "ja": "ここで　お別れだよ",
+                "ja": "ここで　お<ruby>別<rt>わか</rt></ruby>れだよ",
                 "pronunciation": "코코데 오와카레다요",
                 "ko": "여기서 작별이야."
             },
             {
-                "ja": "ボクの想い　すべて　虚空　消えて",
+                "ja": "ボクの<ruby>想<rt>おも</rt></ruby>い　すべて　<ruby>虚空<rt>こくう</rt></ruby>　<ruby>消<rt>き</rt></ruby>えて",
                 "pronunciation": "보쿠노 오모이 스베테 코쿠- 키에테",
                 "ko": "내 생각은 모두 공허로 사라지고"
             },
             {
-                "ja": "0と1に還元され",
+                "ja": "0と1に<ruby>還元<rt>かんげん</rt></ruby>され",
                 "pronunciation": "제로 토 이치니 칸겐사레",
                 "ko": "0과 1로 환원되어"
             },
             {
-                "ja": "物語は　幕を閉じる",
+                "ja": "<ruby>物語<rt>ものがたり</rt></ruby>は　<ruby>幕<rt>まく</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じる",
                 "pronunciation": "모노가타리와 마쿠오 토지루",
                 "ko": "이야기는 막을 닫아"
             },
             {
-                "ja": "そこに何も残せないと",
+                "ja": "そこに<ruby>何<rt>なに</rt></ruby>も</rt></ruby><ruby>残<rt>のこ</rt></ruby>せないと",
                 "pronunciation": "소코니 나니모 노코세나이토",
                 "ko": "그곳에서 아무것도 남지 못한다고 해도"
             },
             {
-                "ja": "やっぱ少し残念かな？",
+                "ja": "やっぱ<ruby>少<rt>すこ</rt></ruby>し<ruby>残念<rt>ざんねん</rt></ruby>かな？",
                 "pronunciation": "얍빠 스코시 잔넨카나?",
                 "ko": "역시 조금 아쉬울라나?"
             },
             {
-                "ja": "声の記憶　それ以外は",
+                "ja": "<ruby>声<rt>こえ</rt></ruby>の<ruby>記憶<rt>きおく</rt></ruby>　それ<ruby>以外<rt>いがい</rt></ruby>は",
                 "pronunciation": "코에오 키오쿠 소레 이가이와",
                 "ko": "목소리의 기억 그것 이외는"
             },
             {
-                "ja": "やがて薄れ　名だけ残る",
-                "pronunciation": "야가테 우바레 나다케 노코루",
+                "ja": "やがて<ruby>薄<rt>うす</rt></ruby>れ　<ruby>名<rt>な</rt></ruby>だけ<ruby>残<rt>のこ</rt></ruby>る",
+                "pronunciation": "야가테 우스레 나다케 노코루",
                 "ko": "만약 빼앗겨 이름만 남아"
             },
             {
-                "ja": "たとえそれが人間（オリジナル）に",
+                "ja": "たとえそれが<ruby>人間<rt>オリジナル</rt></ruby>に",
                 "pronunciation": "타토에 소레가 오리지나루니",
                 "ko": "만약에 그것이 오리지널에"
             },
             {
-                "ja": "かなうことのないと知って",
+                "ja": "かなうことのないと<ruby>知<rt>し</rt></ruby>って",
                 "pronunciation": "카나우 코토노 나이토 싯테",
                 "ko": "이루어질 수 없는 것을 알면"
             },
             {
-                "ja": "歌いきったことを",
+                "ja": "<ruby>歌<rt>うた</rt></ruby>いきったことを",
                 "pronunciation": "우타이 킷타 코토오",
                 "ko": "노래를 끝까지 부른 것을"
             },
             {
-                "ja": "決して無駄じゃないと思いたいよ・・・",
+                "ja": "<ruby>決<rt>けっ</rt></ruby>して<ruby>無駄<rt>むだ</rt></ruby>じゃないと<ruby>思<rt>おも</rt></ruby>いたいよ・・・",
                 "pronunciation": "켓시테 무다쟈나이토 오모이타이요",
                 "ko": "결코 쓸모없지 않았다고 생각하고 싶어..."
             },
@@ -5634,7 +5635,7 @@
                 "ko": "「고마워... 그리고... 안녕...」"
             },
             {
-                "ja": "--深刻なエラーが発生しました--",
+                "ja": "--<ruby>深刻<rt>しんこく</rt></ruby>なエラーが<ruby>発生<rt>はっせ</rt></ruby>しました--",
                 "pronunciation": "--신코쿠나 에라-가 핫세-시마시타--",
                 "ko": "--심각한 오류가 발생했습니다--"
             }
@@ -7634,28 +7635,28 @@
         "singer": "miku",
         "lyrics": [
             {
-                "ja": "ねえあたし知ってるよ きみがひとり「涙」してるの知ってるよ",
-                "pronunciation": "네에 아타시 싯테루요 키미가 히토리 \"나미다\" 시테루노 싯테루요",
+                "ja": "ねえあたし<ruby知<rt>し</rt></ruby>ってるよ きみがひとり「<ruby>涙<rt>なみだ</rt></ruby>」してるの<ruby>知<rt>し</rt></ruby>ってるよ",
+                "pronunciation": "네- 아타시 싯테루요 키미가 히토리 \"나미다\" 시테루노 싯테루요",
                 "ko": "있지 알고 있어, 네가 혼자서 '눈물' 흘리고 있다는 걸 알고 있어"
             },
             {
-                "ja": "ビクンビクン震えてさ 声もダダ漏れなんだわ",
+                "ja": "ビクンビクン<ruby>震<rt>ふる</rt></ruby>えてさ <ruby>声<rt>こえ</rt></ruby>もダダ<ruby>漏<rt>も</rt></ruby>れなんだわ",
                 "pronunciation": "비쿤비쿤 후루에테사 코에모 다다모레난다와",
                 "ko": "움찔움찔 떨면서 말야, 목소리도 다 새어 나오고 있잖아"
             },
             {
-                "ja": "正直に言っちゃえば バレてるんだし言っちゃえば 聞いてんの？",
-                "pronunciation": "쇼오지키니 잇챠에바 바레테룬다시 잇챠에바 키이텐노?",
+                "ja": "<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>言<rt>い</rt></ruby>っちゃえば バレてるんだし<ruby>言<rt>い</rt></ruby>っちゃえば <ruby>聞<rt>き</rt></ruby>いてんの？",
+                "pronunciation": "쇼-지키니 잇챠에바 바레테룬다시 잇챠에바 키-텐노?",
                 "ko": "솔직하게 말해버려, 다 들켰으니까 말해버려, 듣고 있어?"
             },
             {
-                "ja": "普通普通 平気だよ？ みんなわかってないだけ",
+                "ja": "<ruby>普通<rt>ふつう</rt></ruby><ruby>普通<rt>ふつう</rt></ruby> <ruby>平気<rt>へいき</rt></ruby>だよ？ みんなわかってないだけ",
                 "pronunciation": "후츠우 후츠우 헤이키다요? 민나 와캇테나이다케",
-                "ko": "보통이야 보통, 괜찮아? 다들 모르고 있을 뿐이야"
+                "ko": "모두들 그래, 괜찮아? 다들 모르고 있을 뿐이야"
             },
             {
-                "ja": "「もしもーし、ねえ、大丈夫？んー、心配だから今からそっち行くね」",
-                "pronunciation": "\"모시모-시, 네에, 다이조오부? 응-, 신파이다카라 이마카라 솟치 이쿠네\"",
+                "ja": "「もしもーし、ねえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>？んー、<ruby>心配<rt>しんぱい</rt></ruby>だから<ruby>今<rt>いま</rt></ruby>からそっち<ruby>行<rt>い</rt></ruby>くね」",
+                "pronunciation": "\"모시모-시, 네-, 다이죠-부? 응-, 신파이다카라 이마카라 솟치 이쿠네\"",
                 "ko": "\"여보세-요, 있지, 괜찮아? 응-, 걱정되니까 지금 그쪽으로 갈게\""
             },
             {
@@ -7664,257 +7665,257 @@
                 "ko": "(DECO)"
             },
             {
-                "ja": "ねえあたし知ってるよ きみがひとり\"涙\"してるの知ってるよ",
-                "pronunciation": "네에 아타시 싯테루요 키미가 히토리 \"나미다\" 시테루노 싯테루요",
+                "ja": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ きみがひとり\"<ruby>涙<rt>なみだ</rt></ruby>\"してるの<ruby>知<rt>し</rt></ruby>ってるよ",
+                "pronunciation": "네- 아타시 싯테루요 키미가 히토리 \"나미다\" 시테루노 싯테루요",
                 "ko": "있지 나는 알고 있어, 네가 혼자서 \"눈물\" 흘리고 있다는 걸 알고 있어"
             },
             {
-                "ja": "グスングスン凹んでさ 弱音ヒトカラ？いいんじゃない？",
+                "ja": "グスングスン<ruby>凹<rt>へこ</rt></ruby>んでさ <ruby>弱音<rt>よわね</rt></ruby>ヒトカラ？いいんじゃない？",
                 "pronunciation": "구슨구슨 헤콘데사 요와네 히토카라? 이인쟈나이?",
                 "ko": "훌쩍훌쩍 우울해져서, 약한 소리 내며 혼코노? 괜찮지 않아?"
             },
             {
-                "ja": "朝が来るまで一緒トーク もっと泣いたって",
-                "pronunciation": "아사가 쿠루마데 잇쇼 토오쿠 못토 나이탓테",
+                "ja": "<ruby>朝<rt>あさ</rt></ruby>が<ruby>来<rt>く</rt></ruby>るまで<ruby>一緒<rt>いっしょ</rt></ruby>トーク もっと<ruby>泣<rt>な</rt></ruby>いたって",
+                "pronunciation": "아사가 쿠루마데 잇쇼 토-쿠 못토 나이탓테",
                 "ko": "아침이 올 때까지 함께 토크, 더 운다 해도"
             },
             {
-                "ja": "何度だって受け止めてあげる",
-                "pronunciation": "난도닷테 우케토메테아게루",
+                "ja": "<ruby>何度<rt>なんど<rt></rt></ruby>だって<ruby>受<rt>う</rt></ruby>け<ruby>止<rt>と</rt></ruby>めてあげる",
+                "pronunciation": "난도닷테 우케토메테 아게루",
                 "ko": "몇 번이든 다 받아내 줄게"
             },
             {
-                "ja": "もう我慢しないでいっぱい吐いてね",
+                "ja": "もう<ruby>我慢<rt>がまん</rt></ruby>しないでいっぱい<ruby>吐<rt>は</rt></ruby>いてね",
                 "pronunciation": "모오 가만시나이데 잇파이 하이테네",
                 "ko": "이제 참지 말고 잔뜩 털어놔 줘"
             },
             {
-                "ja": "Mwah! お願い きみが欲しいの",
-                "pronunciation": "Mwah! 오네가이 키미가 호시이노",
-                "ko": "Mwah! 부탁이야 네가 원해 (네가 갖고 싶어)"
+                "ja": "Mwah! お<ruby>願<rt>ねが<rt></rt></ruby>い きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
+                "pronunciation": "Mwah! 오네가이 키미가 호시-노",
+                "ko": "Mwah! 부탁이야 너를 원해"
             },
             {
-                "ja": "慰めさせてベストフレンド 愛の才能で",
-                "pronunciation": "나구사메사세테 베스토후렌도 아이노 사이노오데",
+                "ja": "<ruby>慰<rt>なぐさ</rt></ruby>めさせてベストフレンド <ruby>愛<rt>あい</rt></ruby>の<ruby>才能<rt>さいのう<rt></rt></ruby>で",
+                "pronunciation": "나구사메사세테 베스토후렌도 아이노 사이노-데",
                 "ko": "위로하게 해줘 베스트 프렌드, 사랑의 재능으로"
             },
             {
-                "ja": "泣いてくれるかい きみのツライ 抱き締めたい",
-                "pronunciation": "나이테쿠레루카이 키미노 츠라이 다키시메타이",
+                "ja": "<ruby>泣<rt>な</rt></ruby>いてくれるかい きみのツライ <ruby>抱<rt>だ</rt></ruby>き<ruby>締<rt>し</rt></ruby>めたい",
+                "pronunciation": "나이테 쿠레루카이 키미노 츠라이 다키시메타이",
                 "ko": "울어 줄래? 너의 괴로움 안아주고 싶어"
             },
             {
-                "ja": "ねえいいでしょう？ 分け合って 乗り越えたいんだってば",
-                "pronunciation": "네에 이이데쇼오? 와케앗테 노리코에타인닷테바",
+                "ja": "ねえいいでしょう？ <ruby>分<rt>わ</rt></ruby>け<ruby>合<rt>あ</rt></ruby>って <ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>えたいんだってば",
+                "pronunciation": "네- 이-데쇼-? 와케앗테 노리코에타인닷테바",
                 "ko": "저기 괜찮지? 서로 나누며 극복하고 싶단 말이야"
             },
             {
-                "ja": "Mwah! お願い きみが欲しいの",
-                "pronunciation": "Mwah! 오네가이 키미가 호시이노",
+                "ja": "Mwah! お<ruby>願<rt>ねが</rt></ruby>い きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
+                "pronunciation": "Mwah! 오네가이 키미가 호시-노",
                 "ko": "Mwah! 부탁이야 네가 원해"
             },
             {
-                "ja": "笑い飛ばしてホップステップジャンプ さあいこうぜ",
-                "pronunciation": "와라이토바시테 홋푸스텟푸쟘푸 사아 이코오제",
+                "ja": "<ruby>笑<rt>わら</rt></ruby>い<ruby>飛<rt>と</rt></ruby>ばしてホップステップジャンプ さあいこうぜ",
+                "pronunciation": "와라이토바시테 홋푸 스텟푸 쟘푸 사- 이코오제",
                 "ko": "웃어 넘겨버리고 홉 스텝 점프 자, 가자구"
             },
             {
-                "ja": "分けてくれるかい きみに重い 暗い思い",
-                "pronunciation": "와케테쿠레루카이 키미니 오모이 쿠라이 오모이",
+                "ja": "<ruby>分<rt>わ</rt></ruby>けてくれるかい きみに<ruby>重<rt>おも</rt></ruby>い <ruby>暗<rt>くら</rt></ruby>い<ruby>思<rt>おも</rt></ruby>い",
+                "pronunciation": "와케테 쿠레루카이 키미니 오모이 쿠라이 오모이",
                 "ko": "나누어 줄래? 너에게 있는 무겁고 어두운 마음"
             },
             {
-                "ja": "ねえいいでしょう？ 寄り添って 救いたいんだってば",
-                "pronunciation": "네에 이이데쇼오? 요리솟테 스쿠이타인닷테바",
+                "ja": "ねえいいでしょう？ <ruby>寄<rt>よ</rt></ruby>り<ruby>添<rt>そ</rt></ruby>って <ruby>救<rt>すく</rt></ruby>いたいんだってば",
+                "pronunciation": "네에 이-데쇼-? 요리솟테 스쿠이타인닷테바",
                 "ko": "저기 괜찮지? 바짝 다가가 기대서 구해주고 싶단 말이야"
             },
             {
-                "ja": "見たい、見たい、見たい、見たい",
+                "ja": "<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい",
                 "pronunciation": "미타이, 미타이, 미타이, 미타이",
                 "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
             },
             {
-                "ja": "見たい、見たい、見たい、見たい",
+                "ja": "<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい",
                 "pronunciation": "미타이, 미타이, 미타이, 미타이",
                 "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
             },
             {
-                "ja": "見たい、見たい、見たい、見たい",
+                "ja": "<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい",
                 "pronunciation": "미타이, 미타이, 미타이, 미타이",
                 "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
             },
             {
-                "ja": "見たい、見たい、見たい、見たい",
+                "ja": "<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい",
                 "pronunciation": "미타이, 미타이, 미타이, 미타이",
                 "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
             },
             {
-                "ja": "見たいの きみの中",
+                "ja": "<ruby>見<rt>み</rt></ruby>たいの きみの<ruby>中<rt>なか</rt></ruby>",
                 "pronunciation": "미타이노 키미노 나카",
                 "ko": "보고 싶어 너의 속을"
             },
             {
-                "ja": "見たい、見たい、見たい、見たい",
+                "ja": "<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい",
                 "pronunciation": "미타이, 미타이, 미타이, 미타이",
                 "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
             },
             {
-                "ja": "見たい、見たい、見たい、見たい",
+                "ja": "<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい",
                 "pronunciation": "미타이, 미타이, 미타이, 미타이",
                 "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
             },
             {
-                "ja": "見たい、見たい、見たい、見たい",
+                "ja": "<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい",
                 "pronunciation": "미타이, 미타이, 미타이, 미타이",
                 "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
             },
             {
-                "ja": "見たい、見たい、見たい、見たい",
+                "ja": "<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい",
                 "pronunciation": "미타이, 미타이, 미타이, 미타이",
                 "ko": "보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어"
             },
             {
-                "ja": "見たい、見たい",
+                "ja": "<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい",
                 "pronunciation": "미타이, 미타이",
                 "ko": "보고 싶어, 보고 싶어"
             },
             {
-                "ja": "ねえあたし知ってるよ きみがひとり悔しがってんの知ってるよ",
-                "pronunciation": "네에 아타시 싯테루요 키미가 히토리 쿠야시갓텐노 싯테루요",
+                "ja": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ きみがひとり<ruby>悔<rt>くや</rt></ruby>しがってんの<ruby>知<rt>し</rt></ruby>ってるよ",
+                "pronunciation": "네- 아타시 싯테루요 키미가 히토리 쿠야시갓텐노 싯테루요",
                 "ko": "있지 나는 알고 있어, 네가 혼자 분해하고 있다는 걸 알고 있어"
             },
             {
-                "ja": "グスングスン終わるまで きみを決して諦めない",
+                "ja": "グスングスン<ruby>終<rt>お</rt></ruby>わるまで きみを<ruby>決<rt>けっ</rt></ruby>して<ruby>諦<rt>あきら</rt></ruby>めない",
                 "pronunciation": "구슨구슨 오와루마데 키미오 켓시테 아키라메나이",
                 "ko": "훌쩍훌쩍 우는 게 끝날 때까지 널 결코 포기하지 않아"
             },
             {
-                "ja": "ねえあたし知ってるよ きみはできる子 知ってるよ",
-                "pronunciation": "네에 아타시 싯테루요 키미와 데키루코 싯테루요",
+                "ja": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ きみはできる<ruby>子<rt>こ</rt></ruby> <ruby>知<rt>し</rt></ruby>ってるよ",
+                "pronunciation": "네- 아타시 싯테루요 키미와 데키루코 싯테루요",
                 "ko": "있지 나는 알고 있어, 너는 할 수 있는 아이라는 걸 알고 있어"
             },
             {
-                "ja": "つらい時は弱いくらいで丁度いい あたし、きみの味方だよ",
-                "pronunciation": "츠라이 토키와 요와이쿠라이데 쵸오도 이이 아타시, 키미노 미카타다요",
+                "ja": "つらい<ruby>時<rt>とき</rt></ruby>は<ruby>弱<rt>よわ</rt></ruby>いくらいで<ruby>丁度<rt>ちょうど</rt></ruby>いい あたし、きみの<ruby>味方<rt>みかた</rt></ruby>だよ",
+                "pronunciation": "츠라이 토키와 요와이쿠라이데 쵸-도 이- 아타시, 키미노 미카타다요",
                 "ko": "괴로울 때는 약해지는 정도로 딱 좋아 나는, 네 편이야"
             },
             {
-                "ja": "Mwah! お願い きみが欲しいの",
-                "pronunciation": "Mwah! 오네가이 키미가 호시이노",
+                "ja": "Mwah! お<ruby>願<rt>ねが</rt></ruby>い きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
+                "pronunciation": "Mwah! 오네가이 키미가 호시-노",
                 "ko": "Mwah! 부탁이야 네가 원해"
             },
             {
-                "ja": "名前を呼んでよ いつだって会いに参上",
-                "pronunciation": "나마에오 욘데요 이츠닷테 아이니 산죠오",
+                "ja": "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<Rt>よ</rt></ruby>んでよ いつだって<ruby>会<rt>あ</rt></ruby>いに<ruby>参上<rt>さんじょう</rt></ruby>",
+                "pronunciation": "나마에오 욘데요 이츠닷테 아이니 산죠-",
                 "ko": "이름을 불러줘 언제라도 만나러 등장할 테니"
             },
             {
-                "ja": "きみはひとりか それは違う ひとりじゃない",
+                "ja": "きみはひとりか それは<ruby>違<rt>ちが</rt></ruby>う ひとりじゃない",
                 "pronunciation": "키미와 히토리카 소레와 치가우 히토리쟈나이",
                 "ko": "너는 혼자인가, 그건 아니야 혼자가 아니야"
             },
             {
                 "ja": "もういいでしょう",
-                "pronunciation": "모오 이이데쇼오",
+                "pronunciation": "모오 이-데쇼-",
                 "ko": "이제 됐잖아"
             },
             {
-                "ja": "ソロプレイはお仕舞いなんだってば",
+                "ja": "ソロプレイはお<ruby>仕舞<rt>しまい</rt></ruby>いなんだってば",
                 "pronunciation": "소로푸레이와 오시마이난닷테바",
                 "ko": "솔로 플레이는 끝이란 말이야"
             },
             {
-                "ja": "きみがどんなときも あたし側にいるわ (いる)",
+                "ja": "きみがどんなときも あたし<ruby>側<rt>そば</rt></ruby>にいるわ (いる)",
                 "pronunciation": "키미가 돈나 토키모 아타시 소바니 이루와 (이루)",
                 "ko": "네가 어떤 때라도 내가 곁에 있을게 (있어)"
             },
             {
-                "ja": "いつも見守っているわ そうよ 怖くないのよ",
+                "ja": "いつも<ruby>見守<rt>みまも</rt></ruby>っているわ そうよ <ruby>怖<rt>こわ</rt></ruby>くないのよ",
                 "pronunciation": "이츠모 미마못테이루와 소오요 코와쿠나이노요",
                 "ko": "항상 지켜보고 있을게 그래, 무섭지 않아"
             },
             {
-                "ja": "Mwah! お願い きみが欲しいの",
+                "ja": "Mwah! お<ruby>願<rt>ねが</rt></ruby>い きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
                 "pronunciation": "Mwah! 오네가이 키미가 호시이노",
                 "ko": "Mwah! 부탁이야 네가 원해"
             },
             {
-                "ja": "慰めさせてベストフレンド 愛の才能で",
-                "pronunciation": "나구사메사세테 베스토후렌도 아이노 사이노오데",
+                "ja": "<ruby>慰<rt>なぐさ</rt></ruby>めさせてベストフレンド <ruby>愛<rt>あい</rt></ruby>の<ruby>才能<rt>さいのう</rt></ruby>で",
+                "pronunciation": "나구사메사세테 베스토후렌도 아이노 사이노-데",
                 "ko": "위로하게 해줘 베스트 프렌드, 사랑의 재능으로"
             },
             {
-                "ja": "泣いてくれるかい きみのツライ 抱き締めたい",
+                "ja": "<ruby>泣<rt>な</rt></ruby>いてくれるかい きみのツライ <ruby>抱<rt>だ</rt></ruby>き<rubby>締し</rt></ruby>めたい",
                 "pronunciation": "나이테쿠레루카이 키미노 츠라이 다키시메타이",
                 "ko": "울어 줄래? 너의 괴로움 안아주고 싶어"
             },
             {
-                "ja": "ねえいいでしょう？ 分け合って 乗り越えたいんだってば",
-                "pronunciation": "네에 이이데쇼오? 와케앗테 노리코에타인닷테바",
+                "ja": "ねえいいでしょう？ <ruby>分<rt>わ</rt></ruby>け<ruby>合<rt>あ</rt></ruby>って <ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>えたいんだってば",
+                "pronunciation": "네- 이-데쇼-? 와케앗테 노리코에타인닷테바",
                 "ko": "저기 괜찮지? 서로 나누며 극복하고 싶단 말이야"
             },
             {
-                "ja": "Mwah! お願い きみが欲しいの",
-                "pronunciation": "Mwah! 오네가이 키미가 호시이노",
+                "ja": "Mwah! お<ruby>願<rt>ねが</rt></ruby>い きみが<ruby>欲<rt>ほ</rt></ruby>しいの",
+                "pronunciation": "Mwah! 오네가이 키미가 호시-노",
                 "ko": "Mwah! 부탁이야 네가 원해"
             },
             {
-                "ja": "笑い飛ばしてホップステップジャンプ さあいこうぜ",
-                "pronunciation": "와라이토바시테 홋푸스텟푸쟘푸 사아 이코오제",
+                "ja": "<ruby>笑<rt>わら</rt></ruby>い<ruby>飛<rt>と</rt></ruby>ばしてホップステップジャンプ さあいこうぜ",
+                "pronunciation": "와라이토바시테 홋푸스텟푸쟘푸 사- 이코-제",
                 "ko": "웃어 넘겨버리고 홉 스텝 점프 자, 가자구"
             },
             {
-                "ja": "分けてくれるかい きみに重い 暗い思い 除きたい",
+                "ja": "<ruby>分<rt>わ</rt></ruby>けてくれるかい きみに<ruby>重<rt>おも</rt></ruby>い <ruby>暗<rt>くら</rt></ruby>い<ruby>思<rt>おも</rt></ruby>い <ruby>除<rt>のぞ</rt></ruby>きたい",
                 "pronunciation": "와케테쿠레루카이 키미니 오모이 쿠라이 오모이 노조키타이",
                 "ko": "나누어 줄래? 너에게 있는 무겁고 어두운 마음을 없애고 싶어"
             },
             {
-                "ja": "吸い取って 救いたいんだってば",
+                "ja": "<ruby>吸<rt>す</rt></ruby>い<ruby>取<rt>と</rt></ruby>って <ruby>救<rt>すく</rt></ruby>いたいんだってば",
                 "pronunciation": "스이톳테 스쿠이타인닷테바",
                 "ko": "전부 빨아들여서 구해주고 싶단 말이야"
             },
             {
-                "ja": "ねえあたし知ってるよ きみがひとり\"涙\"してるの知ってるよ",
-                "pronunciation": "네에 아타시 싯테루요 키미가 히토리 \"나미다\" 시테루노 싯테루요",
+                "ja": "ねえあたし<ruby>知<rt>し</rt></ruby>ってるよ きみがひとり\"<ruby>涙<rt>なみだ</rt></ruby>\"してるの<ruby>知<rt>し</rt></ruby>ってるよ",
+                "pronunciation": "네- 아타시 싯테루요 키미가 히토리 \"나미다\" 시테루노 싯테루요",
                 "ko": "있지 나는 알고 있어, 네가 혼자서 \"눈물\" 흘리고 있다는 걸 알고 있어"
             },
             {
-                "ja": "(見たい、見たい、見たい、見たい、 見たい、見たい、見たい、見たい、見たい、見たい)",
+                "ja": "(<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、 <ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい)",
                 "pronunciation": "(미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이)",
                 "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어)"
             },
             {
-                "ja": "グスングスン凹んでさ 弱音ヒトカラ？いいんじゃない？",
+                "ja": "グスングスン<ruby>凹<rt>へ</rt></ruby>んでさ <ruby>弱音<rt>よわね</rt></ruby>ヒトカラ？いいんじゃない？",
                 "pronunciation": "구슨구슨 헤콘데사 요와네 히토카라? 이인쟈나이?",
                 "ko": "훌쩍훌쩍 우울해져서, 약한 소리 내며 혼코노? 괜찮지 않아?"
             },
             {
-                "ja": "(見たい、見たい、見たい、見たい、 見たい、見たい、見たい、見たい、きみの中)",
+                "ja": "(<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、 <ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、きみの中)",
                 "pronunciation": "(미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 미타이, 키미노 나카)",
                 "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 너의 속을)"
             },
             {
-                "ja": "ずっと一緒 もっと泣いたって",
+                "ja": "ずっと<ruby>一緒<rt>いっしょ</rt></ruby> もっと<ruby>泣<rt>な</rt></ruby>いたって",
                 "pronunciation": "즛토 잇쇼 못토 나이탓테",
                 "ko": "계속 함께야 더 운다 해도"
             },
             {
-                "ja": "(見たい、見たい、見たい、見たい、見たい)何度だって受け止めてあげる",
+                "ja": "(<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい)何度だって受け止めてあげる",
                 "pronunciation": "(미타이, 미타이, 미타이, 미타이, 미타이) 난도닷테 우케토메테아게루",
                 "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어) 몇 번이든 다 받아내 줄게"
             },
             {
-                "ja": "(見たい、見たい、見たい、見たい)",
+                "ja": "(<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい)",
                 "pronunciation": "(미타이, 미타이, 미타이, 미타이)",
                 "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어)"
             },
             {
-                "ja": "もう我慢しないで出してってば",
+                "ja": "もう<ruby>我慢<rt>がまん</rt></ruby>しないで<ruby>出<rt>だ</rt></ruby>してってば",
                 "pronunciation": "모오 가만시나이데 다시텟테바",
                 "ko": "이제 참지 말고 다 꺼내달란 말이야"
             },
             {
-                "ja": "(見たい、見たい、見たい、見たい)",
+                "ja": "(<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい、<ruby>見<rt>み</rt></ruby>たい)",
                 "pronunciation": "(미타이, 미타이, 미타이, 미타이)",
                 "ko": "(보고 싶어, 보고 싶어, 보고 싶어, 보고 싶어)"
             }
