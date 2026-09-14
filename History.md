@@ -1,7 +1,7 @@
 # Version History
 
 ## Last Ver
-`v1.13.13`
+`v2.001-x`
 
 ## Version List
 ### 배포 전
@@ -48,7 +48,11 @@
     - [v1.12.13-alpha-1](#v11213-alpha-1)
 - [v1.12.13](#v11213)
 - [v1.13.13](#v11313)
-- [v1.14.0](#v1140)
+- [v1.14.0](#v114x)
+- [v1.15.0](#v115x)
+- [v1.16.0](#v116x)
+### 웹사이트 공식 안정화
+- [v2.001-0](#v2001-x)
 
 ## v0.0.0
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/4259f9a1df0b05f14bba663d409fea47a563729e)
@@ -662,7 +666,7 @@
     - 체크박스 및 안내 메시지를 창으로 따로 뺌
 ```
 
-## v1.014
+## v1.14.x
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/19384066e2201b7dd356a5f2a8a838607d4c72bb)
 
 이번 패치로 변경된 점:
@@ -675,7 +679,7 @@
     - 버전 표기 변경
 ```
 
-## v1.015
+## v1.15.x
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/5961c768d5d384b318121436ae60a718b1035a6c)
 
 이번 패치로 변경된 점:
@@ -685,12 +689,21 @@
     - Discord bot Tori와 연동하여 업데이트 시 공지를 보내는 기능 추가
 ```
 
-## v1.016
-[바로가기]()
+## v1.16.x
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/8cd4c8109418aa9d1f74be5ed0134313119aaa2d)
 
 이번 패치로 변경된 점:
 - 외부 변경점
 ```diff
 + 노래 추가
     - 초음광연곡 제01번 "혜성"
+```
+
+## v2.001-x
+[바로가기]()
+
+이번 패치로 변경된 점:
+```diff
++ 버전 표기 변경 및 곡 추가
+    - 로스트원의 호곡
 ```
