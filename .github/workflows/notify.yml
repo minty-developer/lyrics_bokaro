@@ -20,21 +20,29 @@ jobs:
         run: |
           NOTICE=$(node -e '
             const fs = require("fs");
+            const data = JSON.parse(fs.readFileSync("notice.json", "utf8"));
 
-            const data = JSON.parse(
-              fs.readFileSync("notice.json", "utf8")
-            );
+            // "v2.001-0" -> [2, 1, 0] 정수 배열로 변환하는 안전한 파서
+            function parseVersion(vStr) {
+              return vStr
+                .replace(/^v/i, "")         // 맨 앞 "v" 제거
+                .split("-")[0]              // "-0" 같은 빌드 타겟 분리
+                .split(".")                 // ["2", "001"]
+                .map(num => parseInt(num, 10) || 0);
+            }
 
             function compareVersion(a, b) {
-              const va = a.split(".").map(Number);
-              const vb = b.split(".").map(Number);
+              const va = parseVersion(a);
+              const vb = parseVersion(b);
+              const len = Math.max(va.length, vb.length);
 
-              for (let i = 0; i < 3; i++) {
-                if (va[i] !== vb[i]) {
-                  return va[i] - vb[i];
+              for (let i = 0; i < len; i++) {
+                const numA = va[i] || 0;
+                const numB = vb[i] || 0;
+                if (numA !== numB) {
+                  return numA - numB;
                 }
               }
-
               return 0;
             }
 
@@ -43,17 +51,27 @@ jobs:
                 ? current
                 : latest;
             });
-            
-            latest.changes = latest.changes.replaceAll("<br>", "\n");
+
+            // <br> 태그를 문자열 "\n"으로 변환 (실제 개행이 아니라 이스케이프 문자 유지)
+            if (latest.changes) {
+              latest.changes = latest.changes.replace(/<br\s*\/?>/gi, "\\n");
+            }
 
             console.log(JSON.stringify(latest));
           ')
 
-          echo "notice=$NOTICE" >> "$GITHUB_OUTPUT"
+          echo "notice<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$NOTICE" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
 
       - name: Send notice to API
         run: |
+          # 파일로 저장 후 curl -d @파일명 옵션을 써서 특수문자 깨짐 방지
+          cat << 'EOF' > payload.json
+          ${{ steps.notice.outputs.notice }}
+          EOF
+
           curl -X POST "${{ secrets.BOT_API_URL }}/api/v1/announcement" \
             -H "Content-Type: application/json" \
             -H "x-api-key: ${{ secrets.TORI_API_KEY }}" \
-            -d '${{ steps.notice.outputs.notice }}'
+            -d @payload.json
