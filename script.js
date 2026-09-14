@@ -16,6 +16,7 @@ const closeSettingsBtn = document.getElementById('CloseSettingsBtn');
 const closeSortMenuBtn = document.getElementById('CloseSortMenuBtn');
 const sortBtn = document.getElementById("sortBtn");
 const sortMenu = document.getElementById("SortMenu");
+const infoBtn = document.getElementById("infoBtn");
 
 // 사이드바 관련 DOM
 const hamburgerBtn = document.getElementById('HamburgerBtn');
@@ -269,6 +270,10 @@ searchInput?.addEventListener('input', (e) => {
     );
     nowSongs = filteredSongs;
     renderListWithSorts();
+});
+
+infoBtn.addEventListener('click', () => {
+    window.open('./info.html', "_blank", "noopener,noreferrer");
 });
 
 // 초기화

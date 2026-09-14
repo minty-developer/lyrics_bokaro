@@ -53,6 +53,7 @@
 - [v1.16.0](#v116x)
 ### 웹사이트 공식 안정화
 - [v2.001-0](#v2001-x)
+- [v2.002-0](#v2002-x)
 
 ## v0.0.0
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/4259f9a1df0b05f14bba663d409fea47a563729e)
@@ -700,10 +701,18 @@
 ```
 
 ## v2.001-x
-[바로가기]()
+[바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/7fc0ef4c72b97e8a1d77582f2df291beeaa3cdc8)
 
 이번 패치로 변경된 점:
 ```diff
 + 버전 표기 변경 및 곡 추가
     - 로스트원의 호곡
+```
+
+## v2.002-x
+[바로가기]()
+
+이번 패치로 변경된 점:
+```diff
++ 안내 페이지 추가
 ```

@@ -79,6 +79,12 @@ button:hover {
     margin-bottom: 20px;
 }
 
+/* 사이드바 상단 헤더 안 버튼 */
+.sidebar-header button {
+    width: 40px;
+    height: 34px;
+}
+
 /* 사이드바 웹사이트 제목 */
 .web-title {
     font-size: 1.4rem;
@@ -178,19 +184,6 @@ button:hover {
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
-}
-
-/* 모달 내부 섹션 공통 스타일 */
-.modal-section {
-    margin-bottom: 20px;
-    user-select: none;
-}
-
-/* 모달 내부 섹션 제목 */
-.section-title {
-    font-weight: 700;
-    margin-bottom: 12px;
-    font-size: 1.05rem;
 }
 
 /* 가사 표시 옵션 라벨 */
@@ -389,13 +382,13 @@ rt {
 }
 
 /* 파트별 색상 템플릿 */
-.singer-miku .lyric-ja, .singer-miku-legend { color: #25cac7; font-weight: bold; }
-.singer-teto .lyric-ja, .singer-teto-legend { color: #F33; font-weight: bold; }
-.singer-neru .lyric-ja, .singer-neru-legend { color: #AA0; font-weight: bold; }
-.singer-lin .lyric-ja, .singer-lin-legend { color: #FA0; font-weight: bold; }
-.singer-len .lyric-ja, .singer-len-legend { color: #DD0; font-weight: bold; }
-.singer-zundamon .lyric-ja, .singer-zundamon-legend { color: #899b35; font-weight: bold; }
-.singer-ruka .lyric-ja, .singer-ruka-legend { color: #FFC0CB; font-weight: bold; }
+.singer-miku .lyric-ja { color: #25cac7; font-weight: bold; }
+.singer-teto .lyric-ja { color: #F33; font-weight: bold; }
+.singer-neru .lyric-ja { color: #AA0; font-weight: bold; }
+.singer-lin .lyric-ja { color: #FA0; font-weight: bold; }
+.singer-len .lyric-ja { color: #DD0; font-weight: bold; }
+.singer-zundamon .lyric-ja { color: #899b35; font-weight: bold; }
+.singer-ruka .lyric-ja { color: #FFC0CB; font-weight: bold; }
 
 
 /* ==========================================================================
@@ -434,6 +427,13 @@ rt {
         z-index: 10000;
         transition: left 0.3s ease;
         padding-top: 60px;
+    }
+
+    /* 사이드바 상단 헤더 안 버튼 */
+    .sidebar-header button {
+        width: 32px;
+        height: 24px;
+        padding: 0;
     }
 
     /* 사이드바 열림 상태 클래스 */
