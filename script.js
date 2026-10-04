@@ -49,14 +49,27 @@ hamburgerBtn?.addEventListener('click', () => toggleSidebar(true));
 mobileCloseBtn?.addEventListener('click', () => toggleSidebar(false));
 sidebarOverlay?.addEventListener('click', () => toggleSidebar(false));
 
-// 버전을 비교하는 함수
 function compareVersion(a, b) {
-    const va = a.split(".").map(Number);
-    const vb = b.split(".").map(Number);
+    // 1. 'v' 제거 및 하이픈('-')을 점('.')으로 통일하여 숫자 배열로 변환
+    const parseVersion = (ver) => {
+        return String(ver)
+            .replace(/^v/i, '')  // 앞의 'v' 또는 'V' 제거
+            .replace(/-/g, '.')  // 하이픈('-')을 점('.')으로 변경
+            .split('.')
+            .map(num => parseInt(num, 10) || 0); // 각 자리를 정수로 변환 (실패 시 0)
+    };
 
-    for (let i = 0; i < 3; i++) {
-        if (va[i] !== vb[i]) {
-            return va[i] - vb[i];
+    const va = parseVersion(a);
+    const vb = parseVersion(b);
+    const maxLength = Math.max(va.length, vb.length);
+
+    // 2. 각 마디별 숫자 비교
+    for (let i = 0; i < maxLength; i++) {
+        const numA = va[i] || 0; // 자릿수가 부족하면 0으로 처리
+        const numB = vb[i] || 0;
+
+        if (numA !== numB) {
+            return numA - numB;
         }
     }
 
@@ -78,7 +91,18 @@ async function showNotice() {
     if (!lastVersion ||
     compareVersion(lastest.version, lastVersion) > 0) {
         console.log(lastest);
-        noticeModal.innerHTML = `<div class="modal-content"><div class="modal-header" style="display: flex; flex-dircetion: column;"><h1>${lastest.title}</h1><small>Update at ${lastest.date}</small></div><div class="modal-section">${lastest.changes.replaceAll(" ", "&nbsp;")}</div><button id="noticeCloseButton" style="width: 100px; height: 30px; margin-top: 10px; background-color: #d00; color: #fff; border: none; border-radius: 5px;">확인</button></div>`;
+        noticeModal.innerHTML = `
+            <div class="modal-content" style="display: flex; flex-direction: column; width: 600px; max-width: 90vw; max-height: 80vh; padding: 20px; box-sizing: border-box;">
+                <div class="modal-header" style="display: flex; flex-direction: column; margin-bottom: 10px;">
+                    <h1 style="margin: 0; font-size: 1.5rem;">${lastest.title}</h1>
+                    <small style="color: #666; margin-top: 4px;">Update at ${lastest.date}</small>
+                </div>
+                <div class="modal-section" style="flex: 1; overflow-y: auto; word-break: break-word; min-height: 0; margin-bottom: 10px;">
+                    ${lastest.changes.replaceAll(" ", "&nbsp;")}
+                </div>
+                <button id="noticeCloseButton" style="width: 100px; height: 30px; margin-top: auto; align-self: center; background-color: #d00; color: #fff; border: none; border-radius: 5px; cursor: pointer; flex-shrink: 0;">확인</button>
+            </div>
+            `;
         document.getElementById("noticeCloseButton")?.addEventListener('click', closeNotice);
         noticeModal.style.flexDirection = "column";
         noticeModal.classList.remove('hidden');
@@ -94,6 +118,38 @@ function closeNotice() {
     noticeModal.classList.add('hidden');
 }
 
+// parallel 꼭지(├)를 일본어 원문 글자의 세로 중앙에 맞춤
+// (후리가나 rt는 제외하고 본문 글자만 측정)
+function alignParallelTicks() {
+    const range = document.createRange();
+
+    document.querySelectorAll('.parallel-line').forEach(line => {
+        const ja = line.querySelector('.lyric-ja');
+        if (!ja) return;
+
+        const walker = document.createTreeWalker(ja, NodeFilter.SHOW_TEXT, {
+            acceptNode: (node) =>
+                node.textContent.trim() && !node.parentElement.closest('rt')
+                    ? NodeFilter.FILTER_ACCEPT
+                    : NodeFilter.FILTER_REJECT
+        });
+
+        let top = Infinity;
+        let bottom = -Infinity;
+        while (walker.nextNode()) {
+            range.selectNodeContents(walker.currentNode);
+            for (const rect of range.getClientRects()) {
+                top = Math.min(top, rect.top);
+                bottom = Math.max(bottom, rect.bottom);
+            }
+        }
+        if (top === Infinity) return; // 숨겨져 있거나 텍스트가 없는 경우
+
+        const center = (top + bottom) / 2 - line.getBoundingClientRect().top;
+        line.style.setProperty('--tick-y', `${center}px`);
+    });
+}
+
 // 가사 표시 옵션 업데이트 함수
 function updateVisibility() {
     const rtElements = document.querySelectorAll('rt');
@@ -103,6 +159,7 @@ function updateVisibility() {
     if (toggleFurigana) rtElements.forEach(el => el.style.display = toggleFurigana.checked ? '' : 'none');
     if (togglePron) pronElements.forEach(el => el.style.display = togglePron.checked ? '' : 'none');
     if (toggleKo) koElements.forEach(el => el.style.display = toggleKo.checked ? '' : 'none');
+    alignParallelTicks();
 }
 
 // 토글 버튼에 이벤트 리스너 연결
@@ -166,6 +223,48 @@ function renderList(songs) {
     });
 }
 
+// 가사 한 줄 HTML 생성 (일반 / parallel 공용)
+function renderLyricLine(line, song, isParallel) {
+    const currentSinger = line.singer || song.singer;
+    const singerClass = currentSinger ? `singer-${currentSinger}` : '';
+    const cls = isParallel ? 'parallel-line' : 'lyric-line';
+    const style = isParallel ? '' : ' style="margin-bottom: 20px;"'; // 기존 일반 가사 간격 유지
+
+    return `
+    <div class="${cls} ${singerClass}"${style}>
+        <div class="lyric-ja" style="font-size: 1.1em;">${line.ja || ""}</div>
+        <div class="lyric-pron" style="font-size: 0.9em; margin-top: 4px;">${line.pronunciation || ""}</div>
+        <div class="lyric-ko" style="font-size: 1em; margin-top: 2px;">${line.ko || ""}</div>
+    </div>`;
+}
+
+// 배열 순서를 유지하면서, 연속된 같은 parallel 값을 하나의 그룹으로 묶음
+function renderLyrics(lyrics, song) {
+    const hasParallel = (l) => l.parallel !== undefined && l.parallel !== null && l.parallel !== '';
+    let html = '';
+    let i = 0;
+
+    while (i < lyrics.length) {
+        const line = lyrics[i];
+
+        if (!hasParallel(line)) {
+            html += renderLyricLine(line, song, false);
+            i++;
+            continue;
+        }
+
+        const pid = line.parallel;
+        let inner = '';
+        while (i < lyrics.length && hasParallel(lyrics[i]) && lyrics[i].parallel === pid) {
+            inner += renderLyricLine(lyrics[i], song, true);
+            i++;
+        }
+        html += `<div class="parallel-group" data-parallel="${pid}">${inner}</div>`;
+    }
+
+    return html;
+}
+
 // 가사 및 영상 표시
 function showLyrics(song) {
     welcomeMessage?.classList.add('hidden');
@@ -176,20 +275,7 @@ function showLyrics(song) {
 
     if (lyricsText && song.lyrics) {
         if (Array.isArray(song.lyrics) && typeof song.lyrics[0] === 'object') {
-            const lyricsHtml = song.lyrics.map(line => {
-                const currentSinger = line.singer || song.singer;
-                const singerClass = currentSinger ? `singer-${currentSinger}` : '';
-
-                return `
-                <div class="lyric-line ${singerClass}" style="margin-bottom: 20px;">
-                    <div class="lyric-ja" style="font-size: 1.1em;">${line.ja || ""}</div>
-                    <div class="lyric-pron" style="font-size: 0.9em; margin-top: 4px;">${line.pronunciation || ""}</div>
-                    <div class="lyric-ko" style="font-size: 1em; margin-top: 2px;">${line.ko || ""}</div>
-                </div>
-                `;
-            }).join('');
-
-            lyricsText.innerHTML = lyricsHtml;
+            lyricsText.innerHTML = renderLyrics(song.lyrics, song);
             updateVisibility();
         } else if (typeof song.lyrics === 'string') {
             lyricsText.innerHTML = song.lyrics.replace(/\n/g, '<br>');
@@ -275,6 +361,9 @@ searchInput?.addEventListener('input', (e) => {
 infoBtn.addEventListener('click', () => {
     window.open('./info.html', "_blank", "noopener,noreferrer");
 });
+
+window.addEventListener('resize', alignParallelTicks);
+document.fonts?.ready.then(alignParallelTicks);
 
 // 초기화
 showNotice();

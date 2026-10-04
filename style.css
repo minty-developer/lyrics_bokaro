@@ -12,8 +12,37 @@ body {
 }
 
 /* 기본 글꼴 및 배경 설정 */
+
+/* 1. Kosugi Maru (일본어 전용 범위 지정) */
+@font-face {
+    font-family: 'Kosugi Maru';
+    src: url('./fonts/KosugiMaru-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    /* 히라가나, 카타카나, CJK 한자, 일본어 문장 부호 범위 */
+    unicode-range: U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+3000-303F;
+}
+
+/* 2. Pretendard (Regular / Bold) */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('./fonts/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('./fonts/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    font-family: 'Pretendard', 'Kosugi Maru', sans-serif;
+    font-family: 'Kosugi Maru', 'Pretendard', sans-serif;
     background-color: #f5f5f7;
     color: #333;
     display: flex;
@@ -136,6 +165,10 @@ button:hover {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s ease;
+}
+
+#song-list li * {
+    user-select: none;
 }
 
 /* 플레이리스트 개별 항목 hover 상태 */
@@ -312,9 +345,15 @@ button:hover {
 
 /* 가사 텍스트 속성 */
 #lyrics-text {
-    line-height: 2.8;
+    line-height: 1;
     font-size: 1.2rem;
     word-break: keep-all;
+}
+
+.lyric-line {
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 /* 일본어 가사 기본 색상 */
@@ -324,7 +363,8 @@ button:hover {
 
 /* 발음(로마자) 기본 색상 */
 .lyric-pron {
-    color: #666;
+    color: #777 !important;
+    font-size: 14px !important;
 }
 
 /* 한국어 해석 기본 색상 */
@@ -389,7 +429,100 @@ rt {
 .singer-len .lyric-ja { color: #DD0; font-weight: bold; }
 .singer-zundamon .lyric-ja { color: #899b35; font-weight: bold; }
 .singer-ruka .lyric-ja { color: #FFC0CB; font-weight: bold; }
+.singer-meiko .lyric-ja { color: #DD4444; font-weight: bold; }
+.singer-kaito .lyric-ja { color: #3366CC; font-weight: bold; }
 
+/* ==========================================================================
+   Parallel(동시 파트) 그룹 - 왼쪽 연결선
+   ========================================================================== */
+
+/* singer별 연결선 색상 (기존 색상과 동일한 값) */
+.singer-miku     { --singer-color: #25cac7; }
+.singer-teto     { --singer-color: #F33; }
+.singer-neru     { --singer-color: #AA0; }
+.singer-lin      { --singer-color: #FA0; }
+.singer-len      { --singer-color: #DD0; }
+.singer-zundamon { --singer-color: #899b35; }
+.singer-ruka     { --singer-color: #FFC0CB; }
+
+.parallel-group {
+    --gutter: 22px;   /* 선이 차지하는 왼쪽 공간 */
+    --pad-y: 14px;    /* 줄 위아래 여백 */
+    --line-w: 2px;
+
+    position: relative;
+    margin: 40px 0 30px;
+    padding-left: var(--gutter);
+    min-width: 0;
+}
+
+.parallel-line {
+    position: relative;
+    padding: var(--pad-y) 0;
+    /* --tick-y 는 JS(alignParallelTicks)가 일본어 원문 중앙으로 덮어씀 */
+    --tick-top: calc(var(--tick-y, 1.2rem) - var(--line-w) / 2);
+}
+
+/* 세로선: 각 줄 전체 높이를 채워 그룹 전체를 관통 */
+.parallel-line::before {
+    content: "";
+    position: absolute;
+    left: calc(var(--gutter) * -1);
+    top: 0;
+    bottom: 0;
+    width: var(--line-w);
+    background: var(--singer-color, #bbb);
+}
+
+/* 가로 꼭지: 일본어 원문의 세로 중앙에서 세로선과 연결 */
+.parallel-line::after {
+    content: "";
+    position: absolute;
+    left: calc(var(--gutter) * -1);
+    top: var(--tick-top);
+    width: calc(var(--gutter) - 8px);
+    height: var(--line-w);
+    background: var(--singer-color, #bbb);
+}
+
+/* 첫 줄: ┌ (세로선이 꼭지 높이에서 시작) */
+.parallel-line:first-child::before {
+    top: var(--tick-top);
+    border-top-left-radius: 3px;
+}
+
+/* 마지막 줄: └ (세로선이 꼭지 높이에서 끝) */
+.parallel-line:last-child::before {
+    bottom: auto;
+    height: calc(var(--tick-top) + var(--line-w));
+    border-bottom-left-radius: 3px;
+}
+
+/* 줄이 하나뿐인 그룹: 세로선 없이 꼭지만 */
+.parallel-line:only-child::before { display: none; }
+
+/* 모바일 */
+@media (max-width: 1052px) {
+    .parallel-group {
+        --gutter: 16px;
+        --pad-y: 12px;
+    }
+    .parallel-line::after { width: calc(var(--gutter) - 6px); }
+}
+
+/* ==========================================================================
+   스크롤 바 디자인
+   ========================================================================== */
+
+::-webkit-scrollbar {
+    background-color: #0000;
+    scrollbar-width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4446;
+    border-radius: 5px;
+}
 
 /* ==========================================================================
    모바일 반응형 디자인 (가로 1052px 이하)
