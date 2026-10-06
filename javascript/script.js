@@ -201,7 +201,7 @@ function updateVisibility() {
 // JSON 데이터 로드
 async function loadSongs() {
     try {
-        const response = await fetch('../data/songs.json');
+        const response = await fetch('./data/songs.json');
         if (!response.ok) throw new Error('데이터 로드 실패');
         
         allSongs = await response.json();
