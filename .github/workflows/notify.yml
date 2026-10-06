@@ -1,77 +1,38 @@
-name: Notify Update
+name: Notify Release
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'notice.json'
+  release:
+    types:
+      - published
 
 jobs:
   notify:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Read latest notice
-        id: notice
+      - name: Create announcement payload
+        env:
+          VERSION: ${{ github.event.release.tag_name }}
+          CHANGES: ${{ github.event.release.body }}
         run: |
-          NOTICE=$(node -e '
-            const fs = require("fs");
-            const data = JSON.parse(fs.readFileSync("notice.json", "utf8"));
+          node - <<'NODE'
+          const fs = require("fs");
 
-            // "v2.001-0" -> [2, 1, 0] 정수 배열로 변환하는 안전한 파서
-            function parseVersion(vStr) {
-              return vStr
-                .replace(/^v/i, "")         // 맨 앞 "v" 제거
-                .split("-")[0]              // "-0" 같은 빌드 타겟 분리
-                .split(".")                 // ["2", "001"]
-                .map(num => parseInt(num, 10) || 0);
-            }
+          const payload = {
+            version: process.env.VERSION,
+            changes: process.env.CHANGES
+          };
 
-            function compareVersion(a, b) {
-              const va = parseVersion(a);
-              const vb = parseVersion(b);
-              const len = Math.max(va.length, vb.length);
-
-              for (let i = 0; i < len; i++) {
-                const numA = va[i] || 0;
-                const numB = vb[i] || 0;
-                if (numA !== numB) {
-                  return numA - numB;
-                }
-              }
-              return 0;
-            }
-
-            const latest = data.reduce((latest, current) => {
-              return compareVersion(current.version, latest.version) > 0
-                ? current
-                : latest;
-            });
-
-            // <br> 태그를 문자열 "\n"으로 변환 (실제 개행이 아니라 이스케이프 문자 유지)
-            if (latest.changes) {
-              latest.changes = latest.changes.replace(/<br\s*\/?>/gi, "\\n");
-            }
-
-            console.log(JSON.stringify(latest));
-          ')
-
-          echo "notice<<EOF" >> "$GITHUB_OUTPUT"
-          echo "$NOTICE" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
+          fs.writeFileSync(
+            "payload.json",
+            JSON.stringify(payload, null, 2),
+            "utf8"
+          );
+          NODE
 
       - name: Send notice to API
         run: |
-          # 파일로 저장 후 curl -d @파일명 옵션을 써서 특수문자 깨짐 방지
-          cat << 'EOF' > payload.json
-          ${{ steps.notice.outputs.notice }}
-          EOF
-
           curl -X POST "${{ secrets.BOT_API_URL }}/api/v1/announcement" \
             -H "Content-Type: application/json" \
             -H "x-api-key: ${{ secrets.TORI_API_KEY }}" \
-            -d @payload.json
+            --data-binary @payload.json
