@@ -15,7 +15,6 @@
             <button class="Hamburger" id="HamburgerBtn" aria-label="메뉴 열기">≡</button>
             <h1 class="web-title">Lyrics-ボカロ</h1>
             <div class="header-actions">
-                <button class="SortBtn" id="sortBtn" title="곡 정렬">⇅</button>
                 <button class="SettingsBtn" id="SettingsBtn" title="사이트 설정">⚙</button>
                 <button class="infoBtn" id="infoBtn" title="사이트 정보">!</button>
             </div>
@@ -28,6 +27,18 @@
                 <button class="MobileCloseBtn" id="MobileCloseBtn">X</button>
             </div>
             <input type="text" id="search-input" placeholder="곡 제목 또는 아티스트 검색..." autocomplete="off">
+            <div class="song-list-tools">
+                <label class="sort-control" for="song-sort-select">
+                    <span>정렬</span>
+                    <select id="song-sort-select" aria-label="곡 목록 정렬">
+                        <option value="title">제목순</option>
+                        <option value="artist">아티스트순</option>
+                        <option value="latest">최신 추가순</option>
+                        <option value="oldest">오래된 순</option>
+                    </select>
+                </label>
+                <button type="button" class="feature-button" data-feature="작곡가·작사가 검색">작곡가·작사가 검색</button>
+            </div>
             <ul id="song-list">
             </ul>
         </nav>
@@ -64,9 +75,23 @@
                 
                 <div class="modal-section" id="display-controls">
                     <p class="section-title">가사 표시 옵션</p>
-                    <label><input type="checkbox" id="toggle-furigana" checked> 후리가나 보기</label>
-                    <label><input type="checkbox" id="toggle-pron" checked> 발음 보기</label>
-                    <label><input type="checkbox" id="toggle-ko" checked> 한글 해석 보기</label>
+                    <fieldset class="settings-group visibility-group">
+                        <legend>표시할 내용</legend>
+                        <label class="setting-check"><input type="checkbox" id="toggle-furigana" checked><span>후리가나 보기</span></label>
+                        <label class="setting-check"><input type="checkbox" id="toggle-pron" checked><span>발음 보기</span></label>
+                        <label class="setting-check"><input type="checkbox" id="toggle-ko" checked><span>한글 해석 보기</span></label>
+                    </fieldset>
+                    <fieldset class="settings-group">
+                        <legend>가사 읽기</legend>
+                        <label class="setting-row"><span>줄 간격</span><input data-setting="lineHeight" type="number" min="1" max="3" step="0.1" value="1.8"><small>배</small></label>
+                        <label class="setting-row"><span>문단 간격</span><input data-setting="paragraphGap" type="number" min="0" max="120" step="4" value="36"><small>px</small></label>
+                        <label class="setting-row"><span>원문 글자 크기</span><input data-setting="fontSize" type="number" min="12" max="48" step="1" value="20"><small>px</small></label>
+                        <label class="setting-row"><span>폰트</span><select data-setting="fontFamily"><option value="Kosugi Maru">Kosugi Maru</option><option value="Pretendard">Pretendard</option><option value="sans-serif">시스템 기본</option></select></label>
+                        <label class="setting-check"><input data-setting="partSeparation" type="checkbox"><span>파트별 구분</span></label>
+                        <label class="setting-row"><span>보컬 필터</span><select data-setting="vocalFilter"><option value="all">모든 보컬</option></select></label>
+                        <label class="setting-check"><input data-setting="focusMode" type="checkbox"><span>집중 모드</span></label>
+                    </fieldset>
+                    <p id="settings-status" class="settings-status" role="status" aria-live="polite"></p>
                 </div>
             </div>
         </div>
@@ -95,15 +120,30 @@
                     </a>
                 </div>
 
+                <section id="song-information" class="song-information hidden" aria-label="곡 정보">
+                    <h3>곡 정보</h3>
+                    <dl id="song-information-list"></dl>
+                </section>
+
                 <!-- 가사 본문 영역 (중앙 배치) -->
                 <div class="lyrics-left-block">
                     <div class="desktop-sticky-header">
                         <h2 id="display-title"></h2>
                         <p id="display-artist"></p>
+                        <div class="lyrics-actions">
+                            <button type="button" class="feature-button" data-feature="전체 가사 복사">전체 복사</button>
+                            <button type="button" class="feature-button" data-feature="선택한 가사 복사">선택 부분 복사</button>
+                            <button type="button" class="feature-button" data-feature="특정 가사 링크 공유">가사 구간 공유</button>
+                        </div>
                     </div>
 
                     <div class="lyrics-scroll-body">
                         <div id="lyrics-text"></div>
+                        <div class="feature-footer">
+                            <button type="button" class="feature-button" data-feature="가사 추가 요청">가사 추가 요청</button>
+                            <button type="button" class="feature-button" data-feature="오타 신고">오타 신고</button>
+                            <button type="button" class="feature-button" data-feature="번역 수정 제안">번역 수정 제안</button>
+                        </div>
                     </div>
                 </div>
             </div>

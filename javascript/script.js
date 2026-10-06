@@ -10,6 +10,10 @@ const displayTitle = document.getElementById('display-title');
 const displayArtist = document.getElementById('display-artist');
 const lyricsText = document.getElementById('lyrics-text');
 const searchInput = document.getElementById('search-input');
+const songSortSelect = document.getElementById('song-sort-select');
+const settingsStatus = document.getElementById('settings-status');
+const songInformation = document.getElementById('song-information');
+const songInformationList = document.getElementById('song-information-list');
 
 // 설정 모달 관련 DOM
 const toggleFurigana = document.getElementById('toggle-furigana');
@@ -59,6 +63,57 @@ sidebarOverlay?.addEventListener('click', () => toggleSidebar(false));
 
 // 정렬 모달창 열기/닫기 이벤트
 sortBtn?.addEventListener("click", () => sortMenu?.classList.remove('hidden'));
+songSortSelect?.addEventListener('change', (event) => renderListWithSorts(event.target.value));
+songSortSelect && (songSortSelect.value = sortType);
+
+const featureHandlers = {
+    '작곡가·작사가 검색': handleCreditSearch,
+    '줄 간격': handleReadingSettings,
+    '문단 간격': handleReadingSettings,
+    '글자 크기 조절': handleReadingSettings,
+    '폰트 변경': handleReadingSettings,
+    '파트별 구분': handleReadingSettings,
+    '보컬 필터': handleReadingSettings,
+    '집중 모드': handleReadingSettings,
+    '번역 언어 선택': handleTranslationSettings,
+    '원문·번역 전환': handleTranslationSettings,
+    '번역본 비교': handleTranslationSettings,
+    '자동 스크롤': handleAutoScrollSettings,
+    '자동 스크롤 속도': handleAutoScrollSettings,
+    '자동 스크롤 일시정지': handleAutoScrollSettings,
+    '현재 가사 강조': handleAutoScrollSettings,
+    '전체 가사 복사': handleLyricsCopy,
+    '선택한 가사 복사': handleLyricsCopy,
+    '곡 언어 정보': handleSongMetadata,
+    '앨범 정보': handleSongMetadata,
+    '특정 가사 링크 공유': handleLyricsShare,
+    '가사 추가 요청': handleContribution,
+    '오타 신고': handleContribution,
+    '번역 수정 제안': handleContribution
+};
+
+document.querySelectorAll('.feature-button[data-feature]').forEach((button) => {
+    button.addEventListener('click', () => {
+        const handler = featureHandlers[button.dataset.feature];
+        handler?.(button.dataset.feature);
+    });
+});
+
+const settingsControls = [...document.querySelectorAll('[data-setting]')];
+const savedDisplaySettings = JSON.parse(localStorage.getItem('lyrics_bokaro_display_settings') || '{}');
+settingsControls.forEach((control) => {
+    const savedValue = savedDisplaySettings[control.dataset.setting];
+    if (savedValue !== undefined) {
+        if (control.type === 'checkbox') control.checked = savedValue;
+        else control.value = savedValue;
+    }
+    control.addEventListener('input', applyDisplaySettings);
+    control.addEventListener('change', () => {
+        applyDisplaySettings();
+        announceSettingStatus(control.dataset.setting);
+    });
+});
+applyDisplaySettings();
 
 // 정보 페이지 열기 이벤트
 infoBtn?.addEventListener('click', () => {
@@ -88,6 +143,80 @@ function toggleSidebar(show) {
         sidebarOverlay.classList.add('hidden');
     }
 }
+
+function showFeatureInProgress(featureName) {
+    window.alert(`${featureName}: 아직 구현중입니다.`);
+}
+
+function applyDisplaySettings() {
+    const read = (name) => document.querySelector(`[data-setting="${name}"]`);
+    const value = (name) => read(name)?.value;
+    const checked = (name) => !!read(name)?.checked;
+    const root = document.documentElement;
+    root.style.setProperty('--lyric-line-height', String(Number(value('lineHeight')) || 1.8));
+    root.style.setProperty('--lyric-paragraph-gap', `${Number(value('paragraphGap')) || 0}px`);
+    root.style.setProperty('--lyric-font-size', `${Number(value('fontSize')) || 20}px`);
+    const fontFamily = value('fontFamily') || 'Kosugi Maru';
+    root.style.setProperty('--lyrics-font-family', fontFamily === 'sans-serif' ? fontFamily : JSON.stringify(fontFamily));
+    lyricsText?.classList.toggle('parts-separated', checked('partSeparation'));
+    document.body.classList.toggle('focus-mode', checked('focusMode'));
+
+    const filter = value('vocalFilter') || 'all';
+    lyricsText?.querySelectorAll('.lyric-line, .parallel-line').forEach((line) => {
+        line.classList.toggle('filtered-out', filter !== 'all' && !line.classList.contains(`singer-${filter}`));
+    });
+
+    if (settingsControls.length) {
+        const settings = Object.fromEntries(settingsControls.map((control) => [
+            control.dataset.setting,
+            control.type === 'checkbox' ? control.checked : control.value
+        ]));
+        localStorage.setItem('lyrics_bokaro_display_settings', JSON.stringify(settings));
+    }
+}
+
+function announceSettingStatus(settingName) {
+    if (!settingsStatus) return;
+    settingsStatus.textContent = '';
+}
+
+function populateVocalFilters(songs) {
+    const select = document.querySelector('[data-setting="vocalFilter"]');
+    if (!select) return;
+    const selected = select.value;
+    const singers = [...new Set(songs.flatMap((song) => [
+        song.singer,
+        ...(Array.isArray(song.lyrics) ? song.lyrics.map((line) => line.singer) : [])
+    ]).filter(Boolean))].sort();
+    select.replaceChildren(new Option('모든 보컬', 'all'));
+    singers.forEach((singer) => select.add(new Option(singer, singer)));
+    select.value = singers.includes(selected) ? selected : 'all';
+}
+
+function renderSongInformation(song) {
+    if (!songInformation || !songInformationList) return;
+    const fields = [
+        ['작곡', song.composer || song.music],
+        ['작사', song.lyricist || song.lyricsBy]
+    ].filter(([, value]) => value);
+    songInformationList.replaceChildren(...fields.flatMap(([label, value]) => {
+        const term = document.createElement('dt');
+        term.textContent = label;
+        const description = document.createElement('dd');
+        description.textContent = value;
+        return [term, description];
+    }));
+    songInformation.classList.toggle('hidden', fields.length === 0);
+}
+
+function handleCreditSearch(featureName) { showFeatureInProgress(featureName); }
+function handleReadingSettings(featureName) { showFeatureInProgress(featureName); }
+function handleTranslationSettings(featureName) { showFeatureInProgress(featureName); }
+function handleAutoScrollSettings(featureName) { showFeatureInProgress(featureName); }
+function handleLyricsCopy(featureName) { showFeatureInProgress(featureName); }
+function handleSongMetadata(featureName) { showFeatureInProgress(featureName); }
+function handleLyricsShare(featureName) { showFeatureInProgress(featureName); }
+function handleContribution(featureName) { showFeatureInProgress(featureName); }
 
 // 최신 버전 공지를 보여주는 함수
 async function showNotice() {
@@ -206,6 +335,7 @@ async function loadSongs() {
         
         allSongs = await response.json();
         nowSongs = allSongs;
+        populateVocalFilters(allSongs);
         renderListWithSorts();
 
         const urlParams = new URLSearchParams(window.location.search);
@@ -302,6 +432,7 @@ function showLyrics(song) {
 
     if (displayTitle) displayTitle.innerText = song.title;
     if (displayArtist) displayArtist.innerText = song.artist;
+    renderSongInformation(song);
 
     if (lyricsText && song.lyrics) {
         if (Array.isArray(song.lyrics) && typeof song.lyrics[0] === 'object') {
@@ -313,6 +444,7 @@ function showLyrics(song) {
             lyricsText.innerHTML = "데이터 형식을 확인할 수 없습니다.";
         }
     }
+    applyDisplaySettings();
 
     // 영상 처리
     const videoContainer = document.getElementById('video-container');
@@ -368,6 +500,7 @@ function sortSongs(songs, Type = sortType) {
 // 정렬한 후 로딩하는 함수
 function renderListWithSorts(Type = sortType) {
     sortType = Type;
+    if (songSortSelect) songSortSelect.value = Type;
     localStorage.setItem("lyrics_bokaro_sort_type", Type);
     renderList(sortSongs(nowSongs, Type));
     sortMenu?.classList.add('hidden');

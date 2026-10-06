@@ -644,6 +644,108 @@ rt {
     .parallel-line::after { width: calc(var(--gutter) - 6px); }
 }
 
+/* Touch targets, breathing room, lyric hierarchy, and planned feature controls */
+button, select, #search-input { min-height: 48px; }
+button { padding-inline: 14px; }
+.page-layout > .sidebar { padding: 24px 20px; }
+#search-input { margin-bottom: 0; }
+.song-list-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 12px 0 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--line);
+}
+.sort-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--muted);
+    font-size: .9rem;
+}
+.sort-control select {
+    flex: 1;
+    min-width: 0;
+    padding: 0 38px 0 13px;
+    border: 1px solid var(--line);
+    border-radius: 11px;
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    cursor: pointer;
+}
+.feature-button {
+    min-height: 48px;
+    padding: 9px 14px;
+    border: 1px solid var(--line);
+    border-radius: 11px;
+    background: var(--surface);
+    color: var(--text);
+    font-size: .9rem;
+    line-height: 1.35;
+}
+.feature-button:hover, .feature-button:focus-visible {
+    border-color: #ed9bad;
+    background: var(--accent-soft);
+    color: var(--accent);
+}
+.lyrics-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+.desktop-sticky-header { padding-bottom: 18px; }
+.lyrics-scroll-body { padding-top: 24px; }
+.lyric-ja { color: #ed334c; font-size: 20px !important; line-height: 1.8; }
+.lyric-pron { font-size: 12px !important; line-height: 1.7; }
+.lyric-ko { color: #fff; font-size: 16px !important; line-height: 1.75; }
+.lyric-line { margin-top: 36px !important; margin-bottom: 36px !important; }
+.parallel-line { padding-block: 18px; }
+.feature-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 48px 0 16px;
+    padding-top: 22px;
+    border-top: 1px solid var(--line);
+}
+.feature-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+}
+.feature-group .section-title { width: 100%; margin: 0 0 4px; }
+#display-controls label { min-height: 48px; }
+.header-actions button { min-height: 48px; min-width: 48px; }
+
+/* Keep scrollbars slim while retaining a visible thumb. */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-thumb { border-width: 1px; }
+html, body, #song-list, .lyrics-scroll-body, .modal-content { scrollbar-width: thin; }
+
+@media (prefers-color-scheme: dark) {
+    .sort-control select { background: #272a34; color: #f3f4f8; }
+    .feature-button { background: #272a34; color: #e6e8ee; }
+    .feature-button:hover, .feature-button:focus-visible { background: #3b2029; color: #ff9caf; }
+    .lyric-ja { color: #ff465b; }
+    .lyric-ko { color: #fff; }
+}
+@media (prefers-color-scheme: light) {
+    .lyric-ko { color: #fff; }
+}
+@media (max-width: 1052px) {
+    .page-layout > .sidebar { padding: 20px 16px; }
+    .lyrics-actions { gap: 8px; }
+    .feature-footer { margin-top: 36px; }
+    .lyric-line { margin-block: 28px !important; }
+}
+
 /* ==========================================================================
    다크모드 지원
    ========================================================================== */
@@ -983,6 +1085,158 @@ button:focus-visible, #search-input:focus-visible, #song-list li:focus-visible {
     .modal-header h1, .modal-header h2, .modal-section button { color: var(--text); }
     .modal-header button, .modal-section button, #display-controls label { background: #272a34; border-color: var(--line); }
     .modal-section button:hover, .modal-header button:hover { background: var(--accent-soft); color: #ff9caf; }
+}
+
+/* Final overrides for the current touch and lyric-size requirements. */
+button, select, #search-input { min-height: 48px; }
+.header-actions button { min-width: 48px; min-height: 48px; }
+.song-list-tools { display: flex; flex-direction: column; gap: 12px; margin: 12px 0 20px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.sort-control { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--muted); }
+.sort-control select { flex: 1; min-width: 0; padding: 0 38px 0 13px; border: 1px solid var(--line); border-radius: 11px; background: var(--surface); color: var(--text); font: inherit; }
+.feature-button { min-height: 48px; padding: 9px 14px; border: 1px solid var(--line); border-radius: 11px; background: var(--surface); color: var(--text); }
+.lyrics-actions, .feature-footer { display: flex; flex-wrap: wrap; gap: 10px; }
+.lyrics-actions { margin-top: 16px; }
+.feature-footer { margin: 48px 0 16px; padding-top: 22px; border-top: 1px solid var(--line); }
+.feature-group { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
+.feature-group .section-title { width: 100%; margin: 0 0 4px; }
+#display-controls label { min-height: 48px; }
+.lyric-ja { color: #ed334c; font-size: 20px !important; line-height: 1.8; }
+.lyric-pron { font-size: 12px !important; line-height: 1.7; }
+.lyric-ko { color: #fff; font-size: 16px !important; line-height: 1.75; }
+.lyric-line { margin-block: 36px !important; }
+.parallel-line { padding-block: 18px; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-thumb { border-width: 1px; }
+@media (prefers-color-scheme: dark) {
+    .sort-control select, .feature-button { background: #272a34; color: #f3f4f8; }
+    .feature-button:hover { background: #3b2029; color: #ff9caf; }
+    .lyric-ja { color: #ff465b; }
+    .lyric-ko { color: #fff; }
+}
+@media (max-width: 1052px) {
+    .page-layout > .sidebar { padding: 20px 16px; }
+    .lyrics-actions { gap: 8px; }
+    .lyric-line { margin-block: 28px !important; }
+}
+@media (prefers-color-scheme: light) {
+    .lyric-ko { color: #0056b3; }
+}
+
+/* Keep settings editing in one scrollable dialog. */
+#SettingsModal .modal-content { width: min(92vw, 720px); }
+#SettingsModal #display-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+#SettingsModal #display-controls > .section-title,
+#SettingsModal .settings-status { grid-column: 1 / -1; }
+.settings-group {
+    min-width: 0;
+    padding: 14px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+}
+.settings-group legend { padding: 0 8px; color: var(--text); font-weight: 700; }
+#SettingsModal .setting-row {
+    display: grid;
+    grid-template-columns: minmax(90px, 1fr) minmax(90px, 130px) auto;
+    align-items: center;
+    gap: 8px;
+    min-height: 48px;
+    margin: 6px 0;
+    padding: 6px 8px;
+    border: 0;
+    color: var(--text);
+}
+#SettingsModal .setting-row input,
+#SettingsModal .setting-row select {
+    width: 100%;
+    min-width: 0;
+    min-height: 44px;
+    padding: 0 10px;
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+}
+#SettingsModal .setting-row small { color: var(--muted); }
+#SettingsModal .setting-check {
+    min-height: 48px;
+    margin: 4px 0;
+    border-color: var(--line);
+    border-radius: 9px;
+    color: var(--text);
+}
+#SettingsModal .settings-status { min-height: 1.5em; margin-top: 6px; color: var(--muted); }
+
+/* Song metadata belongs directly below the video in the right column. */
+@media (min-width: 1053px) {
+    #lyrics-content:has(#video-container.hidden):not(:has(.song-information:not(.hidden))) {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    #song-information {
+        grid-column: 2;
+        grid-row: 2;
+        align-self: start;
+        padding: 16px 18px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: var(--canvas);
+    }
+    #lyrics-content:has(#video-container.hidden):has(.song-information:not(.hidden)) #song-information {
+        grid-row: 1;
+    }
+}
+.song-information h3 { margin-bottom: 12px; color: var(--text); font-size: 1rem; }
+.song-information dl { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px 16px; }
+.song-information dt { color: var(--muted); }
+.song-information dd { min-width: 0; color: var(--text); overflow-wrap: anywhere; }
+.parts-separated .lyric-line,
+.parts-separated .parallel-line { padding-left: 12px; border-left: 2px solid var(--line); }
+.filtered-out { display: none !important; }
+.focus-mode .site-header,
+.focus-mode .page-layout > .sidebar { display: none !important; }
+.focus-mode .page-layout > .lyrics-view { width: min(100%, 1100px); margin: 18px auto; }
+.focus-mode #lyrics-content { grid-template-columns: minmax(0, 1fr); }
+.focus-mode #video-container,
+.focus-mode #song-information { display: none !important; }
+@media (max-width: 1052px) {
+    #SettingsModal #display-controls { grid-template-columns: minmax(0, 1fr); }
+    #song-information { margin: 14px 0; padding: 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--canvas); }
+}
+.lyric-ja, .lyric-pron, .lyric-ko { font-family: var(--lyrics-font-family, 'Kosugi Maru', sans-serif); }
+.lyric-ja { font-size: var(--lyric-font-size, 20px) !important; line-height: var(--lyric-line-height, 1.8); }
+.lyric-pron { font-size: 12px !important; line-height: var(--lyric-line-height, 1.8); }
+.lyric-ko { font-size: 16px !important; line-height: var(--lyric-line-height, 1.8); }
+.lyric-line { margin-block: var(--lyric-paragraph-gap, 36px) !important; }
+#SettingsModal .modal-content {
+    width: min(94vw, 680px);
+    max-width: 680px;
+    max-height: 86vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#SettingsModal #display-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 0;
+}
+#SettingsModal .settings-group { width: 100%; min-width: 0; }
+#SettingsModal #display-controls .setting-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(100px, 180px) auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+#SettingsModal #display-controls .setting-check {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+#SettingsModal .setting-check input { flex: 0 0 18px; width: 18px; height: 18px; }
+#SettingsModal .setting-check span { min-width: 0; }
+@media (max-width: 600px) {
+    #SettingsModal .modal-content { width: 94vw; padding: 18px 14px; }
+    #SettingsModal #display-controls .setting-row { grid-template-columns: minmax(0, 1fr) minmax(90px, 42% ) auto; }
 }
 
 /* Give the video its own column so it can never cover the lyrics scrollbar. */
