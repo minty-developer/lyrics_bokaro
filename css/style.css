@@ -1,3 +1,7 @@
+/* ========================================================================
+    전역 설정
+   ======================================================================== */
+
 /* 전역 설정 및 초기화 */
 * {
     box-sizing: border-box;
@@ -11,7 +15,9 @@ body {
     height: 100%;
 }
 
-/* 기본 글꼴 및 배경 설정 */
+/* ========================================================================
+    폰트 렌더링
+   ======================================================================== */
 
 /* 1. Kosugi Maru (일본어 전용 범위 지정) */
 @font-face {
@@ -40,6 +46,10 @@ body {
     font-style: normal;
     font-display: swap;
 }
+
+/* ========================================================================
+    전역 스타일 규칙
+   ======================================================================== */
 
 body {
     font-family: 'Kosugi Maru', 'Pretendard', sans-serif;
@@ -459,11 +469,10 @@ rt {
 .parallel-line {
     position: relative;
     padding: var(--pad-y) 0;
-    /* --tick-y 는 JS(alignParallelTicks)가 일본어 원문 중앙으로 덮어씀 */
     --tick-top: calc(var(--tick-y, 1.2rem) - var(--line-w) / 2);
 }
 
-/* 세로선: 각 줄 전체 높이를 채워 그룹 전체를 관통 */
+/* 각 줄 전체 높이를 채워 그룹 전체를 관통 */
 .parallel-line::before {
     content: "";
     position: absolute;
@@ -474,7 +483,7 @@ rt {
     background: var(--singer-color, #bbb);
 }
 
-/* 가로 꼭지: 일본어 원문의 세로 중앙에서 세로선과 연결 */
+/* 일본어 원문의 세로 중앙에서 세로선과 연결 */
 .parallel-line::after {
     content: "";
     position: absolute;
@@ -485,33 +494,24 @@ rt {
     background: var(--singer-color, #bbb);
 }
 
-/* 첫 줄: ┌ (세로선이 꼭지 높이에서 시작) */
+/* 첫 줄: ┌ */
 .parallel-line:first-child::before {
     top: var(--tick-top);
     border-top-left-radius: 3px;
 }
 
-/* 마지막 줄: └ (세로선이 꼭지 높이에서 끝) */
+/* 마지막 줄: └ */
 .parallel-line:last-child::before {
     bottom: auto;
     height: calc(var(--tick-top) + var(--line-w));
     border-bottom-left-radius: 3px;
 }
 
-/* 줄이 하나뿐인 그룹: 세로선 없이 꼭지만 */
+/* 줄이 하나뿐인 그룹 */
 .parallel-line:only-child::before { display: none; }
 
-/* 모바일 */
-@media (max-width: 1052px) {
-    .parallel-group {
-        --gutter: 16px;
-        --pad-y: 12px;
-    }
-    .parallel-line::after { width: calc(var(--gutter) - 6px); }
-}
-
 /* ==========================================================================
-   스크롤 바 디자인
+   스크롤 바
    ========================================================================== */
 
 ::-webkit-scrollbar {
@@ -635,6 +635,13 @@ rt {
         margin-top: 8px;
         margin-left: 60px;
     }
+
+    /* 그룹선 스타일 */
+    .parallel-group {
+        --gutter: 16px;
+        --pad-y: 12px;
+    }
+    .parallel-line::after { width: calc(var(--gutter) - 6px); }
 }
 
 /* ==========================================================================

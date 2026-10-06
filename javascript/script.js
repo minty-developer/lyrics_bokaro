@@ -1,3 +1,8 @@
+// ========================================================================
+//                                 DOM
+// ========================================================================
+
+// UI 관련 DOM
 const songListElement = document.getElementById('song-list');
 const lyricsContent = document.getElementById('lyrics-content');
 const welcomeMessage = document.getElementById('welcome-message');
@@ -25,17 +30,55 @@ const sidebarOverlay = document.getElementById('SidebarOverlay');
 const noticeModal = document.getElementById('NoticeModal');
 const mobileCloseBtn = document.getElementById('MobileCloseBtn');
 
+// ========================================================================
+//                                 List
+// ========================================================================
+
 let allSongs = [];
 let nowSongs = [];
 
+// ========================================================================
+//                             Local variable
+// ========================================================================
+
 let sortType = localStorage.getItem("lyrics_bokaro_sort_type") ?? "title"; // ( title | artist | latest | oldest )
+
+// ========================================================================
+//                                Event
+// ========================================================================
 
 // 모달창 열기/닫기 이벤트
 settingsBtn?.addEventListener('click', () => settingsModal.classList.remove('hidden'));
 closeSettingsBtn?.addEventListener('click', () => settingsModal.classList.add('hidden'));
 closeSortMenuBtn?.addEventListener('click', () => sortMenu.classList.add("hidden"));
 
-// 모바일 사이드바 열기/닫기 이벤트
+// 사이드바 열기/닫기 이벤트
+hamburgerBtn?.addEventListener('click', () => toggleSidebar(true));
+mobileCloseBtn?.addEventListener('click', () => toggleSidebar(false));
+sidebarOverlay?.addEventListener('click', () => toggleSidebar(false));
+
+// 정렬 모달창 열기/닫기 이벤트
+sortBtn.addEventListener("click", () => sortMenu.classList.remove('hidden'));
+
+// 정보 페이지 열기 이벤트
+infoBtn.addEventListener('click', () => {
+    window.open('../page/info.html', "_blank", "noopener,noreferrer");
+});
+
+// 가사 연결선 위치 조정 이벤트
+window.addEventListener('resize', alignParallelTicks);
+document.fonts?.ready.then(alignParallelTicks);
+
+// 토글 버튼 이벤트 연결
+toggleFurigana?.addEventListener('change', updateVisibility);
+togglePron?.addEventListener('change', updateVisibility);
+toggleKo?.addEventListener('change', updateVisibility);
+
+// ========================================================================
+//                              Function
+// ========================================================================
+
+// 사이드 바를 열고 닫는 함수
 function toggleSidebar(show) {
     if (show) {
         sidebar.classList.add('open');
@@ -45,15 +88,19 @@ function toggleSidebar(show) {
         sidebarOverlay.classList.add('hidden');
     }
 }
-hamburgerBtn?.addEventListener('click', () => toggleSidebar(true));
-mobileCloseBtn?.addEventListener('click', () => toggleSidebar(false));
-sidebarOverlay?.addEventListener('click', () => toggleSidebar(false));
 
 // 최신 버전 공지를 보여주는 함수
 async function showNotice() {
-    const release = await fetch(
-        "https://api.github.com/repos/minty-developer/lyrics_bokaro/releases/latest"
-    ).then(res => res.json());
+    const response = await fetch("https://api.github.com/repos/minty-developer/lyrics_bokaro/releases/latest");
+
+    if (!response.ok) {
+        console.warn(
+            `GitHub Release API 요청 실패: ${response.status}`
+        );
+        return;
+    }
+
+    const release = await response.json();
 
     const version = release.tag_name;
     const title = release.name;
@@ -103,12 +150,12 @@ async function showNotice() {
     }
 }
 
+// 공지 모달창을 닫는 함수
 function closeNotice() {
     noticeModal.classList.add('hidden');
 }
 
-// parallel 꼭지(├)를 일본어 원문 글자의 세로 중앙에 맞춤
-// (후리가나 rt는 제외하고 본문 글자만 측정)
+// parallel 지시선을 가사 세로 중앙에 정렬하는 함수
 function alignParallelTicks() {
     const range = document.createRange();
 
@@ -132,7 +179,7 @@ function alignParallelTicks() {
                 bottom = Math.max(bottom, rect.bottom);
             }
         }
-        if (top === Infinity) return; // 숨겨져 있거나 텍스트가 없는 경우
+        if (top === Infinity) return;
 
         const center = (top + bottom) / 2 - line.getBoundingClientRect().top;
         line.style.setProperty('--tick-y', `${center}px`);
@@ -150,12 +197,6 @@ function updateVisibility() {
     if (toggleKo) koElements.forEach(el => el.style.display = toggleKo.checked ? '' : 'none');
     alignParallelTicks();
 }
-
-// 토글 버튼에 이벤트 리스너 연결
-toggleFurigana?.addEventListener('change', updateVisibility);
-togglePron?.addEventListener('change', updateVisibility);
-toggleKo?.addEventListener('change', updateVisibility);
-
 
 // JSON 데이터 로드
 async function loadSongs() {
@@ -180,7 +221,7 @@ async function loadSongs() {
     }
 }
 
-// 리스트 렌더링
+// 리스트를 렌더링하는 함수
 function renderList(songs) {
     if (!songListElement) return;
     songListElement.innerHTML = '';
@@ -217,7 +258,7 @@ function renderLyricLine(line, song, isParallel) {
     const currentSinger = line.singer || song.singer;
     const singerClass = currentSinger ? `singer-${currentSinger}` : '';
     const cls = isParallel ? 'parallel-line' : 'lyric-line';
-    const style = isParallel ? '' : ' style="margin-bottom: 20px;"'; // 기존 일반 가사 간격 유지
+    const style = isParallel ? '' : ' style="margin-bottom: 20px;"';
 
     return `
     <div class="${cls} ${singerClass}"${style}>
@@ -332,8 +373,6 @@ function renderListWithSorts(Type = sortType) {
     sortMenu?.classList.add('hidden');
 }
 
-sortBtn.addEventListener("click", () => sortMenu.classList.remove('hidden'));
-
 // 검색 기능
 searchInput?.addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase().trim();
@@ -347,12 +386,9 @@ searchInput?.addEventListener('input', (e) => {
     renderListWithSorts();
 });
 
-infoBtn.addEventListener('click', () => {
-    window.open('../page/info.html', "_blank", "noopener,noreferrer");
-});
-
-window.addEventListener('resize', alignParallelTicks);
-document.fonts?.ready.then(alignParallelTicks);
+// ========================================================================
+//                                 Init
+// ========================================================================
 
 // 초기화
 showNotice();
