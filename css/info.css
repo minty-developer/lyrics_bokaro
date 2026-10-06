@@ -199,17 +199,18 @@ main ul ul {
    파트별 색상 안내
    ========================================================================== */
 
+/* 모달 내부 섹션 공통 스타일 */
 .modal-section {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     user-select: none;
 }
 
+/* 모달 내부 섹션 제목 */
 .section-title {
     font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 1.3rem;
+    margin-bottom: 12px;
+    font-size: 1.05rem;
 }
-
 
 /* 가수 색상 목록 */
 .legend-grid {
@@ -227,9 +228,7 @@ main ul ul {
     font-size: 0.95rem;
 }
 
-
 /* 가수별 색상 */
-
 .singer-miku-legend {
     color: #25cac7;
     font-weight: bold;
@@ -264,6 +263,14 @@ main ul ul {
     color: #FFC0CB;
     font-weight: bold;
 }
+
+.singer-miku-legend { color: #25cac7; font-weight: bold; }
+.singer-teto-legend { color: #F33; font-weight: bold; }
+.singer-neru-legend { color: #AA0; font-weight: bold; }
+.singer-lin-legend { color: #FA0; font-weight: bold; }
+.singer-len-legend { color: #DD0; font-weight: bold; }
+.singer-zundamon-legend { color: #899b35; font-weight: bold; }
+.singer-ruka-legend { color: #FFC0CB; font-weight: bold; }
 
 
 /* ==========================================================================

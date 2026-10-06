@@ -50,7 +50,6 @@ mobileCloseBtn?.addEventListener('click', () => toggleSidebar(false));
 sidebarOverlay?.addEventListener('click', () => toggleSidebar(false));
 
 // 최신 버전 공지를 보여주는 함수
-// 최신 버전 공지를 보여주는 함수
 async function showNotice() {
     const release = await fetch(
         "https://api.github.com/repos/minty-developer/lyrics_bokaro/releases/latest"

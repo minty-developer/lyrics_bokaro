@@ -56,6 +56,9 @@
 - [v2.002-0](#v2002-x)
 - [v2.003-0](#v2003-x)
 
+### 웹사이트 두 번째 리펙토링
+*** 이하는 내용이 없습니다. ***
+
 ## v0.0.0
 [바로가기](https://github.com/minty-developer/lyrics_bokaro/commit/4259f9a1df0b05f14bba663d409fea47a563729e)
 
