@@ -58,11 +58,11 @@ mobileCloseBtn?.addEventListener('click', () => toggleSidebar(false));
 sidebarOverlay?.addEventListener('click', () => toggleSidebar(false));
 
 // 정렬 모달창 열기/닫기 이벤트
-sortBtn.addEventListener("click", () => sortMenu.classList.remove('hidden'));
+sortBtn?.addEventListener("click", () => sortMenu?.classList.remove('hidden'));
 
 // 정보 페이지 열기 이벤트
-infoBtn.addEventListener('click', () => {
-    window.open('../page/info.html', "_blank", "noopener,noreferrer");
+infoBtn?.addEventListener('click', () => {
+    window.open('./page/info.html', "_blank", "noopener,noreferrer");
 });
 
 // 가사 연결선 위치 조정 이벤트
@@ -201,7 +201,7 @@ function updateVisibility() {
 // JSON 데이터 로드
 async function loadSongs() {
     try {
-        const response = await fetch('../data/songs.json');
+        const response = await fetch('./data/songs.json');
         if (!response.ok) throw new Error('데이터 로드 실패');
         
         allSongs = await response.json();

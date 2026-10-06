@@ -11,16 +11,20 @@
 
 <body>
     <div class="container">
-        <!-- 모바일 햄버거 및 데스크톱 설정 버튼 -->
-        <button class="Hamburger" id="HamburgerBtn">≡</button>
+        <header class="site-header">
+            <button class="Hamburger" id="HamburgerBtn" aria-label="메뉴 열기">≡</button>
+            <h1 class="web-title">Lyrics-ボカロ</h1>
+            <div class="header-actions">
+                <button class="SortBtn" id="sortBtn" title="곡 정렬">⇅</button>
+                <button class="SettingsBtn" id="SettingsBtn" title="사이트 설정">⚙</button>
+                <button class="infoBtn" id="infoBtn" title="사이트 정보">!</button>
+            </div>
+        </header>
+        <div class="page-layout">
 
         <!-- 좌측 사이드바 (재생목록 및 검색) -->
         <nav class="sidebar" id="Sidebar">
             <div class="sidebar-header">
-                <h1 class="web-title">Lyrics-ボカロ</h1>
-                <button class="SortBtn" id="sortBtn" title="⇅ 곡 정렬">⇅</button>
-                <button class="SettingsBtn" id="SettingsBtn" title="⚙ 사이트 설정">⚙</button>
-                <button class="infoBtn" id="infoBtn" title="! 사이트 정보">!</button>
                 <button class="MobileCloseBtn" id="MobileCloseBtn">X</button>
             </div>
             <input type="text" id="search-input" placeholder="곡 제목 또는 아티스트 검색..." autocomplete="off">
@@ -104,6 +108,7 @@
                 </div>
             </div>
         </main>
+        </div>
         
         <!-- 모바일 백그라운드 오버레이 -->
         <div class="sidebar-overlay hidden" id="SidebarOverlay"></div>
